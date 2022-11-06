@@ -29,7 +29,7 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #bed8ca;
     font-size: .8em;
 }
 
@@ -41,3 +41,16 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.header img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: #555;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+  }
