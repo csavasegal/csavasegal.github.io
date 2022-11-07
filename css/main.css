@@ -42,13 +42,16 @@ ul.posts li {
     list-style: none;
 }
 ul {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   
 ul ul {
     font-size: 100%;
   }
-
+header {
+    background-color: rgb(37, 91, 142);
+    height:100px;
+  }
 .header img {
     float: left;
     position: relative;
@@ -62,6 +65,7 @@ ul ul {
     top: 18px;
     left: 20px;
   }
+
 
   html {
     scroll-behavior: smooth;
