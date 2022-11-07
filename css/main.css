@@ -50,8 +50,11 @@ ul ul {
   }
 header {
     background-color: rgb(37, 91, 142);
+    /* background-image: url("../images/paper.gif"); */
     height:100px;
   }
+
+
 .header img {
     float: left;
     position: relative;
@@ -65,10 +68,7 @@ header {
     top: 18px;
     left: 20px;
   }
-  .header h2 {
-    position: relative;
-    font-size: 3em;
-  }
+
 
 
   html {
