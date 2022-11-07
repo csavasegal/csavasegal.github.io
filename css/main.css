@@ -41,6 +41,9 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+ul ul {
+    font-size:1em;
+  }
 
 .header img {
     float: left;
@@ -64,6 +67,12 @@ ul.posts li {
     text-decoration: none;
     color: black;
    } 
+   a:link {
+    color: rgb(128, 146, 128);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
 ul {
     font-size: 2em;
   }
