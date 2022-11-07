@@ -41,8 +41,12 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+ul {
+    font-size: 1em;
+  }
+  
 ul ul {
-    font-size:1em;
+    font-size: 100%;
   }
 
 .header img {
