@@ -55,3 +55,17 @@ ul.posts li {
     top: 18px;
     left: 20px;
   }
+
+  html {
+    scroll-behavior: smooth;
+   }
+   
+   a {
+    text-decoration: none;
+    color: black;
+   } 
+   
+   #down {
+    margin-top: 100%;
+    padding-bottom: 25%;
+   } 
