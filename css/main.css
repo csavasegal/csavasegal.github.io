@@ -49,6 +49,7 @@ ul ul {
     font-size: 100%;
   }
 header {
+    position: fixed;
     background-color: rgb(37, 91, 142);
     /* background-image: url("../images/paper.gif"); */
     height:100px;
