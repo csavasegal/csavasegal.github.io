@@ -101,6 +101,9 @@ ul {
   display: block;
   color: #10a5ad;
   text-align: center;
+  position: sticky;
+  top: 0;
+  position: -webkit-sticky;
   padding: 14px;
   text-decoration: none;
 }
