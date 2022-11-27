@@ -22,11 +22,14 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:'Lato','Lato','Lato';
+    position: sticky;
+    position: -webkit-sticky;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    font-family:'Lato','Lato','Lato';
+    color: rgb(73, 70, 70);
 }
 footer {
     border-top: 1px solid #bed8ca;
@@ -36,17 +39,21 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    font-family:'Lato','Lato','Lato';
 }
 
 ul.posts li {
     list-style: none;
+    font-family:'Lato','Lato','Lato';
 }
 ul {
     font-size: 1.5em;
+    font-family:'Lato','Lato','Lato';
   }
   
 ul ul {
     font-size: 100%;
+    font-family:'Lato','Lato','Lato';
   }
 header {
     position: fixed;
@@ -87,12 +94,13 @@ header {
 
 ul {
     font-size: 2em;
+    font-family:'Lato','Lato','Lato';
   }
 
 /* Style the navbar */
 #navbar {
   overflow: hidden;
-  background-color: rgb(252, 248, 248);
+  background-color: rgb(246, 220, 220);
 }
 
 /* Navbar links */
@@ -106,6 +114,11 @@ ul {
   position: -webkit-sticky;
   padding: 14px;
   text-decoration: none;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
 }
 
 /* Page content */
