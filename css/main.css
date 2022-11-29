@@ -4,6 +4,7 @@ body {
 }
 nav ul, footer ul {
     font-family:'Lato', 'Lato','Lato';
+    border: 2px solid rgb(107, 107, 201);
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -72,7 +73,7 @@ header {
   }
   
   .header h1 {
-    position: relative;
+    /* position: relative; */
     top: 18px;
     left: 20px;
   }
@@ -114,6 +115,7 @@ ul {
   position: -webkit-sticky;
   padding: 14px;
   text-decoration: none;
+  z-index: 10; /*should allow for the H1 to not cover the nav bar*/
 }
 
 /* Page content */
@@ -133,3 +135,8 @@ ul {
   padding-top: 60px;
 }
    
+#sidebar {
+  float: left;
+  width: 20%;
+  background-color: #0b83ab;
+}
