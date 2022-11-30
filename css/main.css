@@ -4,7 +4,6 @@ body {
 }
 nav ul, footer ul {
     font-family:'Lato', 'Lato','Lato';
-    border: 2px solid rgb(107, 107, 201);
     padding: 0px;
     list-style: none;
     font-weight: bold;
