@@ -1,5 +1,5 @@
 body {
-    margin: 60px auto;
+    /* margin: 60px auto; */
     width: 70%;
 }
 nav ul, footer ul {
@@ -20,14 +20,14 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    margin-left: 200px; 
+    /* margin-left: 200px;  */
     font-size: 3em;
     font-family:'Lato','Lato','Lato';
     position: sticky;
     position: -webkit-sticky;
 }
 p {
-  margin-left: 200px; 
+  /* margin-left: 200px;  */
     font-size: 1.5em;
     line-height: 1.4em;
     font-family:'Lato','Lato','Lato';
@@ -37,7 +37,7 @@ footer {
     border-top: 3px solid #53886c;
     /* background-color: #b4d8e4; */
     font-size: .2em;
-    margin-left: 200px; /* Same as the width of the sidenav */
+    /* margin-left: 200px;  */
 }
 .footerImage {
   height: 2px;
@@ -63,7 +63,7 @@ ul ul {
     font-family:'Lato','Lato','Lato';
   }
 header {
-  margin-left: 200px; /* Same as the width of the sidenav */
+  /* margin-left: 200px;  */
     position: fixed;
     background-color: rgb(37, 91, 142);
     /* background-image: url("../images/paper.gif"); */
@@ -81,13 +81,14 @@ header {
   
   .header h1 {
     /* position: relative; */
-    margin-left: 200px; /* Same as the width of the sidenav */
+    /* margin-left: 200px;  */
     top: 18px;
     left: 20px;
   }
 
   .blurb {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    /* margin-left: 200px;  */
+    /* Same as the width of the sidenav */
   }
 
   /* .container {
@@ -150,13 +151,66 @@ ul {
   padding-top: 60px;
 }
    
-#sidebar {
-  float: left;
-  width: 30%;
-  background-color: #0b83ab;
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
 }
 
-.sidenav {
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #c23535;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: rgb(241, 231, 231);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+/* .sidenav {
   height: 100%;
   width: 250px;
   position: fixed;
@@ -166,24 +220,24 @@ ul {
   background-color: rgb(1, 1, 4);
   overflow-x: hidden;
   padding-top: 20px;
-}
+} */
 
-.sidenav a {
+/* .sidenav a {
   padding: 6px 6px 6px 10px;
   text-decoration: none;
   font-size: 25px;
   color: #7a2020;
   display: block;
-}
+} */
 
-.sidenav a:hover {
+/* .sidenav a:hover {
   color: #f1f1f1;
-}
+} */
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #3bc290;
+  color: rgb(135, 19, 19);
 }
 
 /* Links on mouse-over */
@@ -200,20 +254,7 @@ div.content {
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-}
-
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-@media screen and (max-width: 400px) {
-  .sidebar a {
-    text-align: center;
-    float: none;
-  }
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }
