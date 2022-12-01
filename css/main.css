@@ -34,6 +34,8 @@ p {
 footer {
     border-top: 1px solid #bed8ca;
     font-size: .8em;
+    margin-left: 200px; /* Same as the width of the sidenav */
+
 }
 
 ul.posts { 
@@ -60,6 +62,7 @@ header {
     background-color: rgb(37, 91, 142);
     /* background-image: url("../images/paper.gif"); */
     height:100px;
+    margin-left: 200px; /* Same as the width of the sidenav */
   }
 
 
@@ -75,6 +78,14 @@ header {
     /* position: relative; */
     top: 18px;
     left: 20px;
+  }
+
+  .blurb {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+
+  .container {
+    margin-left: 200px; /* Same as the width of the sidenav */
   }
 
 
@@ -138,4 +149,28 @@ ul {
   float: left;
   width: 20%;
   background-color: #0b83ab;
+}
+
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(251, 231, 210);
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
 }
