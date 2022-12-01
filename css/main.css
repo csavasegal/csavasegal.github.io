@@ -20,13 +20,14 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 200px; 
     font-size: 3em;
     font-family:'Lato','Lato','Lato';
     position: sticky;
     position: -webkit-sticky;
 }
 p {
+  margin-left: 200px; 
     font-size: 1.5em;
     line-height: 1.4em;
     font-family:'Lato','Lato','Lato';
@@ -89,9 +90,8 @@ header {
     margin-left: 200px; /* Same as the width of the sidenav */
   }
 
-  .container {
-    margin-left: 200px; /* Same as the width of the sidenav */
-  }
+  /* .container {
+    margin-left: 200px; /* Same as the width of the sidenav */ 
 
 
   html {
@@ -169,7 +169,7 @@ ul {
 }
 
 .sidenav a {
-  padding: 6px 6px 6px 20px;
+  padding: 6px 6px 6px 10px;
   text-decoration: none;
   font-size: 25px;
   color: #7a2020;
