@@ -33,10 +33,13 @@ p {
     color: rgb(73, 70, 70);
 }
 footer {
-    border-top: 1px solid #06150d;
-    font-size: .8em;
+    border-top: 3px solid #53886c;
+    /* background-color: #b4d8e4; */
+    font-size: .2em;
     margin-left: 200px; /* Same as the width of the sidenav */
-
+}
+.footerImage {
+  height: 2px;
 }
 
 ul.posts { 
@@ -166,7 +169,7 @@ ul {
 }
 
 .sidenav a {
-  padding: 6px 6px 6px 32px;
+  padding: 6px 6px 6px 20px;
   text-decoration: none;
   font-size: 25px;
   color: #7a2020;
