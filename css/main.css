@@ -96,7 +96,7 @@ ul ul {
   }
   
 .header h1 {
-  /* position: relative; */
+  position: relative;
   /* margin-left: 200px;  */
   top: 18px;
   left: 20px;
