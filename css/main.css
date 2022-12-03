@@ -67,10 +67,14 @@ ul ul {
     font-family:'Lato','Lato','Lato';
   }
 .header {
-  width: 930px;
   overflow:auto;
   margin-left: 15px;
   margin-right: 15px;
+  position:absolute;
+  right:25%;
+  top:0px;
+  width:60%;
+  height:auto;
   /* background: #ADB96E; */
 }
 
@@ -91,9 +95,14 @@ ul ul {
   }
 
 .image {
-  background: url('../img/Picture1.png');
-    height: 250px;
-    position: relative;
+    background: url('../img/Picture1.png');
+    /* height: 250px;
+    position: relative; */
+    position:absolute;
+    right:25%;
+    top:0px;
+    width:30%;
+    height:auto;
   }
   
 .header h1 {
