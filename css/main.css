@@ -69,6 +69,8 @@ width: 930px;
 overflow:auto;
 margin-left: 15px;
 margin-right: 15px;
+position: -webkit-sticky;
+
 /* background: #ADB96E; */
 }
 
@@ -90,7 +92,9 @@ background: #ADB96E;
 
 .image {
 background: url('../img/Picture1.png');
-  height: 250px;
+height: 250px;
+position: -webkit-sticky;
+
 }
 
 .header h1 {
