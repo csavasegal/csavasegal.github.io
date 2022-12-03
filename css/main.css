@@ -68,11 +68,11 @@ ul ul {
   }
 .header {
   width: 930px;
-  overflow:auto;
-  margin-left: 15px;
-  margin-right: 15px;
+  /* overflow:auto; */
+  /* margin-left: 15px;
+  margin-right: 15px; */
   position:absolute;
-  right:25%;
+  /* right:25%; */
   top:0px;
   height:auto;
   /* background: #ADB96E; */
