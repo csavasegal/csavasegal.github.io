@@ -68,16 +68,13 @@ ul ul {
   }
 .header {
   width: 930px;
-  /* overflow:auto; */
-  /* margin-left: 15px;
-  margin-right: 15px; */
-  position:absolute;
-  /* right:25%; */
-  top:0px;
-  height:auto;
-  /* background: #ADB96E; */
+  position: absolute;/* fixed;*/
+  background-color: rgb(37, 91, 142);
+  /* background-image: url("../images/paper.gif"); */
+  height:100px; /* added this in */
 }
-
+  
+  
 /* .blurb {
   width: 930px;
   overflow:auto;
@@ -94,7 +91,7 @@ ul ul {
     height: 70px; */
   }
 
-.image {
+/* .image {
     background: url('../img/Picture1.png');
     /* height: 250px;
     position: relative; */
@@ -103,7 +100,11 @@ ul ul {
     top:0px;
     width:90%;
     height:auto;
-  }
+  } */
+  .image {
+    background: url('../img/Picture1.png');
+      height: 250px;
+    }
   
 .header h1 {
   position: relative;
