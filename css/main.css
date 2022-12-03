@@ -95,12 +95,12 @@ ul ul {
     background: url('../img/Picture1.png');
     /* height: 250px;
     position: relative; */
-    position:absolute;
+    /* position:absolute;
     right:25%;
     top:0px;
     width:90%;
     height:auto;
-  } */
+  } */ */
   .image {
     background: url('../img/Picture1.png');
       height: 250px;
