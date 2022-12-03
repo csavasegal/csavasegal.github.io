@@ -1,281 +1,268 @@
-
-
 body {
-    margin: 20px auto;
-    width: 90%;
-    font-family:'Lato', 'Lato','Lato';
+  margin: 20px auto;
+  width: 90%;
+  font-family:'Lato', 'Lato','Lato';
 }
 nav ul, footer ul {
-    font-family:'Lato', 'Lato','Lato';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+  font-family:'Lato', 'Lato','Lato';
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
 }
 nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+  display: inline;
+  margin-right: 20px;
 }
 a {
-    text-decoration: none;
-    color: rgb(85, 20, 20);
+  text-decoration: none;
+  color: rgb(85, 20, 20);
 }
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 h1 {
-    /* margin-left: 200px;  */
-    font-size: 3em;
-    font-family:'Lato','Lato','Lato';
-    position: sticky;
-    position: -webkit-sticky;
+  /* margin-left: 200px;  */
+  font-size: 3em;
+  font-family:'Lato','Lato','Lato';
+  position: sticky;
+  position: -webkit-sticky;
 }
 p {
-  /* margin-left: 200px;  */
-    font-size: 1.5em;
-    line-height: 1.4em;
-    font-family:'Lato','Lato','Lato';
-    color: rgb(73, 70, 70);
+/* margin-left: 200px;  */
+  font-size: 1.5em;
+  line-height: 1.4em;
+  font-family:'Lato','Lato','Lato';
+  color: rgb(73, 70, 70);
 }
 footer {
-  font-family:'Lato', 'Lato','Lato';
-    border-top: 3px solid #53886c;
-    /* background-color: #b4d8e4; */
-    font-size: .2em;
-    /* margin-left: 200px;  */
+font-family:'Lato', 'Lato','Lato';
+  border-top: 3px solid #53886c;
+  /* background-color: #b4d8e4; */
+  font-size: .2em;
+  /* margin-left: 200px;  */
 }
 .footerImage {
-  height: 2px;
+height: 2px;
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-    font-family:'Lato','Lato','Lato';
+  margin: 20px auto 40px; 
+  font-size: 1.5em;
+  font-family:'Lato','Lato','Lato';
 }
 
 ul.posts li {
-    list-style: none;
-    font-family:'Lato','Lato','Lato';
+  list-style: none;
+  font-family:'Lato','Lato','Lato';
 }
 ul {
-    font-size: 1.5em;
-    font-family:'Lato','Lato','Lato';
-  }
-  
-ul ul {
-    font-size: 100%;
-    font-family:'Lato','Lato','Lato';
-  }
-.header {
-  width: 930px;
-  position: absolute;/* fixed;*/
-  background-color: rgb(37, 91, 142);
-  /* background-image: url("../images/paper.gif"); */
-  height:100px; /* added this in */
+  font-size: 1.5em;
+  font-family:'Lato','Lato','Lato';
 }
-  
-  
+
+ul ul {
+  font-size: 100%;
+  font-family:'Lato','Lato','Lato';
+}
+.header {
+width: 930px;
+overflow:auto;
+margin-left: 15px;
+margin-right: 15px;
+/* background: #ADB96E; */
+}
+
 /* .blurb {
-  width: 930px;
-  overflow:auto;
-  margin-left: 15px;
-  margin-right: 15px;
-  background: #ADB96E;
+width: 930px;
+overflow:auto;
+margin-left: 15px;
+margin-right: 15px;
+background: #ADB96E;
 } */
 
 
 .header img {
-    float: left;
-    position: relative;
-    /* width: 50px;
-    height: 70px; */
-  }
-
-/* .image {
-    background: url('../img/Picture1.png');
-    /* height: 250px;
-    position: relative; */
-    /* position:absolute;
-    right:25%;
-    top:0px;
-    width:90%;
-    height:auto;
-  } */ */
-  .image {
-    background: url('../img/Picture1.png');
-      height: 250px;
-    }
-  
-.header h1 {
+  float: left;
   position: relative;
-  /* margin-left: 200px;  */
-  top: 18px;
-  left: 20px;
+  /* width: 50px;
+  height: 70px; */
+}
+
+.image {
+background: url('../img/Picture1.png');
+  height: 250px;
+}
+
+.header h1 {
+/* position: relative; */
+/* margin-left: 200px;  */
+top: 18px;
+left: 20px;
 }
 
 
 
-  /* .container {
-    margin-left: 200px; /* Same as the width of the sidenav */ 
+/* .container {
+  margin-left: 200px; /* Same as the width of the sidenav */ 
 
 
-  html {
-    scroll-behavior: smooth;
-   }
-   
-   a {
-    text-decoration: none;
-    color: black;
-   } 
-   a:link {
-    color: rgb(128, 146, 128);
-    background-color: transparent;
-    text-decoration: none;
-  }
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+ } 
+ a:link {
+  color: rgb(128, 146, 128);
+  background-color: transparent;
+  text-decoration: none;
+}
 
 ul {
-    font-size: 2em;
-    font-family:'Lato','Lato','Lato';
-  }
+  font-size: 2em;
+  font-family:'Lato','Lato','Lato';
+}
 
 /* Style the navbar */
 #navbar {
-  overflow: hidden;
-  background-color: rgb(252, 248, 248);
+overflow: hidden;
+background-color: rgb(252, 248, 248);
 }
 
 /* Navbar links */
 #navbar a {
-  float: left;
-  display: block;
-  color: #10a5ad;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  position: -webkit-sticky;
-  padding: 14px;
-  text-decoration: none;
-  z-index: 10; /*should allow for the H1 to not cover the nav bar*/
+float: left;
+display: block;
+color: #10a5ad;
+text-align: center;
+position: sticky;
+top: 0;
+position: -webkit-sticky;
+padding: 14px;
+text-decoration: none;
+z-index: 10; /*should allow for the H1 to not cover the nav bar*/
 }
 
 /* Page content */
 .content {
-  padding: 16px;
+padding: 16px;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+position: fixed;
+top: 0;
+width: 100%;
 }
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 60px;
+padding-top: 60px;
 }
-   
+ 
 .sidebar {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
 }
 
 .sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
 }
 
 .sidebar a:hover {
-  color: #c23535;
+color: #c23535;
 }
 
 .sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
 }
 
 .openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: rgb(241, 231, 231);
-  padding: 10px 15px;
-  border: none;
+font-size: 20px;
+cursor: pointer;
+background-color: #111;
+color: rgb(241, 231, 231);
+padding: 10px 15px;
+border: none;
 }
 
 .openbtn:hover {
-  background-color: #444;
+background-color: #444;
 }
 
 #main {
-  transition: margin-left .5s;
-  padding: 2px;
+transition: margin-left .5s;
+padding: 2px;
 }
 
 
 /* .sidenav {
-  height: 100%;
-  width: 250px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(1, 1, 4);
-  overflow-x: hidden;
-  padding-top: 20px;
+height: 100%;
+width: 250px;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: rgb(1, 1, 4);
+overflow-x: hidden;
+padding-top: 20px;
 } */
 
 /* .sidenav a {
-  padding: 6px 6px 6px 10px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #7a2020;
-  display: block;
+padding: 6px 6px 6px 10px;
+text-decoration: none;
+font-size: 25px;
+color: #7a2020;
+display: block;
 } */
 
 /* .sidenav a:hover {
-  color: #f1f1f1;
+color: #f1f1f1;
 } */
 
 /* Active/current link */
 .sidebar a.active {
-  background-color: #3bc290;
-  color: rgb(135, 19, 19);
+background-color: #3bc290;
+color: rgb(135, 19, 19);
 }
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
+background-color: #555;
+color: white;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
+margin-left: 200px;
+padding: 1px 16px;
+height: 1000px;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-height: 450px) {
-  body{
-    -webkit-text-size-adjust: none;
-  }
-  .sidebar {padding-top: 15px;}
-  .sidebar a {font-size: 18px;}
+body{
+  -webkit-text-size-adjust: none;
+}
+.sidebar {padding-top: 15px;}
+.sidebar a {font-size: 18px;}
 }
