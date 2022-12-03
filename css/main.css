@@ -93,6 +93,7 @@ ul ul {
 .image {
   background: url('../img/Picture1.png');
     height: 250px;
+    position: relative;
   }
   
 .header h1 {
