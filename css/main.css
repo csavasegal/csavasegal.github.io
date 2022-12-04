@@ -33,6 +33,7 @@ p {
   line-height: 1.4em;
   font-family:'Lato','Lato','Lato';
   color: rgb(73, 70, 70);
+  position: absolute;
 }
 footer {
 font-family:'Lato', 'Lato','Lato';
@@ -93,7 +94,7 @@ background: #ADB96E;
 .image {
 background: url('../img/Picture1.png');
 height: 250px;
-position: -webkit-sticky;
+position: relative;
 
 }
 
