@@ -33,8 +33,15 @@ p {
   line-height: 1.4em;
   font-family:'Lato','Lato','Lato';
   color: rgb(73, 70, 70);
-  position: absolute;
+  position: sticky;
 }
+h2 {
+  margin-left: 230px; 
+  position: absolute;
+  /* position: -webkit-sticky; */
+
+}
+
 footer {
 font-family:'Lato', 'Lato','Lato';
   border-top: 3px solid #53886c;
