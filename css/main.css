@@ -36,8 +36,12 @@ p {
   position: sticky;
 }
 h2 {
-  margin-left: 230px; 
-  position: absolute;
+  /* margin-left: 230px;  */
+  font-size: 2em;
+  position: sticky;
+  position: -webkit-sticky;
+  font-family:'Lato','Lato','Lato';
+
   /* position: -webkit-sticky; */
 
 }
@@ -100,7 +104,9 @@ background: #ADB96E;
 
 .image {
 background: url('../img/Picture1.png');
+/* background: url('../img/frame_green.jpg'); */
 height: 250px;
+/* opacity: 0.2; */
 position: relative;
 
 }
