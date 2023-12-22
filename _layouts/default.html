@@ -1,31 +1,115 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
-			<div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-                    <li><a href="mailto:csava.gr@dartmouth.edu">email</a></li>
-                    <li><a href="https://github.com/csavasegal">github.com/csavasegal</a></li>
-                    <li><a href="https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en">Google Scholar</a></li>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
 
-				</ul>
-			</footer>
-		</body>
-	</html>
+	<!-- <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'> -->
+	<link href="https://fonts.googleapis.com/css?family=Lato&amp;subset=latin-ext" rel="stylesheet">
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-L9FKWJG1W8"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-L9FKWJG1W8');
+	</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* body {
+  font-family: "Lato", "Lato", "Lato";
+} */
+
+</style>
+</head>
+<body>
+
+<!-- <div class="sidebar"> -->
+	<div id="mySidebar" class="sidebar">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+
+	<a href="index.html"> <span style="color:rgb(10, 155, 99); font-size: 25px;"></spanstyle>Main</span></a>
+	<a href="ib.html"> <span style="color:rgb(24, 128, 240); font-size: 25px;"></spanstyle>Interests & Background</span></a>
+	<a href="pp.html"> <span style="color:rgb(173, 30, 166); font-size: 25px;"></spanstyle>Papers & Presentations</span></a>
+	<li style="display:inline-block;"> <a href="mailto:csava.gr@dartmouth.edu"><img src="../img/email.png" width="30" height="30"/></a></li>
+	<li style="display:inline-block;"> <a href="https://github.com/csavasegal"><img src="../img/github.png" width="30" height="30"/></a></li>
+	<li style="display:inline-block;"> <a href="https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en"><img src="../img/scholar.png" width="30" height="30"/></a></li>
+	<li style="display:inline-block;"> <a href="https://twitter.com/csavasegal"><img src="../img/twitter.png"width="30" height="30"></a></li>
+
+</div>
+
+<div id="main">
+	<button class="openbtn" onclick="openNav()">☰ Pages </button>  
+
+
+<div class="image">
+	<div class="header">
+	<h1><span style="color:rgb(1, 23, 14)">Clara A. Sava-Segal</span></h1>
+	<br>
+	<img src="../img/sava-segal_clara.png" alt="profile_pic">
+	<br>
+	
+	<br>
+	<h2>I'm a Cognitive Neuroscience PhD student advised by Emily Finn in the <a href = "https://thefinnlab.github.io/research/" style="color: grey" >Functional Imaging and Naturalistic Neuroscience Lab</a> at Dartmouth College.  </a></h2>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	</div>
+
+</div>
+
+<div class="blurb">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</div>
+
+
+<div class="container">
+		
+	{{ content }}
+	
+</div>
+
+
+<footer>
+		<ul>
+			<li><a href="mailto:csava.gr@dartmouth.edu"><img src="../img/email.png" width="60" height="60"/> email </a></li>
+			<li><a href="https://github.com/csavasegal"><img src="../img/github.png" width="60" height="60"/> github </a></li>
+			<li><a href="https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en"><img src="../img/scholar.png" width="60" height="60"/> scholar </a></li>
+			<li><a href="https://twitter.com/csavasegal"><img src="../img/twitter.png"width="60" height="60"> twitter </a></li>
+
+		</ul>
+</footer>
+
+<script>
+	function openNav() {
+	  document.getElementById("mySidebar").style.width = "300px";
+	  document.getElementById("main").style.marginLeft = "300px";
+	}
+	
+	function closeNav() {
+	  document.getElementById("mySidebar").style.width = "0";
+	  document.getElementById("main").style.marginLeft= "0";
+	}
+	</script>
+   
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
