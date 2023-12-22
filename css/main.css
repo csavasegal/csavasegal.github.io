@@ -129,6 +129,14 @@ footer {
 
 /* Responsive Styles */
 @media screen and (max-width: 600px) {
+  body {
+    margin: 10px;
+    width: auto;
+  }
+  .header, .image, .sidebar, .content {
+      width: 100%;
+      /* Ensure other properties are not causing overflow */
+  }
   body, h1, h2, p {
     font-size: 100%; /* Adjust font sizes for mobile */
   }
@@ -144,7 +152,7 @@ footer {
 
   .sidebar a {
     font-size: 18px; /* Larger font size for touch interaction */
-  }
+  } */
 
   /* Additional mobile-specific styles here */
 }
