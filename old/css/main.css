@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+  margin: 20px auto;
+  width: 90%;
+  font-family: 'Lato', sans-serif; /* Ensure fallback font is defined */
+}
+
+nav ul, footer ul, ul.posts, ul ul {
+  padding: 0;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+a, a:link {
+  text-decoration: none;
+  color: rgb(85, 20, 20); /* Adjust as needed */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, p, footer {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  position: sticky;
+  top: 0; /* Adjust as needed */
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: rgb(73, 70, 70);
+}
+
+footer {
+  border-top: 3px solid #53886c;
+  font-size: .2em;
+}
+
+.image {
+  background: url('../img/Picture1.png'); /* Ensure path is correct */
+  height: 250px;
+}
+
+.header {
+  width: 100%; /* Changed for responsiveness */
+  overflow: auto;
+  margin: 15px;
+}
+
+.header img {
+  float: left;
+}
+
+/* Navbar Styles */
+#navbar {
+  overflow: hidden;
+  background-color: rgb(252, 248, 248);
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #10a5ad;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #c23535;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  body {
+    margin: 10px;
+    width: auto;
+  }
+  .header, .image, .sidebar, .content {
+      width: 100%;
+      /* Ensure other properties are not causing overflow */
+  }
+  body, h1, h2, p {
+    font-size: 100%; /* Adjust font sizes for mobile */
+  }
+
+  nav ul li, footer ul li {
+    display: block;
+    margin-right: 0;
+  }
+
+  .header {
+    margin: 0; /* Adjust header for mobile */
+  }
+
+  .sidebar a {
+    font-size: 18px; /* Larger font size for touch interaction */
+  } */
+
+  /* Additional mobile-specific styles here */
+}

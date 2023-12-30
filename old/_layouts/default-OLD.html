@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{main}}</title>
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
+		</head>
+		
+		<body>
+			<nav>
+				<div id="navbar">
+
+                 <ul>
+					<li><a href="index.html"> <span style="color:rgb(10, 155, 99); font-size: 30px;"></spanstyle>Main</span></a></li>
+                    <li><a href="ib.html"> <span style="color:rgb(24, 128, 240); font-size: 30px;"></spanstyle>Interests & Background</span></a></li>
+					<li><a href="pp.html"> <span style="color:rgb(173, 30, 166); font-size: 30px;"></spanstyle>Papers & Presentations</span></a></li>
+
+					<!-- <li><a href="#preprints"> <span style="color:rgb(173, 30, 166)"></spanstyle>Papers</span></a></li> --> 
+
+
+                 </ul>
+			</nav>
+		</div>
+		<hr>
+
+
+			<div class="header">
+				<h1><span style="color:rgb(10, 155, 99)">Clara A. Sava-Segal</span></h1>
+				<br>
+				<br>
+				<br>
+				
+				</div>
+				
+				<div class="blurb">
+				<img src="img/sava-segal_clara.png" alt="profile_pic">
+				<p> I'm a Cognitive Neuroscience PhD student advised by Emily Finn in the <a href = "https://thefinnlab.github.io/research/" style="color: grey" >Functional Imaging and Naturalistic Neuroscience Lab</a> at Dartmouth College.  </a></p>
+				<br>
+			</div>
+
+			<div class="container">
+			
+			{{ content }}
+			
+			</div>
+			<footer>
+	    		<ul>
+                    <!-- <li><a href="mailto:csava.gr@dartmouth.edu">Email</a></li>
+                    <li><a href="https://github.com/csavasegal">Github</a></li>
+                    <li><a href="https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en">Google Scholar</a></li>
+					<li><a href="https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en"><img src="../img/sava-segal_clara.png"/></a></li>
+
+                    <li><a href="https://twitter.com/csavasegal">Twitter</a></li> -->
+					<li><a href="mailto:csava.gr@dartmouth.edu"><img src="../img/email_circle.png"/></a></li>
+                    <li><a href="https://github.com/csavasegal"><img src="../img/github_circle.png"/></a></li>
+                    <li><a href="https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en"><img src="../img/scholar_circle.png"/></a></li>
+                    <li><a href="https://twitter.com/csavasegal"><img src="../img/twitter_circle.png"/></a></li>
+
+				</ul>
+			</footer>
+		</body>
+	
+	<script>
+		// When the user scrolls the page, execute myFunction
+	window.onscroll = function() {myFunction()};
+
+	// Get the navbar
+	var navbar = document.getElementById("navbar");
+
+	// Get the offset position of the navbar
+	var sticky = navbar.offsetTop;
+
+	// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function myFunction() {
+	if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky")
+	} else {
+		navbar.classList.remove("sticky");
+	}
+	}
+	</script>
+
+	</html>
