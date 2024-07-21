@@ -16,6 +16,7 @@
   animation-delay: 0.45s;
   background-color: $footer-background-color;
 
+  
   footer {
     @include clearfix;
     margin-left: auto;
@@ -81,5 +82,13 @@
     a {
       white-space: nowrap;
     }
+  }
+  .footer-icon {
+    background: url(../img/email.png) no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+    width: 24px; // Example size, adjust as needed
+    height: 24px; // Example size, adjust as needed
+    // Add other styles as needed
   }
 }

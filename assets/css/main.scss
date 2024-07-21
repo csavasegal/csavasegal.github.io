@@ -7,3 +7,24 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+/* Adjust the font size for the entire website */
+body {
+    font-size: 16px; /* Change this value to the desired font size */
+    line-height: 1.2; /* Adjust line height for better readability */
+  }
+  
+  /* You can also adjust specific elements if needed */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit; /* Inherit font size from the body */
+  }
+  
+  /* Adjust font size for paragraphs */
+  p {
+    font-size: 16px; /* Change this value to the desired font size */
+  }
+  
+  /* Adjust font size for links */
+  a {
+    font-size: 16px; /* Change this value to the desired font size */
+  }
