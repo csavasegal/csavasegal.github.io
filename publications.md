@@ -6,6 +6,7 @@ title: Research
 permalink: /publications/
 ---
 
+<div style="background-color: white; padding: 20px; border-radius: 5px; border: 2px solid tan;">
 <i> Electronic versions of papers are provided as a professional courtesy to ensure timely dissemination of academic work for individual, noncommercial purposes. Copyright resides with the respective copyright holders, as stated within each paper. These files may not be reposted without permission. </i>
 
 For the most up-to-date information about publications, please refer to <a href = "https://scholar-google-com.dartmouth.idm.oclc.org/citations?user=c0vFC1MAAAAJ&hl=en" > Google Scholar. </a>
@@ -17,6 +18,8 @@ See <a href="">CV</a> for a full list.
   <li><a href="#list2">Talks</a></li>
   <li><a href="#list3">Posters</a></li>
 </ul>
+</div>
+
 
 
 <h2 id="list1"><span style="color:rgb(173, 30, 166)">Selected publications.</span></h2>
