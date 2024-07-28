@@ -1,22 +1,28 @@
 ---
 layout: category
-title: Research
+title: CV
 # title: Recent publications and presentations
 # subtitle: -- Publications -- 
 permalink: /publications/
 ---
+
+<style>
+  a img:hover {
+    filter: brightness(0.4);
+  }
+</style>
 
 <div style="background-color: white; padding: 20px; border-radius: 5px; border: 2px solid tan;">
 <i> Electronic versions of papers are provided as a professional courtesy to ensure timely dissemination of academic work for individual, noncommercial purposes. Copyright resides with the respective copyright holders, as stated within each paper. These files may not be reposted without permission. </i>
 
 For the most up-to-date information about publications, please refer to <a href = "https://scholar-google-com.dartmouth.idm.oclc.org/citations?user=c0vFC1MAAAAJ&hl=en" > Google Scholar. </a>
 
-See <a href="">CV</a> for a full list. 
+See <a href="../Sava_Segal_CV_2.pdf">detailed CV</a> for a full list. 
 
 <ul>
   <li><a href="#list1">Publications & pre-prints</a></li>
-  <li><a href="#list2">Talks</a></li>
-  <li><a href="#list3">Posters</a></li>
+  <li><a href="#list2">Selected Talks</a></li>
+  <li><a href="#list3">Selected Posters</a></li>
 </ul>
 </div>
 
@@ -28,7 +34,7 @@ See <a href="">CV</a> for a full list.
 
 <h3>2024</h3>
 <a href="papers/520_Paper_authored_CSS_CCN_2024_Final.pdf" target="_blank" style="text-decoration: none;">
-  <img src="/img/paper.png" alt="Paper" style="height: 40px;">
+  <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <br>
 <strong>Sava-Segal, C.</strong>, Emily S. Finn (2024) Self- versus other-generated interpretations of ambiguous social stimuli are asymmetrical remembered. <i> Proceedings of the 8th Annual Conference on Cognitive Computational Neuroscience. </i>
@@ -36,17 +42,17 @@ See <a href="">CV</a> for a full list.
 
 <h3>2023</h3>
 <a href="papers/ppc_css_2023_math_cog.pdf" target="_blank" style="text-decoration: none;">
-  <img src="/img/paper.png" alt="Paper" style="height: 40px;">
+  <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <br>
 Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Serdar Akkol, Amy Daitch, Parvizi, J. (2023) <i> Journal of Neuroscience. </i> Spatiotemporal dynamics of successive activations across the human brain during a simple cognitive task. 
 <br>
 
 <a href="papers/css_2023_individual_event-seg.pdf" target="_blank" style="text-decoration: none;">
-  <img src="/img/paper.png" alt="Paper" style="height: 40px;">
+  <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <a href="https://github.com/csavasegal/individual_event_seg/" target="_blank" style="text-decoration: none;">
-  <img src="/img/github.png" alt="repository" style="height: 40px;">
+  <img src="/img/github.png" alt="repository" style="height: 60px;">
 </a>
 <br>
 <strong>Sava-Segal, C. </strong>, Richards, C., Leung, M., & Finn, E. S. (2023). Individual variability in neural event segmentation reflects stimulus content and interpretation.<i> Cerebral Cortex. </i>
@@ -55,45 +61,45 @@ Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Serdar Akkol, Amy Daitch, 
 
 <h3>2021</h3>
 <a href="papers/jocn_a_01775.pdf" target="_blank" style="text-decoration: none;">
-  <img src="/img/paper.png" alt="Paper" style="height: 40px;">
+  <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <br>
 Liu, N., Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Kastner, S., Chen, Q., & Parvizi, J. (2021). Overlapping Neuronal Population Responses in the Human Parietal Cortex during Visuospatial Attention and Arithmetic Processing. <i> Journal of Cognitive Neuroscience</i>, 
 33(12), 2548 2558. <a href = "https://doi.org/10.1162/jocn_a_01775" > https://doi.org/10.1162/jocn_a_01775</a>
 
 <a href="papers/ENEURO.0065-21.2021.full.pdf" target="_blank" style="text-decoration: none;">
-  <img src="/img/paper.png" alt="Paper" style="height: 40px;">
+  <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <br>
 Brookshire, G., Mangelsdorf, H. H., <strong>Sava-Segal, C.</strong>, Reis, K., Nusbaum, H., Goldin-Meadow, S., & Casasanto, D. (2021). Expertise Modulates Neural Stimulus-Tracking. <i> ENeuro</i>, 8(4), ENEURO.0065-21.2021. <a href="https://doi.org/10.1523/ENEURO.0065-21.2021" > https://doi.org/10.1523/ENEURO.0065-21.2021</a>
 
 <a href="papers/veit-et-al-2021-temporal-order-of-signal-propagation-within-and-across-intrinsic-brain-networks.pdf" target="_blank" style="text-decoration: none;">
-  <img src="/img/paper.png" alt="Paper" style="height: 40px;">
+  <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <br>
 Veit, M. J., Kucyi, A., Hu, W., Zhang, C., Zhao, B., Guo, Z., Yang, B., <strong>Sava-Segal, C.</strong>, Perry, C., Zhang, J., Zhang, K., & Parvizi, J. (2021). Temporal order of signal propagation within and across intrinsic brain networks. <i> PNAS</i>, 118(48), e2105031118. <a href = "https://doi.org/10.1073/pnas.2105031118" > https://doi.org/10.1073/pnas.2105031118</a>
 
 <a href="papers/Parvizi et al_2021_Altered sense of self during seizures in the posteromedial cortex.pdf" target="_blank" style="text-decoration: none;">
-  <img src="/img/paper.png" alt="Paper" style="height: 40px;">
+  <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <br>
 Parvizi, J., Braga, R. M., Kucyi, A., Veit, M. J., Pinheiro-Chagas, P., Perry, C., <strong>Sava-Segal, C.</strong>, Zeineh, M., van Staalduinen, E. K., Henderson, J. M., & Markert, M. (2021). Altered sense of self during seizures in the posteromedial cortex. <i> PNAS</i>, 118(29), e2100522118.<a href = "https://doi.org/10.1073/pnas.2100522118" >https://doi.org/10.1073/pnas.2100522118</a>
 
 <a href="papers/Akkol et al_2021_Intracranial Electroencephalography Reveals Selective Responses to Cognitive.pdf" target="_blank" style="text-decoration: none;">
-  <img src="/img/paper.png" alt="Paper" style="height: 40px;">
+  <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <br>
 Akkol, S., Kucyi, A., Hu, W., Zhao, B., Zhang, C., <strong>Sava-Segal, C.</strong>, Liu, S., Razavi, B., Zhang, J., Zhang, K., & Parvizi, J. (2021). Intracranial Electroencephalography Reveals Selective Responses to Cognitive Stimuli in the Periventricular Heterotopias. <i> Journal of Neuroscience </i> , 41(17), 3870 3878. <a href = "https://doi.org/10.1523/JNEUROSCI.2785-20.2021" >https://doi.org/10.1523/JNEUROSCI.2785-20.2021</a> 
 
 <h3>2020</h3>
 <a href="papers/Vesuna et al_2020_Deep posteromedial cortical rhythm in dissociation.pdf" target="_blank" style="text-decoration: none;">
-  <img src="/img/paper.png" alt="Paper" style="height: 40px;">
+  <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <br>
 Vesuna, S., Kauvar, I. V., Richman, E., Gore, F., Oskotsky, T., <strong>Sava-Segal, C.</strong>, Luo, L., Malenka, R. C., Henderson, J. M., Nuyujukian, P., Parvizi, J., & Deisseroth, K. (2020). Deep posteromedial cortical rhythm in dissociation. <i> Nature</i>, 586(7827), 87 94. <a href = "https://doi.org/10.1038/s41586-020-2731-9" > https://doi.org/10.1038/s41586-020-2731-9</a>
 
 <a href="papers/Lucero et al_2020_Unconscious Number Discrimination in the Human Visual System.pdf" target="_blank" style="text-decoration: none;">
-  <img src="/img/paper.png" alt="Paper" style="height: 40px;">
+  <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <br>
 Lucero, C., Brookshire, G., <strong>Sava-Segal, C.</strong>, Bottini, R., Goldin-Meadow, S., Vogel, E. K., & Casasanto, D. (2020). Unconscious Number Discrimination in the Human Visual System. <i> Cerebral Cortex</i>, 30(11), 5821 5829. <a href = "https://doi.org/10.1093/cercor/bhaa155" > https://doi.org/10.1093/cercor/bhaa155 </a>
@@ -133,4 +139,4 @@ Exploring idiosyncrasies in the appraisal of naturalistic events. (August 2021).
 
 
 
- See <a href="">CV</a> for a full list. 
+ See <a href="../Sava_Segal_CV_2.pdf">CV</a> for a full list. 
