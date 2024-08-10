@@ -12,12 +12,11 @@ permalink: /publications/
   }
 </style>
 
+Find below a list and corresponding links for recent publications, presentations, and conference proceedings and relevant code. For the most up-to-date information about publications, please refer to <a href = "https://scholar-google-com.dartmouth.idm.oclc.org/citations?user=c0vFC1MAAAAJ&hl=en" > Google Scholar</a> or a <a href="../Sava_Segal_CV_2.pdf">recent CV</a> for a fuller list.
+
 <div style="background-color: white; padding: 20px; border-radius: 5px; border: 2px solid tan;">
 <i> Electronic versions of papers are provided as a professional courtesy to ensure timely dissemination of academic work for individual, noncommercial purposes. Copyright resides with the respective copyright holders, as stated within each paper. These files may not be reposted without permission. </i>
 
-For the most up-to-date information about publications, please refer to <a href = "https://scholar-google-com.dartmouth.idm.oclc.org/citations?user=c0vFC1MAAAAJ&hl=en" > Google Scholar. </a>
-
-See <a href="../Sava_Segal_CV_2.pdf">detailed CV</a> for a full list. 
 
 <ul>
   <li><a href="#list1">Publications & pre-prints</a></li>
