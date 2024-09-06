@@ -1,6 +1,6 @@
 ---
 layout: category
-title: CV
+title: Research
 # title: Recent publications and presentations
 # subtitle: -- Publications -- 
 permalink: /publications/
@@ -19,7 +19,7 @@ Find below a list and corresponding links for recent publications, presentations
 
 
 <ul>
-  <li><a href="#list1">Publications & pre-prints</a></li>
+  <li><a href="#list1">Publications, conference proceedings, & pre-prints</a></li>
   <li><a href="#list2">Selected Talks</a></li>
   <li><a href="#list3">Selected Posters</a></li>
 </ul>
@@ -27,9 +27,10 @@ Find below a list and corresponding links for recent publications, presentations
 
 
 
-<h2 id="list1"><span style="color:rgb(173, 30, 166)">Selected publications.</span></h2>
+<h2 id="list1"><span style="color:rgb(173, 30, 166)">Selected publications, preprints, conference proceedings.</span></h2>
 
-<h3>Preprints</h3>
+<!-- <h3>Preprints</h3>
+<a>Coming soon :)</a> -->
 
 <h3>2024</h3>
 <a href="papers/520_Paper_authored_CSS_CCN_2024_Final.pdf" target="_blank" style="text-decoration: none;">
@@ -39,13 +40,14 @@ Find below a list and corresponding links for recent publications, presentations
 <strong>Sava-Segal, C.</strong>, Emily S. Finn (2024) Self- versus other-generated interpretations of ambiguous social stimuli are asymmetrical remembered. <i> Proceedings of the 8th Annual Conference on Cognitive Computational Neuroscience. </i>
 <br>
 
-<h3>2023</h3>
 <a href="papers/ppc_css_2023_math_cog.pdf" target="_blank" style="text-decoration: none;">
   <img src="/img/paper.png" alt="Paper" style="height: 60px;">
 </a>
 <br>
 Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Serdar Akkol, Amy Daitch, Parvizi, J. (2023) <i> Journal of Neuroscience. </i> Spatiotemporal dynamics of successive activations across the human brain during a simple cognitive task. 
 <br>
+
+<h3>2023</h3>
 
 <a href="papers/css_2023_individual_event-seg.pdf" target="_blank" style="text-decoration: none;">
   <img src="/img/paper.png" alt="Paper" style="height: 60px;">
