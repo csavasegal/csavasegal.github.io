@@ -1,6 +1,6 @@
 ---
 layout: category
-title: About me
+# title: About me
 # subtitle: -- Publications -- 
 permalink: /aboutme/
 ---
@@ -14,7 +14,7 @@ permalink: /aboutme/
     <span>Google Scholar</span>
   </a>
   <a href="https://twitter.com/csavasegal" style="margin-right: 15px;">
-    <img src="/img/twitter.png" alt="Twitter" style="width: 30px;">
+    <img src="/img/twitter.png" alt="Twitter/X" style="width: 30px;">
     <span>Twitter</span>
   </a>
   <a href="https://github.com/csavasegal">
