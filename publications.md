@@ -10,6 +10,28 @@ permalink: /publications/
   a img:hover {
     filter: brightness(0.4);
   }
+  /* Style for the arrow and "Click me" text */
+  .arrow {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(173, 30, 166);
+    font-weight: bold;
+  }
+
+  .arrow::before {
+    content: '→';  /* Unicode arrow */
+    font-size: 24px;
+    color: rgb(173, 30, 166);
+    position: absolute;
+    right: -35px; /* Adjust as necessary */
+    top: -5px;  /* Adjust to align with the text */
+  }
+
+  /* Optional: style for hover effect on the arrow */
+  .arrow:hover {
+    color: rgb(100, 20, 100);
+  }
 </style>
 
 Find below a list and corresponding links for recent publications, presentations, and conference proceedings and relevant code. For the most up-to-date information about publications, please refer to <a href = "https://scholar-google-com.dartmouth.idm.oclc.org/citations?user=c0vFC1MAAAAJ&hl=en" > Google Scholar</a> or a <a href="../Sava_Segal_CV_2.pdf">recent CV</a> for a fuller list.
@@ -25,6 +47,12 @@ Find below a list and corresponding links for recent publications, presentations
 </ul>
 </div>
 
+<div>
+  <span class="arrow">Click me for paper PDFs below</span>
+  <a href="papers/520_Paper_authored_CSS_CCN_2024_Final.pdf" target="_blank" style="text-decoration: none;">
+    <img src="/img/paper.png" alt="Paper" style="height: 60px;">
+  </a>
+</div>
 
 
 <h2 id="list1"><span style="color:rgb(173, 30, 166)">Selected publications, preprints, conference proceedings.</span></h2>
@@ -112,15 +140,19 @@ Lucero, C., Brookshire, G., <strong>Sava-Segal, C.</strong>, Bottini, R., Goldin
 
 <h2 id="list2"><span style="color:rgb(95, 101, 205)">Selected talks.</span></h2>
 
-Narrative ‘twists’ shift neural representations. (July, 2023) <i> Organization of Human Brain Mapping, Montreal, CA. </i>
+<strong>Sava-Segal, C.</strong>, Benson, T., Finn, E.S. (Oct., 2024). <i> Real-world social inputs trigger shifts in neural activity patterns and reinterpretations of ambiguous stimuli. </i> Presentation at Nanosymposium on Neural Bases of Human Social Cognition and Connection, Society for Neuroscience (SfN). 
 
-Individual variability in neural event segmentation reflects stimulus content and interpretation. (November 2022). <i> Baldassano & Aly Lab Meeting at Columbia University, NY. </i> 
+<i> Cognitive and neural mechanisms underlying the subjective interpretations of complex experiences </i>(April. 2024). Invited Lab Meeting, Section on Learning and Plasticity (PI – Chris Baker) NIH.
 
-(Re)appraisal of ambiguous stimuli. (August 2022). <i> Text Analysis (Natural Language Processing) Meeting at Dartmouth College, Hanover, NH. Hanover, NH. </i>
+<strong>Sava-Segal, C.</strong>, Grall, C., Bartolino, K., Equita, J., Benson, T., Finn, E.S. (July, 2023). <i> Narrative ‘twists’ shift neural representations. Presentation at the Organization of Human Brain Mapping, Montreal, CA.</i>
 
-Individual variability in neural event segmentation reflects stimulus content and interpretation. (March 2022). <i> Whifield-Gabrieli Lab Meeting at Northeastern University, Boston, MA. (Virtual) </i>  
+<i> Individual variability in neural event segmentation reflects stimulus content and interpretation.</i>  (November 2022). Baldassano & Aly Lab Meeting at Columbia University, NY.  
 
-Exploring idiosyncrasies in the appraisal of naturalistic events. (August 2021). <i> University of Chicago Psychology Dept. Joint Lab Meeting - Rosenberg, Bainbridge, Leung Labs, Chicago, IL. (Virtual) </i>
+<i> (Re)appraisal of ambiguous stimuli. (August 2022). </i> Text Analysis (Natural Language Processing) Meeting at Dartmouth College, Hanover, NH. Hanover, NH. 
+
+<i> Individual variability in neural event segmentation reflects stimulus content and interpretation. </i> (March 2022). Whifield-Gabrieli Lab Meeting at Northeastern University, Boston, MA. (Virtual) 
+
+<i> Exploring idiosyncrasies in the appraisal of naturalistic events. (August 2021). </i> University of Chicago Psychology Dept. Joint Lab Meeting - Rosenberg, Bainbridge, Leung Labs, Chicago, IL. (Virtual) 
 
 <br>
 <br>

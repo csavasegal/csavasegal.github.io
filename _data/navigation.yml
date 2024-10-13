@@ -4,6 +4,9 @@ main:
     url: /aboutme/
   - title: "Research"
     url: /publications/
-  # - title: "Teaching"
-  #   url: /teaching/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "ArtLibs"
+    url: http://finnlabmuseum.com/
+
 
