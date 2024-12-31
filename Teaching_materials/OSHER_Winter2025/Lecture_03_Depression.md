@@ -35,12 +35,12 @@ published: true
 </style>
 <div class="floating-nav">
   <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
-  <a href="/osher/DiverseMinds/brainbasics/">🧠 Brain Basics</a>
-  <a href="/osher/DiverseMinds/alzheimers/">🟪 Alzheimer's</a>
-  <a href="/osher/DiverseMinds/parkinsons/">🌷 Parkinson's</a>
-  <a href="/osher/DiverseMinds/depression/"><strong> ʚ;ɞ </strong> Depression</a>
-  <a href="/osher/DiverseMinds/ptsd/">🟦 PTSD</a>
-  <a href="/osher/DiverseMinds/schizophrenia/">⬜ Schizophrenia</a>
+  <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
+  <a href="/osher/DiverseMinds/alzheimers/">Alzheimer's</a>
+  <a href="/osher/DiverseMinds/parkinsons/">Parkinson's</a>
+  <a href="/osher/DiverseMinds/depression/">Depression</a>
+  <a href="/osher/DiverseMinds/ptsd/">PTSD</a>
+  <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
 </div>
 <div style="border: 2px solid purple; padding: 10px; background-color: #f9f4ff; border-radius: 5px; margin: 10px 0;">
 Depression is a multifaceted mental health condition that affects mood, behavior, and physical well-being, yet its underlying mechanisms remain difficult to fully unravel. While research has highlighted the role of brain regions like the prefrontal cortex and amygdala, imbalances in neurotransmitters such as serotonin, and the influence of genetic and environmental factors, no single explanation accounts for its complexity. Advances in treatments, from psychotherapy and medication to innovative approaches like transcranial magnetic stimulation (TMS), have provided relief for many, but a significant proportion of individuals experience persistent symptoms. As new discoveries emerge, there is a growing need to refine our understanding of depression, recognizing it as a spectrum of disorders that vary in cause, manifestation, and response to treatment.

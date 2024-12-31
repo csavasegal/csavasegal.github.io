@@ -36,12 +36,12 @@ published: true
 </style>
 <div class="floating-nav">
   <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
-  <a href="/osher/DiverseMinds/brainbasics/">🧠 Brain Basics</a>
-  <a href="/osher/DiverseMinds/alzheimers/">🟪 Alzheimer's</a>
-  <a href="/osher/DiverseMinds/parkinsons/">🌷 Parkinson's</a>
-  <a href="/osher/DiverseMinds/depression/"><strong> ʚ;ɞ </strong> Depression</a>
-  <a href="/osher/DiverseMinds/ptsd/">🟦 PTSD</a>
-  <a href="/osher/DiverseMinds/schizophrenia/">⬜ Schizophrenia</a>
+  <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
+  <a href="/osher/DiverseMinds/alzheimers/">Alzheimer's</a>
+  <a href="/osher/DiverseMinds/parkinsons/">Parkinson's</a>
+  <a href="/osher/DiverseMinds/depression/">Depression</a>
+  <a href="/osher/DiverseMinds/ptsd/">PTSD</a>
+  <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
 </div>
 
 

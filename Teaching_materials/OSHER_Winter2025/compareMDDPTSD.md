@@ -35,13 +35,12 @@ published: true
 </style>
 <div class="floating-nav">
   <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
-  <a href="/osher/DiverseMinds/brainbasics/">🧠 Brain Basics</a>
-  <a href="/osher/DiverseMinds/alzheimers/">🟪 Alzheimer's</a>
-  <a href="/osher/DiverseMinds/parkinsons/">🌷 Parkinson's</a>
-  <a href="/osher/DiverseMinds/depression/"><strong> ʚ;ɞ </strong>    Depression</a>
-  <a href="/osher/DiverseMinds/ptsd/">🟦 PTSD</a>
-  <a href="/osher/DiverseMinds/schizophrenia/">⬜ Schizophrenia</a>
-
+  <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
+  <a href="/osher/DiverseMinds/alzheimers/">Alzheimer's</a>
+  <a href="/osher/DiverseMinds/parkinsons/">Parkinson's</a>
+  <a href="/osher/DiverseMinds/depression/">Depression</a>
+  <a href="/osher/DiverseMinds/ptsd/">PTSD</a>
+  <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
 </div>
 
 **Post-Traumatic Stress Disorder (PTSD)** and **Depression** are two common mental health conditions that share certain features but also have distinct differences. Understanding these similarities and differences is critical for proper diagnosis, treatment, and support.

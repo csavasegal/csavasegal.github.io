@@ -16,7 +16,7 @@ Prior to starting graduate school, I worked extensively in early childhood educa
 
 ### <span>Adult Learning Courses</span>
 
-Most recently, I have been designing and teaching courses for adult learners, focusing on cognitive neuroscience and mental health. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasava-segal.php" style="color:rgb(95, 101, 205);">See my recent courses and reviews here.</a>  I will update the syllabi soon.
+Most recently, I have been designing and teaching courses for adult learners, focusing on cognitive neuroscience and mental health. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasava-segal.php" style="color:rgb(95, 101, 205);">See my recent courses and reviews here.</a>  I will update the syllabi soon. If you are an Osher student, the class material can be found [here](/osher/DiverseMinds/osher/).
 
 - **<span style="color:rgb(173, 30, 166);">Brain and Behavior: How Are They Linked?</span>** [Fall, Winter, 2023]  
   *Description*: This course explores how the brain supports behaviors such as learning, memory, and processing information. It emphasizes the uniqueness of individual brains and how we each perceive the world differently. The course involves hands-on psychological experiments to illustrate key concepts.
@@ -27,7 +27,7 @@ Most recently, I have been designing and teaching courses for adult learners, fo
 
 - **<span style="color:rgb(173, 30, 166);">Diverse Minds: What We Know and Don’t Know About Psychiatric Conditions</span>** [Winter 2025]  
   *Description*: This course explores the diversity of the human brain, offering a comprehensive introduction to the complex interactions between brain structure, function, and behavior. The goal is to focus on a broad spectrum of psychiatric conditions (such as depression, anxiety, schizophrenia, and bipolar disorder) alongside neurodegenerative diseases like Alzheimer’s.
-
+  - [Class materials link](/osher/DiverseMinds/coursegoals/)
 
 ### <span>Graduate Student Teaching Assistant, Dartmouth College</span>
 

@@ -4,7 +4,13 @@ layout: category
 # subtitle: -- Publications -- 
 permalink: /aboutme/
 ---
+
 <div style="text-align: center; padding: 20px;">
+<div>
+  <img src="/img/sava-segal_clara.png" alt="Your Photo" style="width: 150px; border-radius: 50%; margin-bottom: 20px;">
+    </div>
+
+<div>
   <a href="mailto:csava.gr@dartmouth.edu" style="margin-right: 15px;">
     <img src="/img/email.png" alt="Email" style="width: 30px;">
     <span>Email</span>
@@ -21,6 +27,8 @@ permalink: /aboutme/
     <img src="/img/github.png" alt="GitHub" style="width: 30px;">
     <span>GitHub</span>
   </a>
+      </div>
+
 </div>
 
 <!-- How do our past experiences inform how we process new information? How do individuals reach different interpretations of the exact same experience?  -->

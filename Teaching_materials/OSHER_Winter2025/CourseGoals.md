@@ -8,40 +8,67 @@ published: true
 ---
 # *Diverse Minds*: What We Know and Don’t Know About Psychiatric Disorders and Dementias 1
 <style>
+  <style>
+  a img:hover {
+    filter: brightness(0.4);
+  }
+  /* Style for the arrow and "Click me" text */
+  .arrow {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(173, 30, 166);
+    font-weight: bold;
+  }
+
+  .arrow::before {
+    content: '→';  /* Unicode arrow */
+    font-size: 24px;
+    color: rgb(173, 30, 166);
+    position: absolute;
+    right: -35px; /* Adjust as necessary */
+    top: -5px;  /* Adjust to align with the text */
+  }
+
+  /* Optional: style for hover effect on the arrow */
+  .arrow:hover {
+    color: rgb(100, 20, 100);
+  }
 .floating-nav {
-  position: fixed;
-  top: 10%;
-  right: 20px;
-  background-color: #f8f9fa;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* No longer fixed */
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width of the page */
+  background-color: #f8f9fa; /* Background color */
+  border-bottom: 1px solid #ccc; /* Border at the bottom */
+  padding: 10px 20px; /* Padding inside the bar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
   z-index: 1000;
+  display: flex; /* Makes it horizontal */
+  justify-content: space-around; /* Distribute links evenly */
+  align-items: center; /* Center align the text vertically */
 }
 
 .floating-nav a {
-  display: block;
   text-decoration: none;
-  color: #007bff;
+  color: #007bff; /* Link color */
   font-size: 1rem;
-  padding: 5px 0;
-  text-align: left;
+  padding: 0 10px; /* Space around each link */
 }
 
 .floating-nav a:hover {
-  color: #0056b3;
+  color: #0056b3; /* Hover color */
   text-decoration: underline;
 }
 </style>
 <div class="floating-nav">
-  <a href="/osher/DiverseMinds/brainbasics/">🧠 Brain Basics</a>
-  <a href="/osher/DiverseMinds/alzheimers/">🟪 Alzheimer's</a>
-  <a href="/osher/DiverseMinds/parkinsons/">🌷 Parkinson's</a>
-  <a href="/osher/DiverseMinds/depression/"><strong> ʚ;ɞ </strong>    Depression</a>
-  <a href="/osher/DiverseMinds/ptsd/">🟦 PTSD</a>
-  <a href="/osher/DiverseMinds/schizophrenia/">⬜ Schizophrenia</a>
-
+  <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
+  <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
+  <a href="/osher/DiverseMinds/alzheimers/">Alzheimer's</a>
+  <a href="/osher/DiverseMinds/parkinsons/">Parkinson's</a>
+  <a href="/osher/DiverseMinds/depression/">Depression</a>
+  <a href="/osher/DiverseMinds/ptsd/">PTSD</a>
+  <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
 </div>
 
 
@@ -86,46 +113,23 @@ Now consider this: if every synapse were a line of code, the brain would far sur
 ---
 ### 0. [Basics](/osher/DiverseMinds/brainbasics/)  
 <div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <span style="font-size: 1.5rem; margin-right: 10px;">🧠</span>
+  <span style="font-size: 1.5rem; margin-right: 10px;"></span>
   <a href="/osher/DiverseMinds/alzheimers/" style="text-decoration: none;">Basic information about how the brain works</a>
 </div>
 
 ### 1. [Alzheimer's Disease](/osher/DiverseMinds/alzheimers/)  
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <span style="font-size: 1.5rem; margin-right: 10px;">🟪</span>
-  <a href="/osher/DiverseMinds/alzheimers/" style="text-decoration: none;">Learn about Alzheimer's Disease</a>
-
-</div>
 - [Comparing dementias](/osher/DiverseMinds/dementias/)
   <span style="margin-left: 10px; font-size: 1rem; color: #555;">👉 <strong>Click me!</strong></span>
 
 ### 2. [Parkinson's Disease](/osher/DiverseMinds/parkinsons/)  
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <span style="font-size: 1.5rem; margin-right: 10px;">🌷</span>
-  <a href="/osher/DiverseMinds/parkinsons/" style="text-decoration: none;">Learn about Parkinson's Disease</a>
-</div>
 
 ### 3. [Depression](/osher/DiverseMinds/depression/)  
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <span style="font-size: 1.5rem; margin-right: 10px;"><strong> ʚ;ɞ </strong></span>
-  
-  <a href="/osher/DiverseMinds/depression/" style="text-decoration: none;">Learn about Depression</a>
-</div>
-
 
 ### 4. [PTSD](/osher/DiverseMinds/ptsd/)  
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <span style="font-size: 1.5rem; margin-right: 10px;">🟦</span>
-  <a href="/osher/DiverseMinds/ptsd/" style="text-decoration: none;">Learn about PTSD</a>
-</div>
 - [Comparing PTSD and Depression](/osher/DiverseMinds/compareMDDPTSD/)
   <span style="margin-left: 10px; font-size: 1rem; color: #555;">👉 <strong>Click me!</strong></span>
 
 ### 5. [Schizophrenia](/osher/DiverseMinds/schizophrenia/)  
-<div style="display: flex; align-items: center; margin-bottom: 10px;">
-  <span style="font-size: 1.5rem; margin-right: 10px;">⬜</span>
-  <a href="/osher/DiverseMinds/schizophrenia/" style="text-decoration: none;">Learn about Schizophrenia</a>
-</div>
 
 <br>
 
