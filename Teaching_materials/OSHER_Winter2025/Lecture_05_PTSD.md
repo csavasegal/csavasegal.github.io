@@ -1,7 +1,7 @@
 ---
 layout: category
 title: Lecture- Understanding Post-Traumatic Stress Disorder (PTSD)
-permalink: /osher/DiverseMinds/PTSD/
+permalink: /osher/DiverseMinds/ptsd/
 baseurl: ""
 published: true
 ---
