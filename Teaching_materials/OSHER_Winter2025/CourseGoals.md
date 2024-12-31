@@ -49,8 +49,8 @@ published: true
 This course explores the diversity of the human brain, offering a comprehensive introduction to the complex interactions between brain structure, function, and behavior. The goal is to focus on a broad spectrum of psychiatric conditions (such as depression, anxiety, schizophrenia, and bipolar disorder) alongside neurodegenerative diseases like Alzheimer’s. The course will dive into what modern neuroscience and psychiatry have uncovered about these conditions, as well as the gaps that remain in our understanding. Given this diversity of topics, we expect this to be a multiple-part series. 
 
 ## [Registration Link](https://reg130.imperisoft.com/Dartmouth/ProgramDetail/313137363238/Registration.aspx)
-## Acknowledgments  
-_All of this material was designed by Clara Sava-Segal. This course was created for the Dartmouth Osher Lifelong Learning Center. I welcome any feedback and kindly ask that if you use any part of this material, please provide appropriate credit._  
+<!-- ## Acknowledgments  
+_All of this material was designed by Clara Sava-Segal. This course was created for the Dartmouth Osher Lifelong Learning Center. I welcome any feedback and kindly ask that if you use any part of this material, please provide appropriate credit._   -->
 
 
 ### Course Goals
@@ -127,7 +127,7 @@ Now consider this: if every synapse were a line of code, the brain would far sur
   <a href="/osher/DiverseMinds/schizophrenia/" style="text-decoration: none;">Learn about Schizophrenia</a>
 </div>
 
-
+<br>
 
 _All materials © Clara Sava-Segal, 2025. Designed for Dartmouth Osher Lifelong Learning Center._  
 
