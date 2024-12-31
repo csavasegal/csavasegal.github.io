@@ -1,0 +1,23 @@
+---
+layout: osher_class
+---
+
+{{ content }}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% include entries_layout.html taxonomy=page.taxonomy type=entries_layout %}
+
+{% assign sorted_pages = site.pages | where: "layout", "osher_class" | sort: "order" %}
+{% assign current_index = sorted_pages | index: page %}
+{% assign previous_page = sorted_pages | slice: 0, current_index | last %}
+{% assign next_page = sorted_pages | slice: current_index | last %}
+
+<div class="carousel-nav">
+  {% if previous_page %}
+    <a href="{{ previous_page.url }}" class="previous">⬅ Previous: {{ previous_page.title }}</a>
+  {% endif %}
+  
+  {% if next_page %}
+    <a href="{{ next_page.url }}" class="next">Next: {{ next_page.title }} ➡</a>
+  {% endif %}
+</div>

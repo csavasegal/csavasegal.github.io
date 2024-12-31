@@ -1,4 +1,12 @@
 /* custom.css */
 
+blockquote {
+    background-color: #f3e6ff; /* Light purple background */
+    padding: 20px; /* Add some space inside the blockquote */
+    border-left: 5px solid #7d5ba6; /* Purple left border */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px 0; /* Space around the blockquote */
+    font-style: italic; /* Optional: make the text italic */
+}
 
   

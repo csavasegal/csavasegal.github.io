@@ -43,7 +43,7 @@ Find below a list and corresponding links for recent publications, presentations
 <ul>
   <li><a href="#list1">Publications, conference proceedings, & pre-prints</a></li>
   <li><a href="#list2">Selected Talks</a></li>
-  <li><a href="#list3">Selected Posters</a></li>
+  <li><a href="#list3">Selected Poster presentations</a></li>
 </ul>
 </div>
 
@@ -157,7 +157,7 @@ Lucero, C., Brookshire, G., <strong>Sava-Segal, C.</strong>, Bottini, R., Goldin
 <br>
 <br>
 
-<h2 id="list3"><span style="color:rgb(95, 101, 205)">Selected recent posters.</span></h2>
+<h2 id="list3"><span style="color:rgb(95, 101, 205)">Selected recent poster presentations.</span></h2>
 
 <strong>Sava-Segal, C.</strong>, Grall, C., Bartolino, K., Equita, J., Benson, T., Finn, E.S. (2023). Narrative ‘twists’ shift neural representations. Presentation at the Organization of Human Brain Mapping, Montreal, CA.
 
