@@ -45,6 +45,8 @@ published: true
 
 <div style="border: 2px solid purple; padding: 10px; background-color: #f9f4ff; border-radius: 5px; margin: 10px 0;">
 Parkinson’s disease is a progressive neurological disorder that significantly impacts movement, cognition, and quality of life, yet its exact cause and mechanisms remain incompletely understood. Research has identified hallmark features, such as the loss of dopamine-producing neurons and the presence of abnormal protein aggregates called Lewy bodies, as well as genetic and environmental risk factors. While advances in treatments, such as deep brain stimulation and improved medications, have enhanced symptom management, no cure exists, and the disease’s progression varies widely among individuals. As new findings emerge, debates persist about redefining Parkinson’s as part of a broader spectrum of neurodegenerative disorders, emphasizing the need to continually reassess and refine our understanding of this complex condition.
+
+**Main idea: while we know what is happening in our brain, we don't know why!**
 </div>
 
 ## Objectives  
@@ -67,6 +69,7 @@ By the end of this lecture, we should be able to:
 - **Role of Dopamine**:  
    - Dopamine acts as a neurotransmitter, enabling communication between neurons in the basal ganglia.  
    - Loss of dopamine disrupts motor pathways, leading to PD symptoms.  
+   - Also has a role in our GI track (we will come back to this!)
 - **Neurotransmission in PD**:  
    - **Normal State**: Balanced dopamine activity facilitates motor planning and execution.  
    - **Parkinson's State**: Depletion of dopaminergic neurons causes reduced dopamine release, impairing motor control.  
@@ -113,6 +116,7 @@ By the end of this lecture, we should be able to:
 - **Pathological Features**:  
    - Presence of **Lewy bodies**: abnormal protein deposits  
    - Neuroinflammation and mitochondrial dysfunction.  
+   - When a protein gets misfolded, it leads to further cell death. These appears in the substantia nigra and in other brain regions, as well. (Symptoms are similar to Lewy body dementias, but not identical)
 - **Key Concept**: Loss of ~70-80% of dopaminergic neurons before motor symptoms appear.  
 
 <a 
@@ -165,7 +169,7 @@ Dopamine release, which is critical for brain function, is often disrupted early
 - Dopamine loss drives the motor symptoms of PD.  
 
 ### **What We Don’t Know**  
-- What triggers alpha-synuclein aggregation? Is it a cause or a consequence of PD?  
+- What triggers alpha-synuclein aggregation? Is it a cause or a consequence of PD? Is it that the protein starts to get misfolded and that causes the neurons to stop dying? Or is that other things cause the neurons to start dying and that then leads to the protein issues, etc.
 - Why does PD pathology spread to other regions beyond the substantia nigra (e.g., brainstem, cortex)?  
 
 ---
@@ -173,6 +177,8 @@ Dopamine release, which is critical for brain function, is often disrupted early
 ## 4. Clinical Symptoms and Diagnosis  
 - **Motor Symptoms** (Cardinal Features - "TRAP"):  
    1. **Tremor**: Resting tremor, "pill-rolling" motion.  
+         - Note: if you look back at historical texts, these were mentioned! 
+         - Even Da Vinci wrote about Parkinson's 
    2. **Rigidity**: Muscle stiffness, "cogwheel rigidity."  
    3. **Akinesia/Bradykinesia**: Slowness or absence of movement.  
    4. **Postural Instability**: Balance and gait disturbances.  
@@ -201,7 +207,23 @@ Dopamine release, which is critical for brain function, is often disrupted early
 
 - This image was taken from this [blog post](https://www.parkinsonsecrets.com/blog/what-is-coming-in-2024-for-parkinsons-biological-definitions-staging-and-classification). It appears that a basic concern modern neurologists have with this scale is that it doesn't account for motor and non-motor  symptoms and doesn't capture the functional status of the person. However, it is widely used across clinics and also used for billing purposes (or so I've seen).
 
+### Early Clues: Symptoms That May Appear Before Motor Issues in Parkinsonism
+While diagnoses of Parkinson’s disease and similar conditions are often made based on motor symptoms—like tremors, stiffness, and slowness of movement—there are often non-motor symptoms that can show up years earlier. These early signs might not immediately point to Parkinson’s disease or parkinsonism but can be valuable clues for doctors. Here are some examples:
 
+- 1. REM Sleep Behavior Disorder (RBD)
+   - Normally, during the REM stage of sleep (when dreams occur), the body is temporarily paralyzed to prevent acting out dreams. In people with RBD, this mechanism doesn’t work, leading to movements or vocalizations during sleep, such as kicking, punching, or shouting.
+   - RBD can precede the onset of Parkinson’s disease by years or even decades and is also linked to other parkinsonian disorders like multiple system atrophy (MSA) or dementia with Lewy bodies.
+- 2. Constipation
+   - Persistent constipation can be an early sign of Parkinson’s because the same loss of dopamine-producing neurons that affects movement can also impair the nerves that control the digestive system.
+   - This symptom may occur years before motor issues appear and is sometimes accompanied by other digestive problems, such as bloating or difficulty swallowing.
+- 3. Loss of Smell (Anosmia)
+   A reduced or absent sense of smell is another common early symptom of Parkinson’s disease. Many people don’t notice this change right away or might not associate it with a neurological condition.
+- 4. Mood Changes
+   Anxiety, depression, or apathy can appear early. These may result from changes in brain chemistry long before the motor symptoms of Parkinson’s disease become obvious.
+- 5. Fatigue and Sleep Issues
+   People might experience excessive daytime sleepiness, trouble falling or staying asleep, or a general sense of fatigue. These symptoms may seem unrelated but can be part of the early changes caused by Parkinson’s.
+- 6. Subtle Changes in Movement
+   Even before tremors or stiffness become noticeable, some people may have a slightly reduced arm swing when walking or minor difficulties with handwriting (micrographia).
 
 
 ### **What We Know**  
@@ -212,11 +234,29 @@ Dopamine release, which is critical for brain function, is often disrupted early
 - How to reliably detect PD before symptoms appear.  
 - How non-motor symptoms relate to the progression of the disease.  
 
+## Note! 
+Sometimes, people experience symptoms similar to Parkinson’s disease, like shaking hands, slow movement, stiff muscles, or balance problems, but it doesn’t mean they have Parkinson’s disease. These symptoms are called "parkinsonism," and they can happen for different reasons.
+
+Here are some possible causes of parkinsonism that aren’t Parkinson’s disease:
+
+- **Medications: Some drugs**, like those used for mental health conditions (antipsychotics) or nausea, can cause temporary symptoms similar to Parkinson’s. This is called drug-induced parkinsonism, and it often improves if the medication is stopped or changed.
+
+- **Other Neurological Conditions**: Diseases like multiple system atrophy (MSA), progressive supranuclear palsy (PSP), or corticobasal degeneration (CBD) can also cause parkinsonian symptoms, but they have distinct features and progress differently.
+
+- **Brain Injuries or Strokes**: Damage to certain parts of the brain due to head trauma or a stroke can mimic Parkinson’s symptoms.
+
+- **Toxins**: Exposure to certain chemicals, like carbon monoxide or manganese, can lead to parkinsonism.
+
+- **Infections**: Rare brain infections, such as encephalitis, can sometimes cause parkinsonian symptoms.
+
+- **Normal Pressure Hydrocephalus (NPH)**: This condition, caused by a buildup of fluid in the brain, can cause trouble walking, balance issues, and other symptoms that look like Parkinson’s.
 ---
 
 ## 5. Treatment Options  
 
 ### A. Pharmacological Treatments  
+*Since we know that PD is linked to not being able to make dopamine, the treatment is part of the diagnosis itself. The treatment is just replacing the dopamine! If someone improves then this suggests that they have Parkinson's (though diagnoses are only fully possible post-mortem!)*
+
 - **Levodopa (L-DOPA)**:  
    - The gold standard for motor symptom relief.  
    - Often combined with **Carbidopa** (to prevent peripheral metabolism).  
@@ -237,6 +277,22 @@ Dopamine release, which is critical for brain function, is often disrupted early
       - Drugs like Entacapone help Levodopa work longer. They block another enzyme (COMT) that breaks down Levodopa before it turns into dopamine, ensuring it stays active for a longer time and reduces "off" periods when symptoms return.
 - **Anticholinergics**: Useful for tremor in younger patients.  
    - These drugs, such as Benztropine, help control tremors, especially in younger patients. They work by blocking a chemical called acetylcholine, which helps balance the brain’s signaling systems when dopamine levels are low. 
+
+*Note: we do not have anything right now that actually stops the disease as much as they are treating the symptoms of the disease.*
+
+### How Dopamine Treatments Can Cause Further Issues: Dyskinesia and Beyond:
+- In Parkinson’s disease, the brain loses cells that produce dopamine, a chemical critical for smooth and controlled movements. Medications like levodopa are often used to replace dopamine, which helps reduce the hallmark symptoms of Parkinson’s, such as tremors, stiffness, and slowness. However, while these treatments are highly effective, they can sometimes lead to further complications, including a movement disorder called dyskinesia.
+
+**What Is Dyskinesia?**
+- Dyskinesia refers to involuntary, erratic, and often excessive movements, such as twitching, writhing, or jerking motions. These movements can range from mild to severe and are different from the tremors typically seen in Parkinson’s disease.
+
+**Why Does Dyskinesia Happen?**
+- Dyskinesia is thought to result from fluctuations in dopamine levels caused by the way Parkinson’s medications work:
+
+   - Levodopa Peaks and Troughs: Levodopa, the most common treatment, gets converted to dopamine in the brain. But its effects don’t last all day, leading to periods of high dopamine (peaks) and low dopamine (troughs). These fluctuations disrupt the brain’s ability to regulate movement.
+   - Long-Term Use: Over time, as Parkinson’s progresses, the brain’s ability to store and use dopamine efficiently decreases. This makes the effects of levodopa more erratic, increasing the likelihood of dyskinesia.
+   - Oversensitivity to Dopamine: The brain can become overly sensitive to dopamine, especially in areas responsible for movement. This heightened sensitivity can trigger involuntary movements.
+   - Note: sometimes you see the same effects with anti-psychotics
 
 ### B. Non-Pharmacological Treatments  
 - **Physical Therapy**:  
@@ -337,6 +393,78 @@ Large-scale air pollution, synthetic pesticides, and commercial TCE use are rela
 3. Discuss what we know and don’t know about alpha-synuclein’s role in PD.  
 4. What are the ethical implications of stem cell and gene therapy for PD?  
 5. How might lifestyle and environmental changes reduce PD risk?  
+
+
+## 10. Future Work: Prognosis Across Groups
+
+### Understanding Variability in Progression  
+One of the key challenges in studying parkinsonian disorders is the variability in how symptoms progress among different groups of individuals. Future research should aim to:  
+- Identify and validate biomarkers that can predict disease progression across diverse patient populations.  
+- Investigate how genetic, environmental, and lifestyle factors contribute to differences in prognosis.  
+
+### Stratification by Subtypes  
+Parkinsonian disorders encompass a wide range of subtypes, including idiopathic Parkinson’s disease, atypical parkinsonism, and secondary parkinsonism. Future studies should:  
+- Focus on refining diagnostic criteria to differentiate subtypes more effectively.  
+- Explore whether specific subtypes exhibit unique progression patterns or treatment responses.  
+
+#### Subtypes: 
+- **Idiopathic Parkinson’s Disease (PD)**
+   - **Definition**: Idiopathic Parkinson’s disease is the most common form of parkinsonism and is considered a **neurodegenerative disorder**. The term "idiopathic" means that the exact cause is unknown. It is primarily characterized by the gradual loss of dopamine-producing neurons in a region of the brain called the substantia nigra.
+   - Key Features:
+      - Symptoms include tremors, bradykinesia (slowness of movement), rigidity, and postural instability.
+      - Non-motor symptoms, such as depression, constipation, and sleep disturbances, are also common.
+      - It typically responds well to dopamine replacement therapy (e.g., levodopa).
+   - Cause: While the exact cause is unknown, genetic and environmental factors may contribute.
+- **Atypical Parkinsonism**
+   - Definition: Atypical parkinsonism refers to a group of disorders that share some features of Parkinson’s disease, such as tremor, rigidity, and bradykinesia, but have distinct underlying causes and often do not respond as well to dopamine replacement therapy.
+   - Examples:
+      - Multiple System Atrophy (MSA): A rare condition involving widespread damage to the autonomic nervous system and motor control centers.
+      - Progressive Supranuclear Palsy (PSP): Characterized by difficulties with balance, eye movements, and speech.
+      - Corticobasal Degeneration (CBD): Marked by asymmetric motor dysfunction and cognitive decline.
+      - Dementia with Lewy Bodies (DLB): Combines parkinsonian motor symptoms with significant cognitive impairment and hallucinations.
+   - Key Differences from PD:
+      -  Symptoms tend to progress more rapidly.
+      - Poor response to levodopa.
+      - Additional features such as early autonomic dysfunction, severe balance issues, or cognitive decline are often present.
+- **Secondary Parkinsonism**
+   - Definition: Secondary parkinsonism refers to parkinsonian symptoms caused by an identifiable, external cause rather than a neurodegenerative process.
+   - Common Causes:
+      - Medication-Induced: Certain drugs, especially antipsychotics and anti-nausea medications, can block dopamine receptors and mimic Parkinson’s symptoms.
+      - Vascular Parkinsonism: Caused by multiple small strokes affecting brain areas involved in movement.
+      - Toxins: Exposure to substances like carbon monoxide or manganese.
+      - Brain Trauma: Repeated head injuries (as seen in some athletes) can lead to parkinsonism.
+      - Infections: Rare cases of brain infections, such as post-encephalitic parkinsonism.
+   - Key Features:
+      - Symptoms depend on the underlying cause but often include tremors, rigidity, and slowed movement.
+      - Treating the underlying cause (e.g., stopping the offending medication) can improve or resolve symptoms in some cases.
+
+
+
+### Prognostic Tools and Models  
+Developing tools to predict individual outcomes could significantly improve patient care and resource allocation. Efforts should be directed toward:  
+- Creating machine learning models that integrate clinical, genetic, and imaging data to provide personalized prognoses.  
+- Validating these models in real-world clinical settings to ensure reliability and applicability.  
+
+### Longitudinal Studies  
+Current research is often limited by short study durations or small sample sizes. To overcome these limitations:  
+- Long-term, large-scale cohort studies should be conducted to monitor disease trajectories over time.  
+- Efforts should include underrepresented populations to ensure findings are generalizable.  
+
+### Integration of Multidisciplinary Approaches  
+Progress in prognosis research will likely benefit from collaboration across disciplines. This includes:  
+- Neurology, for clinical insights and patient management.  
+- Data science, for the development of predictive algorithms.  
+- Epidemiology, for understanding population-level trends.  
+
+### Implications for Treatment and Care  
+Improved prognostic tools and knowledge can lead to:  
+- Earlier interventions tailored to individual risk profiles.  
+- Better planning for long-term care needs, including managing potential complications.  
+
+In summary, future research on prognosis across groups should aim to bridge gaps in knowledge, improve predictive accuracy, and ultimately enhance outcomes for patients with parkinsonian disorders.  
+
+## Interesting facts:
+- Evolutionarily, humans have a lot less dopamine neurons than rodents!
 
 ---
 
