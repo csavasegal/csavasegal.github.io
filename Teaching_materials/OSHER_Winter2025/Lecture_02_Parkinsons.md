@@ -210,19 +210,19 @@ Dopamine release, which is critical for brain function, is often disrupted early
 ### Early Clues: Symptoms That May Appear Before Motor Issues in Parkinsonism
 While diagnoses of Parkinson’s disease and similar conditions are often made based on motor symptoms—like tremors, stiffness, and slowness of movement—there are often non-motor symptoms that can show up years earlier. These early signs might not immediately point to Parkinson’s disease or parkinsonism but can be valuable clues for doctors. Here are some examples:
 
-- 1. REM Sleep Behavior Disorder (RBD)
+- REM Sleep Behavior Disorder (RBD)
    - Normally, during the REM stage of sleep (when dreams occur), the body is temporarily paralyzed to prevent acting out dreams. In people with RBD, this mechanism doesn’t work, leading to movements or vocalizations during sleep, such as kicking, punching, or shouting.
    - RBD can precede the onset of Parkinson’s disease by years or even decades and is also linked to other parkinsonian disorders like multiple system atrophy (MSA) or dementia with Lewy bodies.
-- 2. Constipation
+- Constipation
    - Persistent constipation can be an early sign of Parkinson’s because the same loss of dopamine-producing neurons that affects movement can also impair the nerves that control the digestive system.
    - This symptom may occur years before motor issues appear and is sometimes accompanied by other digestive problems, such as bloating or difficulty swallowing.
-- 3. Loss of Smell (Anosmia)
+- Loss of Smell (Anosmia)
    A reduced or absent sense of smell is another common early symptom of Parkinson’s disease. Many people don’t notice this change right away or might not associate it with a neurological condition.
-- 4. Mood Changes
+- Mood Changes
    Anxiety, depression, or apathy can appear early. These may result from changes in brain chemistry long before the motor symptoms of Parkinson’s disease become obvious.
-- 5. Fatigue and Sleep Issues
+- Fatigue and Sleep Issues
    People might experience excessive daytime sleepiness, trouble falling or staying asleep, or a general sense of fatigue. These symptoms may seem unrelated but can be part of the early changes caused by Parkinson’s.
-- 6. Subtle Changes in Movement
+- Subtle Changes in Movement
    Even before tremors or stiffness become noticeable, some people may have a slightly reduced arm swing when walking or minor difficulties with handwriting (micrographia).
 
 
@@ -248,8 +248,8 @@ Here are some possible causes of parkinsonism that aren’t Parkinson’s diseas
 - **Toxins**: Exposure to certain chemicals, like carbon monoxide or manganese, can lead to parkinsonism.
 
 - **Infections**: Rare brain infections, such as encephalitis, can sometimes cause parkinsonian symptoms.
-
 - **Normal Pressure Hydrocephalus (NPH)**: This condition, caused by a buildup of fluid in the brain, can cause trouble walking, balance issues, and other symptoms that look like Parkinson’s.
+
 ---
 
 ## 5. Treatment Options  
@@ -397,74 +397,74 @@ Large-scale air pollution, synthetic pesticides, and commercial TCE use are rela
 
 ## 10. Future Work: Prognosis Across Groups
 
-### Understanding Variability in Progression  
-One of the key challenges in studying parkinsonian disorders is the variability in how symptoms progress among different groups of individuals. Future research should aim to:  
-- Identify and validate biomarkers that can predict disease progression across diverse patient populations.  
-- Investigate how genetic, environmental, and lifestyle factors contribute to differences in prognosis.  
+   ### Understanding Variability in Progression  
+   One of the key challenges in studying parkinsonian disorders is the variability in how symptoms progress among different groups of individuals. Future research should aim to:  
+   - Identify and validate biomarkers that can predict disease progression across diverse patient populations.  
+   - Investigate how genetic, environmental, and lifestyle factors contribute to differences in prognosis.  
 
-### Stratification by Subtypes  
-Parkinsonian disorders encompass a wide range of subtypes, including idiopathic Parkinson’s disease, atypical parkinsonism, and secondary parkinsonism. Future studies should:  
-- Focus on refining diagnostic criteria to differentiate subtypes more effectively.  
-- Explore whether specific subtypes exhibit unique progression patterns or treatment responses.  
+   ### Stratification by Subtypes  
+   Parkinsonian disorders encompass a wide range of subtypes, including idiopathic Parkinson’s disease, atypical parkinsonism, and secondary parkinsonism. Future studies should:  
+   - Focus on refining diagnostic criteria to differentiate subtypes more effectively.  
+   - Explore whether specific subtypes exhibit unique progression patterns or treatment responses.  
 
-#### Subtypes: 
-- **Idiopathic Parkinson’s Disease (PD)**
-   - **Definition**: Idiopathic Parkinson’s disease is the most common form of parkinsonism and is considered a **neurodegenerative disorder**. The term "idiopathic" means that the exact cause is unknown. It is primarily characterized by the gradual loss of dopamine-producing neurons in a region of the brain called the substantia nigra.
-   - Key Features:
-      - Symptoms include tremors, bradykinesia (slowness of movement), rigidity, and postural instability.
-      - Non-motor symptoms, such as depression, constipation, and sleep disturbances, are also common.
-      - It typically responds well to dopamine replacement therapy (e.g., levodopa).
-   - Cause: While the exact cause is unknown, genetic and environmental factors may contribute.
-- **Atypical Parkinsonism**
-   - Definition: Atypical parkinsonism refers to a group of disorders that share some features of Parkinson’s disease, such as tremor, rigidity, and bradykinesia, but have distinct underlying causes and often do not respond as well to dopamine replacement therapy.
-   - Examples:
-      - Multiple System Atrophy (MSA): A rare condition involving widespread damage to the autonomic nervous system and motor control centers.
-      - Progressive Supranuclear Palsy (PSP): Characterized by difficulties with balance, eye movements, and speech.
-      - Corticobasal Degeneration (CBD): Marked by asymmetric motor dysfunction and cognitive decline.
-      - Dementia with Lewy Bodies (DLB): Combines parkinsonian motor symptoms with significant cognitive impairment and hallucinations.
-   - Key Differences from PD:
-      -  Symptoms tend to progress more rapidly.
-      - Poor response to levodopa.
-      - Additional features such as early autonomic dysfunction, severe balance issues, or cognitive decline are often present.
-- **Secondary Parkinsonism**
-   - Definition: Secondary parkinsonism refers to parkinsonian symptoms caused by an identifiable, external cause rather than a neurodegenerative process.
-   - Common Causes:
-      - Medication-Induced: Certain drugs, especially antipsychotics and anti-nausea medications, can block dopamine receptors and mimic Parkinson’s symptoms.
-      - Vascular Parkinsonism: Caused by multiple small strokes affecting brain areas involved in movement.
-      - Toxins: Exposure to substances like carbon monoxide or manganese.
-      - Brain Trauma: Repeated head injuries (as seen in some athletes) can lead to parkinsonism.
-      - Infections: Rare cases of brain infections, such as post-encephalitic parkinsonism.
-   - Key Features:
-      - Symptoms depend on the underlying cause but often include tremors, rigidity, and slowed movement.
-      - Treating the underlying cause (e.g., stopping the offending medication) can improve or resolve symptoms in some cases.
+   #### Subtypes: 
+   - **Idiopathic Parkinson’s Disease (PD)**
+      - **Definition**: Idiopathic Parkinson’s disease is the most common form of parkinsonism and is considered a **neurodegenerative disorder**. The term "idiopathic" means that the exact cause is unknown. It is primarily characterized by the gradual loss of dopamine-producing neurons in a region of the brain called the substantia nigra.
+      - Key Features:
+         - Symptoms include tremors, bradykinesia (slowness of movement), rigidity, and postural instability.
+         - Non-motor symptoms, such as depression, constipation, and sleep disturbances, are also common.
+         - It typically responds well to dopamine replacement therapy (e.g., levodopa).
+      - Cause: While the exact cause is unknown, genetic and environmental factors may contribute.
+   - **Atypical Parkinsonism**
+      - Definition: Atypical parkinsonism refers to a group of disorders that share some features of Parkinson’s disease, such as tremor, rigidity, and bradykinesia, but have distinct underlying causes and often do not respond as well to dopamine replacement therapy.
+      - Examples:
+         - Multiple System Atrophy (MSA): A rare condition involving widespread damage to the autonomic nervous system and motor control centers.
+         - Progressive Supranuclear Palsy (PSP): Characterized by difficulties with balance, eye movements, and speech.
+         - Corticobasal Degeneration (CBD): Marked by asymmetric motor dysfunction and cognitive decline.
+         - Dementia with Lewy Bodies (DLB): Combines parkinsonian motor symptoms with significant cognitive impairment and hallucinations.
+      - Key Differences from PD:
+         -  Symptoms tend to progress more rapidly.
+         - Poor response to levodopa.
+         - Additional features such as early autonomic dysfunction, severe balance issues, or cognitive decline are often present.
+   - **Secondary Parkinsonism**
+      - Definition: Secondary parkinsonism refers to parkinsonian symptoms caused by an identifiable, external cause rather than a neurodegenerative process.
+      - Common Causes:
+         - Medication-Induced: Certain drugs, especially antipsychotics and anti-nausea medications, can block dopamine receptors and mimic Parkinson’s symptoms.
+         - Vascular Parkinsonism: Caused by multiple small strokes affecting brain areas involved in movement.
+         - Toxins: Exposure to substances like carbon monoxide or manganese.
+         - Brain Trauma: Repeated head injuries (as seen in some athletes) can lead to parkinsonism.
+         - Infections: Rare cases of brain infections, such as post-encephalitic parkinsonism.
+      - Key Features:
+         - Symptoms depend on the underlying cause but often include tremors, rigidity, and slowed movement.
+         - Treating the underlying cause (e.g., stopping the offending medication) can improve or resolve symptoms in some cases.
 
 
 
-### Prognostic Tools and Models  
-Developing tools to predict individual outcomes could significantly improve patient care and resource allocation. Efforts should be directed toward:  
-- Creating machine learning models that integrate clinical, genetic, and imaging data to provide personalized prognoses.  
-- Validating these models in real-world clinical settings to ensure reliability and applicability.  
+   ### Prognostic Tools and Models  
+   Developing tools to predict individual outcomes could significantly improve patient care and resource allocation. Efforts should be directed toward:  
+   - Creating machine learning models that integrate clinical, genetic, and imaging data to provide personalized prognoses.  
+   - Validating these models in real-world clinical settings to ensure reliability and applicability.  
 
-### Longitudinal Studies  
-Current research is often limited by short study durations or small sample sizes. To overcome these limitations:  
-- Long-term, large-scale cohort studies should be conducted to monitor disease trajectories over time.  
-- Efforts should include underrepresented populations to ensure findings are generalizable.  
+   ### Longitudinal Studies  
+   Current research is often limited by short study durations or small sample sizes. To overcome these limitations:  
+   - Long-term, large-scale cohort studies should be conducted to monitor disease trajectories over time.  
+   - Efforts should include underrepresented populations to ensure findings are generalizable.  
 
-### Integration of Multidisciplinary Approaches  
-Progress in prognosis research will likely benefit from collaboration across disciplines. This includes:  
-- Neurology, for clinical insights and patient management.  
-- Data science, for the development of predictive algorithms.  
-- Epidemiology, for understanding population-level trends.  
+   ### Integration of Multidisciplinary Approaches  
+   Progress in prognosis research will likely benefit from collaboration across disciplines. This includes:  
+   - Neurology, for clinical insights and patient management.  
+   - Data science, for the development of predictive algorithms.  
+   - Epidemiology, for understanding population-level trends.  
 
-### Implications for Treatment and Care  
-Improved prognostic tools and knowledge can lead to:  
-- Earlier interventions tailored to individual risk profiles.  
-- Better planning for long-term care needs, including managing potential complications.  
+   ### Implications for Treatment and Care  
+   Improved prognostic tools and knowledge can lead to:  
+   - Earlier interventions tailored to individual risk profiles.  
+   - Better planning for long-term care needs, including managing potential complications.  
 
-In summary, future research on prognosis across groups should aim to bridge gaps in knowledge, improve predictive accuracy, and ultimately enhance outcomes for patients with parkinsonian disorders.  
+   In summary, future research on prognosis across groups should aim to bridge gaps in knowledge, improve predictive accuracy, and ultimately enhance outcomes for patients with parkinsonian disorders.  
 
-## Interesting facts:
-- Evolutionarily, humans have a lot less dopamine neurons than rodents!
+   ## Interesting facts:
+   - Evolutionarily, humans have a lot less dopamine neurons than rodents!
 
 ---
 
