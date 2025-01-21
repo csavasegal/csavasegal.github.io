@@ -104,11 +104,27 @@ By the end of this lecture, the goal is to be able to:
 - **Definition**:  
    - Depression (Major Depressive Disorder, MDD) is a common and debilitating mood disorder characterized by persistent sadness, loss of interest in previously enjoyed activities, and impaired daily functioning.  
    - It encompasses emotional, cognitive, behavioral, and physical symptoms that vary in severity and duration.  
+   - Just because you are depressed, it does not mean you have MDD
+   - Though we use the term "depression" colloquially often, MDD is distinct from other types of depression such as 
 
 - **Epidemiology**:  
-   - Affects approximately 7% of adults annually worldwide, with prevalence rates differing across regions and demographics.  
-   - Women are nearly twice as likely as men to be diagnosed with depression, potentially due to hormonal, psychosocial, and cultural factors.  
-   - Onset is often in late adolescence or early adulthood, though it can occur at any age.  
+   - Affects approximately 7% of adults (18+) annually worldwide, with prevalence rates differing across regions and demographics. 
+   - Around 8.4% of U.S. adults had MDD in 2020, but in adolescence it jumps to 17%.
+   - Around 20% of people in the United States will experience a depressive episode at least once in their life.
+   - Depression is the number one cause of disability in the whole world (6% of the U.S. population in 2020).
+   - Women are nearly twice as likely as men to be diagnosed with depression, potentially due to hormonal, psychosocial, and cultural factors. During adolescence rates are even higher, but arguments could be made that men may be misdiagnosed.
+   - Onset is often in late adolescence or early adulthood, though it can occur at any age. 
+<a 
+    href="https://www.cdc.gov/nchs/products/databriefs/db379.htm" 
+    target="_blank" 
+    title="SOURCE: National Center for Health Statistics, National Health Interview Survey, 2019." 
+    style="text-decoration: none;">
+    <img 
+        src="https://www.cdc.gov/nchs/images/databriefs/351-400/db379-fig2.gif" 
+        alt="This charts shows the severity of depression symptoms among adults from the CDC." 
+        style="width: 100%; max-width: 600px; height: auto;" />
+</a>
+      - Chart from the CDC
 
 - **Impact**:  
    - A leading cause of disability globally, as defined by the World Health Organization (WHO).  
@@ -116,6 +132,10 @@ By the end of this lecture, the goal is to be able to:
 ---
 
 ## 3. Neurobiology and Pathology of Depression  
+Some probable causes for depression:
+1. **Genetics**
+   - If parents have depression, you are more likely to experience genetics
+   - This is often studied using twin studies where the genes are identical, but the environments may not be. 
 
 - **Monoamine Hypothesis**:  
    - Depression has been historically linked to deficits in monoamines—serotonin, dopamine, and norepinephrine—which regulate mood, reward, and stress responses.  
@@ -144,7 +164,7 @@ By the end of this lecture, the goal is to be able to:
 > 4. **Heterogeneity of Depression**: Depression is not a single disorder but a heterogeneous condition with multiple subtypes and contributing factors, including genetics, environment, and psychosocial stressors. The monoamine hypothesis cannot account for all these variations.
 > 
 > ### Current Perspectives  
-> Modern research considers the monoamine hypothesis as one piece of the puzzle. While it has provided valuable insights and guided effective treatments for many patients, the etiology of depression is now understood to involve a complex interplay of genetic, neurobiological, environmental, and psychological factors. This broader understanding is driving the exploration of novel treatments, such as ketamine, psychedelics, and personalized medicine approaches that go beyond the monoamine framework.
+> Modern research considers the monoamine hypothesis as one piece of the puzzle. While it has provided valuable insights and guided effective treatments for many patients, the etiology of depression is now understood to involve a complex interplay of genetic, neurobiological, environmental, and psychological factors. This broader understanding is driving the exploration of novel treatments, such as ketamine, psychedelics, and personalized medicine approaches that go beyond the monoamine framework. It also suggests that other hypotheses need to be investigated.
 
 - **HPA Axis Dysregulation**:  
    - Chronic stress and hyperactivity of the hypothalamic-pituitary-adrenal (HPA) axis can lead to elevated cortisol levels, which have neurotoxic effects on brain regions like the hippocampus.  
@@ -167,6 +187,13 @@ By the end of this lecture, the goal is to be able to:
 
 - **Neuroinflammation**:  
    - Elevated levels of pro-inflammatory cytokines in some individuals suggest an immune component to depression.  
+   - It is worth nothing that having low-inflammatory diets has been shown to correlate with lower rates of MDD.
+
+- **Loneliness**
+   - Studies show that socialization can improve depressive symptoms
+   - There is a sense that when we are connected with other people, it makes things easier when we are going through a hard time (misery loves company)
+   - A great discussion of loneliness can be found here: https://www.apa.org/monitor/2019/05/ce-corner-isolation
+
 
 ---
 
@@ -178,19 +205,40 @@ By the end of this lecture, the goal is to be able to:
    - Fatigue or low energy, even with adequate rest.  
    - Difficulties in concentrating, making decisions, or remembering details.  
    - Changes in sleep patterns (insomnia or hypersomnia) and appetite (increased or decreased).  
-
 - **Other Symptoms**:  
    - Feelings of worthlessness, excessive guilt, or self-blame.  
    - Psychomotor agitation or retardation (observable by others).  
    - Suicidal ideation, with or without specific plans.  
 
 - **Diagnosis**:  
-   - Based on DSM-5 criteria: presence of at least five symptoms for a minimum of two weeks, causing significant distress or impairment.  
+   - Based on DSM-5 criteria: presence of at least five symptoms for a minimum of two weeks ("episode"), causing significant distress or impairment.  It cannot be something that you feel for the short-term. 
+   - The 9 criteria from the DSM-5 are:
+      1. Feeling **empty or hopeless** for most of the day
+      2. Having **little interest** or pleasure in doing things that you normally enjoy (anhedonia)
+            -  Need to have one of the two above to have MDD
+      3. Changes in **sleep** (insomnia or hypersomnia)
+      4. Feeling **fatigued** or having decreased energy levels *relative to baseline*
+      5. Changing in your normal **appetite** or eating patterns relative to normal
+      6. Feeling of **excessive guilt** or worthlessness
+      7. **Decreased ability to concentrate** or being abnormally indecisive (could it be driven by intrusive negative thoughts)
+      8. Sense of **restlessness** ("cannot sit still"; psychomotor agitation) or sense of inability to be active (psychomotor retardation)
+         - The same individual can have both!
+      9. **Suicidal thoughts**
+   - Other symptoms that are often part of the clinical picture:
+      - emotional numbness
+      - apathy
+      - irritability
+      - anger outbursts (especially common in men during adolescence)
+         - discussion of cultural norms
+      - crying spells
+      - loss of libido
+      - self-harm
    - Exclusion of other medical or substance-induced causes.  
 
 ---
 
 ## 5. Treatment and Management  
+- *There is not one size fits all approach*
 
 - **Pharmacotherapy**:  
    - Selective serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) are first-line treatments.  
@@ -204,6 +252,7 @@ By the end of this lecture, the goal is to be able to:
 
 - **Psychotherapy**:  
    - **Cognitive Behavioral Therapy (CBT)**: Focuses on identifying and modifying negative thought patterns and behaviors.  
+      - "aha" moments
    - **Behavioral Activation (BA)**: Encourages engagement in activities to counteract anhedonia and improve mood.  
    - **Interpersonal Therapy (IPT)**: Addresses interpersonal issues contributing to depressive symptoms.  
 
@@ -213,6 +262,7 @@ By the end of this lecture, the goal is to be able to:
 
 - **Emerging Treatments**:  
    - Electroconvulsive therapy (ECT) has been shown to have a significant and relatively immediate effect 
+      - There are major concerns when it comes to side-effects such as memory loss or it can be a traumatic experience for some. 
    - Transcranial magnetic stimulation (TMS) as a non-invasive option.  [Link](https://www.mayoclinic.org/tests-procedures/transcranial-magnetic-stimulation/about/pac-20384625) on more information from the Mayo Clinic.
       -  Typically used for medication resistant depression. 
 
@@ -220,6 +270,7 @@ By the end of this lecture, the goal is to be able to:
    > ### How Does TMS Work?
    > - Magnetic Pulses: During a TMS session, a special device delivers magnetic pulses to your brain. These pulses are painless and feel like gentle tapping on your head.
    > - Targeting Brain Areas: The magnetic pulses are directed at a specific part of the brain called the prefrontal cortex, which is involved in mood regulation. In people with depression, this area may be underactive. TMS helps "wake it up" and restore normal activity. There are also claims that this improves communication by stimulating the connections between different regions of the brain. This improved communication can reduce symptoms of depression.
+   > - A common protocol is to stimulate the left frontal lobe (which has been shown to be underactive). This is distinct from the medications that often work at a chemical level, while this is working at the level of electrical impulses.
    > - An interesting recent paper on TMS (and accelerating it!): Gogulski et al., (2022) Personalized Repetitive Transcranial Magnetic Stimulation for Depression [Link](https://www.sciencedirect.com/science/article/pii/S2451902222002671?casa_token=frb2Zv6hyEsAAAAA:pY08G-zv-4z8D9r6FcEgVb035_WiI5vSlaxK2fSIEKbxcm6YBmaX_DEhHkIled15dnvaddMz)
       
 ---
@@ -253,6 +304,65 @@ By the end of this lecture, the goal is to be able to:
 ## 7. Summary  
 
 Depression is a complex and multifactorial disorder that significantly impacts individuals and society. Advances in our understanding of its neurobiology and the development of innovative treatments hold promise for improving outcomes. Early diagnosis and a holistic approach to care remain pivotal in managing this condition.  
+
+---
+# Major Depressive Disorder (MDD) vs. Other Types of Depression
+
+Depression is a complex mental health condition that manifests in various forms. While Major Depressive Disorder (MDD) is one of the most commonly diagnosed types, there are other forms of depression with unique characteristics. Below is a comparison between MDD and other types of depression:
+
+## **Major Depressive Disorder (MDD)**
+- **Definition**: MDD, also known as clinical depression, is a mood disorder characterized by persistent and intense feelings of sadness, hopelessness, and a loss of interest in activities.
+- **Duration**: Symptoms typically last for at least two weeks or longer.
+- **Key Symptoms**:
+  - Depressed mood most of the day, nearly every day.
+  - Loss of interest or pleasure in most activities.
+  - Significant changes in weight or appetite.
+  - Sleep disturbances (insomnia or hypersomnia).
+  - Fatigue or loss of energy.
+  - Difficulty concentrating or making decisions.
+  - Feelings of worthlessness or excessive guilt.
+  - Recurrent thoughts of death or suicide.
+- **Diagnosis Criteria**: Requires the presence of five or more symptoms for at least two weeks, significantly impairing daily functioning.
+
+## **Persistent Depressive Disorder (PDD)**
+- **Definition**: Also called dysthymia, PDD is a chronic form of depression with less severe but longer-lasting symptoms than MDD.
+- **Duration**: Symptoms persist for at least two years in adults.
+- **Key Differences from MDD**:
+  - Symptoms are less intense but more persistent.
+  - Individuals may experience periods of normal mood that last less than two months.
+
+## **Seasonal Affective Disorder (SAD)**
+- **Definition**: A type of depression linked to changes in seasons, often occurring during fall and winter.
+- **Duration**: Symptoms typically resolve with the arrival of spring or summer.
+- **Key Features**:
+  - Related to reduced exposure to sunlight.
+  - May include fatigue, weight gain, and social withdrawal.
+
+## **Bipolar Disorder (Depressive Episodes)**
+- **Definition**: Bipolar disorder includes depressive episodes similar to MDD but alternates with periods of mania or hypomania.
+- **Key Differences from MDD**:
+  - Episodes of elevated mood, energy, and activity (mania or hypomania) distinguish bipolar disorder from MDD.
+  - Treatment often involves mood stabilizers in addition to antidepressants.
+
+## **Postpartum Depression (PPD)**
+- **Definition**: A type of depression that occurs after childbirth.
+- **Key Features**:
+  - Includes feelings of sadness, anxiety, and exhaustion that interfere with caregiving.
+  - Hormonal changes and life stressors contribute to its onset.
+
+## **Psychotic Depression**
+- **Definition**: A severe form of depression accompanied by psychosis, such as delusions or hallucinations.
+- **Key Features**:
+  - Psychotic symptoms are congruent with depressive themes (e.g., guilt, worthlessness).
+  - Requires specialized treatment, often combining antidepressants and antipsychotics.
+
+## **Atypical Depression**
+- **Definition**: A subtype of depression with specific features, such as mood reactivity.
+- **Key Features**:
+  - Individuals may experience improved mood in response to positive events.
+  - Other symptoms include increased appetite, excessive sleep, and heaviness in limbs.
+
+Understanding the differences between MDD and other types of depression is crucial for accurate diagnosis and effective treatment. 
 
 ---
 
