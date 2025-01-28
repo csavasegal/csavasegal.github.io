@@ -86,6 +86,9 @@ By the end of this lecture, students should be able to:
 
 ### **What We Know**  
 - PTSD results from exposure to traumatic events and involves both biological and psychological components.  
+- What makes it stand out is how long it invades or impacts a person's life after the event itself
+- Key symptoms: intense sense of distress or physical symptoms when thinking of the incident
+- Another hallmark is avoidance
 - Certain populations (e.g., veterans, assault survivors) are at higher risk.  
 
 ### **What We Don’t Know**  
@@ -103,19 +106,26 @@ PTSD affects key regions of the brain involved in fear processing, emotional reg
 
 - **Hyperactivation of the Amygdala**:  
   - The amygdala, often referred to as the brain's "alarm system," detects threats and triggers fear responses.  
-  - In PTSD, the amygdala becomes overactive, leading to exaggerated fear, heightened emotional reactions, and constant hypervigilance (feeling on edge).  
+  - In PTSD, the amygdala becomes overactive, likely leading to exaggerated fear, heightened emotional reactions, and constant hypervigilance (feeling on edge).  
   - This hyperactivity can make individuals feel threatened even in safe environments, contributing to flashbacks and intrusive thoughts.
   - See: Koenigs, M., & Grafman, J. (2009). 
 
 - **Hypoactivity of the Prefrontal Cortex (PFC)**:  
   - The PFC is responsible for decision-making, regulating emotions, and suppressing fear responses when threats are no longer present.  
-  - PTSD reduces PFC activity, making it harder to "turn off" fear after a perceived threat has passed.  
+  - This region is meant to downregulate the amygdala. However, PTSD seems to reduces PFC activity, making it harder to "turn off" fear after a perceived threat has passed.  
   - This contributes to symptoms like difficulty calming down, emotional dysregulation, and an inability to focus on non-threatening situations.
 
 - **Dysfunction of the Hippocampus**:  
-  - The hippocampus helps process and contextualize memories, distinguishing between past and present experiences.  
-  - In PTSD, the hippocampus often shrinks or becomes less functional, impairing the ability to differentiate between real and perceived threats.  
+  - The hippocampus helps process and contextualize memories, distinguishing between past and present experiences and distinguishing between threatening and non-threatening experiences.  
+  - In PTSD, the hippocampus often shrinks or becomes less functional ("hypoactive"), impairing the ability to differentiate between real and perceived threats.  
+  - By becoming "hypoactive", it is unable to downregulate the amygdala
   - This dysfunction explains why traumatic memories feel vivid and intrusive, as the brain struggles to place them in the past.
+
+- **Dysregulation of the Anterior Cingulate Cortex (ACC)**:  
+  - The ACC plays a key role in emotional regulation, decision-making, and integrating cognitive and emotional responses. It acts as a bridge between the prefrontal cortex and the amygdala.  
+  - In PTSD, the ACC often shows reduced activity, which can impair its ability to regulate the overactive amygdala and help the prefrontal cortex manage emotional responses.  
+  - This dysregulation contributes to heightened emotional reactivity, difficulty processing trauma-related cues, and challenges in adapting to stress.  
+  - The ACC is also involved in error detection and conflict resolution, and its dysfunction can lead to intrusive thoughts and difficulty distinguishing between real and perceived threats.  
 
 ### **HPA Axis Dysregulation**
 
@@ -166,14 +176,60 @@ PTSD is not just a psychological condition; it involves measurable changes in br
 - Why hippocampal atrophy occurs in some individuals but not others.  
 - Whether these neurobiological changes are reversible with treatment.  
 
+## 4. Learning Theories and PTSD
+
+- **How Learning Shapes PTSD**:  
+  - Learning plays a key role in how PTSD develops and persists. Our brains naturally learn from experiences, but trauma can disrupt this process, leading to maladaptive patterns of thought and behavior.  
+  - Two major learning theories—**classical conditioning** and **operant conditioning**—help explain why PTSD symptoms occur and why they can be so difficult to manage.  
+
+### Classical Conditioning and PTSD
+  - Classical conditioning is the process by which we associate a neutral event with a traumatic one. For example:  
+    - Imagine you hear a loud sound during a traumatic event, like an explosion. Over time, your brain might start associating loud sounds with danger.  
+    - Even if you're in a safe environment, hearing a similar sound (like fireworks) can trigger intense fear and make you feel like you're reliving the trauma.  
+  - This process explains why certain triggers—sounds, smells, or even places—can bring back traumatic memories or cause flashbacks.
+
+### Operant Conditioning and PTSD
+  - Operant conditioning focuses on how behaviors are reinforced by consequences. In PTSD:  
+    - **Avoidance behaviors** are a common example. If thinking about or encountering a trauma-related trigger causes distress, avoiding it might feel like a relief in the short term.  
+    - Over time, this avoidance can reinforce PTSD symptoms by preventing the person from learning that the trigger is no longer dangerous. For example, avoiding crowded places might reduce anxiety temporarily, but it reinforces the belief that crowds are unsafe, making recovery harder.
+
+### Implications for Treatment
+  - Understanding how PTSD is tied to learning can guide treatment. For instance:  
+    - **Exposure therapy** helps break the cycle of classical conditioning by gradually exposing individuals to trauma-related triggers in a safe and controlled way, helping the brain learn that the trigger no longer signals danger.  
+    - **Cognitive-behavioral therapy (CBT)** addresses the avoidance behaviors reinforced by operant conditioning, encouraging healthier coping mechanisms and reducing avoidance over time.  
+  - By "retraining" the brain, these therapies can help individuals regain control and reduce PTSD symptoms.
+
+### Why It Matters
+  - PTSD is not just about the traumatic event—it’s also about how the brain learns and adapts to it. Recognizing the role of learning in PTSD can help individuals and their loved ones understand that recovery is a process of unlearning old associations and building new, healthier ones.
+
+
 ---
 
-## 4. Clinical Symptoms, Diagnosis, and Risk Factors  
+## 5. Clinical Symptoms, Diagnosis, and Risk Factors 
+- **Criteria for what is a traumatic event**
+    1. Exposure to a traumatic event (assault, sudden death, etc.)
+    2. Learning about an event that occurred to a family member. For this to qualify for "PTSD criteria", this event must be traumatic. 
+    3. Experiencing repeated or extreme exposure to adversive details (ex: first responders dealing with human remains)
+
 - **Core Symptoms** (DSM-5):  
    1. **Intrusive Symptoms**: Flashbacks, nightmares, intrusive thoughts.  
+      - memory of the trauma is coming up in unwanted ways
+      - flashbacks are less common, but the individual will feel a lost of their sense of time and feel like they are back in that moment in time
    2. **Avoidance**: Avoiding trauma-related thoughts, feelings, or situations.  
+      - Avoiding internal experiences (trying not to think about the stressor)
+      - Avoiding external things (things that remind you of the traumatic event-- people that remind you of it/the location, etc.)
+      - Can lead to other concerns such as substance abuse
    3. **Negative Alterations in Cognition and Mood**: Memory issues, emotional numbness, guilt.  
-   4. **Hyperarousal**: Hypervigilance, exaggerated startle response, irritability.  
+      - Tend to see a general increase in negative emotions and decrease in positive emotions
+      - People also tend to start to increase strong negative beliefs about themselves and strong negative beliefs about the world
+      - This is one of the more difficult symptoms to treat 
+      - Sometimes people start to blame themselves or others for the traumatic experience
+      - Memory issues: forgetting issues from the trauma because it is painful
+   4. **Hyperarousal**: Hypervigilance, exaggerated startle response, irritability, difficulty concentrating, increase in risky behavior.  
+      - Hypervigilance: always looking out for danger even if there is no immediate threat
+
+*By comparison, other trauma responses may not incorporate the full range of these symptoms or they may be more short-lived (ex: acute stress disorder)*
+
 - **Diagnosis**:  
    - Symptoms persist for >1 month and cause significant functional impairment.  
 - **Risk Factors**:  
@@ -186,8 +242,18 @@ PTSD is not just a psychological condition; it involves measurable changes in br
 ### **What We Don’t Know**  
 - How to predict who is most vulnerable to chronic PTSD after trauma.  
 
+> **Why do some people get PTSD?**
+> Most people experience trauma, but do not develop PTSD. This difference can be influenced by a combination of factors, including the severity of the trauma, individual coping mechanisms, and pre-existing vulnerabilities.
+> 1. **Nature of the Trauma**: The type and intensity of the traumatic event play a crucial role. Events that involve a direct threat to one's life or witnessing extreme violence are more likely to lead to PTSD than less intense traumatic experiences.
+> 2. **Personal History**: Individuals with a history of previous trauma, particularly in childhood, may be more susceptible to developing PTSD after subsequent traumatic events. This is because repeated exposure to trauma can affect the brain's stress response system, making it harder to cope with new traumas.
+> 3. **Biological Factors**: Some people may have a genetic predisposition that makes them more vulnerable to stress and anxiety, increasing the risk of PTSD. Differences in brain chemistry, such as levels of cortisol (a stress hormone), can also affect how individuals respond to trauma.
+> 4. **Social Support**: The availability of social support is a significant protective factor. People who have strong support networks—friends, family, or community—are often better equipped to process and recover from traumatic events. In contrast, isolation or lack of support can increase the likelihood of developing PTSD.
+> 5. **Coping Mechanisms**: How a person copes with stress and trauma is critical. Healthy coping strategies, such as seeking therapy, talking about the experience, or finding constructive outlets, can help mitigate the impact of trauma. On the other hand, avoidance behaviors, substance use, or denial can exacerbate symptoms and increase the risk of PTSD.
+> 6. **Personal Beliefs and Resilience**: Individual beliefs and resilience also influence the likelihood of developing PTSD. People who have a positive outlook, a strong sense of purpose, or effective problem-solving skills may be more resilient in the face of trauma, reducing the risk of long-term psychological effects.
+
+
 ---
-## 5. Gender Differences in PTSD
+## 6. Gender Differences in PTSD
 
 Research shows significant gender differences in the prevalence, symptoms, and biological responses associated with PTSD. Women are more likely than men to develop PTSD after experiencing trauma, with studies indicating approximately double the prevalence in women compared to men. These differences are influenced by a combination of biological, psychological, and social factors.
 
@@ -211,7 +277,7 @@ Research shows significant gender differences in the prevalence, symptoms, and b
 
 #### **Social and Cultural Influences**
 - Gender roles and societal expectations may also play a role in PTSD development and coping strategies.  
-  - Women may feel more pressure to internalize their stress, leading to heightened emotional symptoms.  
+  - Women may feel more pressure socially to internalize their stress, leading to heightened emotional symptoms.  
   - Men, on the other hand, are often socially conditioned to suppress emotions, potentially delaying diagnosis and treatment.
 
 #### **Treatment Implications**
@@ -223,15 +289,40 @@ Understanding these gender differences can improve diagnosis, treatment, and sup
 
 ---
 
-## 6. Treatment Options  
+## 7. Treatment Options  
 
 ### A. Psychotherapy  
+- The strongest evidence for treating PTSD is psychotherapy (recommended over medications)
 - **Trauma-Focused Cognitive Behavioral Therapy (CBT)**:  
    - Helps patients process and reframe traumatic memories.  
 - **Prolonged Exposure Therapy**:  
    - Gradual exposure to trauma reminders to reduce fear.  
+   - Understanding your symptoms helps you get a sense of control over your reactions.
+   - Really targets the avoidance aspect of this.
 - **Eye Movement Desensitization and Reprocessing (EMDR)**:  
    - Combines exposure therapy with eye movement exercises.  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TWtc5UzyTD8?si=SITTRig7Rube5l__&amp;start=90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+> ## What is Image Rehearsal Therapy (IRT)?
+> Image Rehearsal Therapy (IRT) is a technique used to help people who have recurring nightmares, especially those caused by trauma or PTSD. It works by teaching you to "rewrite" your nightmares into more positive or less scary versions and then practicing these new versions while you're awake.
+> - Nightmares are your brain’s way of processing emotions, but they can get stuck in a loop if they’re tied to trauma. IRT helps break that loop by teaching your brain a new, less distressing way to process those emotions. Over time, this can reduce how often the nightmares happen and how upsetting they feel.
+> ### How Does IRT Work?
+> 1. **Identify the Nightmare**: First, you think about a recurring nightmare that bothers you and write it down.
+> 2. **Change the Story**: Next, you work on creating a new, less upsetting version of the dream. For example, if your nightmare involves being chased, you might rewrite it so you find safety or even confront what’s chasing you.
+> 3. **Practice the New Dream**: After rewriting the dream, you practice imagining it during the day. By rehearsing the new version, your brain can "learn" to use this updated storyline instead of the scary one while you sleep.
+
+- **Cognitive Processing Therapy (CPT)**:  
+  - Cognitive Processing Therapy is a structured, evidence-based treatment for PTSD that focuses on identifying and challenging unhelpful thoughts related to trauma.  
+  - In CPT, individuals explore how they process traumatic events and their subsequent beliefs about themselves, others, and the world. This therapy draws on the idea that trauma can disrupt normal patterns of thinking and lead to cognitive distortions.  
+  - There are three ways to incorporate new information during learning and recovery:  
+    - **Assimilation**: Integrating new information into existing beliefs without altering the core belief system. For example, an individual might blame themselves for the trauma ("It happened because I didn’t try hard enough") to preserve their belief in a just world.  
+    - **Accommodation**: Adjusting beliefs to incorporate new, accurate information. In therapy, this might involve shifting from self-blame to understanding that the trauma was not their fault, helping them process the event in a healthier way.  
+    - **Overaccommodation**: Overgeneralizing or altering beliefs in a way that becomes maladaptive. For instance, believing “I can’t trust anyone” or “The world is completely unsafe” as a result of the trauma. Overaccommodation can reinforce avoidance behaviors and perpetuate PTSD symptoms.  
+  - CPT aims to help individuals move from assimilation or overaccommodation toward balanced accommodation, fostering recovery and resilience.  
+  - See: Resick, P. A., Monson, C. M., & Chard, K. M. (2016).
+
+
 
 ### B. Pharmacological Treatments  
 - **Selective Serotonin Reuptake Inhibitors (SSRIs)**:  
@@ -248,7 +339,7 @@ Understanding these gender differences can improve diagnosis, treatment, and sup
 
 ---
 
-## 7. Current Research and Future Directions  
+## 8. Current Research and Future Directions  
 - **Neuroimaging**: Identifying brain biomarkers for PTSD.  
 - **Pharmacological Innovations**: Testing NMDA receptor modulators and MDMA-assisted therapy.  
 - **Resilience Research**: Studying genetic and psychological factors that promote recovery.  
@@ -256,13 +347,13 @@ Understanding these gender differences can improve diagnosis, treatment, and sup
 
 ---
 
-## 8. Summary and Key Takeaways  
+## 9. Summary and Key Takeaways  
 - PTSD arises after trauma and involves hyperactivation of fear circuits, dysregulated stress responses, and memory impairments.  
 - Psychotherapy and pharmacotherapy can effectively manage symptoms, but challenges remain in identifying who is most at risk and resistant to treatment.  
 
 ---
 
-## 9. Discussion Questions  
+## 10. Discussion Questions  
 1. Why are some individuals resilient to trauma while others develop PTSD?  
 2. How might brain imaging help diagnose PTSD in the future?  
 3. What are the pros and cons of pharmacological vs. psychotherapeutic treatments for PTSD?  

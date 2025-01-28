@@ -57,7 +57,6 @@ By the end of this lecture, the goal is to be able to:
 - Examine current research trends and future directions for depression treatment.  
 
 ---
-
 ## 1. Basic Biology of Mood Regulation  
 - **Brain Regions Involved**:  
    - **Prefrontal Cortex**: Regulates decision-making and emotional responses.  
