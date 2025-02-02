@@ -131,6 +131,9 @@ Now consider this: if every synapse were a line of code, the brain would far sur
 
 ### 5. [Schizophrenia](/osher/DiverseMinds/schizophrenia/)  
 
+### 6. [Further reading suggestions](/osher/DiverseMinds/books/)  
+
+
 <br>
 
 _All materials © Clara Sava-Segal, 2025. Designed for Dartmouth Osher Lifelong Learning Center._  

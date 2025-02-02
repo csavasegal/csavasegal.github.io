@@ -119,6 +119,74 @@ Glutamate, the brain's primary excitatory neurotransmitter, is increasingly reco
 - Reduced function of **NMDA receptors**, which are essential for glutamate signaling, can impair communication between neurons. This disruption may contribute to cognitive deficits, such as memory problems and difficulties in attention and learning.  
 - While dopamine dysregulation is traditionally emphasized, the glutamate hypothesis provides an additional layer of complexity, suggesting that schizophrenia may involve a broader network of neurotransmitter imbalances.
 
+## The Dysconnectivity Hypothesis in Schizophrenia
+
+The **dysconnectivity hypothesis** of schizophrenia posits that the disorder arises from disrupted functional and structural connectivity between brain regions rather than localized deficits in specific areas. This perspective contrasts with earlier models that focused on dysfunction in isolated regions, instead emphasizing aberrant communication across large-scale brain networks.
+
+### **Origins and Rationale**
+The dysconnectivity hypothesis emerged from neuroimaging and electrophysiological findings showing that schizophrenia is associated with altered coordination of neural activity across distributed brain regions. Early studies using **diffusion tensor imaging (DTI)** and **functional magnetic resonance imaging (fMRI)** revealed widespread white matter abnormalities and impaired functional interactions, particularly in networks supporting cognition, perception, and self-referential thought.
+
+Key aspects of the hypothesis include:
+- **Abnormal long-range connectivity** – Reduced synchrony between distant brain regions, particularly between the **prefrontal cortex (PFC)** and **temporal regions**, contributes to deficits in executive function and auditory hallucinations.
+- **Local hyperconnectivity** – Excessive synchronization within certain circuits, such as those within the **default mode network (DMN)**, may underlie self-referential disturbances and psychotic symptoms.
+- **Imbalance between large-scale networks** – Dysfunction in the coordination between the **DMN, salience network (SN), and central executive network (CEN)** impairs the ability to shift between internally and externally directed cognitive processes.
+
+### **Neural Basis of Dysconnectivity**
+Schizophrenia-related dysconnectivity is thought to arise from a combination of:
+1. **Neurodevelopmental abnormalities** – Disruptions in synaptic pruning, myelination, and interneuron maturation during adolescence may contribute to connectivity deficits.
+2. **Neurotransmitter dysregulation** – Impaired **glutamatergic** (NMDA receptor hypofunction) and **dopaminergic** signaling disrupt neural synchrony, leading to inefficient communication between regions.
+3. **White matter integrity deficits** – Studies using **DTI** have shown reduced **fractional anisotropy (FA)** in major white matter tracts, such as the **uncinate fasciculus** and **corpus callosum**, suggesting impaired structural connectivity.
+
+### **Implications for Symptoms**
+Dysconnectivity affects various symptom domains in schizophrenia:
+
+- **Cognitive Symptoms**  
+  - Impaired communication between the **prefrontal cortex (PFC)** and **hippocampus** disrupts working memory and executive functioning.
+  - Reduced connectivity within the **central executive network (CEN)** is linked to difficulties in goal-directed behavior.
+
+- **Positive Symptoms (Hallucinations & Delusions)**  
+  - **Aberrant connectivity between auditory cortex and PFC** may underlie auditory hallucinations by impairing self-monitoring mechanisms.
+  - **Hyperconnectivity within the DMN** could contribute to delusional thought patterns by reinforcing maladaptive self-referential processing.
+
+- **Negative Symptoms (Apathy & Social Withdrawal)**  
+  - Disruptions in the **salience network (SN)** reduce motivation and responsiveness to external stimuli.
+  - Impaired connectivity in limbic-prefrontal circuits affects emotional regulation and social cognition.
+
+### **Clinical and Therapeutic Implications**
+The dysconnectivity hypothesis has reshaped schizophrenia research and treatment approaches. Potential applications include:
+- **Targeting network dysfunctions with neurostimulation** – Techniques like **transcranial magnetic stimulation (TMS)** and **transcranial direct current stimulation (tDCS)** aim to modulate connectivity between affected brain regions.
+- **Personalized interventions using connectivity biomarkers** – Advances in machine learning and **resting-state fMRI** may enable individualized treatment based on network-level abnormalities.
+- **Pharmacological approaches** – Beyond traditional dopamine-based treatments, **glutamate-modulating drugs** (e.g., NMDA receptor agonists) may help restore functional connectivity.
+
+### **Conclusion**
+The dysconnectivity hypothesis provides a framework for understanding schizophrenia as a disorder of **disrupted neural coordination** rather than isolated regional dysfunction. This network-based perspective highlights the importance of **integrative approaches** to diagnosis, treatment, and future research into schizophrenia.
+
+
+### The Role of the Default Mode Network (DMN) in Schizophrenia
+A growing body of research suggests that dysregulation in large-scale brain networks, particularly the **Default Mode Network (DMN)**, plays a critical role in the disorder’s pathophysiology.
+
+### **What is the Default Mode Network (DMN)?**
+The DMN is a network of interconnected brain regions that is most active when an individual is at rest and not focused on the external environment. It is involved in self-referential thought, mind-wandering, autobiographical memory, and social cognition. Key nodes of the DMN include:
+- **Medial Prefrontal Cortex (mPFC)** – associated with self-referential processing.
+- **Posterior Cingulate Cortex (PCC) / Precuneus** – involved in integrating information and maintaining a coherent sense of self.
+- **Angular Gyrus / Inferior Parietal Lobule** – supports episodic memory and perspective-taking.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YV3QuF-2wdw?si=7mKYcVtriqVmEnI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### **DMN Dysregulation in Schizophrenia**
+In schizophrenia, abnormalities in the DMN are well-documented and linked to various symptoms of the disorder. These alterations include:
+
+- **Hyperconnectivity within the DMN**  
+  Some studies have reported excessive connectivity within DMN regions, particularly between the **mPFC and PCC**, which is correlated with **positive symptoms** such as hallucinations and delusions. This overactivity may lead to an impaired ability to distinguish self-generated thoughts from external stimuli, contributing to the loss of reality testing.
+
+- **Reduced DMN-Salience Network Antagonism**  
+  The DMN typically exhibits an inverse relationship with the **Salience Network (SN)**, which helps regulate attention and detect relevant stimuli in the environment. In schizophrenia, this balance is often disrupted, leading to inappropriate engagement of the DMN when attention should be directed outward, potentially contributing to cognitive deficits and impaired social functioning.
+
+- **DMN-Task Positive Network Imbalance**  
+  The **Task-Positive Network (TPN)**, which is active during goal-directed tasks, typically suppresses DMN activity. However, in schizophrenia, studies suggest a **failure of DMN deactivation** during cognitive tasks, leading to reduced performance in working memory, attention, and executive function.
+
+### **Clinical Implications**
+Understanding DMN dysfunction in schizophrenia has significant implications for both diagnosis and treatment. Functional connectivity analyses of the DMN could serve as potential **biomarkers** for early detection and monitoring of disease progression. Additionally, interventions such as **cognitive training, transcranial magnetic stimulation (TMS), and pharmacological treatments** targeting network dysfunctions may help restore balance between intrinsic and extrinsic brain activity.
+
 ---
 
 ### **What We Know**
