@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Additional questions - Dementia - End of Life care"
+title: Additional questions - Dementia - End of Life care
 permalink: /osher/DiverseMinds/dementia-death/
 baseurl: ""
 published: true
