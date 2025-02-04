@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Additional questions - Epigenetics and trauma"
+title: Additional questions - Epigenetics and trauma
 permalink: /osher/DiverseMinds/epigenetics-trauma/
 baseurl: ""
 published: true
