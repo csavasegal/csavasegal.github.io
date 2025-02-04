@@ -44,7 +44,7 @@ published: true
 </div>
 
 <div style="border: 2px solid purple; padding: 10px; background-color: #f9f4ff; border-radius: 5px; margin: 10px 0;">
-Schizophrenia is one of the most challenging mental health conditions to understand, despite over a century of research and countless studies. While we have made advances, such as identifying genetic risks, brain network differences, and effective early interventions, there is still no clear consensus on its exact nature. In fact, some experts now question whether schizophrenia is a valid concept at all, suggesting it might need to be redefined or replaced entirely. This ongoing debate highlights the importance of regularly reviewing what we truly know about the disorder and reconsidering how we understand it.
+Schizophrenia remains one of the most complex and poorly understood mental health conditions, despite over a century of research. While significant advances have been made—such as identifying genetic risks, brain network differences, and effective early interventions—there is still no clear consensus on its exact nature. Some experts even question whether schizophrenia is a distinct disorder, arguing that it may need to be redefined or replaced entirely. Additionally, schizophrenia is widely misunderstood and often misrepresented in the media, which contributes to stigma and prevents many individuals from receiving the help they need.
 </div>
 
 ## Objectives  
@@ -82,7 +82,7 @@ Summary Video on Schizophrenia:
 - **Definition**:  
    - Schizophrenia is a chronic, severe mental disorder characterized by disturbances in thought, perception, emotion, and behavior.  
 - **History**:  
-   - Term coined by Eugen Bleuler in 1911, meaning “split mind” (not to be confused with split personality).  
+   - Term coined by Eugen Bleuler in 1911, meaning “split mind” (not to be confused with split personality (dissociative identity disorder)).  
 - **Epidemiology**:  
    - Affects ~1% of the global population.  
    - Onset typically occurs in late adolescence or early adulthood (18-25 for men; 25-35 for women).  
@@ -101,8 +101,26 @@ Summary Video on Schizophrenia:
 
 ### **Dopaminergic System**
 The dopamine system plays a crucial role in regulating mood, motivation, and cognition. In schizophrenia, it is thought to operate abnormally, leading to distinct groups of symptoms:  
+- Overactive dopamine signaling contributes to psychotic symptoms.
+- Dysregulated dopamine may contribute to anhedonia (reduced pleasure) and avolition (lack of motivation), which are part of the negative
+- Note: the striatum does not engage rewards in the same way for schizophrenics that it does for the neurotypical brain
+
+
 - **Mesolimbic Pathway Overactivity**: This pathway connects the midbrain to the limbic system, which is involved in emotion and reward processing. Overactivity in this area is linked to **positive symptoms**, such as hallucinations, delusions, and disorganized thinking. These symptoms are often the most visible and distressing aspects of the condition.  
+   - part of the suggestion that overactive dopamine signaling contributes to psychotic symptoms
+<a 
+    href="Mesolimbic pathway" 
+    target="_blank" 
+    title="Mesolimbic pathway." 
+    style="text-decoration: none;">
+    <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Mesolimbic_pathway.svg/440px-Mesolimbic_pathway.svg.png" 
+        alt="This image is from the Wikipedia page for the Mesolimbic pathway." 
+        style="width: 100%; max-width: 600px; height: auto;" />
+</a>
+
 - **Prefrontal Cortex Underactivity**: The prefrontal cortex is critical for higher-level functions, like decision-making, planning, and emotional regulation. Reduced dopamine activity in this area is associated with **negative symptoms**, including a lack of motivation, social withdrawal, and blunted emotions. These symptoms are harder to detect but significantly impair quality of life and functional outcomes.
+
 
 ### **Structural Brain Changes**
 Advances in brain imaging techniques have revealed significant structural differences in individuals with schizophrenia:  
@@ -118,6 +136,7 @@ There is evidence that schizophrenia may originate long before symptoms appear, 
 Glutamate, the brain's primary excitatory neurotransmitter, is increasingly recognized as a key player in schizophrenia:  
 - Reduced function of **NMDA receptors**, which are essential for glutamate signaling, can impair communication between neurons. This disruption may contribute to cognitive deficits, such as memory problems and difficulties in attention and learning.  
 - While dopamine dysregulation is traditionally emphasized, the glutamate hypothesis provides an additional layer of complexity, suggesting that schizophrenia may involve a broader network of neurotransmitter imbalances.
+- Interest in glutamate’s role in schizophrenia began when researchers observed that PCP, which interacts with glutamate receptors, induces symptoms similar to those of schizophrenia
 
 ## The Dysconnectivity Hypothesis in Schizophrenia
 
@@ -208,6 +227,7 @@ These insights emphasize that schizophrenia is not a single, uniform disorder bu
    - Hallucinations (auditory most common).  
    - Delusions (false beliefs, e.g., persecution or grandeur).  
    - Disorganized speech and behavior.  
+   - Symptoms that cause *social or occupational* dysfunction
 
 - **Negative Symptoms** (Reduction or loss of normal functions):  
    - Avolition: Lack of motivation.  
@@ -216,7 +236,7 @@ These insights emphasize that schizophrenia is not a single, uniform disorder bu
    - Flat affect: Diminished emotional expression.  
 
 - **Cognitive Symptoms**:  
-   - Impaired memory, attention, and executive function.  
+   - Impaired memory, attention, and executive function (negative symptoms also)  
 
 - **Diagnosis**:  
    - Clinical evaluation based on **DSM-5 criteria**:  
@@ -296,6 +316,38 @@ The progression of symptomology
 > ### **Key Takeaway**
 > Treating schizophrenia involves more than just managing symptoms. Medications, therapies, and new approaches work together to improve quality of life, with a growing focus on early intervention and helping individuals achieve their personal goals for recovery.
 
+
+## **The Prodromal Phase of Schizophrenia**  
+
+The **prodromal phase** refers to the period before the full onset of schizophrenia, during which early symptoms begin to emerge. This stage can last anywhere from **weeks to years** and is often marked by subtle cognitive, emotional, and behavioral changes. Identifying the prodromal phase is crucial, as early intervention may help delay or even prevent the progression to full-blown psychosis.  
+
+### **Key Features of the Prodromal Phase**  
+
+#### **1. Cognitive Changes**  
+- Difficulty concentrating or maintaining attention  
+- Problems with memory and decision-making  
+- Increased difficulty processing complex information  
+
+#### **2. Emotional and Behavioral Changes**  
+- Withdrawal from social activities and relationships  
+- Increased anxiety, irritability, or depressive symptoms  
+- Unusual emotional responses (e.g., inappropriate laughter or flat affect)  
+
+#### **3. Perceptual Disturbances and Unusual Thoughts**  
+- Increased suspicion or paranoia  
+- Mild hallucinations (e.g., hearing faint voices or seeing shadows)  
+- Odd beliefs or magical thinking (e.g., believing in telepathy or having special powers)  
+
+### **Why the Prodromal Phase Matters**  
+Early detection of prodromal symptoms is crucial for **intervention and treatment**. Studies suggest that therapies such as **cognitive-behavioral therapy (CBT), family support, and low-dose antipsychotic medications** can help **reduce the risk of progression to full psychosis**.  
+
+### **Challenges in Identifying the Prodromal Phase**  
+- Many symptoms overlap with common mental health conditions such as **depression or anxiety disorders**, making early diagnosis difficult.  
+- Some individuals in the prodromal phase **never develop schizophrenia**, complicating predictions about who is at the highest risk.  
+
+### **Conclusion**  
+The prodromal phase serves as a **critical window for early intervention**. Increased awareness and monitoring of early warning signs may improve outcomes and reduce the long-term impact of schizophrenia.
+
 ---
 
 ## 6. Current Research and Future Directions  
@@ -345,7 +397,10 @@ Long and great descriptive video on SZ:
 - **Articles**:  
    - Howes, O. D., & Murray, R. M. (2014). Schizophrenia: An integrated sociodevelopmental-cognitive model. *The Lancet*, 383(9929), 1677-1687.  
    - Tandon, R., Nasrallah, H., Akbarian, S., Carpenter, W. T., DeLisi, L. E., Gaebel, W., Green, M. F., Gur, R. E., Heckers, S., Kane, J. M., Malaspina, D., Meyer-Lindenberg, A., Murray, R., Owen, M., Smoller, J. W., Yassin, W., & Keshavan, M. (2024). The schizophrenia syndrome, circa 2024: What we know and how that informs its nature. Schizophrenia Research, 264, 1-28. https://doi.org/10.1016/j.schres.2023.11.015
+   - Insel, T. (2010). Rethinking schizophrenia. *Nature*, 468, pages187–193. https://doi.org/10.1038/nature09552
 - **Websites**:  
    - National Institute of Mental Health: [www.nimh.nih.gov](https://www.nimh.nih.gov)  
    - Schizophrenia International Research Society: [www.schizophreniaresearchsociety.org](https://www.schizophreniaresearchsociety.org)  
    - https://www.mcleanhospital.org/essential/schizophrenia *Great website!*
+- Podcasts:
+   - The entirety of the "Inside Schizophrenia" podcast could be great!
