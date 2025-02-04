@@ -88,6 +88,12 @@ published: true
 *A recent exploration of how memory works and why it is so essential to shaping our sense of self and reality.*
 
 ---
+⭐⭐⭐⭐☆ (4/5)
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.penguin.co.uk%2Fbooks%2F391857%2Fdescartes-error-by-damasio-antonio%2F9780099501640&psig=AOvVaw1fgDb9IeCBRIPFXkVqiX0Y&ust=1738796523920000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLCRz_uPq4sDFQAAAAAdAAAAABAE" width="200">
+### **Descartes' Error** – Antonio Damasio 
+
+
+---
 ## Schizophrenia & Psychosis
 <img src="https://m.media-amazon.com/images/I/811jQIgxaoL.jpg" width="200">
 ### **Hidden Valley Road: Inside the Mind of an American Family** – Robert Kolker   
