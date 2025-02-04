@@ -133,6 +133,12 @@ Now consider this: if every synapse were a line of code, the brain would far sur
 
 ### 6. [Further reading suggestions](/osher/DiverseMinds/books/)  
 
+Additional pages introduced by class discussions:
+### 1. [Epigenetics and trauma](osher/DiverseMinds/epigenetics-trauma)  
+
+### 2. [Dementias and end of life care](/osher/DiverseMinds/dementia-death/)  
+
+### 2. [Brain clean-up](/osher/DiverseMinds/brain-cleanup/)  
 
 <br>
 

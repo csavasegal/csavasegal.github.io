@@ -264,10 +264,49 @@ The progression of symptomology
         style="width: 100%; max-width: 600px; height: auto;" />
 </a>
 
+---
+# **Environmental Factors and Schizophrenia: The Dutch Hunger Winter (1944-1945)**
+
+The **Dutch Hunger Winter (1944-1945)** serves as one of the most well-documented natural experiments in studying the role of **prenatal environmental factors** in the development of schizophrenia. Research indicates that **fetal malnutrition**, particularly during early pregnancy, is associated with a significantly **increased risk of schizophrenia** in offspring.
+
+## **Key Findings from the Dutch Hunger Winter and Schizophrenia**
+### **1. Increased Incidence of Schizophrenia**
+- Children conceived during the famine (especially in the **first trimester**) showed a **higher risk of developing schizophrenia** in adulthood.
+- Studies suggest a **twofold increase** in the risk compared to those conceived before or after the famine.
+
+### **2. Timing Matters: First Trimester vs. Later Pregnancy**
+- The risk was **highest** for individuals exposed to famine **during the first trimester** of gestation.
+- Exposure later in pregnancy (second or third trimester) was associated with **weaker or no significant effects** on schizophrenia risk.
+
+### **3. Potential Mechanisms**
+- **Neurodevelopmental Disruptions**: Early malnutrition may affect **fetal brain development**, particularly in pathways related to dopamine and synaptic pruning.
+- **Epigenetic Modifications**: Famine exposure in utero may lead to **DNA methylation changes**, altering gene expression related to brain function.
+- **Immune Dysregulation**: Poor maternal nutrition may increase susceptibility to **maternal infections**, which are also linked to schizophrenia.
+
+### **4. Evidence from Other Famines**
+- Similar findings have been observed in populations exposed to the **Great Chinese Famine (1959-1961)**, reinforcing the hypothesis that **early-life malnutrition increases schizophrenia risk**.
+- Studies of maternal starvation during **World War II** in other European populations have also supported this trend.
+
+## **Implications for Research and Public Health**
+- The Dutch Hunger Winter studies highlight the **critical role of prenatal nutrition** in psychiatric disorders.
+- They provide strong support for the **neurodevelopmental hypothesis of schizophrenia**, which suggests that early disruptions in brain development contribute to later disease onset.
+- These findings emphasize the **importance of maternal nutrition** during pregnancy for long-term mental health outcomes.
+
+<a 
+    href="Non-genetic factors" 
+    target="_blank" 
+    title="Non-genetic factors." 
+    style="text-decoration: none;">
+    <img 
+        src="https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11920-019-1091-3/MediaObjects/11920_2019_1091_Fig1_HTML.png?as=webp" 
+        alt="This image is from Stilo, S.A., Murray, R.M. Non-Genetic Factors in Schizophrenia. Curr Psychiatry Rep 21, 100 (2019). https://doi.org/10.1007/s11920-019-1091-3." 
+        style="width: 100%; max-width: 600px; height: auto;" />
+</a>
+From: Stilo, S.A., Murray, R.M. Non-Genetic Factors in Schizophrenia. Curr Psychiatry Rep 21, 100 (2019). https://doi.org/10.1007/s11920-019-1091-3
 
 ---
 
-## 5. Treatment and Management  
+## 6. Treatment and Management  
 
 ### A. Pharmacological Treatments  
 - **Antipsychotic Medications**:  
@@ -350,7 +389,7 @@ The prodromal phase serves as a **critical window for early intervention**. Incr
 
 ---
 
-## 6. Current Research and Future Directions  
+## 7. Current Research and Future Directions  
 - **Neurobiology**:  
    - Investigating the role of glutamate and NMDA receptor dysfunction.  
 - **Genetics**:  
@@ -372,7 +411,7 @@ The prodromal phase serves as a **critical window for early intervention**. Incr
 
 ---
 
-## 7. Summary and Key Takeaways  
+## 8. Summary and Key Takeaways  
 - Schizophrenia is a severe mental disorder characterized by positive, negative, and cognitive symptoms.  
 - Neurotransmitter imbalances (dopamine, glutamate) and structural brain changes are central to the pathology.  
 - Current treatments focus on symptom management but do not address the underlying causes.  
@@ -380,7 +419,7 @@ The prodromal phase serves as a **critical window for early intervention**. Incr
 
 ---
 
-## 8. Discussion Questions  
+## 9. Discussion Questions  
 1. Why is Schizophrenia considered a neurodevelopmental disorder?  
 2. Discuss the strengths and limitations of the dopamine hypothesis.  
 3. How might glutamatergic therapies revolutionize the treatment of Schizophrenia?  
@@ -398,6 +437,7 @@ Long and great descriptive video on SZ:
    - Howes, O. D., & Murray, R. M. (2014). Schizophrenia: An integrated sociodevelopmental-cognitive model. *The Lancet*, 383(9929), 1677-1687.  
    - Tandon, R., Nasrallah, H., Akbarian, S., Carpenter, W. T., DeLisi, L. E., Gaebel, W., Green, M. F., Gur, R. E., Heckers, S., Kane, J. M., Malaspina, D., Meyer-Lindenberg, A., Murray, R., Owen, M., Smoller, J. W., Yassin, W., & Keshavan, M. (2024). The schizophrenia syndrome, circa 2024: What we know and how that informs its nature. Schizophrenia Research, 264, 1-28. https://doi.org/10.1016/j.schres.2023.11.015
    - Insel, T. (2010). Rethinking schizophrenia. *Nature*, 468, pages187–193. https://doi.org/10.1038/nature09552
+   - Stilo, S.A., Murray, R.M. Non-Genetic Factors in Schizophrenia. Curr Psychiatry Rep 21, 100 (2019). https://doi.org/10.1007/s11920-019-1091-3
 - **Websites**:  
    - National Institute of Mental Health: [www.nimh.nih.gov](https://www.nimh.nih.gov)  
    - Schizophrenia International Research Society: [www.schizophreniaresearchsociety.org](https://www.schizophreniaresearchsociety.org)  
