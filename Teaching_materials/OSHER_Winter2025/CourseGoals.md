@@ -140,7 +140,7 @@ Now consider this: if every synapse were a line of code, the brain would far sur
 
 ### 2. [Dementias and end of life care](/osher/DiverseMinds/dementia-death/)  
 
-### 2. [Brain clean-up](/osher/DiverseMinds/brain-cleanup/)  
+### 3. [Brain clean-up](/osher/DiverseMinds/brain-cleanup/)  
 
 <br>
 
