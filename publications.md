@@ -59,6 +59,11 @@ Find below a list and corresponding links for recent publications, presentations
 
 <!-- <h3>Preprints</h3>
 <a>Coming soon :)</a> -->
+<h3>2025</h3>
+<br>
+<strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2025) Narrative ’twist’ shifts within-individual neural representations of
+dissociablet story features. <i> bioRxiv</i>
+<br>
 
 <h3>2024</h3>
 <a href="papers/520_Paper_authored_CSS_CCN_2024_Final.pdf" target="_blank" style="text-decoration: none;">
@@ -158,6 +163,9 @@ Lucero, C., Brookshire, G., <strong>Sava-Segal, C.</strong>, Bottini, R., Goldin
 <br>
 
 <h2 id="list3"><span style="color:rgb(95, 101, 205)">Selected recent poster presentations.</span></h2>
+
+<strong>Sava-Segal, C.</strong>, Benson, T., Finn, E.S. (2024). Multivariate neural pattern changes reflect within-subject shifts
+in subjective interpretations. Presentation at Organization for Human Brain Mapping, Seoul, Korea.
 
 <strong>Sava-Segal, C.</strong>, Grall, C., Bartolino, K., Equita, J., Benson, T., Finn, E.S. (2023). Narrative ‘twists’ shift neural representations. Presentation at the Organization of Human Brain Mapping, Montreal, CA.
 
