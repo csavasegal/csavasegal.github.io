@@ -4,7 +4,19 @@ title: Osher Courses
 permalink: /osher/
 published: true
 ---
+## [**Experience in the Eye of the Beholder: How Individual Brains Create Reality**](/osher/subjectivity/)
+^ Click here to get access to the course page which has all of the information and lessons planned included 
 
+### Course Description
+*This course explores the fascinating world of individual consciousness and subjective experience, examining how each person’s unique mental landscape emerges from brain activity. We’ll explore cutting-edge methods scientists use to study the individual brain—from neuroimaging  techniques that reveal personal thought patterns to innovative approaches for measuring subjective states like emotions, memories, and  perceptions.*
+
+*The course addresses fundamental questions: How do we study something as personal as individual experience? What makes each mind unique? How do subjective feelings translate into observable brain activity?*
+
+*Through case studies and current research, we’ll examine both the remarkable tools available for understanding individual minds and the profound challenges that remain in bridging the gap between objective brain science and subjective human experience.
+
+*This course will combine lecture with class discussions.*
+
+---
 ## [**Diverse Minds: What We Know and Don’t Know About Psychiatric Disorders and Dementias 1**](/osher/DiverseMinds/coursegoals/)
 ^ Click here to get access to the course page which has all of the information and lessons planned included 
 
