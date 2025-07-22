@@ -474,20 +474,22 @@ Perception is not only shaped by biology and individual experience—it is also 
 <img src="/assets/images/osher_lectures/Attention_Diff2.jpg" alt="Holistic2">
 
 
-These patterns reflect broader cultural tendencies: Western cultures tend to emphasize individualism, while East Asian cultures emphasize interdependence and social context.
+These patterns *may* reflect broader cultural tendencies: Western cultures tend to emphasize individualism, while East Asian cultures emphasize interdependence and social context (though see disclaimer section below).
 ---
 
 ### Language and Color Perception
 
 **Study of the Himba Tribe (Davidoff et al.):**
 - The Himba people of Namibia use a different color categorization system than English speakers.
-- They easily distinguish between shades of green that look identical to Western participants, but struggle with blue-green distinctions due to **linguistic absence of a separate word for "blue."**
+- It is believed that they easily distinguish between shades of green that look identical to Western participants, but struggle with blue-green distinctions due to **linguistic absence of a separate word for "blue."**
+- Another similar study for this is the [Russian Blue experiment- Winawer *et al*, 2007](https://www.pnas.org/doi/10.1073/pnas.0701644104).
 
-This supports the **Sapir-Whorf Hypothesis**, which proposes that the structure of a language influences how its speakers perceive and conceptualize the world.
+This gives some support for the **Sapir-Whorf Hypothesis**, which proposes that the structure of a language influences how its speakers perceive and conceptualize the world.
+> However, it's important to note that the stronger version of the Sapir-Whorf Hypothesis — that language <b>determines</b> thought — has largely been discredited (or has limited support). Instead, most contemporary researchers support a weaker version, suggesting that language <b>influences</b> rather than dictates how we perceive and think about the world. <u>This distinction matters because it allows for the possibility of cross-cultural understanding and cognitive flexibility — even if a concept isn't easily expressible in one's native language, that doesn't mean it's unthinkable.</u>
 
 **Videos to Watch:**
 - [Good link](https://burnaway.org/magazine/blue-language-visual-perception/)
-- [*How Language Changes The Way We See Color?*](https://www.youtube.com/watch?v=mgxyfqHRPoE)
+- [*How Language Changes The Way We See Color?*](https://www.youtube.com/watch?v=mgxyfqHRPoE) <- good video for class>
 
 ---
 
@@ -495,27 +497,13 @@ This supports the **Sapir-Whorf Hypothesis**, which proposes that the structure 
 
 **Aboriginal Australian Communities (e.g., Kuuk Thaayorre speakers):**
 - Use absolute cardinal directions (north, south, east, west) rather than relative directions (left, right).
-- Children learn to track directionality extremely early and become experts at orientation.
-
-As a result, their **spatial memory and navigation skills** outperform those of people in Western societies—even in unfamiliar environments.
-
-**Classroom Activity:**
-- Ask: *“Without using your phone or looking outside—can you point to north?”*
-- Discuss how **language encodes habitual attention** and influences cognitive strategies.
+- Children learn to track directionality extremely early and become experts at orientation. 
+- As a result, it has been shown that **spatial memory and navigation skills** outperform those of people in Western societies—even in unfamiliar environments.
+- Why this is cool: it extends to other domains! 
+    - [Gaby (2012)](https://pmc.ncbi.nlm.nih.gov/articles/PMC3428806/) used comparisions between the Thaayorre, English and bilingual speakers to demonstrate that the language we have for spatial orientation—particularly whether it uses **absolute (cardinal)** or **relative (egocentric)** reference frames—influences how we mentally represent time. *Crucially, the study suggests that our temporal thinking patterns are shaped by the way we talk about space, not by specific temporal vocabulary, supporting the idea that language indirectly influences cognition through entrenched habits of attention.*
 
 ---
 
-### Cultural Differences in Face Processing
-
-**The Other-Race Effect:**
-- People are generally better at recognizing and differentiating **faces from their own racial or ethnic group.**
-- Eye-tracking studies show cultural differences in how people **scan faces**:
-  - **Western participants**: Tend to fixate on the eyes and mouth.
-  - **East Asian participants**: Often fixate more on the center of the face (e.g., the nose), leading to less emphasis on individual features.
-
-These differences may be shaped by cultural display rules and norms around **eye contact, emotional expression, and identity**.
-
----
 
 ### Broader Implications and Questions
 
@@ -527,8 +515,7 @@ These findings reveal that perception is not fixed or universal. It is shaped by
 
 **Discussion Prompts:**
 1. *“How might your cultural background influence what you notice in this room right now?”*
-2. *“Can you think of examples where people from different cultures might interpret the same event differently?”*
-3. *“What are the implications of these perceptual differences for eyewitness testimony, cross-cultural communication, or design?”*
+2. *“What are the implications of these perceptual differences for eyewitness testimony, cross-cultural communication, or design?”*
 
 ---
 
@@ -549,47 +536,6 @@ These findings reveal that perception is not fixed or universal. It is shaped by
   </em></p>
 </div>
 
-
-
-# Section 3: Attention - The Spotlight of Consciousness 
-
-### Core Concept: We Can Only Consciously Process a Tiny Fraction of Available Information
-
-#### 3.1 The Cocktail Party Effect 
-
-**Audio Demonstration:**
-- [Cocktail Party Effect Audio Test](https://www.youtube.com/watch?v=mN--nV61gDo)
-- Play overlapping conversations, ask participants to focus on one voice
-
-**Real-world Applications:**
-- How we filter important information (our name, crying babies, smoke alarms)
-- Why we can suddenly hear our name across a crowded room
-- The role of emotional significance in attention
-
-#### 3.2 Selective attention experiments
-
-**The Classic Study:**
-- [Original Invisible Gorilla Video](https://www.youtube.com/watch?v=vJG698U2Mvo)
-- Instructions: Count basketball passes by the team in white
-
-**Extended Discussion:**
-- Results: 50% of people miss the gorilla entirely
-- Why does this happen? (inattentional blindness)
-- Real-world implications: distracted driving, security monitoring
-
-**Demonstrations:**
-- [Whodunnit? Attention Test](https://www.youtube.com/watch?v=8ctyBHr2HO0) - Multiple changes during distraction
-
-#### 3.3 Attentional Blink 
-
-**Concept**: When attention is focused on one target, we temporarily "blink" and miss subsequent targets
-
-**Interactive Demonstration:**
-- [RSVP (Rapid Serial Visual Presentation) Test](https://www.psytoolkit.org/experiment-library/ab.html)
-- Show rapid sequence of letters, ask participants to identify two target numbers
-
-**Key Learning**: Attention is limited and has temporal constraints
-
 ---
 
 ## Synthesis and Implications 
@@ -608,27 +554,25 @@ These findings reveal that perception is not fixed or universal. It is shaped by
 
 #### Personal Relationships
 - Why family members can remember the same event completely differently
-- How understanding perceptual differences can improve empathy
-- The role of attention in relationship conflicts
 
 ---
 
 # Discussion Questions 
 
 ### Personal Reflection Questions:
-1. "Think of a time when you were certain you saw or heard something, but others disagreed. How might today's concepts explain this experience?"
+1. Think of a time when you were certain you saw or heard something, but others disagreed. How might today's concepts explain this experience?
 
-2. "How has your cultural background shaped what you pay attention to or how you interpret situations?"
+2. How has your cultural background shaped what you pay attention to or how you interpret situations?
 
 ### Application Questions:
-3. "If eyewitness testimony can be unreliable due to how our brains construct reality, how should this impact our legal system?"
+3. If eyewitness testimony can be unreliable due to how our brains construct reality, how should this impact our legal system?
 
-4. "How might understanding cultural differences in perception help in resolving international conflicts or misunderstandings?"
+4. How might understanding cultural differences in perception help in resolving international conflicts or misunderstandings?
 
 ### Critical Thinking Questions:
-5. "Is there such a thing as 'objective reality' if everyone's brain constructs their own version of events?"
+5. Is there such a thing as 'objective reality' if everyone's brain constructs their own version of events?
 
-6. "How might social media and technology be changing how our brains construct reality?"
+6. How might social media and technology be changing how our brains construct reality?
 
 ---
 # Additional Resources

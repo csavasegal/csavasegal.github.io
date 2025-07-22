@@ -83,6 +83,50 @@ published: true
 ---
 - [3D brain exploration](https://www.brainfacts.org/3d-brain) - 
 
+## Section 0: Deep Dive --> Dreams
+- Inspired by last week's discussion, here's what I have found as the most "up-to-date" discussion on dreams and how it fits into today's broader discussion:
+- Review paper from [Scarpelli et al, 2022](https://onlinelibrary.wiley.com/doi/epdf/10.1111/jsr.13609) discussed the following:
+    - Dreaming is defined as "a composite experience occurring during sleep that includes images,sensations, thoughts, emotions, apparent speech, and motor activity"
+      - Early research (e.g., Hobson et al., 2000) linked dreaming primarily to REM sleep based on EEG findings (we’ll return to this below). However, more recent studies challenge this view. For example, dreams have been reported during NREM sleep, and **dreaming persists** even when REM-related brain regions are lesioned or when REM sleep is pharmacologically suppressed. These findings suggest that dreaming is not exclusive to REM sleep and may occur across multiple stages of sleep.
+      - It's been suggested that REM and NREM have different qualitative aspects of dreams:
+        - REM: "emotional, vivid, "dream-like""
+        - NREM: "thought-like with reduced emotional load, contents more similar to walking thoughts"
+        - Citation (among many) from the main paper: Foulkes, 1967
+    - **Individual characteristics** impact dreaming:
+      - gender, age can predict how dreams are remembered as well as certain personality traits like openness or predisposition to suppress negative emotions 
+      - Dreams have also been linked to different anaotmical differences in the structures of the hippocampus and the amygdala or have different white matter volume.
+      - Main idea: physiological state preceeding dream recall seems to be the most important
+    - **Continuity Hypothesis of Dreaming**: proposes that our dreams reflect elements of our waking life—such as personal experiences, emotions, concerns, and thoughts. This idea stands alongside the older activation hypothesis, which focused more on brain activity patterns during sleep
+      - Day-residue effect: Dream content reflects experiences from the past 1–2 days.
+      - Dream-lag effect: Dreams incorporate experiences from 5–7 days prior, especially in REM sleep.
+      - Brain mechanisms involved in memory and emotion during wakefulness appear to function similarly during sleep.
+      - EEG studies link theta and alpha activity to dream recall and memory encoding, echoing patterns seen in waking episodic memory processing.
+      - Both pre-sleep and during-sleep stimuli (e.g., images, sounds, smells, touch) can influence dream content.
+      - Notably, olfactory stimuli (smells) influence emotional tone in dreams due to their direct connection to the limbic system.
+
+
+<img src="/assets/images/osher_lectures/brainsci-14-00533-g002.jpg" alt="Dream sensory breakdown" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 4px; border-radius: 4px;" />
+Figure from: [Heijden et al., (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC11202128/)
+
+
+## Setting up for today: Can we directly access dream experience (and subjective experience more broadly?)
+- Directly studying dreams is challenging because dreams are subjective and not observable in real time (making them harder than most other ideas). Most research focuses on dream recall, not the dream itself.
+- Methods of Studying Dreams:
+  - Retrospective reports (e.g., questionnaires) – fast but prone to memory bias.
+  - Prospective reports (e.g., dream diaries) – better for identifying consistent dream recallers.
+  - Awakenings during sleep (with polysomnography) – most precise method; allows researchers to correlate EEG patterns with reported dream content.
+
+- A new line of research looks at dream-enacting behaviors (DEBs; Baltzan et al., 2020)—physical, verbal, or emotional actions during sleep—as possible direct expressions of dreams:
+  - REM Behavior Disorder (RBD), sleepwalking, and nightmares often involve actions that reflect dream content and can therefore be used to study dreams.
+  - Studies show strong alignment between movements or facial expressions during sleep and later dream reports (Rivera-García et al. (2019)).
+    - For instance, facial muscle activity (e.g., frowning, smiling) during REM sleep correlates with dream emotion.
+ 
+
+
+
+
+
+
 ## Section 1: The Neuroimaging Revolution - Windows Into the Living Brain 
 
 ### Core Concept: Technologies That Let Us See Thoughts
@@ -176,20 +220,33 @@ published: true
   </p>
 </div>
 
+**Thought Sampling Experiments**
+Thought sampling is a method used to study the contents of consciousness by prompting individuals to report their current thoughts at random or predetermined times. These experiments offer a window into spontaneous, self-generated cognition—such as mind-wandering, inner speech, and imagery.
+
+🔍 Why Use Thought Sampling?
+The human mind rarely stays focused on external tasks; instead, it frequently shifts to internal thoughts (e.g., daydreaming, planning, self-reflection).
+
+Thought sampling helps researchers quantify and categorize these internal experiences, which are otherwise difficult to access.
+| Method                                    | Description                                                                                 |
+| ----------------------------------------- | --------------------------------------------------------------------------------------
+### 🧪 Common Methods
+
+| Method                         | Description                                                                 |
+|-------------------------------|-----------------------------------------------------------------------------|
+| **Experience Sampling Method (ESM)**     | Participants are "pinged" at random moments and asked what they are thinking. |
+| **Descriptive Experience Sampling (DES)** | More structured and in-depth, often with follow-up interviews about the sampled thought. |
+| **Probe-Caught Mind-Wandering**         | Participants are interrupted during a task and asked whether they were on-task or off-task. |
+| **Self-Caught Mind-Wandering**         | Participants report when they notice their mind has drifted.              |
+
+
+Example experimental set-up from: [Kim et al., 2020](https://www.pnas.org/doi/10.1073/pnas.2401959121)
+<img src="/assets/images/osher_lectures/Hongji_pnas.2401959121fig01.jpg" alt="Dream sensory breakdown" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 4px; border-radius: 4px;" />
+
 
 # 2.2 Studying Memory - 
 
-![Memory Brain Networks](https://www.researchgate.net/profile/Lynn-Nadel/publication/51164849/figure/fig5/AS:669530071842821@1536642342598/Brain-networks-involved-in-different-types-of-memory.png)
-
-**Major Memory Findings:**
-
-**Mind Reading Memories:**
-- [UCLA Memory Decoding](https://www.cell.com/current-biology/fulltext/S0960-9822(08)01020-3) - Scientists can tell what you're remembering
-- Hippocampal "place cells" that fire for specific locations
-- How to tell true memories from false ones
-
 **Types of Memory Studies:**
-- **Episodic Memory**: Remembering specific life events
+- **Episodic Memory**: Remembering specific life events, including autobiographical memories
 - **Semantic Memory**: General knowledge and facts
 - **Working Memory**: Holding information temporarily
 
@@ -197,194 +254,62 @@ published: true
 - [Memory Palace Technique](https://www.youtube.com/watch?v=PIcUKWBz8wE) - Ancient memory method
 - [False Memory Test](https://faculty.washington.edu/eloftus/Articles/sciam.htm) - How easy it is to implant false memories
 
-**Breakthrough Research:**
+**"Breakthrough" Research:**
 - **Memory Reactivation**: How sleep consolidates memories
 - **Memory Editing**: Changing traumatic memories in PTSD
 - **Collective Memory**: How groups remember events differently
 
-# 2.3 Exploring Perception - When Reality Shifts 
+🧭 Naturalistic Approaches to Memory
+- Traditional memory experiments often rely on artificial lists of words or images, presented in controlled lab settings. But real-life memory doesn’t work that way — we remember stories, people, emotions, and unfolding experiences.
+- Recent research has moved toward more naturalistic paradigms, which aim to study memory as it operates in everyday life. Examples include:
+    - Watching movies or listening to stories in the scanner to study how the brain tracks and recalls complex, dynamic narratives
+    - Virtual reality tasks that simulate real-world environments
+    - Autobiographical memory interviews that tap into personally meaningful life events
+    - Shared narrative recall, where people remember the same experience (e.g., a film or news event) and researchers examine how memories align or differ across individuals
+- These approaches allow researchers to:
+    - Study event boundaries (how we segment continuous experience into discrete memories)
+    - Track memory over time and in context
+    - Use machine learning to decode brain activity during real-world events
+    - Understand how prior knowledge or schemas shape what we remember
 
-![Binocular Rivalry](https://www.researchgate.net/profile/David-Alais/publication/51164849/figure/fig6/AS:669530071842822@1536642342635/Binocular-rivalry-stimuli-and-perceptual-alternations.png)
+<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/4JQXSIsOGSP6UONjRHJFdL?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    - (First part): Interesting interview with a graduate student about their project using movies to study subjective experience
 
-**Binocular Rivalry Experiments:**
-- Present different images to each eye
-- Consciousness switches between images every few seconds
-- Brain scans show which image is "winning" awareness
 
-**Interactive Demonstration:**
-- [Online Binocular Rivalry](https://www.michaelbach.de/ot/cog-rivalry/) - Experience perceptual switching
-- Red/green glasses demonstration with competing images
+# 2.3. 📊 Within-Subject Approaches
+- Much of cognitive neuroscience focuses on group-level effects, but subjective experience varies dramatically across individuals. A within-subject approach allows researchers to track how a single person’s thoughts or internal states shift over time or across contexts. This is especially useful when studying:
 
-**Other Perceptual Studies:**
-
-**Masking and Consciousness:**
-- Flash images too briefly for conscious awareness
-- Brain still processes the information unconsciously
-- [Subliminal Perception Research](https://www.youtube.com/watch?v=YQXe1CokWqQ)
-
-**Perceptual Filling-In:**
-- How the brain creates visual experiences from incomplete information
-- Phantom limb sensations in amputees
-- Charles Bonnet syndrome: vivid hallucinations in blind people
-
-**Change Detection Studies:**
-- [Flicker Paradigm](https://www.youtube.com/watch?v=ubNF9QNEQLA) - What changes can consciousness detect?
-- Motion-induced blindness
-- Attentional capture research
-
----
-
-# Section 3: The Challenges and Ethical Frontiers 
-
-### Core Concept: The Limits and Responsibilities of Mind Reading
-
-# 3.1 The Translation Problem - Brain Activity ≠ Experience 
-
-**The Fundamental Challenge:**
-![Neural Correlation](https://www.researchgate.net/profile/Christof-Koch/publication/51164849/figure/fig7/AS:669530071842823@1536642342672/The-relationship-between-neural-activity-and-conscious-experience.png)
-
-**Key Issues:**
-- **Correlation vs. Causation**: Brain activity accompanying experience isn't the same as causing it
-- **The Binding Problem**: How does distributed brain activity create unified experience?
-- **Individual Differences**: Your brain patterns are unique
-- **The Observer Effect**: Studying consciousness might change it
-
-**Famous Debates:**
-- Can we ever truly "read" thoughts or just detect patterns?
-- Do brain scans show thoughts or just brain states?
-- The "explanatory gap" between neurons and experience
-
-# 3.2 Ethical Considerations - The Privacy of Thoughts 
-
-**Mental Privacy in the Modern Age:**
-
-![Brain Privacy Concept](https://www.researchgate.net/profile/Tim-Bayne/publication/51164849/figure/fig8/AS:669530071842824@1536642342708/Ethical-considerations-in-consciousness-research.png)
-
-**Current Capabilities:**
-- Detecting lies with brain scans (70-90% accuracy)
-- Reading simple words from brain activity
-- Predicting decisions before conscious awareness
-- Reconstructing visual images from brain scans
-
-**Ethical Questions:**
-1. **Legal System**: Should brain scans be admissible in court?
-2. **Employment**: Can employers scan for honesty or mental state?
-3. **Privacy Rights**: Do we have a right to mental privacy?
-4. **Medical Ethics**: When should we scan consciousness in vegetative patients?
-
-**Brain Fingerprinting:**
-- [Legal Applications](https://www.brainwavescience.com/) - Commercial lie detection
-- Accuracy concerns and potential for abuse
-- Different from traditional polygraph tests
-
-**Corporate Applications:**
-- Neuromarketing: Reading consumer preferences
-- Employee screening and monitoring
-- The future of workplace surveillance
-
-**Discussion Questions:**
-1. "Should brain scans ever be used in criminal trials? Why or why not?"
-2. "If technology could read your thoughts, what protections would you want in place?"
-3. "How might brain-reading technology change doctor-patient relationships?"
-
----
-
-# Section 4: The Future of Consciousness Research 
-
-# Emerging Technologies and Possibilities
-
-# 4.1 Brain-Computer Interfaces 
-
-![Brain-Computer Interface](https://www.researchgate.net/profile/John-Donoghue/publication/51164849/figure/fig9/AS:669530071842825@1536642342744/Brain-computer-interface-systems.png)
-
-**Current Applications:**
-- Helping paralyzed patients control computer cursors
-- Prosthetic limbs controlled by thought
-- Communication devices for locked-in syndrome
-
-**Videos:**
-- [Paralyzed Man Controls Robotic Arm](https://www.youtube.com/watch?v=QRt8QCx3BCo) - Real patient demonstration
-- [Neuralink Demo](https://www.youtube.com/watch?v=YreDYmXRrAg) - Elon Musk's brain chip
-
-**Future Possibilities:**
-- Direct brain-to-brain communication
-- Uploading and downloading memories
-- Enhancing human cognitive abilities
-- Treating depression and anxiety with targeted brain stimulation
-
-# 4.2 Artificial Consciousness 
-
-**The Big Questions:**
-- Will AI ever have subjective experiences?
-- How would we know if a machine is conscious?
-- Could we create artificial emotions or sensations?
-
-**Current Research:**
-- [Integrated Information Theory](https://www.youtube.com/watch?v=Dr_VfvHG9pE) - Mathematical approach to consciousness
-- Global Workspace Theory and AI
-- The Turing Test and beyond
-
-- [Chatbot Consciousness Test](https://www.cleverbot.com/) - Can you tell if it's conscious?
-- Discussion: What would convince you that an AI is conscious?
-
----
-
-# Why This Research Matters
-
-#### Clinical Applications
-- **Depression Treatment**: Using brain scans to predict which therapy will work
-- **Anesthesia Monitoring**: Ensuring patients are truly unconscious during surgery
-- **Schizophrenia**: Studying hallucinations and altered reality perception
-
-#### Technology and Society
-- **Virtual Reality**: Creating more immersive experiences based on brain responses
-- **Education**: Adapting learning to individual brain patterns
-- **Gaming**: Emotion-responsive and thought-controlled games
-- **Transportation**: Monitoring driver attention and fatigue
-
-#### Scientific Understanding
-- **Philosophy of Mind**: Informing debates about consciousness and free will
-- **Artificial Intelligence**: Guiding development of conscious machines
-- **Human Nature**: Understanding what makes us uniquely human
-
----
+- State fluctuations (e.g., alertness, emotion, fatigue)
+- Effects of experimental manipulations (e.g., context shifts like the Mooney images we talked about last week, mindfulness training, pharmacological interventions)
+- Natural transitions (e.g., from wake to sleep or during moments of insight)
 
 # Discussion Questions 
 
+### Personal Reflection Questions:
+1. Have you ever tried to explain a dream, emotion, or train of thought and felt frustrated by how inadequate language was to describe it? Why do you think that is?
 
-### Ethical Considerations:
-1. "Should there be limits on how companies can use brain-scanning technology? What kind of limits?"
+2. When you “zone out” or daydream, how would you describe what your mind is doing? Do you think a brain scanner could ever fully capture that experience?
 
-2. "If brain scans could detect early signs of mental illness, should this information be shared with family members or employers?"
+### Application Questions:
+3. Should mental health treatments rely more on subjective reports or brain-based measures — or both? What are the pros and cons of each?
 
-### Future Implications:
-3. "How might brain-reading technology change human relationships and social interactions?"
+4. If you were designing a technology to detect or interpret someone’s internal thoughts, what ethical issues would you need to consider?
 
-4. "Would you want the ability to directly share your thoughts and feelings with others? What would be the benefits and risks?"
+### Critical Thinking Questions:
+5. Can we ever truly measure subjective experience? Or are we always reconstructing it from imperfect proxies (like words, behavior, or brain activity)?
 
----
+6. If subjective experience is always filtered through personal, cultural, and situational lenses, how do we do science on it at all?
 
-## Take-Home Activity
+7. Is it possible that some aspects of experience are fundamentally ineffable? What does that mean for psychology or neuroscience?
 
-For the next week, notice:
-- News articles about brain research or neurotechnology
-- Apps or devices that claim to measure or influence mental states
-- Situations where you wish you could "read someone's mind"
-- Moments when you question whether your subjective experience matches others'
 
 
 ## Additional Resources
 
-### Documentaries:
-- [The Brain with David Eagleman](https://www.pbs.org/show/brain-david-eagleman/) - 6-part PBS series
-- [The Mystery of Consciousness](https://www.youtube.com/watch?v=xRel1JKOEbI) - BBC documentary
-- [Capturing Thought](https://www.youtube.com/watch?v=yel0DpkDrZ8) - Brain-computer interface documentary
-
 ### Books for Further Reading:
-- "Consciousness Explained" by Daniel Dennett - Materialist view of consciousness
 - "The Conscious Mind" by David Chalmers - The hard problem of consciousness
 - "Incognito" by David Eagleman - The unconscious brain
-- "Being You" by Anil Seth - Contemporary consciousness research
+- "Being You" by Anil Seth - Contemporary consciousness research and a decently easy read! 
 
 ### Online Resources:
 - [BrainFacts.org](https://www.brainfacts.org/) - Society for Neuroscience educational site

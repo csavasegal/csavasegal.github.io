@@ -102,7 +102,7 @@ Through open discussion, hands-on demonstrations, and insights from new research
 
 ### 1. [Lecture 1-Our brains construct reality](/osher/subjectivity/lecture1)  
 
-### 2. [Lecture 2-Measuring the Unmeasurable - How Scientists Study Inner Experience](/osher/subjectivity/lecture2-)  
+### 2. [Lecture 2-Measuring the Unmeasurable - How Scientists Study Inner Experience](/osher/subjectivity/lecture2)  
 
 ### 3. [Lecture 3-TBA](/osher/subjectivity/lecture3-)  
 
