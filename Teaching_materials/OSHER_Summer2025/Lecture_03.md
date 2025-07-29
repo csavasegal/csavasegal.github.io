@@ -70,8 +70,8 @@ published: true
 
 ---
 - Fantastic demonstration of why subjective experience *matters*:
-<img src="/assets/images/osher_lectures/maltreatment_subjective.jpg" alt="FACS Action Units" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 4px; border-radius: 4px;" />
-
+<img src="/assets/images/osher_lectures/maltreatment_subjective.jpg" alt="Maltreat" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 4px; border-radius: 4px;" />
+- [Danese & Widom (2021)](https://pubmed.ncbi.nlm.nih.gov/34643689/)
 
 
 ## Section 1: Mentalizing and Theory of Mind
@@ -84,11 +84,20 @@ published: true
 
 ### Demonstration:
 
-* Sally-Anne Test video
+* Sally-Anne Test
+<img src="/assets/images/osher_lectures/The-Sally-Anne-Task.jpg" alt="Sally Anne Task example" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 4px; border-radius: 4px;" />
 
 ### Real-Life Examples:
 
 * Social faux pas, sarcasm, misunderstandings
+
+### Larger relevance:
+- **Subjectivity and Interpretation**: Theory of Mind is not just about understanding what others think, but also that others can experience the world differently from us.
+- **Constructed Reality**: Our understanding of the world is filtered through our own mental models—and we extend this modeling to others. Cognitive science suggests that we construct mental representations of other people's beliefs, intentions, and emotions, which in turn influence how we interpret events, predict behavior, and assign meaning.
+- **Social Reality and Belief Systems**: Shared beliefs (e.g., social norms, institutions, culture) rely on mutual Theory of Mind. We assume others think like we do—or at least that we can model their thinking
+ > “The limits of my language mean the limits of my world.”
+— Ludwig Wittgenstein
+(Theory of Mind may help us imagine beyond those limits.)
 
 ---
 
@@ -97,17 +106,16 @@ published: true
 ### Core Concept: We feel what others feel — or think we do
 
 * **Emotional mirroring**: facial mimicry, mirror neurons
+  - Embodied cognition: Theories of embodied cognition suggest that we simulate others' experiences using our own sensory and motor systems. Mirror neurons may help us “try on” others’ emotions by triggering internal states that match what we observe.
 * **Empathy vs. Sympathy**: Understanding vs. feeling for
-* **Brain areas**: anterior insula, ACC
-
-#### Interactive Demo:
-
-* Eye contact for 60 seconds — discuss reactions
+* **Suggested Brain areas**: anterior insula, ACC
+  - Brain regions like the anterior insula and anterior cingulate cortex (ACC) are involved in sensing one’s own body and monitoring internal states. 
 
 ### Emotion Synchronization:
 
 * Shared physiological responses: heart rate, skin conductance
 * Collective emotion in concerts, rituals, protests
+
 
 ---
 
@@ -119,9 +127,12 @@ published: true
 * **The Curse of Knowledge**: hard to imagine not knowing what you know
 * **Cultural differences**: emotion expression norms
 
-#### Thought Exercise:
+### How this relates to our past lectures and discussions:
+- **Reality Is Negotiated, Not Given**: According to *Shared Reality Theory*, people are motivated to establish common inner states—beliefs, feelings, attitudes—with others. We seek out and maintain shared realities to reduce uncertainty, foster belonging, and coordinate action. But when assumptions go unchecked, this process can fail.
+- **Egocentrism Is the Default**: Even with developed Theory of Mind, we often anchor too strongly in our own knowledge and perspective. This leads to phenomena like the *curse of knowledge* (forgetting what it's like not to know something) and *egocentric bias* (assuming others see what we see), both of which disrupt shared understanding.
+- **Miscommunication Erodes Shared Reality**: When we incorrectly assume shared knowledge, misinterpret emotional signals, or ignore context, shared reality breaks down. 
 
-* Describe a time you were misunderstood, or misunderstood someone else
+> *The Paradox*: We long to connect and co-construct meaning, yet our minds are wired in ways that often get in the way. Does recognizing these limits help us repair and maintain shared realities more intentionally?
 
 ---
 
@@ -137,7 +148,7 @@ published: true
 * Story listening, music, live interaction
 * Neural alignment = shared interpretation
 
-#### Highlight Study:
+#### Highlighted Study:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZmgJdih0g3I?si=s_ZMmhoQp1E9_jWf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 * [Sievers et al., 2025](https://www.nature.com/articles/s41467-023-43253-8): Brain-to-brain coupling during consensus making
@@ -201,31 +212,35 @@ published: true
 
 ### Brain-Computer Interfaces (BCIs)
 
-![Brain-Computer Interface](https://www.researchgate.net/profile/John-Donoghue/publication/51164849/figure/fig9/AS:669530071842825@1536642342744/Brain-computer-interface-systems.png)
+- **Restoring Function**: Thought-controlled robotic limbs, speech decoders, and direct “brain typing” are giving paralyzed patients new ways to interact with the world.
 
-* Helping paralyzed patients communicate
-* Thought-controlled robotic limbs
-* Direct “brain typing” interfaces
+- **Expanding Agency**: BCIs *may* blur the line between thought and action—where does the body end and the interface begin?
+    - [blog post](https://medium.com/@monamythreyi/neuro-ai-can-brain-computer-interfaces-blur-the-line-between-thoughts-and-code-14a7ee32904c) on it is linked
 
-#### Demos:
+- **Redefining Communication**: As decoding brain signals improves, the promise is that our internal states may become directly translatable into action or shared experience.
 
-* [Robotic Arm Controlled by Thought](https://www.youtube.com/watch?v=QRt8QCx3BCo)
-* [Neuralink Demo](https://www.youtube.com/watch?v=YreDYmXRrAg)
+**Demos:**
+- [Robotic Arm Controlled by Thought](https://www.youtube.com/watch?v=QRt8QCx3BCo)
+- [Neuralink Demo](https://youtu.be/5SrpYZum4Nk?si=p1Qj3ahBulbbexgf)
 
-### Artificial Consciousness
 
-* Will AI ever have real subjective experience?
-* How would we even know?
-* Can we engineer “feeling machines”?
+## The Cognitive Cost of AI: Use It or Lose It?
+- Large Language Models (LLMs) like ChatGPT are reshaping how we write, plan, and even think. But there's a growing concern: Are we offloading too much?
 
-#### Tools & Ideas:
+> “The biggest AI threat? Young people who can’t think.”
+  — Wall Street Journal (article)[https://www.wsj.com/opinion/the-biggest-ai-threat-young-people-who-cant-think-303be1cd]
 
-* [Integrated Information Theory](https://www.youtube.com/watch?v=Dr_VfvHG9pE)
-* Turing Test and beyond
+- Students increasingly rely on AI for language, synthesis, and reasoning. While this can be empowering, overuse may reduce deep processing, critical thinking, and even metacognition.
+
+- Cognitive Offloading is not new (think: calculators, maps, Google). But LLMs may offload the thinking process itself—and with it, our ability to model, reflect, and adapt.
+
+- A 2024 study from MIT ("Your Brain on ChatGPT" (linked here)[https://arxiv.org/pdf/2506.08872v1]) was covered broadly by the media and is a good starting point for how to think about these issues
+
+- Do you empower students to learn how to use these tools? Should they even be used in the classroom? Let's discuss! 
 
 ---
 
-## Why This Research Matters
+## Broad End of Class Discussion: Why This Research Matters
 
 ### Clinical Impacts
 
@@ -244,21 +259,8 @@ published: true
 
 * Deepening debates in philosophy of mind
 * Guiding ethical AI development
-* Illuminating what it means to be human
+* What does it even mean to be human?
 
----
-
-## Final Discussion Questions
-
-### Ethical:
-
-1. What limits should exist on neurotech in private life or business?
-2. Should early mental illness detection be mandatory or voluntary?
-
-### Future-Oriented:
-
-3. Would you want to share thoughts directly with others? What are the risks?
-4. Could brain-reading technologies change what it means to be in a relationship?
 
 ---
 
@@ -268,10 +270,5 @@ published: true
 
 * "Social: Why Our Brains Are Wired to Connect" by Matthew Lieberman
 * "The Empathic Brain" by Christian Keysers
-
-### Interactive Tools:
-
-* [YourMorals.org](https://www.yourmorals.org/) — Empathy and moral insight quizzes
-* [VR Empathy Training](https://empathyvr.org) — Perspective-shifting simulations
 
 ---
