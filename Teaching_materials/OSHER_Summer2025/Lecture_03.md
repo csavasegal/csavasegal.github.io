@@ -66,9 +66,12 @@ published: true
 
 1. What are the brain mechanisms that let us "read" minds?
 2. Why do misunderstandings happen, even with people we know well?
-3. Can technology ever decode or enhance empathy?
+3. How do advancements in technology change how we think about these things?
 
 ---
+- Fantastic discussion on cross-species work in studying subjective processing (affect): [The Transmitter Article](https://www.thetransmitter.org/emotion-processing/eye-puffs-prompt-separable-sensory-affective-brain-responses-in-mice-people/)
+
+
 - Fantastic demonstration of why subjective experience *matters*:
 <img src="/assets/images/osher_lectures/maltreatment_subjective.jpg" alt="Maltreat" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 4px; border-radius: 4px;" />
 - [Danese & Widom (2021)](https://pubmed.ncbi.nlm.nih.gov/34643689/)
