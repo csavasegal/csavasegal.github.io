@@ -74,7 +74,8 @@ published: true
 
 - Fantastic demonstration of why subjective experience *matters*:
 <img src="/assets/images/osher_lectures/maltreatment_subjective.jpg" alt="Maltreat" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 4px; border-radius: 4px;" />
-- [Danese & Widom (2021)](https://pubmed.ncbi.nlm.nih.gov/34643689/)
+  - Danese & Widom (2020)[review](https://pubmed.ncbi.nlm.nih.gov/34643689/)
+  - [original article](https://www.nature.com/articles/s41562-020-0880-3)
 
 
 ## Section 1: Mentalizing and Theory of Mind
