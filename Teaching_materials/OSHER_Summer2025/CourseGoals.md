@@ -104,7 +104,7 @@ Through open discussion, hands-on demonstrations, and insights from new research
 
 ### 2. [Lecture 2-Measuring the Unmeasurable - How Scientists Study Inner Experience](/osher/subjectivity/lecture2)  
 
-### 3. [Lecture 3-TBA](/osher/subjectivity/lecture3)  
+### 3. [Lecture 3-The Social Brain and Interpersonal Subjectivity](/osher/subjectivity/lecture3)  
 
 <br>
 
