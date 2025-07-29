@@ -110,7 +110,6 @@ published: true
 
 * **Emotional mirroring**: facial mimicry, mirror neurons
   - Embodied cognition: Theories of embodied cognition suggest that we simulate others' experiences using our own sensory and motor systems. Mirror neurons may help us “try on” others’ emotions by triggering internal states that match what we observe.
-* **Empathy vs. Sympathy**: Understanding vs. feeling for
 * **Suggested Brain areas**: anterior insula, ACC
   - Brain regions like the anterior insula and anterior cingulate cortex (ACC) are involved in sensing one’s own body and monitoring internal states. 
 
@@ -176,42 +175,10 @@ published: true
 * Is a brain scan showing a thought or just a pattern?
 * How do we bridge the “explanatory gap”?
 
----
-
-## Section 6: Ethical Implications of Brain Access
-
-### Mental Privacy in a Neurotech World
-
-![Brain Privacy Concept](https://www.researchgate.net/profile/Tim-Bayne/publication/51164849/figure/fig8/AS:669530071842824@1536642342708/Ethical-considerations-in-consciousness-research.png)
-
-* **Current Capabilities**:
-
-  * Detecting deception with 70–90% accuracy
-  * Decoding simple words or images from brain scans
-  * Predicting decisions milliseconds before awareness
-
-* **Ethical Dilemmas**:
-
-  1. Should brain scans be allowed in court?
-  2. Should employers use brain data to screen employees?
-  3. What protections do we need for mental privacy?
-  4. How should brain data be used in medicine and law?
-
-### Technologies to Watch:
-
-* **Brain Fingerprinting** — Lie detection
-* **Neuromarketing** — Advertising based on brain responses
-* **Workplace Surveillance** — Monitoring mental state on the job
-
-#### Discussion Prompts:
-
-1. Would you be comfortable if your brain was monitored at work?
-2. If scans predict mental illness, who should know?
-3. How does neuroethics shape the future of privacy?
 
 ---
 
-## Section 7: Future of Technology
+## Section 6: Future of Technology
 
 ### Brain-Computer Interfaces (BCIs)
 
@@ -231,13 +198,13 @@ published: true
 - Large Language Models (LLMs) like ChatGPT are reshaping how we write, plan, and even think. But there's a growing concern: Are we offloading too much?
 
 > “The biggest AI threat? Young people who can’t think.”
-  — Wall Street Journal (article)[https://www.wsj.com/opinion/the-biggest-ai-threat-young-people-who-cant-think-303be1cd]
+  [Wall Street Journal article](https://www.wsj.com/opinion/the-biggest-ai-threat-young-people-who-cant-think-303be1cd)
 
 - Students increasingly rely on AI for language, synthesis, and reasoning. While this can be empowering, overuse may reduce deep processing, critical thinking, and even metacognition.
 
 - Cognitive Offloading is not new (think: calculators, maps, Google). But LLMs may offload the thinking process itself—and with it, our ability to model, reflect, and adapt.
 
-- A 2024 study from MIT ("Your Brain on ChatGPT" (linked here)[https://arxiv.org/pdf/2506.08872v1]) was covered broadly by the media and is a good starting point for how to think about these issues
+- A 2024 study from MIT ("Your Brain on ChatGPT") [linked here](https://arxiv.org/pdf/2506.08872v1]) was covered broadly by the media and is a good starting point for how to think about these issues
 
 - Do you empower students to learn how to use these tools? Should they even be used in the classroom? Let's discuss! 
 
