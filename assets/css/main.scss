@@ -7,6 +7,8 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import "custom.css"; // main partials
+
 
 /* Adjust the font size for the entire website */
 // body {

@@ -10,5 +10,15 @@ main:
     url: http://finnlabmuseum.com/
   - title: "Osher Courses"
     url: /osher/
-
+    children:
+      - title: "Fall 2025: Subjectivity"
+        url: /osher/subjectivity2/
+      - title: "Summer 2025: Subjectivity (v1)"
+        url: /osher/subjectivity/
+      - title: "Diverse Minds"
+        url: /osher/DiverseMinds/
+      - title: "Brain Basics"
+        url: /osher/DiverseMinds/brainbasics/
+      - title: "Further Reading"
+        url: /osher/DiverseMinds/books/
 
