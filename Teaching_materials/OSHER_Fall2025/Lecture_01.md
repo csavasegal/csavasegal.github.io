@@ -126,7 +126,7 @@ published: true
         </li>
         
 
-        <li><strong>Cultural display rules:</strong> Culture shapes which emotions we attend to and how we interpret facial expressions. </a></li>
+        <li><strong>Cultural display rules:</strong> Culture shapes which emotions we attend to and how we interpret facial expressions.</li>
 
         <li><strong>Perceptual expertise:</strong> Wine experts, musicians, and radiologists don't just know more—they literally perceive differently, seeing or tasting distinctions that novices cannot. This expertise reflects learned expectations about what to attend to and how to parse complex stimuli.
             <div class="example">
