@@ -38,7 +38,7 @@ published: true
   }
 
   .awards-box h3 {
-    color: #F4B400;
+    color: ##a88931;
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-size: 1rem;
@@ -58,7 +58,7 @@ published: true
     border: 2px solid #F4B400;
     font-size: 0.85rem;
     font-weight: bold;
-    color: #F4B400;
+    color: ##a88931;
     margin-left: 0.5rem;
   }
 
@@ -67,7 +67,7 @@ published: true
     padding: 1.5rem;
     background-color: #fafafa;
     border-radius: 8px;
-    border-left: 4px solid ###8ba5f7;
+    border-left: 4px solid #8ba5f7;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
 
@@ -197,26 +197,35 @@ published: true
     background-color: #BBDEFB;
     text-decoration: none;
   }
+
+  .subsection-header {
+    color: #4169E1;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e0e0e0;
+  }
 </style>
 
 
 <div class="teaching-section">
   <h2 class="section-header">Teaching Philosophy & Training</h2>
   
-  <p class="section-intro">My approach to teaching has been shaped by formal pedagogical training as well as hands-on experience across a range of age groups and settings. I have taught <strong>across the lifespan</strong>—from pre-K and first-grade classrooms to undergraduate students to older adults (ages 45-95) in the Osher Lifelong Learning Institute. My experience spans <strong>formal classroom settings, one-on-one mentoring</strong> with high school students, <strong>interactive demonstrations</strong> for young learners, and <strong>discussion-based courses</strong> for retirees. This breadth has taught me to adapt content and teaching style to meet learners where they are, whether explaining brain science through comics about memory for children (somewhat embarrassing, but I'm happy to share!) or exploring cutting-edge research with adult learners eager to engage with complex ideas. My formal training includes coursework through the <strong>Dartmouth Center for Advanced Learning</strong>, as well as training in education policy and socioemotional learning strategies through the <strong>Careers in Education program at UChicago</strong>, supported by the <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/" style="color: #4169E1; font-weight: 500;">Milgrom Education Impact Fellowship</a>.</p>
+  <p class="section-intro">My approach to teaching has been shaped by formal pedagogical training as well as hands-on experience across a range of age groups and settings. I have taught <strong>across the lifespan</strong>—from pre-K and first-grade classrooms to <a href="#dartmouth-ta" style="color: #4169E1; font-weight: 500;">undergraduate students</a> (including <a href="#undergrad-mentorship" style="color: #4169E1; font-weight: 500;">mentoring thesis students</a>) to older adults (ages 50+) in the <a href="#osher-courses" style="color: #4169E1; font-weight: 500;">Osher Lifelong Learning Institute</a>. My experience spans <strong>formal classroom settings, one-on-one mentoring</strong> with high school students, <strong>interactive demonstrations</strong> for young learners, and <strong>discussion-based courses</strong> for retirees. This breadth has taught me to adapt content and teaching style to meet learners where they are, whether explaining brain science through comics about memory for children or exploring cutting-edge research with adult learners eager to engage with complex ideas. My formal training includes coursework through the <strong>Dartmouth Center for Advanced Learning</strong>, as well as training in education policy and socioemotional learning strategies through the <strong>Careers in Education program at UChicago</strong>, supported by the <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/" style="color: #4169E1; font-weight: 500;">Milgrom Education Impact Fellowship</a>.</p>
 </div>
 
 <hr class="divider">
 
-
-<div class="teaching-section">
+<div class="teaching-section" id="dartmouth-ta">
   <h2 class="section-header">Graduate Student Teaching Assistant, Dartmouth College</h2>
   
-  <div class="awards-box">
+  <!-- <div class="awards-box">
     <h3>🏆 Department Marie A. Center 1982 Award for Excellence in Teaching</h3>
-  </div>
+  </div> -->
   
-  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses:</p>
+  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's Marie A. Center 1982 Award for Excellence in Teaching 🏆 .</p>
 
   <ul class="ta-list">
     <li class="ta-item">
@@ -238,15 +247,19 @@ published: true
       <span class="ta-course">Psychological Research Methods</span>
     </li>
   </ul>
+
+<h3 class="subsection-header" id="undergrad-mentorship">Undergraduate Mentorship</h3>
+  <p class="section-intro">I have mentored several undergraduate researchers, including three thesis students across the Cognitive Science, Psychology, and Neuroscience departments, as well as two additional students on formal research projects. My mentees have explored topics including social identity and reappraisal, individual variation in dialogue and conversation, and the relationship between depression and idiosyncratic perception. All three thesis students received fellowships for their work. See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for more details.</p>
 </div>
 
 
 <hr class="divider">
 
-<div class="teaching-section">
+<div class="teaching-section" id="osher-courses">
   <h2 class="section-header">Adult Learning Courses — Osher Lifelong Learning Institute</h2>
   
-  <p class="section-intro">I have been designing and teaching courses for the Osher Lifelong Learning Institute at Dartmouth, serving retirees and adults approaching retirement who are eager to continue their intellectual pursuits. I both design the curriculum and deliver the lectures, creating an engaging, discussion-based learning environment that combines scientific rigor with accessibility. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasava-segal.php" class="highlight-link">See my recent courses and reviews here</a></p>
+  <p class="section-intro">I have been designing and teaching courses for the Osher Lifelong Learning Institute at Dartmouth, serving retirees and adults approaching retirement who are eager to continue their intellectual pursuits. I both design the curriculum and deliver the lectures, creating an engaging, discussion-based learning environment that combines scientific rigor with accessibility. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasavasegal/index.php" class="highlight-link">See my recent courses and reviews here</a></p>
+  
   
   <p class="section-intro">If you are an Osher student, you can find class materials on the <a href="/osher/" style="color: #4169E1; font-weight: 500;">Osher Courses page</a>.</p>
 

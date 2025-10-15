@@ -44,7 +44,7 @@ permalink: /publications/
   .quick-link-btn {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background-color: #4169E1;
+    background-color: #a2b6f2;
     color: white;
     text-decoration: none;
     border-radius: 5px;
