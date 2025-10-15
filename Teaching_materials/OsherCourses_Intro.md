@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: Osher Courses
+title: 
 permalink: /osher/
 published: true
 ---
@@ -83,9 +83,9 @@ published: true
   }
 </style>
 
-<div class="page-intro">
-  <h1>Osher  Lifelong Learning Institute Courses</h1>
-  <p>Exploring the fascinating world of neuroscience and human behavior</p>
+
+<div class="page-header">
+  <h1>Osher courses</h1>
 </div>
 
 <div class="course-section">

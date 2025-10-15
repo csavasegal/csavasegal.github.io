@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Teaching Experience
+title: 
 permalink: /teaching/
 published: true
 ---
@@ -67,7 +67,7 @@ published: true
     padding: 1.5rem;
     background-color: #fafafa;
     border-radius: 8px;
-    border-left: 4px solid #4169E1;
+    border-left: 4px solid ###8ba5f7;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   }
 
@@ -112,7 +112,7 @@ published: true
     margin: 0.5rem 0;
     background-color: #fafafa;
     border-radius: 5px;
-    border-left: 3px solid #4169E1;
+    border-left: 3px solid #8ba5f7;
   }
 
   .ta-term {
@@ -203,9 +203,7 @@ published: true
 <div class="teaching-section">
   <h2 class="section-header">Teaching Philosophy & Training</h2>
   
-  <p class="section-intro">My approach to teaching has been shaped by formal pedagogical training and hands-on experience across remarkably diverse age groups and settings. At Dartmouth, I completed coursework in pedagogy and evidence-based teaching practices. Prior to graduate school, I received education policy training through coursework and a Careers in Education program at UChicago, later supported by the <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/" style="color: #4169E1; font-weight: 500;">Milgrom Education Impact Fellowship</a>.</p>
-  
-  <p class="section-intro">I have taught across the lifespan—from pre-K and first-grade classrooms to undergraduate students to older adults (ages 45-95) in the Osher Lifelong Learning Institute. My experience spans formal classroom settings, one-on-one mentoring with high school students, interactive demonstrations for young learners, and discussion-based courses for retirees. This breadth has taught me to adapt content and teaching style to meet learners where they are, whether explaining brain science through cartoons for children or exploring cutting-edge research with adult learners eager to engage with complex ideas.</p>
+  <p class="section-intro">My approach to teaching has been shaped by formal pedagogical training as well as hands-on experience across a range of age groups and settings. I have taught <strong>across the lifespan</strong>—from pre-K and first-grade classrooms to undergraduate students to older adults (ages 45-95) in the Osher Lifelong Learning Institute. My experience spans <strong>formal classroom settings, one-on-one mentoring</strong> with high school students, <strong>interactive demonstrations</strong> for young learners, and <strong>discussion-based courses</strong> for retirees. This breadth has taught me to adapt content and teaching style to meet learners where they are, whether explaining brain science through comics about memory for children (somewhat embarrassing, but I'm happy to share!) or exploring cutting-edge research with adult learners eager to engage with complex ideas. My formal training includes coursework through the <strong>Dartmouth Center for Advanced Learning</strong>, as well as training in education policy and socioemotional learning strategies through the <strong>Careers in Education program at UChicago</strong>, supported by the <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/" style="color: #4169E1; font-weight: 500;">Milgrom Education Impact Fellowship</a>.</p>
 </div>
 
 <hr class="divider">
@@ -215,7 +213,7 @@ published: true
   <h2 class="section-header">Graduate Student Teaching Assistant, Dartmouth College</h2>
   
   <div class="awards-box">
-    <h3>🏆 Marie Curie Teaching Award — Dartmouth College</h3>
+    <h3>🏆 Department Marie A. Center 1982 Award for Excellence in Teaching</h3>
   </div>
   
   <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses:</p>
@@ -224,12 +222,12 @@ published: true
     <li class="ta-item">
       <span class="ta-term">Fall 2023:</span>
       <span class="ta-course">Introduction to Neuroscience</span>
-      <span class="award-badge">🏆 Graduate Student Teaching Award</span>
+      <span class="award-badge">🏆 Outstanding Graduate Student Teacher Award</span>
     </li>
     <li class="ta-item">
       <span class="ta-term">Winter 2023:</span>
       <span class="ta-course">Introduction to Neuroscience</span>
-      <span class="award-badge">🏆 Graduate Student Teaching Award</span>
+      <span class="award-badge">🏆 Outstanding Graduate Student Teacher Award</span>
     </li>
     <li class="ta-item">
       <span class="ta-term">Fall 2022:</span>
