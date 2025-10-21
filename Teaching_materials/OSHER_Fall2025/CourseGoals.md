@@ -191,7 +191,11 @@ published: true
   <h3>Sessions</h3>
   <div class="lecture-item">
     <strong>Session 1:</strong> <a href="/osher/subjectivity2/lecture1">When Expectations Meet Reality</a>
-  </div>
+    </div>
+  <div class="lecture-item">
+  
+    <strong>Session 2:</strong> <a href="/osher/subjectivity2/lecture2">The Many Dimensions of Subjectivity </a>
+
 </div>
 
 <hr class="divider">

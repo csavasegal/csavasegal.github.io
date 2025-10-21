@@ -225,7 +225,7 @@ published: true
     <h3>🏆 Department Marie A. Center 1982 Award for Excellence in Teaching</h3>
   </div> -->
   
-  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's Marie A. Center 1982 Award for Excellence in Teaching 🏆 .</p>
+  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's <span style="color: #E6A800;">Marie A. Center 1982 Award for Excellence in Teaching</span> 🏆 .</p>
 
   <ul class="ta-list">
     <li class="ta-item">
