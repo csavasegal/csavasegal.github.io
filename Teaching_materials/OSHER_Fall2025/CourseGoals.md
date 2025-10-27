@@ -197,6 +197,11 @@ published: true
     <strong>Session 2:</strong> <a href="/osher/subjectivity2/lecture2">The Many Dimensions of Subjectivity </a>
 
 </div>
+  <div class="lecture-item">
+  
+    <strong>Session 3:</strong> <a href="/osher/subjectivity2/lecture3">Accessing Subjectivity </a>
+
+</div>
 
 <hr class="divider">
 

@@ -155,6 +155,15 @@ Electronic versions of papers are provided as a professional courtesy to ensure 
 <h3 class="year-header">2025</h3>
 
 <div class="publication-item">
+  <div class="publication-icons">
+    <a href="https://www.biorxiv.org/content/10.1101/2025.01.13.632631v2" target="_blank">
+      <img src="/img/paper.png" alt="PDF">
+    </a>
+    <a href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">
+      <img src="/img/github.png" alt="Code">
+    </a>
+  </div>
+  <br>
   <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2025). Narrative 'twist' shifts within-individual neural representations of dissociable story features. <i>bioRxiv.</i>
 </div>
 

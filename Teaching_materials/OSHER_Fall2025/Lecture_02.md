@@ -83,8 +83,9 @@ published: true
 
 <div class="header">
     <h1>Session 2: The Many Dimensions of Subjectivity</h1>
-    <div class="subtitle">Beyond Vision: Exploring Diverse Subjective Experiences</div>
+    <div class="subtitle">Exploring Diverse Subjective Experiences</div>
 </div>
+*Note: Osher class members, this page has been updated after class to reflect the conversations we've had and some of the fresher materials have been moved to Lecture 3*
 
 <div class="content-section">
     <h2>Overview</h2>
@@ -163,82 +164,7 @@ published: true
     <p class="reference">Critchley, H. D., et al. (2004). Neural systems supporting interoceptive awareness. Nature Neuroscience, 7(2), 189-195.</p>
 </div>
 
-<div class="content-section">
-    <h2>Subjective Time: The Flexibility of Temporal Experience</h2>
-    
-    <h3>Why Time Perception Matters</h3>
-    <p>Our experience of time passing is fundamental to consciousness yet highly variable. The same objective duration can feel dramatically different depending on context, attention, and emotional state. Unlike space, which we can measure with rulers, time exists only as subjective experience in the present moment.</p>
 
-    <h3>Duration Estimation: Prospective vs. Retrospective</h3>
-    <p><strong><a href="https://www.montana.edu/rblock/documents/papers/BlockZakay1997.pdf" target="_blank">Block & Zakay (1997)</a></strong> distinguished two fundamentally different ways we judge time:</p>
-    
-    <div class="example">
-        <strong>Prospective Timing:</strong> You know in advance you'll need to judge duration
-        <ul>
-            <li>"Tell me when 30 seconds has passed"</li>
-            <li>Paying attention to time makes it feel <em>longer</em></li>
-            <li>Depends on attention and working memory</li>
-        </ul>
-        
-        <strong>Retrospective Timing:</strong> You're asked after the fact how long something lasted
-        <ul>
-            <li>"How long was that movie?"</li>
-            <li>More memorable/eventful periods feel <em>longer</em> in retrospect</li>
-            <li>Depends on memory encoding</li>
-        </ul>
-    </div>
-
-    <h3>The Oddball Effect and Time Dilation</h3>
-    <p><strong><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0001295" target="_blank">Stetson et al. (2007)</a></strong> investigated whether fear actually slows down time perception:</p>
-    
-    <div class="case-study">
-        <strong>The Free-Fall Experiment:</strong>
-        <ul>
-            <li>Participants free-fell 150 feet into a safety net</li>
-            <li>Wore a device displaying rapidly flickering numbers</li>
-            <li>Asked to report: (1) How long the fall lasted, (2) Could they read the numbers?</li>
-        </ul>
-        <strong>Results:</strong>
-        <ul>
-            <li>Participants estimated the fall lasted 36% longer than it actually did</li>
-            <li>BUT they could NOT read numbers during the fall (no enhanced temporal resolution)</li>
-            <li><strong>Interpretation:</strong> As the authors state: "Therefore, at this stage there is no evidence to support the hypothesis that subjective time as a whole runs in slow motion during frightening events. Rather, we speculate that the involvement of the amygdala in emotional memory may lead to dilated duration judgments retrospectively, due to a richer, and perhaps secondary encoding of the memories. Upon later readout, such highly salient events may be erroneously interpreted to have spanned a greater period of time." Fear doesn't create "slow motion" experience in the moment—it creates richer memories that retrospectively feel longer.</li>
-        </ul>
-    </div>
-
-    <h3>Neural Mechanisms of Time Perception</h3>
-    <p>Unlike 'true' senses (vision has eyes, hearing has ears, touch has skin receptors), there's no single "time organ." Instead, timing is distributed across brain regions:</p>
-    
-    <ul>
-        <li><strong>Striatum & dopamine:</strong> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3055517/" target="_blank">Coull et al. (2011)</a> showed dopamine levels affect internal clock speed. Drugs that increase dopamine (like methamphetamine) make time feel slower; dopamine blockers speed it up.</li>
-        <li><strong>Cerebellum:</strong> Critical for millisecond-level timing (motor coordination, speech)</li>
-        <li><strong>Prefrontal cortex:</strong> Important for working memory-based timing and attention to duration</li>
-        <li><strong>Parietal cortex:</strong> Integrates temporal and spatial information</li>
-    </ul>
-
-    <div class="example">
-        <strong>The Internal Clock Model</strong> (<a href="https://pubmed.ncbi.nlm.nih.gov/2130371/" target="_blank">Treisman et al., 1990</a>):
-        <ul>
-            <li>A pacemaker generates pulses at a steady rate</li>
-            <li>An accumulator counts pulses during timed intervals</li>
-            <li>Arousal speeds the pacemaker → more pulses → time feels longer</li>
-            <li>Attention acts as a gate controlling how many pulses get counted</li>
-        </ul>
-        This explains why time flies when you're absorbed (gate closed, fewer pulses counted) and drags when bored and watching the clock (gate open, all pulses counted).
-    </div>
-
-    <h3>Individual and Cultural Differences</h3>
-    <p><strong><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2685813/pdf/rstb20090003.pdf" target="_blank">Wittmann (2009)</a></strong> reviewed factors affecting time perception:</p>
-    
-    <ul>
-        <li><strong>Age:</strong> Older adults report time passing faster—possibly because each year is a smaller proportion of total life</li>
-        <li><strong>Culture:</strong> "Clock time" cultures (Western industrial) vs. "event time" cultures (many traditional societies)</li>
-        <li><strong>Personality:</strong> Impulsivity correlates with overestimating short durations; patience with underestimating</li>
-        <li><strong>Body temperature:</strong> Fever makes subjective time pass faster (external world seems slower)</li>
-    </ul>
-
-    <p class="reference">Wittmann, M. (2009). The inner sense of time. Philosophical Transactions of the Royal Society B, 364, 1955-1967.</p>
-</div>
 
 <div class="content-section">
     <h2>Synesthesia: When Senses Blend</h2>
@@ -343,98 +269,4 @@ published: true
     <p class="reference">Zeman, A., et al. (2010). Loss of imagery phenomenology with intact visuo-spatial task performance: A case of 'blind imagination'.</p>
 </div>
 
-<div class="content-section">
-    <h2>Taste Perception: Genetic Variation Creates Different Gustatory Worlds</h2>
-    
-    <h3>The Discovery of Supertasters</h3>
-    <p>In the 1930s, a chemist accidentally discovered that people perceive the bitter compound PTC (phenylthiocarbamide) very differently—some found it intensely bitter, others tasteless. This led to decades of research on genetic variation in taste.</p>
 
-    <h3>The Genetics of Bitter Taste</h3>
-    <p><strong><a href="https://pubmed.ncbi.nlm.nih.gov/15153450/" target="_blank">Kim et al. (2003)</a></strong> identified the genetic basis:</p>
-    
-    <ul>
-        <li><strong>The TAS2R38 gene</strong> encodes a bitter taste receptor</li>
-        <li><strong>Two main variants:</strong> PAV (taster) and AVI (non-taster)</li>
-        <li><strong>Three groups:</strong>
-            <ul>
-                <li>PAV/PAV homozygotes: Supertasters (~25%)</li>
-                <li>PAV/AVI heterozygotes: Medium tasters (~50%)</li>
-                <li>AVI/AVI homozygotes: Non-tasters (~25%)</li>
-            </ul>
-        </li>
-    </ul>
-
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=W7Pzhvypg9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
-
-    <h3>Broader Taste Differences</h3>
-    <p>Supertasters don't just taste PROP differently—they experience many foods more intensely:</p>
-    
-    <ul>
-        <li><strong>Bitter vegetables:</strong> Brussels sprouts, kale, broccoli taste more bitter (often avoided)</li>
-        <li><strong>Sweetness:</strong> Sugar tastes sweeter</li>
-        <li><strong>Capsaicin:</strong> Chili peppers cause more intense burning</li>
-        <li><strong>Fats:</strong> Can detect lower concentrations of fatty acids</li>
-        <li><strong>Alcohol:</strong> Tastes more bitter and harsh</li>
-    </ul>
-
-    <h3>Behavioral and Health Consequences</h3>
-    <p><strong><a href="https://pubmed.ncbi.nlm.nih.gov/10878689/" target="_blank">Duffy & Bartoshuk (2000)</a></strong> examined real-world implications:</p>
-    
-    <div class="case-study">
-        <strong>Food Preferences and Diet:</strong>
-        <ul>
-            <li>Supertasters eat fewer vegetables (too bitter)</li>
-            <li>Non-tasters consume more alcohol and fatty foods</li>
-            <li>This affects health risks: cancer, heart disease, obesity</li>
-            <li>But effects are complex—supertasters also tend to avoid bitter coffee and dark chocolate (which have health benefits)</li>
-        </ul>
-    </div>
-
-    <h3>The Fundamental Question of Qualia</h3>
-    <div class="key-concept">
-        <strong>Comparing Subjective Experiences:</strong>
-        <p>A supertaster's experience of coffee is qualitatively different from a non-taster's. This isn't just "stronger" in a quantitative sense—the actual quale (subjective quality) of bitterness may be entirely different. How can we compare subjective experiences across individuals when the underlying sensory apparatus is fundamentally different?</p>
-        
-        <p>This is the problem of "inverted spectrum" made real: We can prove that supertasters and non-tasters have different neural responses and different behaviors, but can we ever know if the conscious experience of "bitterness" is the same quality, just more or less intense? Or are they experiencing entirely different qualities?</p>
-    </div>
-
-</div>
-
-<div class="content-section">
-    <h2>Methodological Challenges: How Do We Study Private Experience?</h2>
-    
-    <h3>The Core Problem</h3>
-    <p>Unlike measuring external stimuli (light wavelength, sound frequency), subjective experiences are private and directly accessible only to the person having them. This creates fundamental challenges for scientific investigation.</p>
-
-    <h3>Between-Subject Comparability</h3>
-    <div class="question">
-        <strong>The Rating Scale Problem:</strong>
-        <p>When one person rates pain as "7/10" and another as "5/10," are they experiencing different intensities, or just using the scale differently? When a supertaster says coffee is "very bitter" and a non-taster says it's "slightly bitter," can we compare these reports?</p>
-    </div>
-
-    <h3>Convergent Validation Approaches</h3>
-    <p>Researchers use multiple methods to triangulate on subjective experience:</p>
-    
-    <ul>
-        <li><strong>Consistency tests:</strong> Do people give the same reports across time? (Synesthetes show 90%+ consistency in their color-letter pairings over years)</li>
-        <li><strong>Behavioral consequences:</strong> Does reported experience predict behavior? (Synesthetes are faster at tasks where synesthetic colors help)</li>
-        <li><strong>Neural correlates:</strong> Do brain patterns support subjective reports? (Aphantasics show reduced visual cortex activity during imagery)</li>
-        <li><strong>Psychophysical matching:</strong> Have participants adjust stimuli across modalities to "match" intensity</li>
-    </ul>
-
-    <h3>Within-Subject Designs</h3>
-    <p>To avoid comparison problems, researchers often focus on within-person changes:</p>
-    
-    <div class="example">
-        <strong>Example Studies:</strong>
-        <ul>
-            <li>Does this person's time perception change with arousal? (Compare same person in different states)</li>
-            <li>Does training improve interoceptive accuracy? (Compare before/after in same individuals)</li>
-            <li>Does context change taste perception? (Same person tasting same wine in different contexts)</li>
-        </ul>
-        This avoids the problem of comparing Person A's "7" to Person B's "7."
-    </div>
-
-    <h3>The Hard Problem of Other Minds</h3>
-    <div class="key-concept">
-        <strong>Philosophical Question:</strong> Even with perfect neural measurements, could we ever know if two people have the same subjective experience? If Person A's "red" neural pattern is identical to Person B's "red" neural pattern, does that guarantee they experience the same quale of redness? Or...?
