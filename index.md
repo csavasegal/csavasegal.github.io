@@ -166,7 +166,7 @@ title:
   
   <p>I'm passionate about science communication and public education. Prior to graduate school, I did medical editing and worked in classrooms at both ends of the K-12 spectrum (Pre-K and 12th grade). Most recently, I've been designing and teaching discussion-based courses for older student (ages 50 and older)  Osher Lifelong Learning Institute at Dartmouth, which I've found incredibly rewarding.</p>
   
-  <p>Outside of academia, I also enjoy bringing science to creative projects in the real world—check out <a href="http://finnlabmuseum.com/" style="color: #4169E1; font-weight: 500;">ArtLibs</a>, a collaborative art project with the Hood Museum at Dartmouth, funded by an internal Arts Integration Grant!</p>
+  <p>Outside of research, I also enjoy bringing science to creative projects in the real world—check out <a href="http://finnlabmuseum.com/" style="color: #4169E1; font-weight: 500;">ArtLibs</a>, a collaborative art project with the Hood Museum at Dartmouth, funded by an internal Arts Integration Grant!</p>
   
   <p style="text-align: center; margin-top: 2rem;">
     <a href="/teaching/" style="display: inline-block; padding: 0.75rem 1.5rem; background-color: #4169E1; color: white; text-decoration: none; border-radius: 5px; font-weight: 500; transition: background-color 0.2s;">Learn More About My Teaching</a>

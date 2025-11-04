@@ -5,6 +5,11 @@ permalink: /publications/
 ---
 
 <style>
+  :root {
+  --accent-yellow: #F4B400;   /* main yellow */
+  --accent-yellow-dark: #C28E00; /* hover/darker */
+}
+
   .page-header {
     text-align: center;
     margin-bottom: 3rem;
@@ -66,12 +71,18 @@ permalink: /publications/
     border-bottom: 2px solid #e0e0e0;
   }
 
-  .year-header {
-    color: #666;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
+  body {
+    font-family: "Inter", "Helvetica", sans-serif;
+    color: #333;
+    line-height: 1.7;
   }
+  .year-header {
+    color: #444;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+  }
+
 
   .publication-item {
     margin: 1.5rem 0;
@@ -81,16 +92,22 @@ permalink: /publications/
     border-left: 4px solid #4169E1;
   }
 
+  .publication-item:hover {
+    transform: translateY(-2px);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+
   .publication-item strong {
     color: #4169E1;
   }
 
   .publication-icons {
-    display: inline-flex;
-    gap: 0.5rem;
-    align-items: center;
-    margin-right: 1rem;
+    margin-top: 0.25rem;
+    gap: 6px;
+    flex-wrap: wrap;
   }
+
 
   .publication-icons img {
     height: 40px;
@@ -101,17 +118,17 @@ permalink: /publications/
     transform: scale(1.1);
   }
 
-  .award-badge {
-    display: inline-block;
-    background-color: #E8F5E9;
-    padding: 0.35rem 0.75rem;
-    border-radius: 15px;
-    border: 2px solid #4CAF50;
-    font-size: 0.85rem;
-    font-weight: bold;
-    color: #2E7D32;
-    margin-top: 0.5rem;
-  }
+ .award-badge {
+  display: inline-block;
+  background-color: #FFF9E6;
+  border: 2px solid var(--accent-yellow-dark);
+  padding: 0.35rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 0.5rem;
+}
 
   .talk-item, .poster-item {
     margin: 1rem 0;
@@ -121,12 +138,66 @@ permalink: /publications/
     border-left: 3px solid #4169E1;
   }
 
+  .talk-item:hover, .poster-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  }
+
   .divider {
     margin: 3rem 0;
     border: 0;
     height: 2px;
     background: linear-gradient(to right, transparent, #4169E1, transparent);
   }
+
+.publication-icons {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.pub-btn {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  background-color: #FFF9E6;           /* same pale yellow as award badge */
+  border: 2px solid var(--accent-yellow-dark);  /* darker golden border */
+  color: #333 !important;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 1.2;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
+  font-family: "Inter", "Helvetica", sans-serif;
+}
+
+.pub-btn:hover {
+  background-color: #F4B400;  /* warm gold */
+  color: white;
+  border-color: #C28E00;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+
+
+.mentor-note {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 1rem 0 1.5rem;
+  font-style: italic;
+}
+@media (prefers-color-scheme: dark) {
+  body { background-color: #121212; color: #ddd; }
+  .publication-item, .talk-item, .poster-item { background-color: #1e1e1e; border-color: #2952CC; }
+  .pub-btn { background-color: #2952CC; }
+}
+
+
+
+
 </style>
 
 <div class="page-header">
@@ -149,31 +220,24 @@ Electronic versions of papers are provided as a professional courtesy to ensure 
 
 
 <h2 id="publications" class="section-header">Selected Publications, Preprints & Conference Proceedings</h2>
-<p style="background-color: #F0F4F8; padding: 0.75rem 1rem; border-radius: 8px; font-size: 0.9rem; margin-bottom: 1.5rem; color: #555;">
-  ✨ indicates student I've mentored
-</p>
-<h3 class="year-header">2025</h3>
+<p class="mentor-note">✨ indicates student I’ve mentored</p>
 
+
+
+<h3 class="year-header">2025</h3>
 <div class="publication-item">
   <div class="publication-icons">
-    <a href="https://www.biorxiv.org/content/10.1101/2025.01.13.632631v2" target="_blank">
-      <img src="/img/paper.png" alt="PDF">
-    </a>
-    <a href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">
-      <img src="/img/github.png" alt="Code">
-    </a>
+    <a class="pub-btn" href="https://www.biorxiv.org/content/10.1101/2025.01.13.632631v2" target="_blank">PDF</a>
+    <a class="pub-btn" href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">Code</a>
   </div>
   <br>
   <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2025). Narrative 'twist' shifts within-individual neural representations of dissociable story features. <i>bioRxiv.</i>
 </div>
 
 <h3 class="year-header">2024</h3>
-
 <div class="publication-item">
   <div class="publication-icons">
-    <a href="papers/520_Paper_authored_CSS_CCN_2024_Final.pdf" target="_blank">
-      <img src="/img/paper.png" alt="PDF">
-    </a>
+    <a class="pub-btn" href="papers/520_Paper_authored_CSS_CCN_2024_Final.pdf" target="_blank">PDF</a>
   </div>
   <br>
   <strong>Sava-Segal, C.</strong>, Finn, E.S. (2024). Self- versus other-generated interpretations of ambiguous social stimuli are asymmetrically remembered. <i>Proceedings of the 8th Annual Conference on Cognitive Computational Neuroscience.</i>
@@ -181,48 +245,37 @@ Electronic versions of papers are provided as a professional courtesy to ensure 
 
 <div class="publication-item">
   <div class="publication-icons">
-    <a href="papers/521_Paper_authored_TB_CCN_2024.pdf" target="_blank">
-      <img src="/img/paper.png" alt="PDF">
-    </a>
+    <a class="pub-btn" href="papers/521_Paper_authored_TB_CCN_2024.pdf" target="_blank">PDF</a>
   </div>
   <br>
-  Benson, T.✨, <strong>Sava-Segal, C.</strong>, Finn, E.S. (2024). Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations <i>Proceedings of the 8th Annual Conference on Cognitive Computational Neuroscience.</i>
+  Benson, T.✨, <strong>Sava-Segal, C.</strong>, Finn, E.S. (2024). Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations. <i>Proceedings of the 8th Annual Conference on Cognitive Computational Neuroscience.</i>
 </div>
 
 <div class="publication-item">
   <div class="publication-icons">
-    <a href="papers/ppc_css_2023_math_cog.pdf" target="_blank">
-      <img src="/img/paper.png" alt="PDF">
-    </a>
+    <a class="pub-btn" href="papers/ppc_css_2023_math_cog.pdf" target="_blank">PDF</a>
   </div>
   <br>
   Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Serdar Akkol, Daitch, A., Parvizi, J. (2024). Spatiotemporal dynamics of successive activations across the human brain during a simple cognitive task. <i>Journal of Neuroscience.</i>
 </div>
 
 <h3 class="year-header">2023</h3>
-
 <div class="publication-item">
   <div class="publication-icons">
-    <a href="papers/css_2023_individual_event-seg.pdf" target="_blank">
-      <img src="/img/paper.png" alt="PDF">
-    </a>
-    <a href="https://github.com/csavasegal/individual_event_seg/" target="_blank">
-      <img src="/img/github.png" alt="Code">
-    </a>
+    <a class="pub-btn" href="papers/css_2023_individual_event-seg.pdf" target="_blank">PDF</a>
+    <a class="pub-btn" href="https://github.com/csavasegal/individual_event_seg/" target="_blank">Code</a>
+    <a class="pub-btn" href="https://openneuro.org/datasets/ds004123" target="_blank">OpenNeuro Dataset</a>
   </div>
   <br>
-  <strong>Sava-Segal, C.</strong>, Richards, C., Leung, M.✨ , & Finn, E.S. (2023). Individual variability in neural event segmentation reflects stimulus content and interpretation. <i>Cerebral Cortex.</i>
+  <strong>Sava-Segal, C.</strong>, Richards, C., Leung, M.✨, & Finn, E.S. (2023). Individual differences in neural event segmentation of continuous experiences. <i>Cerebral Cortex.</i>
   <br>
   <a href="https://doi.org/10.1093/cercor/bhad106" style="color: #4169E1;">https://doi.org/10.1093/cercor/bhad106</a>
 </div>
 
 <h3 class="year-header">2021</h3>
-
 <div class="publication-item">
   <div class="publication-icons">
-    <a href="papers/jocn_a_01775.pdf" target="_blank">
-      <img src="/img/paper.png" alt="PDF">
-    </a>
+    <a class="pub-btn" href="papers/jocn_a_01775.pdf" target="_blank">PDF</a>
   </div>
   <br>
   Liu, N., Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Kastner, S., Chen, Q., & Parvizi, J. (2021). Overlapping Neuronal Population Responses in the Human Parietal Cortex during Visuospatial Attention and Arithmetic Processing. <i>Journal of Cognitive Neuroscience</i>, 33(12), 2548-2558.
@@ -232,9 +285,7 @@ Electronic versions of papers are provided as a professional courtesy to ensure 
 
 <div class="publication-item">
   <div class="publication-icons">
-    <a href="papers/ENEURO.0065-21.2021.full.pdf" target="_blank">
-      <img src="/img/paper.png" alt="PDF">
-    </a>
+    <a class="pub-btn" href="papers/ENEURO.0065-21.2021.full.pdf" target="_blank">PDF</a>
   </div>
   <br>
   Brookshire, G., Mangelsdorf, H.H., <strong>Sava-Segal, C.</strong>, Reis, K., Nusbaum, H., Goldin-Meadow, S., & Casasanto, D. (2021). Expertise Modulates Neural Stimulus-Tracking. <i>ENeuro</i>, 8(4), ENEURO.0065-21.2021.
@@ -244,15 +295,14 @@ Electronic versions of papers are provided as a professional courtesy to ensure 
 
 <div class="publication-item">
   <div class="publication-icons">
-    <a href="papers/Parvizi et al_2021_Altered sense of self during seizures in the posteromedial cortex.pdf" target="_blank">
-      <img src="/img/paper.png" alt="PDF">
-    </a>
+    <a class="pub-btn" href="papers/Parvizi et al_2021_Altered sense of self during seizures in the posteromedial cortex.pdf" target="_blank">PDF</a>
   </div>
   <br>
   Parvizi, J., Braga, R.M., Kucyi, A., Veit, M.J., Pinheiro-Chagas, P., Perry, C., <strong>Sava-Segal, C.</strong>, Zeineh, M., van Staalduinen, E.K., Henderson, J.M., & Markert, M. (2021). Altered sense of self during seizures in the posteromedial cortex. <i>PNAS</i>, 118(29), e2100522118.
   <br>
   <a href="https://doi.org/10.1073/pnas.2100522118" style="color: #4169E1;">https://doi.org/10.1073/pnas.2100522118</a>
 </div>
+
 
 <hr class="divider">
 
