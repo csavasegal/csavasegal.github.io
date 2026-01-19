@@ -227,7 +227,7 @@ Electronic versions of papers are provided as a professional courtesy to ensure 
 <h3 class="year-header">2025</h3>
 <div class="publication-item">
   <div class="publication-icons">
-    <a class="pub-btn" href="https://www.biorxiv.org/content/10.1101/2025.01.13.632631v2" target="_blank">PDF</a>
+    <a class="pub-btn" href="https://www.biorxiv.org/content/10.1101/2025.01.13.632631v3" target="_blank">PDF</a>
     <a class="pub-btn" href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">Code</a>
   </div>
   <br>
