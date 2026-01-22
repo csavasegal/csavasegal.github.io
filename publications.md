@@ -189,11 +189,7 @@ permalink: /publications/
   margin: 1rem 0 1.5rem;
   font-style: italic;
 }
-@media (prefers-color-scheme: dark) {
-  body { background-color: #121212; color: #ddd; }
-  .publication-item, .talk-item, .poster-item { background-color: #1e1e1e; border-color: #2952CC; }
-  .pub-btn { background-color: #2952CC; }
-}
+
 
 
 
