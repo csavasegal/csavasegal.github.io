@@ -85,23 +85,17 @@ title:
     margin: 0.5rem 0.25rem;
   }
 
-  .cta-button {
-    display: inline-block;
-    padding: 1rem 2rem;
-    background-color: #4169E1;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    margin: 2rem 0;
-    transition: background-color 0.2s;
-  }
 
-  .cta-button:hover {
-    background-color: #2952CC;
-    color: white;
-    text-decoration: none;
-  }
+.cta-button {
+  background-color: #e8ecf8;
+  color: #4169E1;
+}
+
+.cta-button:hover {
+  background-color: #2952CC;
+  color: white;
+}
+
 
   .section-divider {
     margin: 3rem 0;

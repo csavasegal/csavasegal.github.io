@@ -12,11 +12,12 @@ permalink: /publications/
 
   .page-header {
     text-align: center;
-    margin-bottom: 3rem;
-    padding: 2rem;
-    background: linear-gradient(135deg, #F0F4F8 0%, #E8EEF2 100%);
-    border-radius: 10px;
+    margin-bottom: 2.5rem;
+    padding: 1.5rem 0;
+    background: none;
+    border-bottom: 1px solid #e6e6e6;
   }
+
 
   .page-header h1 {
     color: #4169E1;
@@ -76,31 +77,45 @@ permalink: /publications/
     color: #333;
     line-height: 1.7;
   }
-  .year-header {
-    color: #444;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-  }
+
+.year-header {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+.year-header::before {
+  content: "— ";
+  color: #bbb;
+}
 
 
-  .publication-item {
-    margin: 1.5rem 0;
-    padding: 1.5rem;
-    background-color: #fafafa;
-    border-radius: 8px;
-    border-left: 4px solid #4169E1;
-  }
+
+.publication-item {
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  background-color: white;
+  border-left: 3px solid #e0e0e0;
+  border-radius: 6px;
+  line-height: 1.55;
+}
+
 
   .publication-item:hover {
-    transform: translateY(-2px);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  }
+  border-left-color: #4169E1;
+  transform: translateY(-4px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+}
 
-  .publication-item strong {
-    color: #4169E1;
-  }
+
+
+  .subsection-header {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  margin-top: 1.5rem;
+}
+
 
   .publication-icons {
     margin-top: 0.25rem;
@@ -131,14 +146,16 @@ permalink: /publications/
 }
 
   .talk-item, .poster-item {
-    margin: 1rem 0;
-    padding: 1rem 1.5rem;
-    background-color: #fafafa;
-    border-radius: 5px;
-    border-left: 3px solid #4169E1;
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  background-color: white;
+  border-left: 3px solid #e0e0e0;
+  border-radius: 6px;
   }
 
+
   .talk-item:hover, .poster-item:hover {
+    border-left-color: #4169E1;
     transform: translateY(-2px);
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   }
@@ -165,7 +182,7 @@ permalink: /publications/
   text-decoration: none;
   border-radius: 6px;
   font-weight: 600;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.2;
   box-shadow: 0 1px 2px rgba(0,0,0,0.05);
   transition: background-color 0.2s ease, color 0.2s ease, transform 0.1s ease;
@@ -178,6 +195,24 @@ permalink: /publications/
   border-color: #C28E00;
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.pub-title {
+  margin-top: 0.5rem;
+}
+
+.pub-meta {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.page-content {
+  max-width: 900px;
+  margin: auto;
+}
+
+.publication-item {
+  line-height: 1.55;
 }
 
 
@@ -209,7 +244,7 @@ Electronic versions of papers are provided as a professional courtesy to ensure 
 <div class="quick-links">
   <a href="#publications" class="quick-link-btn">Publications</a>
   <a href="#talks" class="quick-link-btn">Talks</a>
-  <a href="#posters" class="quick-link-btn">Posters</a>
+  <!-- <a href="#posters" class="quick-link-btn">Posters</a> -->
 </div>
 
 <hr class="divider">
@@ -221,118 +256,278 @@ Electronic versions of papers are provided as a professional courtesy to ensure 
 
 
 <h3 class="year-header">2025</h3>
+
+<div class="publication-item">
+  <div class="publication-icons">
+    <a class="pub-btn" href="https://osf.io/preprints/psyarxiv/7rbhy_v1" target="_blank">PDF</a>
+  </div>
+    <div class="pub-title">
+Idiosyncratic event segmentation as a neural marker of loneliness.
+  </div>
+  <div class="pub-meta">
+  Lu, C., <strong>Sava-Segal, C.</strong>, Baek, E.C. (2025).  <i>OSF.</i>
+  </div>
+</div>
+
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="https://www.biorxiv.org/content/10.1101/2025.01.13.632631v3" target="_blank">PDF</a>
     <a class="pub-btn" href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">Code</a>
   </div>
-  <br>
-  <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2025). Narrative 'twist' shifts within-individual neural representations of dissociable story features. <i>bioRxiv.</i>
+  <div class="pub-title">
+    Narrative 'twist' shifts within-individual neural representations of dissociable story features
+  </div>
+  <div class="pub-meta">
+    <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2025). <i>bioRxiv.</i>
+  </div>
 </div>
 
+
 <h3 class="year-header">2024</h3>
+
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/520_Paper_authored_CSS_CCN_2024_Final.pdf" target="_blank">PDF</a>
   </div>
-  <br>
-  <strong>Sava-Segal, C.</strong>, Finn, E.S. (2024). Self- versus other-generated interpretations of ambiguous social stimuli are asymmetrically remembered. <i>Proceedings of the 8th Annual Conference on Cognitive Computational Neuroscience.</i>
+
+  <div class="pub-title">
+    Self- versus other-generated interpretations of ambiguous social stimuli are asymmetrically remembered
+  </div>
+  <div class="pub-meta">
+    <strong>Sava-Segal, C.</strong>, Finn, E.S. (2024).
+    <i>Proceedings of the 8th Annual Conference on Cognitive Computational Neuroscience.</i>
+  </div>
 </div>
+
 
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/521_Paper_authored_TB_CCN_2024.pdf" target="_blank">PDF</a>
   </div>
-  <br>
-  Benson, T.✨, <strong>Sava-Segal, C.</strong>, Finn, E.S. (2024). Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations. <i>Proceedings of the 8th Annual Conference on Cognitive Computational Neuroscience.</i>
+
+  <div class="pub-title">
+    Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations
+  </div>
+
+  <div class="pub-meta">
+    Benson, T.✨, <strong>Sava-Segal, C.</strong>, Finn, E.S. (2024).
+    <i>Proceedings of the 8th Annual Conference on Cognitive Computational Neuroscience.</i>
+  </div>
 </div>
+
 
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/ppc_css_2023_math_cog.pdf" target="_blank">PDF</a>
   </div>
-  <br>
-  Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Serdar Akkol, Daitch, A., Parvizi, J. (2024). Spatiotemporal dynamics of successive activations across the human brain during a simple cognitive task. <i>Journal of Neuroscience.</i>
+
+  <div class="pub-title">
+    Spatiotemporal dynamics of successive activations across the human brain during a simple cognitive task
+  </div>
+
+  <div class="pub-meta">
+    Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Serdar Akkol, Daitch, A., Parvizi, J. (2024).
+    <i>Journal of Neuroscience.</i>
+  </div>
 </div>
 
+
 <h3 class="year-header">2023</h3>
+
+<div class="publication-item">
+  <div class="publication-icons">
+    <a class="pub-btn" href="https://cds.ismrm.org/protected/23MProceedings/PDFfiles/1024_1DHBtNPae.html" target="_blank">PDF</a>
+  </div>
+
+  <div class="pub-title">
+    A multi-subject deconvolution algorithm for the analysis of naturalistic fMRI data
+  </div>
+
+  <div class="pub-meta">
+    Uruñuela, E., <strong>Sava-Segal, C.</strong>, Leung, M.✨, Finn, E.S., Caballero-Gaudes, C. (2023).
+    <i>Proceedings of the International Society for Magnetic Resonance in Medicine (ISMRM).</i>
+  </div>
+</div>
+
+
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/css_2023_individual_event-seg.pdf" target="_blank">PDF</a>
     <a class="pub-btn" href="https://github.com/csavasegal/individual_event_seg/" target="_blank">Code</a>
     <a class="pub-btn" href="https://openneuro.org/datasets/ds004123" target="_blank">OpenNeuro Dataset</a>
   </div>
-  <br>
-  <strong>Sava-Segal, C.</strong>, Richards, C., Leung, M.✨, & Finn, E.S. (2023). Individual differences in neural event segmentation of continuous experiences. <i>Cerebral Cortex.</i>
-  <br>
-  <a href="https://doi.org/10.1093/cercor/bhad106" style="color: #4169E1;">https://doi.org/10.1093/cercor/bhad106</a>
+
+  <div class="pub-title">
+    Individual differences in neural event segmentation of continuous experiences
+  </div>
+
+  <div class="pub-meta">
+    <strong>Sava-Segal, C.</strong>, Richards, C., Leung, M.✨, &amp; Finn, E.S. (2023).
+    <i>Cerebral Cortex.</i>
+  </div>
+
 </div>
 
+
 <h3 class="year-header">2021</h3>
+
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/jocn_a_01775.pdf" target="_blank">PDF</a>
   </div>
-  <br>
-  Liu, N., Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Kastner, S., Chen, Q., & Parvizi, J. (2021). Overlapping Neuronal Population Responses in the Human Parietal Cortex during Visuospatial Attention and Arithmetic Processing. <i>Journal of Cognitive Neuroscience</i>, 33(12), 2548-2558.
-  <br>
-  <a href="https://doi.org/10.1162/jocn_a_01775" style="color: #4169E1;">https://doi.org/10.1162/jocn_a_01775</a>
+
+  <div class="pub-title">
+    Overlapping neuronal population responses in the human parietal cortex during visuospatial attention and arithmetic processing
+  </div>
+
+  <div class="pub-meta">
+    Liu, N., Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Kastner, S., Chen, Q., &amp; Parvizi, J. (2021).
+    <i>Journal of Cognitive Neuroscience</i>.
+  </div>
+
 </div>
+
 
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/ENEURO.0065-21.2021.full.pdf" target="_blank">PDF</a>
   </div>
-  <br>
-  Brookshire, G., Mangelsdorf, H.H., <strong>Sava-Segal, C.</strong>, Reis, K., Nusbaum, H., Goldin-Meadow, S., & Casasanto, D. (2021). Expertise Modulates Neural Stimulus-Tracking. <i>ENeuro</i>, 8(4), ENEURO.0065-21.2021.
-  <br>
-  <a href="https://doi.org/10.1523/ENEURO.0065-21.2021" style="color: #4169E1;">https://doi.org/10.1523/ENEURO.0065-21.2021</a>
+
+  <div class="pub-title">
+    Expertise modulates neural stimulus-tracking
+  </div>
+
+  <div class="pub-meta">
+    Brookshire, G., Mangelsdorf, H.H., <strong>Sava-Segal, C.</strong>, Reis, K., Nusbaum, H.,
+    Goldin-Meadow, S., &amp; Casasanto, D. (2021).
+    <i>ENeuro</i>.
+  </div>
+
 </div>
+
 
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/Parvizi et al_2021_Altered sense of self during seizures in the posteromedial cortex.pdf" target="_blank">PDF</a>
   </div>
-  <br>
-  Parvizi, J., Braga, R.M., Kucyi, A., Veit, M.J., Pinheiro-Chagas, P., Perry, C., <strong>Sava-Segal, C.</strong>, Zeineh, M., van Staalduinen, E.K., Henderson, J.M., & Markert, M. (2021). Altered sense of self during seizures in the posteromedial cortex. <i>PNAS</i>, 118(29), e2100522118.
-  <br>
-  <a href="https://doi.org/10.1073/pnas.2100522118" style="color: #4169E1;">https://doi.org/10.1073/pnas.2100522118</a>
+
+  <div class="pub-title">
+    Altered sense of self during seizures in the posteromedial cortex
+  </div>
+
+  <div class="pub-meta">
+    Parvizi, J., Braga, R.M., Kucyi, A., Veit, M.J., Pinheiro-Chagas, P., Perry, C.,
+    <strong>Sava-Segal, C.</strong>, Zeineh, M., van Staalduinen, E.K., Henderson, J.M., &amp; Markert, M. (2021).
+    <i>PNAS</i>.
+  </div>
+
 </div>
+
+<h3 class="year-header">2020</h3>
+
+<div class="publication-item">
+  <div class="publication-icons">
+    <a class="pub-btn" href="papers/Vesuna et al_2020_Deep posteromedial cortical rhythm in dissociation.pdf" target="_blank">PDF</a>
+  </div>
+
+  <div class="pub-title">
+    Deep posteromedial cortical rhythm in dissociation
+  </div>
+
+  <div class="pub-meta">
+    Vesuna, S., Kauvar, I.V., Richman, E., Gore, F., Oskotsky, T.,
+    <strong>Sava-Segal, C.</strong>, Luo, L., Malenka, R.C., Henderson, J.M.,
+    Nuyujukian, P., Parvizi, J., &amp; Deisseroth, K. (2020).
+    <i>Nature</i>.
+  </div>
+</div>
+
+<div class="publication-item">
+  <div class="publication-icons">
+    <a class="pub-btn" href="papers/Lucero et al_2020_Unconscious Number Discrimination in the Human Visual System.pdf" target="_blank">PDF</a>
+  </div>
+
+  <div class="pub-title">
+    Unconscious number discrimination in the human visual system
+  </div>
+
+  <div class="pub-meta">
+    Lucero, C., Brookshire, G., <strong>Sava-Segal, C.</strong>, Bottini, R.,
+    Goldin-Meadow, S., Vogel, E.K., &amp; Casasanto, D. (2020).
+    <i>Cerebral Cortex</i>.
+  </div>
+</div>
+
+
 
 
 <hr class="divider">
 
-<h2 id="talks" class="section-header">Selected Talks</h2>
+<h2 id="talks" class="section-header">Selected Talks on Newer Work</h2>
 
+<h3 class="year-header">Upcoming</h3>
 <div class="talk-item">
-  <strong>Sava-Segal, C.</strong>, Benson, T., Finn, E.S. (October 2024). <i>Real-world social inputs trigger shifts in neural activity patterns and reinterpretations of ambiguous stimuli.</i> Presentation at Nanosymposium on Neural Bases of Human Social Cognition and Connection, Society for Neuroscience (SfN).
+  <strong>Self- versus other-generated interpretations of ambiguous social information are asymmetrically remembered.</strong> Symposium Talk – New Directions in Social Learning and Memory, Social Affective Neuroscience Society (SANS). Upcoming April 2026.
 </div>
 
 <div class="talk-item">
+  <strong>Understanding in flux: how reinterpretation reshapes patterns of neural activity.</strong> Richardson Lab, University of Edinburgh. Upcoming March 2026.
+</div>
+
+<div class="talk-item">
+  <strong>Cognitive and neural mechanisms underlying the subjective interpretation of complex experiences.</strong> BrainWorks Seminars: Current Works in Human Neuroscience at the Wu Tsai Institute, Yale University. Upcoming Feb 2026.
+</div>
+
+<h3 class="year-header">Recent</h3>
+
+<div class="talk-item">
+  <strong>Shifts in neural activity predict subjective reinterpretation of ambiguous stimuli.</strong> Blitz Talk – Trends in Psychology Summit, Harvard University (Cognition, Brain, and Behavior area). May 2025.
+</div>
+
+
+<div class="talk-item">
+  <strong>Cognitive and neural mechanisms underlying the subjective interpretation of complex experiences.</strong> Lab Meeting – Scaffolding of Cognition Lab (PI: Cameron Ellis), Stanford University (virtual). May 2025.
+</div>
+
+<div class="talk-item">
+  <strong>Within-individual neural patterns differ for memories of self- and other-generated interpretations of the same stimuli.</strong> Data Blitz, Cognitive Neuroscience Society, Boston, MA. March 2025.
+</div>
+
+<div class="talk-item">
+  <strong>Individual differences in event segmentation of continuous experiences – methodological considerations.</strong> Lab Meeting – Social Connection Lab (PI: Elisa Baek), University of Southern California (virtual). February 2025.
+</div>
+
+<div class="talk-item">
+  <strong>Real-world social inputs trigger shifts in neural activity patterns and reinterpretations of ambiguous stimuli.</strong> Presentation at the Nanosymposium on Neural Bases of Human Social Cognition and Connection, Society for Neuroscience (SfN). October 2024.
+</div>
+
+
+
+<!-- <div class="talk-item">
   <i>Cognitive and neural mechanisms underlying the subjective interpretations of complex experiences</i> (April 2024). Invited Lab Meeting, Section on Learning and Plasticity (PI – Chris Baker), NIH.
-</div>
+</div> -->
 
-<div class="talk-item">
+<!-- <div class="talk-item">
   <strong>Sava-Segal, C.</strong>, Grall, C., Bartolino, K., Equita, J., Benson, T., Finn, E.S. (July 2023). <i>Narrative 'twists' shift neural representations.</i> Presentation at the Organization of Human Brain Mapping, Montreal, CA.
-</div>
+</div> -->
 
-<div class="talk-item">
+<!-- <div class="talk-item">
   <i>Individual variability in neural event segmentation reflects stimulus content and interpretation</i> (November 2022). Baldassano & Aly Lab Meeting at Columbia University, NY.
-</div>
+</div> -->
 
-<div class="talk-item">
+<!-- <div class="talk-item">
   <i>(Re)appraisal of ambiguous stimuli</i> (August 2022). Text Analysis (Natural Language Processing) Meeting at Dartmouth College, Hanover, NH.
-</div>
+</div> -->
 
-<div class="talk-item">
+<!-- <div class="talk-item">
   <i>Individual variability in neural event segmentation reflects stimulus content and interpretation</i> (March 2022). Whifield-Gabrieli Lab Meeting at Northeastern University, Boston, MA. (Virtual)
-</div>
+</div> -->
 
-<div class="talk-item">
+<!-- <div class="talk-item">
   <i>Exploring idiosyncrasies in the appraisal of naturalistic events</i> (August 2021). University of Chicago Psychology Dept. Joint Lab Meeting - Rosenberg, Bainbridge, Leung Labs, Chicago, IL. (Virtual)
-</div>
+</div> -->
 
-<hr class="divider">
+<!-- <hr class="divider">
 
 <h2 id="posters" class="section-header">Selected Poster Presentations</h2>
 
@@ -360,7 +555,7 @@ Electronic versions of papers are provided as a professional courtesy to ensure 
 
 <div class="poster-item">
   <strong>Sava-Segal, C.</strong>, Finn, E.S. (2021). Exploring the role of event boundaries in idiosyncratic memory formation. Presented at the Organization of Human Brain Mapping (virtual).
-</div>
+</div> -->
 
 <p style="margin-top: 2rem; color: #666;">
   See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for a complete list of publications and presentations.

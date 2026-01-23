@@ -15,12 +15,10 @@ published: true
   }
 
   .section-header {
-    color: #4169E1;
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-weight: 600;
+    letter-spacing: 0.02em;
   }
+
 
   .section-intro {
     line-height: 1.8;
@@ -63,13 +61,12 @@ published: true
   }
 
   .course-item {
-    margin: 1.5rem 0;
-    padding: 1.5rem;
-    background-color: #fafafa;
-    border-radius: 8px;
-    border-left: 4px solid #8ba5f7;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    border-left: none;
+    box-shadow: none;
+    padding: 1.25rem 0;
   }
+
 
   .course-title {
     color: #4169E1;
@@ -107,13 +104,13 @@ published: true
     padding: 0;
   }
 
-  .ta-item {
-    padding: 0.75rem 1rem;
-    margin: 0.5rem 0;
-    background-color: #fafafa;
-    border-radius: 5px;
-    border-left: 3px solid #8ba5f7;
-  }
+.ta-item {
+  padding: 0.5rem 0;
+  margin: 0.75rem 0;
+  background: none;
+  border-left: none;
+}
+
 
   .ta-term {
     font-weight: bold;
@@ -132,19 +129,29 @@ published: true
     margin-top: 1.5rem;
   }
 
-  .program-card {
-    padding: 1.5rem;
-    background-color: white;
-    border-radius: 8px;
-    border-top: 4px solid #4169E1;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
+.program-card {
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
 
-  .program-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  }
+  /* neutral by default */
+  border-top: 4px solid #e0e0e0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.program-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  /* activate color */
+  border-top-color: #4169E1;
+}
+
 
   .program-card a {
     color: #4169E1;
@@ -157,20 +164,20 @@ published: true
     text-decoration: underline;
   }
 
-  .divider {
-    margin: 3rem 0;
-    border: 0;
-    height: 2px;
-    background: linear-gradient(135deg, #F0F4F8 0%, #E8EEF2 100%);
-  }
 
-  .page-header {
-    text-align: center;
-    margin-bottom: 3rem;
-    padding: 2rem;
-    background: linear-gradient(135deg, #F0F4F8 0%, #E8EEF2 100%);
-    border-radius: 10px;
-  }
+  
+
+.divider {
+  margin: 4rem 0;
+  height: 1px;
+}
+
+
+.page-header {
+  background: #F5F7FA;
+  padding: 1.5rem;
+}
+
 
   .page-header h1 {
     color: #4169E1;
