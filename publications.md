@@ -31,14 +31,12 @@ permalink: /publications/
   }
 
   .copyright-notice {
-    background-color: #FFF9E6;
-    padding: 1.5rem;
-    border-radius: 8px;
-    border-left: 4px solid #F4B400;
-    margin: 2rem 0;
-    font-style: italic;
-    color: #666;
+    background-color: var(--accent-yellow-light);
+    border-left: 3px solid var(--accent-yellow);
+    color: #777;
+    font-size: 0.9rem;
   }
+
 
   .quick-links {
     display: flex;
@@ -49,12 +47,12 @@ permalink: /publications/
 
   .quick-link-btn {
     display: inline-block;
-    padding: 0.75rem 1.5rem;
+    padding: 0.75rem 1rem;
     background-color: #a2b6f2;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: 500;
+    font-weight: 300;
     transition: background-color 0.2s;
   }
 
@@ -189,6 +187,7 @@ permalink: /publications/
   font-family: "Inter", "Helvetica", sans-serif;
 }
 
+
 .pub-btn:hover {
   background-color: #F4B400;  /* warm gold */
   color: white;
@@ -216,6 +215,15 @@ permalink: /publications/
 }
 
 
+.rep-label {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #4169E1;
+  text-transform: uppercase;
+}
 
 
 .mentor-note {
@@ -237,9 +245,7 @@ permalink: /publications/
 
 <p class="page-intro">Below you'll find my recent publications, conference proceedings, presentations, and related code. For the most up-to-date information, please refer to <a href="https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en" style="color: #4169E1; font-weight: 500;">Google Scholar</a> or my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a>.</p>
 
-<div class="copyright-notice">
-Electronic versions of papers are provided as a professional courtesy to ensure timely dissemination of academic work for individual, noncommercial purposes. Copyright resides with the respective copyright holders, as stated within each paper. These files may not be reposted without permission.
-</div>
+
 
 <div class="quick-links">
   <a href="#publications" class="quick-link-btn">Publications</a>
@@ -250,9 +256,15 @@ Electronic versions of papers are provided as a professional courtesy to ensure 
 <hr class="divider">
 
 
-<h2 id="publications" class="section-header">Selected Publications, Preprints & Conference Proceedings</h2>
-<p class="mentor-note">✨ indicates student I’ve mentored</p>
 
+
+<h2 id="publications" class="section-header">Selected Publications, Preprints & Conference Proceedings</h2>
+
+<div class="copyright-notice">
+📄 Electronic versions of papers are provided as a professional courtesy to ensure timely dissemination of academic work for individual, noncommercial purposes. Copyright resides with the respective copyright holders, as stated within each paper. These files may not be reposted without permission.
+</div>
+
+<p class="mentor-note">✨ indicates student I’ve mentored</p>
 
 
 <h3 class="year-header">2025</h3>
@@ -274,13 +286,16 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
     <a class="pub-btn" href="https://www.biorxiv.org/content/10.1101/2025.01.13.632631v3" target="_blank">PDF</a>
     <a class="pub-btn" href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">Code</a>
   </div>
+    <div class="rep-label">Representative work</div>
+
   <div class="pub-title">
     Narrative 'twist' shifts within-individual neural representations of dissociable story features
   </div>
   <div class="pub-meta">
-    <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2025). <i>bioRxiv.</i>
+    <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2025). <i>bioRxiv.</i><br>
   </div>
 </div>
+
 
 
 <h3 class="year-header">2024</h3>
@@ -289,7 +304,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   <div class="publication-icons">
     <a class="pub-btn" href="papers/520_Paper_authored_CSS_CCN_2024_Final.pdf" target="_blank">PDF</a>
   </div>
-
+    <div class="rep-label">Representative work</div>
   <div class="pub-title">
     Self- versus other-generated interpretations of ambiguous social stimuli are asymmetrically remembered
   </div>
@@ -301,10 +316,11 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
 
 
 <div class="publication-item">
+
   <div class="publication-icons">
     <a class="pub-btn" href="papers/521_Paper_authored_TB_CCN_2024.pdf" target="_blank">PDF</a>
   </div>
-
+    <div class="rep-label">Representative work</div>
   <div class="pub-title">
     Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations
   </div>
@@ -350,23 +366,26 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
 </div>
 
 
+
+
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/css_2023_individual_event-seg.pdf" target="_blank">PDF</a>
     <a class="pub-btn" href="https://github.com/csavasegal/individual_event_seg/" target="_blank">Code</a>
     <a class="pub-btn" href="https://openneuro.org/datasets/ds004123" target="_blank">OpenNeuro Dataset</a>
   </div>
+  <div class="rep-label">Representative work</div>
+
 
   <div class="pub-title">
     Individual differences in neural event segmentation of continuous experiences
   </div>
-
   <div class="pub-meta">
     <strong>Sava-Segal, C.</strong>, Richards, C., Leung, M.✨, &amp; Finn, E.S. (2023).
     <i>Cerebral Cortex.</i>
   </div>
-
 </div>
+
 
 
 <h3 class="year-header">2021</h3>
@@ -463,7 +482,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
 
 <hr class="divider">
 
-<h2 id="talks" class="section-header">Selected Talks on Newer Work</h2>
+<h2 id="talks" class="section-header">Selected Talks on Newer Work (all representative)</h2>
 
 <h3 class="year-header">Upcoming</h3>
 <div class="talk-item">

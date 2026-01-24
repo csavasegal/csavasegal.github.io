@@ -6,18 +6,22 @@ published: true
 ---
 
 <style>
-  .teaching-section {
-    margin: 3rem 0;
-    padding: 2rem;
-    background-color: #ffffff;
-    border-radius: 10px;
-    border-left: 5px solid #4169E1;
-  }
+.teaching-section {
+  margin: 3rem 0;
+padding: 1.5rem 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-left: 2px solid #4169E1;
+}
 
-  .section-header {
-    font-weight: 600;
-    letter-spacing: 0.02em;
-  }
+.teaching-block {
+  margin: 3rem 0;
+}
+
+
+.section-header {
+  font-weight: 600;
+  letter-spacing: 0.02em}
 
 
   .section-intro {
@@ -36,7 +40,7 @@ published: true
   }
 
   .awards-box h3 {
-    color: ##a88931;
+    color: #a88931;
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-size: 1rem;
@@ -220,8 +224,29 @@ published: true
 <div class="teaching-section">
   <h2 class="section-header">Teaching Philosophy & Training</h2>
   
-  <p class="section-intro">My approach to teaching has been shaped by formal pedagogical training as well as hands-on experience across a range of age groups and settings. I have taught <strong>across the lifespan</strong>—from pre-K and first-grade classrooms to <a href="#dartmouth-ta" style="color: #4169E1; font-weight: 500;">undergraduate students</a> (including <a href="#undergrad-mentorship" style="color: #4169E1; font-weight: 500;">mentoring thesis students</a>) to older adults (ages 50+) in the <a href="#osher-courses" style="color: #4169E1; font-weight: 500;">Osher Lifelong Learning Institute</a>. My experience spans <strong>formal classroom settings, one-on-one mentoring</strong> with high school students, <strong>interactive demonstrations</strong> for young learners, and <strong>discussion-based courses</strong> for retirees. This breadth has taught me to adapt content and teaching style to meet learners where they are, whether explaining brain science through comics about memory for children or exploring cutting-edge research with adult learners eager to engage with complex ideas. My formal training includes coursework through the <strong>Dartmouth Center for Advanced Learning</strong>, as well as training in education policy and socioemotional learning strategies through the <strong>Careers in Education program at UChicago</strong>, supported by the <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/" style="color: #4169E1; font-weight: 500;">Milgrom Education Impact Fellowship</a>.</p>
+  <p class="section-intro">
+    <strong>I approach teaching as an adaptive, learner-centered process shaped by context, age, and goals.</strong>
+    My approach has been shaped by formal pedagogical training as well as hands-on experience across a range of age groups and settings.
+  </p>
+
+  <p class="section-intro">
+    I have taught <strong>across the lifespan</strong>—from pre-K and first-grade classrooms to
+    <a href="#dartmouth-ta" style="color: #4169E1; font-weight: 500;">undergraduate students</a>
+    (including <a href="#undergrad-mentorship" style="color: #4169E1; font-weight: 500;">mentoring thesis students</a>)
+    to older adults (ages 50+) in the
+    <a href="#osher-courses" style="color: #4169E1; font-weight: 500;">Osher Lifelong Learning Institute</a>.
+    My experience spans <strong>formal classroom settings, one-on-one mentoring</strong> with high school students,
+    <strong>interactive demonstrations</strong> for young learners, and <strong>discussion-based courses</strong> for retirees.
+    This breadth has taught me to adapt content and teaching style to meet learners where they are, whether explaining
+    brain science through comics about memory for children or exploring cutting-edge research with adult learners eager
+    to engage with complex ideas. My formal training includes coursework through the
+    <strong>Dartmouth Center for Advanced Learning</strong>, as well as training in education policy and socioemotional
+    learning strategies through the <strong>Careers in Education program at UChicago</strong>, supported by the
+    <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/"
+       style="color: #4169E1; font-weight: 500;">Milgrom Education Impact Fellowship</a>.
+  </p>
 </div>
+
 
 <hr class="divider">
 
@@ -322,7 +347,6 @@ published: true
   <p class="section-intro">Prior to starting graduate school, I worked and volunteered in early childhood education settings (pre-K and first grade) in Chicago and the Bay Area. As part of this work, I created cartoons to teach cognitive science concepts to children, making complex ideas about how the brain works accessible and engaging for young learners. (I can share them if you really want to see them!)</p>
 </div>
 
-<hr class="divider">
 
 <hr class="divider">
 
