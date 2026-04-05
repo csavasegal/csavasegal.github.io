@@ -198,9 +198,9 @@ a:hover {
       <img src="/img/scholar.png" alt="Google Scholar">
       <span>Scholar</span>
     </a>
-    <a href="https://twitter.com/csavasegal" class="social-link">
-      <img src="/img/twitter.png" alt="Twitter">
-      <span>Twitter</span>
+    <a href="https://bsky.app/profile/csavasegal.bsky.social" class="social-link">
+      <img src="/img/bsky.png" alt="bsky">
+      <span>bsky</span>
     </a>
     <a href="https://github.com/csavasegal" class="social-link">
       <img src="/img/github.png" alt="GitHub">

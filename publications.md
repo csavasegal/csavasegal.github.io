@@ -283,16 +283,16 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
 
 <div class="publication-item">
   <div class="publication-icons">
-    <a class="pub-btn" href="https://www.biorxiv.org/content/10.1101/2025.01.13.632631v3" target="_blank">PDF</a>
+    <a class="pub-btn" href="papers/sava-segal-et-al-2026-narrative-twist-shifts-within-individual-neural-representations-of-dissociable-story-features (2).pdf" target="_blank">PDF</a>
     <a class="pub-btn" href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">Code</a>
   </div>
     <div class="rep-label">Representative work</div>
 
   <div class="pub-title">
-    Narrative 'twist' shifts within-individual neural representations of dissociable story features
+    Narrative 'twist' shifts within-individual neural representations of dissociable story features.
   </div>
   <div class="pub-meta">
-    <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2025). <i>bioRxiv.</i><br>
+    <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2025). <i>Proceedings of the National Academy of Sciences (PNAS).</i><br>
   </div>
 </div>
 
@@ -306,7 +306,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
     <div class="rep-label">Representative work</div>
   <div class="pub-title">
-    Self- versus other-generated interpretations of ambiguous social stimuli are asymmetrically remembered
+    Self- versus other-generated interpretations of ambiguous social stimuli are asymmetrically remembered.
   </div>
   <div class="pub-meta">
     <strong>Sava-Segal, C.</strong>, Finn, E.S. (2024).
@@ -322,7 +322,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
     <div class="rep-label">Representative work</div>
   <div class="pub-title">
-    Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations
+    Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations.
   </div>
 
   <div class="pub-meta">
@@ -338,7 +338,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
 
   <div class="pub-title">
-    Spatiotemporal dynamics of successive activations across the human brain during a simple cognitive task
+    Spatiotemporal dynamics of successive activations across the human brain during a simple cognitive task.
   </div>
 
   <div class="pub-meta">
@@ -356,7 +356,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
 
   <div class="pub-title">
-    A multi-subject deconvolution algorithm for the analysis of naturalistic fMRI data
+    A multi-subject deconvolution algorithm for the analysis of naturalistic fMRI data.
   </div>
 
   <div class="pub-meta">
@@ -378,7 +378,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
 
 
   <div class="pub-title">
-    Individual differences in neural event segmentation of continuous experiences
+    Individual differences in neural event segmentation of continuous experiences.
   </div>
   <div class="pub-meta">
     <strong>Sava-Segal, C.</strong>, Richards, C., Leung, M.✨, &amp; Finn, E.S. (2023).
@@ -396,7 +396,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
 
   <div class="pub-title">
-    Overlapping neuronal population responses in the human parietal cortex during visuospatial attention and arithmetic processing
+    Overlapping neuronal population responses in the human parietal cortex during visuospatial attention and arithmetic processing.
   </div>
 
   <div class="pub-meta">
@@ -413,7 +413,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
 
   <div class="pub-title">
-    Expertise modulates neural stimulus-tracking
+    Expertise modulates neural stimulus-tracking.
   </div>
 
   <div class="pub-meta">
@@ -431,7 +431,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
 
   <div class="pub-title">
-    Altered sense of self during seizures in the posteromedial cortex
+    Altered sense of self during seizures in the posteromedial cortex.
   </div>
 
   <div class="pub-meta">
@@ -450,7 +450,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
 
   <div class="pub-title">
-    Deep posteromedial cortical rhythm in dissociation
+    Deep posteromedial cortical rhythm in dissociation.
   </div>
 
   <div class="pub-meta">
@@ -467,7 +467,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
 
   <div class="pub-title">
-    Unconscious number discrimination in the human visual system
+    Unconscious number discrimination in the human visual system.
   </div>
 
   <div class="pub-meta">
@@ -480,7 +480,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
 
 
 
-<hr class="divider">
+<!-- <hr class="divider">
 
 <h2 id="talks" class="section-header">Selected Talks on Newer Work (all representative)</h2>
 
@@ -520,7 +520,7 @@ Idiosyncratic event segmentation as a neural marker of loneliness.
   <strong>Real-world social inputs trigger shifts in neural activity patterns and reinterpretations of ambiguous stimuli.</strong> Presentation at the Nanosymposium on Neural Bases of Human Social Cognition and Connection, Society for Neuroscience (SfN). October 2024.
 </div>
 
-
+ -->
 
 <!-- <div class="talk-item">
   <i>Cognitive and neural mechanisms underlying the subjective interpretations of complex experiences</i> (April 2024). Invited Lab Meeting, Section on Learning and Plasticity (PI – Chris Baker), NIH.
