@@ -139,6 +139,10 @@ a:hover {
   color: var(--accent);
 }
 
+.button-secondary:visited {
+  color: var(--accent);
+}
+
 .button-secondary:hover {
   background-color: var(--accent-dark);
   color: white;
@@ -171,6 +175,31 @@ a:hover {
 
 
 
+/* ---------- Info Card ---------- */
+
+.info-card {
+  background-color: #f7f9fc;
+  padding: 1.75rem;
+  border-radius: 10px;
+  border: 1px solid #e4eaf5;
+  border-top: 3px solid var(--accent);
+  margin: 2rem 0;
+}
+
+.info-card h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.info-card p:last-child {
+  margin-bottom: 0;
+}
+
+.info-card a {
+  color: #4169E1;
+  font-weight: 500;
+}
+
 /* ---------- Divider ---------- */
 
 .section-divider {
@@ -183,9 +212,9 @@ a:hover {
 </style>
 
 <div class="hero-section">
-  <img src="/img/sava-segal_clara.png" alt="Clara Sava-Segal" class="profile-photo">
+  <img src="/img/sava-segal_clara.png" alt="Clara A. Sava-Segal" class="profile-photo">
 
-  <h1>Clara Sava-Segal</h1>
+  <h1>Clara A. Sava-Segal</h1>
   <p class="hero-subtitle">PhD Candidate in Cognitive Neuroscience</p>
   <p class="hero-affiliation">Dartmouth College</p>
 
@@ -206,6 +235,10 @@ a:hover {
       <img src="/img/github.png" alt="GitHub">
       <span>GitHub</span>
     </a>
+    <a href="/Sava_Segal_CV_2.pdf" class="social-link" target="_blank">
+      <img src="/img/CV.png" alt="CV">
+      <span>CV</span>
+    </a>
   </div>
 </div>
 
@@ -214,32 +247,26 @@ a:hover {
   <h2>Research Focus</h2>
 
   <p><strong>
-    How do our past experiences inform how we process new information?
-    How do individuals reach different interpretations of the exact same experience?
+    How and why do two people "see" (interpret) and remember the same experience so differently?
   </strong></p>
 
   <p>
     Using neuroimaging and behavioral methods, I investigate how we integrate incoming
     information with existing knowledge and how this differs meaningfully at the individual level.
     Specifically, I study how two people—or the same person at different times—can reach
-    different perceptions of identical information, and the impact this has on our memories.
-  </p>
-
-  <p>
-    My training spans electrophysiology, functional network dynamics, and the cognitive
-    neuroscience of symbolic systems. Building on this foundation, my current work focuses on
-    naturalistic stimuli, examining how state-dependent changes in neural activity during the
-    encoding of dynamic, real-world information influence interpretation and memory.
+    different perceptions of identical information, and how these differences shape memory.
   </p>
 
   <p>
     I am a Cognitive Neuroscience PhD candidate advised by
     <a href="https://thefinnlab.github.io/">Emily Finn</a> at Dartmouth College,
-    working in the Functional Imaging and Naturalistic Neuroscience Lab (Finn Lab).
-    I am currently funded by an F31 NRSA Fellowship and was previously supported by an NSF GRFP.
+    working in the Functional Imaging and Naturalistic Neuroscience Lab (FINN Lab).
+    I am currently funded by an <span style="color: #4169E1; font-weight: 500;">NIMH F31 NRSA Fellowship</span>
+    and was previously supported by an <span style="color: #4169E1; font-weight: 500;">NSF GRFP</span>.
+    I am finishing up this spring and will be starting a postdoc this fall.
   </p>
 
-  <p style="text-align: center; margin-top: 2rem;">
+  <p style="text-align: center; margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
     <a href="/publications/" class="button button-secondary">
       Learn More About My Research
     </a>
@@ -252,39 +279,49 @@ a:hover {
 
   <hr class="section-divider">
 
-  <h2 class="centered-heading">Background</h2>
+  <div class="info-card">
+    <h2>Background</h2>
 
-  <p>
-    I earned my Bachelor's degree from the University of Chicago, where I completed my thesis
-    with <a href="http://casasanto.com/">Daniel Casasanto</a> and worked with
-    <a href="https://voices.uchicago.edu/gomezlab/">Christopher Gomez</a> and in the
-    <a href="https://awhvogellab.com/">Awh-Vogel Lab</a>.
-  </p>
+    <p>
+      I earned my Bachelor’s degree from the University of Chicago, where I studied a combination of psychology,
+      neurobiology, and human development, and completed my undergraduate thesis with
+      <a href="http://casasanto.com/">Daniel Casasanto</a>. I also worked with
+      <a href="https://voices.uchicago.edu/gomezlab/">Christopher Gomez</a> and in the
+      <a href="https://awhvogellab.com/">Awh-Vogel Lab</a>. Following graduation, I worked as a
+      lab manager and research assistant at Stanford in
+      <a href="https://med.stanford.edu/parvizi-lab.html">Josef Parvizi’s lab</a>. My training
+      spans electrophysiology, functional network dynamics, and the cognitive neuroscience of
+      symbolic systems. In my PhD work, I have tended to favor more "naturalistic" paradigms,
+      but I also try to balance the richness of real-world stimuli with the experimental control
+      needed to isolate specific mechanisms. I hope to continue to do that in future work.
+    </p>
+  </div>
 
-  <p>
-    Following graduation, I worked as a lab manager and research assistant at Stanford in
-    <a href="https://med.stanford.edu/parvizi-lab.html">Josef Parvizi’s lab</a>,
-    gaining experience with intracranial recordings and human neuroscience research.
-  </p>
+  <div class="info-card">
+    <h2>Beyond Research</h2>
 
-  <h2 class="centered-heading">Beyond Research</h2>
+    <p>
+      I’m passionate about science communication and public education. Prior to graduate school,
+      I did medical editing and worked in classrooms at both ends of the K–12 spectrum
+      (Pre-K and 12th grade). More recently, I’ve designed and taught 5+ discussion-based
+      neuroscience and psychology courses for adult learners (ages 50+) at the
+      Osher Lifelong Learning Institute at Dartmouth — an experience I’ve found incredibly rewarding.
+    </p>
 
-  <p>
-    I'm passionate about science communication and public education. Prior to graduate school,
-    I did medical editing and worked in classrooms at both ends of the K–12 spectrum
-    (Pre-K and 12th grade). Most recently, I’ve been designing and teaching discussion-based
-    courses for older students (ages 50+) at the Osher Lifelong Learning Institute at Dartmouth,
-    which I’ve found incredibly rewarding.
-  </p>
+    <p>
+      I also enjoy bridging science and the arts, and many of my research questions apply
+      directly to the real world. For instance, we created
+      <a href="http://finnlabmuseum.com/">ArtLibs</a>, a collaborative project with the
+      Hood Museum at Dartmouth where we get to explore these ideas outside the lab,
+      funded by an internal Arts Integration Grant.
+    </p>
 
-  <p>
-    Outside of research, I also enjoy bringing science to creative projects in the real world —
-    check out <a href="http://finnlabmuseum.com/">ArtLibs</a>, a collaborative art project with the
-    Hood Museum at Dartmouth, funded by an internal Arts Integration Grant.
-  </p>
-
-  <p style="text-align: center; margin-top: 2.5rem;">
-    <a href="/teaching/" class="button button-secondary">
-      Learn More About My Teaching
-    </a>
-  </p>
+    <p style="text-align: center; margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+      <a href="/teaching/" class="button button-secondary">
+        Learn More About My Teaching
+      </a>
+      <a href="http://finnlabmuseum.com/" class="button button-secondary" target="_blank">
+        Participate in ArtLibs
+      </a>
+    </p>
+  </div>

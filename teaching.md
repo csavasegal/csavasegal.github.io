@@ -6,258 +6,312 @@ published: true
 ---
 
 <style>
-.teaching-section {
-  margin: 3rem 0;
-padding: 1.5rem 2rem;
-  background-color: #ffffff;
-  border-radius: 10px;
-  border-left: 2px solid #4169E1;
+.page-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e6e6e6;
 }
 
-.teaching-block {
-  margin: 3rem 0;
+.page-header h1 {
+  color: #4169E1;
+  margin-bottom: 0;
 }
 
+.section-intro {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
 
-.section-header {
-  font-weight: 600;
-  letter-spacing: 0.02em}
+.award-badge {
+  display: inline-block;
+  background-color: #FFFCE8;
+  padding: 0.35rem 0.75rem;
+  border-radius: 15px;
+  border: 2px solid #FFC000;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #B08A10;
+  margin-left: 0.5rem;
+}
 
-
-  .section-intro {
-    line-height: 1.8;
-    margin-bottom: 2rem;
-    color: #555;
-  }
-
-  .awards-box {
-    background-color: #FFF9E6;
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    border-left: 4px solid #F4B400;
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-
-  .awards-box h3 {
-    color: #a88931;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    font-size: 1rem;
-  }
-
-  .award-item {
-    margin: 0.5rem 0;
-    font-weight: bold;
-    color: #333;
-  }
-
-  .award-badge {
-    display: inline-block;
-    background-color: #FFF9E6;
-    padding: 0.35rem 0.75rem;
-    border-radius: 15px;
-    border: 2px solid #F4B400;
-    font-size: 0.85rem;
-    font-weight: bold;
-    color: ##a88931;
-    margin-left: 0.5rem;
-  }
-
-  .course-item {
-    background-color: #ffffff;
-    border-left: none;
-    box-shadow: none;
-    padding: 1.25rem 0;
-  }
-
-
-  .course-title {
-    color: #4169E1;
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .course-term {
-    color: #666;
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-    font-style: italic;
-  }
-
-  .course-description {
-    line-height: 1.7;
-    color: #333;
-  }
-
-  .course-link {
-    display: inline-block;
-    margin-top: 0.75rem;
-    color: #4169E1;
-    text-decoration: none;
-    font-weight: 500;
-  }
-
-  .course-link:hover {
-    text-decoration: underline;
-  }
-
-  .ta-list {
-    list-style: none;
-    padding: 0;
-  }
+.ta-list {
+  list-style: none;
+  padding: 0;
+}
 
 .ta-item {
   padding: 0.5rem 0;
   margin: 0.75rem 0;
-  background: none;
-  border-left: none;
 }
 
+.ta-term {
+  font-weight: bold;
+  color: #333;
+}
 
-  .ta-term {
-    font-weight: bold;
-    color: #333;
-  }
+.ta-course {
+  color: #4169E1;
+  margin-left: 0.5rem;
+}
 
-  .ta-course {
-    color: #4169E1;
-    margin-left: 0.5rem;
-  }
+.subsection-header {
+  color: #4169E1;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e0e0e0;
+}
 
-  .program-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-  }
-
-.program-card {
-  padding: 1.5rem;
-  background-color: white;
+.course-item {
+  margin: 1rem 0;
+  padding: 1.1rem 1.35rem 1rem;
+  background: #f7f9fc;
+  border: 1px solid #e4eaf5;
+  border-top: 3px solid #4169E1;
   border-radius: 8px;
-
-  /* neutral by default */
-  border-top: 4px solid #e0e0e0;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
-
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease,
-    border-color 0.2s ease;
 }
 
-.program-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
-  /* activate color */
-  border-top-color: #4169E1;
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 0.65rem;
 }
 
-
-  .program-card a {
-    color: #4169E1;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.1rem;
-  }
-
-  .program-card a:hover {
-    text-decoration: underline;
-  }
-
-
-  
-
-.divider {
-  margin: 4rem 0;
-  height: 1px;
+.course-title {
+  color: #333;
+  font-weight: 600;
+  font-size: 0.97rem;
+  line-height: 1.4;
 }
 
-
-.page-header {
-  background: #F5F7FA;
-  padding: 1.5rem;
+.course-term {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #B08000;
+  background: #FFFCE8;
+  border: 1px solid #FFC000;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
+.course-description {
+  font-size: 0.86rem;
+  line-height: 1.65;
+  color: #555;
+  margin-bottom: 0.65rem;
+}
 
-  .page-header h1 {
-    color: #4169E1;
-    margin-bottom: 0.5rem;
-  }
+.course-link {
+  display: inline-block;
+  font-size: 0.82rem;
+  color: #4169E1;
+  font-weight: 500;
+  text-decoration: none;
+}
 
-  .page-header p {
-    color: #555;
-    font-size: 1.1rem;
-  }
+.course-link:hover {
+  text-decoration: underline;
+}
 
-  .highlight-link {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    background-color: #E3F2FD;
-    border-radius: 5px;
-    color: #4169E1;
-    text-decoration: none;
-    font-weight: 500;
-    transition: background-color 0.2s;
-  }
+.highlight-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #E3F2FD;
+  border-radius: 5px;
+  color: #4169E1;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
 
-  .highlight-link:hover {
-    background-color: #BBDEFB;
-    text-decoration: none;
-  }
+.highlight-link:hover {
+  background-color: #BBDEFB;
+  text-decoration: none;
+}
 
-  .subsection-header {
-    color: #4169E1;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding-top: 1.5rem;
-    border-top: 1px solid #e0e0e0;
-  }
+.program-list {
+  margin-top: 1rem;
+}
+
+.program-entry {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.program-entry:last-child {
+  border-bottom: none;
+}
+
+.program-name {
+  color: #4169E1;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  flex-shrink: 0;
+  min-width: 160px;
+}
+
+.program-name:hover {
+  text-decoration: underline;
+}
+
+.program-desc {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* ---------- Tabs ---------- */
+
+.tab-bar {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: 0;
+  margin-top: 2.5rem;
+}
+
+.tab-btn {
+  padding: 0.65rem 1.4rem;
+  background: none;
+  border: 2px solid transparent;
+  border-bottom: none;
+  border-radius: 6px 6px 0 0;
+  cursor: pointer;
+  font-weight: 500;
+  color: #666;
+  font-size: 0.95rem;
+  font-family: "Inter", "Helvetica", sans-serif;
+  transition: color 0.15s, background-color 0.15s;
+  margin-bottom: -2px;
+}
+
+.tab-btn:hover {
+  color: #4169E1;
+  background-color: #f4f6fb;
+}
+
+.tab-btn.active {
+  color: #4169E1;
+  font-weight: 600;
+  border-color: #e0e0e0;
+  border-bottom-color: white;
+  background-color: white;
+}
+
+.tab-panel {
+  padding-top: 2rem;
+}
+
+/* ---------- Testimonials ---------- */
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem auto 0;
+  max-width: 680px;
+}
+
+@media (max-width: 600px) {
+  .testimonials { grid-template-columns: 1fr; }
+}
+
+.testimonial {
+  padding: 1.25rem 1.25rem 1rem;
+  background: #f7f9fc;
+  border-radius: 8px;
+  border: 1px solid #e4eaf5;
+  position: relative;
+}
+
+.testimonial::before {
+  content: '\201C';
+  position: absolute;
+  top: 0.4rem;
+  left: 0.9rem;
+  font-size: 2rem;
+  color: #4169E1;
+  opacity: 0.25;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.testimonial::after {
+  content: '\201D';
+  position: absolute;
+  bottom: 0.4rem;
+  right: 0.9rem;
+  font-size: 2rem;
+  color: #4169E1;
+  opacity: 0.25;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.testimonial p {
+  font-style: italic;
+  color: #444;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  margin: 0.75rem 0 0.5rem;
+}
+
+.testimonial cite {
+  display: block;
+  font-size: 0.72rem;
+  font-style: normal;
+  color: #4169E1;
+  margin-top: 0.4rem;
+}
+
 </style>
 
 
-<div class="teaching-section">
-  <h2 class="section-header">Teaching Philosophy & Training</h2>
-  
-  <p class="section-intro">
-    <strong>I approach teaching as an adaptive, learner-centered process shaped by context, age, and goals.</strong>
-    My approach has been shaped by formal pedagogical training as well as hands-on experience across a range of age groups and settings.
-  </p>
+<div class="page-header">
+  <h1>Teaching & Mentorship</h1>
+</div>
 
-  <p class="section-intro">
-    I have taught <strong>across the lifespan</strong>—from pre-K and first-grade classrooms to
-    <a href="#dartmouth-ta" style="color: #4169E1; font-weight: 500;">undergraduate students</a>
-    (including <a href="#undergrad-mentorship" style="color: #4169E1; font-weight: 500;">mentoring thesis students</a>)
-    to older adults (ages 50+) in the
-    <a href="#osher-courses" style="color: #4169E1; font-weight: 500;">Osher Lifelong Learning Institute</a>.
-    My experience spans <strong>formal classroom settings, one-on-one mentoring</strong> with high school students,
-    <strong>interactive demonstrations</strong> for young learners, and <strong>discussion-based courses</strong> for retirees.
-    This breadth has taught me to adapt content and teaching style to meet learners where they are, whether explaining
-    brain science through comics about memory for children or exploring cutting-edge research with adult learners eager
-    to engage with complex ideas. My formal training includes coursework through the
-    <strong>Dartmouth Center for Advanced Learning</strong>, as well as training in education policy and socioemotional
-    learning strategies through the <strong>Careers in Education program at UChicago</strong>, supported by the
-    <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/"
-       style="color: #4169E1; font-weight: 500;">Milgrom Education Impact Fellowship</a>.
-  </p>
+<p class="section-intro">
+  I have taught across the lifespan — from pre-K and first-grade classrooms to undergraduate students
+  (including mentoring thesis students) to older adults (ages 50+) at the Osher Lifelong Learning
+  Institute at Dartmouth, where I design discussion-based courses for retirees eager to engage with
+  cutting-edge research. My formal training includes coursework through the Dartmouth Center for
+  Advanced Learning, as well as training in education policy and socioemotional learning strategies
+  through the Careers in Education program at UChicago, supported by the
+  <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/"
+     style="color: #4169E1; font-weight: 500;">Milgrom Education Impact Fellowship</a>.
+  Overall, I approach teaching as an adaptive, learner-centered process shaped by context, age, and
+  goals. For my undergraduate teaching and mentorship, I have received the Marie A. Center 1982 Award for Excellence in Teaching and two
+  Outstanding Graduate Student Teacher Awards. See the tabs below for more on my
+  <a href="#" onclick="switchTab('grad'); document.querySelector('.tab-bar').scrollIntoView({behavior:'smooth'}); return false;" style="color:#4169E1; font-weight:600;">Undergraduate Teaching &amp; Mentorship</a>,
+  <a href="#" onclick="switchTab('osher'); document.querySelector('.tab-bar').scrollIntoView({behavior:'smooth'}); return false;" style="color:#4169E1; font-weight:600;">Independent Teaching (Osher Courses)</a>,
+  and <a href="#" onclick="switchTab('programs'); document.querySelector('.tab-bar').scrollIntoView({behavior:'smooth'}); return false;" style="color:#4169E1; font-weight:600;">Programs &amp; Outreach</a>
+  that I recommend to others interested in teaching.
+</p>
+
+<div class="tab-bar">
+  <button class="tab-btn active" data-tab="grad">Undergraduate Teaching & Mentorship</button>
+  <button class="tab-btn" data-tab="osher">Independent Teaching (Osher Courses)</button>
+  <button class="tab-btn" data-tab="programs">Programs & Outreach</button>
 </div>
 
 
-<hr class="divider">
+<!-- ===== GRADUATE TEACHING TAB ===== -->
+<div id="tab-grad" class="tab-panel">
 
-<div class="teaching-section" id="dartmouth-ta">
-  <h2 class="section-header">Graduate Student Teaching Assistant, Dartmouth College</h2>
-  
-  <!-- <div class="awards-box">
-    <h3>🏆 Department Marie A. Center 1982 Award for Excellence in Teaching</h3>
-  </div> -->
-  
-  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's <span style="color: #E6A800;">Marie A. Center 1982 Award for Excellence in Teaching</span> 🏆 .</p>
+  <h3 class="subsection-header">Undergraduate Teaching</h3>
+  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's <span style="color: #B08000;">Marie A. Center 1982 Award for Excellence in Teaching</span> 🏆.</p>
 
   <ul class="ta-list">
     <li class="ta-item">
@@ -280,24 +334,35 @@ padding: 1.5rem 2rem;
     </li>
   </ul>
 
-<h3 class="subsection-header" id="undergrad-mentorship">Undergraduate Mentorship</h3>
-  <p class="section-intro">I have mentored several undergraduate researchers, including three thesis students across the Cognitive Science, Psychology, and Neuroscience departments, as well as two additional students on formal research projects. My mentees have explored topics including social identity and reappraisal, individual variation in dialogue and conversation, and the relationship between depression and idiosyncratic perception. All three thesis students received fellowships for their work. See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for more details.</p>
-</div>
+  <h3 class="subsection-header" id="undergrad-mentorship">Undergraduate Mentorship</h3>
+  <p class="section-intro">I have mentored several undergraduate researchers, including three thesis students across the Cognitive Science, Psychology, and Neuroscience departments, as well as two additional students on formal research projects. I enjoyed giving students the space to develop truly independent research directions, even when those extended beyond my own current work. For instance, my thesis students explored topics including social identity and reappraisal, individual variation in dialogue and conversation, and the relationship between depression and idiosyncratic perception. All three thesis students received fellowships for their work, and I supported each of their grant applications. See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for more details.</p>
+
+  <div class="testimonials" style="margin-top: 2rem;">
+    <div class="testimonial">
+      <p>"Her ability to pinpoint what was important was amazing, but she also went above and beyond by making sure that we understood — and didn't memorize — key topics."</p>
+      <cite>— Undergraduate student, Intro to Neuroscience, Winter 2023</cite>
+    </div>
+    <div class="testimonial">
+      <p>"I think she was the reason that I did well in this class and want to continue to pursue classes in the Neuroscience department."</p>
+      <cite>— Undergraduate student, Intro to Neuroscience, Fall 2022</cite>
+    </div>
+  </div>
+
+</div><!-- end tab-grad -->
 
 
-<hr class="divider">
+<!-- ===== OSHER COURSES TAB ===== -->
+<div id="tab-osher" class="tab-panel" style="display:none">
 
-<div class="teaching-section" id="osher-courses">
-  <h2 class="section-header">Adult Learning Courses — Osher Lifelong Learning Institute</h2>
-  
-  <p class="section-intro">I have been designing and teaching courses for the Osher Lifelong Learning Institute at Dartmouth, serving retirees and adults approaching retirement who are eager to continue their intellectual pursuits. I both design the curriculum and deliver the lectures, creating an engaging, discussion-based learning environment that combines scientific rigor with accessibility. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasavasegal/index.php" class="highlight-link">See my recent courses and reviews here</a></p>
-  
-  
-  <p class="section-intro">If you are an Osher student, you can find class materials on the <a href="/osher/" style="color: #4169E1; font-weight: 500;">Osher Courses page</a>.</p>
+  <p class="section-intro">I design and teach courses for the Osher Lifelong Learning Institute at Dartmouth, serving retirees and adults approaching retirement. I both design the curriculum and deliver the lectures, creating an engaging, discussion-based learning environment. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasavasegal/index.php" class="highlight-link">See my courses and reviews here</a></p>
+
+  <p class="section-intro">If you are an Osher student, class materials are on the <a href="/osher/" style="color: #4169E1; font-weight: 500;">Osher Courses page</a>.</p>
 
   <div class="course-item">
-    <div class="course-title">Experience in the Eye of the Beholder: How Individual Brains Create Reality II</div>
-    <div class="course-term">Fall 2025</div>
+    <div class="course-header">
+      <div class="course-title">Experience in the Eye of the Beholder: How Individual Brains Create Reality II</div>
+      <div class="course-term">Fall 2025</div>
+    </div>
     <div class="course-description">
       This course explores the fascinating world of individual consciousness and subjective experience, examining how each person's unique mental landscape emerges from brain activity. We explore cutting-edge methods scientists use to study the individual brain—from neuroimaging techniques that reveal personal thought patterns to innovative approaches for measuring subjective states like emotions, memories, and perceptions. The course addresses fundamental questions: How do we study something as personal as individual experience? What makes each mind unique?
     </div>
@@ -305,8 +370,10 @@ padding: 1.5rem 2rem;
   </div>
 
   <div class="course-item">
-    <div class="course-title">Experience in the Eye of the Beholder: How Individual Brains Create Reality I</div>
-    <div class="course-term">Summer 2025</div>
+    <div class="course-header">
+      <div class="course-title">Experience in the Eye of the Beholder: How Individual Brains Create Reality I</div>
+      <div class="course-term">Summer 2025</div>
+    </div>
     <div class="course-description">
       The first version of this course exploring individual consciousness and subjective experience, examining how scientists are beginning to study not just what people are thinking, but how they experience it. This course combines lecture with class discussions and insights from my own research on how people understand the world differently from one another.
     </div>
@@ -314,8 +381,10 @@ padding: 1.5rem 2rem;
   </div>
 
   <div class="course-item">
-    <div class="course-title">Diverse Minds: What We Know and Don't Know About Psychiatric Conditions</div>
-    <div class="course-term">Winter 2025</div>
+    <div class="course-header">
+      <div class="course-title">Diverse Minds: What We Know and Don't Know About Psychiatric Conditions</div>
+      <div class="course-term">Winter 2025</div>
+    </div>
     <div class="course-description">
       This course explores the diversity of the human brain, offering a comprehensive introduction to the complex interactions between brain structure, function, and behavior. The goal is to focus on a broad spectrum of psychiatric conditions (such as depression, anxiety, schizophrenia, and bipolar disorder) alongside neurodegenerative diseases like Alzheimer's. Given the diversity of topics, this is designed as a multi-part series.
     </div>
@@ -323,62 +392,80 @@ padding: 1.5rem 2rem;
   </div>
 
   <div class="course-item">
-    <div class="course-title">Brain and Behavior Part 2: How Do We Process the World Around Us?</div>
-    <div class="course-term">Spring 2024</div>
+    <div class="course-header">
+      <div class="course-title">Brain and Behavior Part 2: How Do We Process the World Around Us?</div>
+      <div class="course-term">Spring 2024</div>
+    </div>
     <div class="course-description">
       This course extends the exploration of cognitive neuroscience by examining how we perceive and interpret our surroundings, building on the concepts introduced in the first part. The class introduces the broad landscape of cognitive neuroscience through both readings and hands-on psychological experiments.
     </div>
   </div>
 
   <div class="course-item">
-    <div class="course-title">Brain and Behavior: How Are They Linked?</div>
-    <div class="course-term">Fall 2022, Winter 2023</div>
+    <div class="course-header">
+      <div class="course-title">Brain and Behavior: How Are They Linked?</div>
+      <div class="course-term">Fall 2022, Winter 2023</div>
+    </div>
     <div class="course-description">
       This course explores how the brain supports behaviors such as learning, memory, and processing information. It emphasizes the uniqueness of individual brains and how we each perceive the world differently. The course involves hands-on psychological experiments to illustrate key concepts, starting with the basics of vision and developing into more complex processes like language, emotion, and creativity.
     </div>
   </div>
-</div>
 
-<hr class="divider">
-
-<div class="teaching-section">
-  <h2 class="section-header">Early Childhood Education</h2>
-  
-  <p class="section-intro">Prior to starting graduate school, I worked and volunteered in early childhood education settings (pre-K and first grade) in Chicago and the Bay Area. As part of this work, I created cartoons to teach cognitive science concepts to children, making complex ideas about how the brain works accessible and engaging for young learners. (I can share them if you really want to see them!)</p>
-</div>
-
-
-<hr class="divider">
-
-<div class="teaching-section">
-  <h2 class="section-header">Programs I Recommend</h2>
-  
-  <p class="section-intro">Throughout my academic journey, I have been involved with several educational programs that I highly recommend:</p>
-
-  <div class="program-grid">
-    <div class="program-card">
-      <a href="https://www.project-short.com/">Project SHORT</a>
-      <p style="margin-top: 0.75rem; color: #666; font-size: 0.95rem;">Supporting students through the graduate school application process</p>
+  <div class="testimonials" style="margin-top: 2rem;">
+    <div class="testimonial">
+      <p>"I loved how she adjusted her topics to the direction of the class discussion. It is clear the instructor was very well prepared and versed in the material to be able to do this."</p>
+      <cite>— Osher participant, Spring 2024</cite>
     </div>
-
-    <div class="program-card">
-      <a href="https://www.skypeascientist.com/">Skype a Scientist</a>
-      <p style="margin-top: 0.75rem; color: #666; font-size: 0.95rem;">Bringing science into classrooms through interactive virtual sessions</p>
-    </div>
-
-    <div class="program-card">
-      <a href="https://imentor.org/where-we-work/bay-area">iMentor</a>
-      <p style="margin-top: 0.75rem; color: #666; font-size: 0.95rem;">Mentoring high school students on their academic journeys</p>
-    </div>
-
-    <div class="program-card">
-      <a href="https://www.jstart.org/">Jumpstart</a>
-      <p style="margin-top: 0.75rem; color: #666; font-size: 0.95rem;">Supporting early childhood education and foundational learning</p>
-    </div>
-
-    <div class="program-card">
-      <a href="https://splashchicago.learningu.org/teach/teachers/clarasavasegal/bio.html">Splash</a>
-      <p style="margin-top: 0.75rem; color: #666; font-size: 0.95rem;">Teaching hands-on classes to curious high school students</p>
+    <div class="testimonial">
+      <p>"She was very knowledgeable but was always prepared to check out something where she needed help with the answer — refreshing to have a class with a young Ph.D. student who was so enthusiastic."</p>
+      <cite>— Osher participant, Fall 2022</cite>
     </div>
   </div>
-</div>
+
+</div><!-- end tab-osher -->
+
+
+<!-- ===== PROGRAMS & OUTREACH TAB ===== -->
+<div id="tab-programs" class="tab-panel" style="display:none">
+
+  <p class="section-intro">Prior to starting graduate school, I worked and volunteered in early childhood education settings (pre-K and first grade) in Chicago and the Bay Area. Here are a couple of programs that make getting involved with this type of work particularly easy and accessible:</p>
+
+  <div class="program-list">
+    <div class="program-entry">
+      <a href="https://www.project-short.com/" class="program-name">Project SHORT</a>
+      <span class="program-desc">Supporting students through the graduate school application process</span>
+    </div>
+    <div class="program-entry">
+      <a href="https://www.skypeascientist.com/" class="program-name">Skype a Scientist</a>
+      <span class="program-desc">Bringing science into classrooms through interactive virtual sessions</span>
+    </div>
+    <div class="program-entry">
+      <a href="https://imentor.org/where-we-work/bay-area" class="program-name">iMentor</a>
+      <span class="program-desc">Mentoring high school students on their academic journeys</span>
+    </div>
+    <div class="program-entry">
+      <a href="https://www.jstart.org/" class="program-name">Jumpstart</a>
+      <span class="program-desc">Supporting early childhood education and foundational learning</span>
+    </div>
+    <div class="program-entry">
+      <a href="https://splashchicago.learningu.org/teach/teachers/clarasavasegal/bio.html" class="program-name">Splash</a>
+      <span class="program-desc">Teaching hands-on classes to curious high school students</span>
+    </div>
+  </div>
+
+</div><!-- end tab-programs -->
+
+
+<script>
+function switchTab(tabId) {
+  document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
+  document.querySelectorAll('.tab-panel').forEach(function(p) { p.style.display = 'none'; });
+  document.querySelector('.tab-btn[data-tab="' + tabId + '"]').classList.add('active');
+  document.getElementById('tab-' + tabId).style.display = 'block';
+}
+
+document.querySelectorAll('.tab-btn').forEach(function(btn) {
+  btn.addEventListener('click', function() { switchTab(this.dataset.tab); });
+});
+
+</script>

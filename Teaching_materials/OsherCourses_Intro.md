@@ -6,28 +6,41 @@ published: true
 ---
 
 <style>
+  .osher-notice {
+    background: #FFFCE8;
+    border: 1px solid #FFC000;
+    color: #B08000;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+
   .course-section {
-    margin: 3rem 0;
-    padding: 2rem;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    border-left: 5px solid #4169E1;
-    transition: box-shadow 0.3s;
+    margin: 1rem 0;
+    padding: 1.1rem 1.35rem 1rem;
+    background: #f7f9fc;
+    border: 1px solid #e4eaf5;
+    border-top: 3px solid #4169E1;
+    border-radius: 8px;
+    transition: transform 0.15s, box-shadow 0.15s;
   }
 
   .course-section:hover {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 
   .course-title {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .course-title a {
     color: #4169E1;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
   }
 
   .course-title a:hover {
@@ -35,57 +48,44 @@ published: true
   }
 
   .course-link-note {
-    color: #666;
-    font-size: 0.9rem;
-    margin-bottom: 1.5rem;
+    color: #888;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
     font-style: italic;
   }
 
   .course-description {
-    line-height: 1.8;
-    color: #333;
+    line-height: 1.7;
+    color: #555;
+    font-size: 0.95rem;
   }
 
   .section-label {
     display: inline-block;
-    background-color: #4169E1;
-    color: white;
-    padding: 0.25rem 0.75rem;
-    border-radius: 15px;
-    font-size: 0.85rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
+    background: #FFFCE8;
+    border: 1px solid #FFC000;
+    color: #B08000;
+    padding: 0.2rem 0.6rem;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-weight: 600;
   }
 
   .divider {
-    margin: 3rem 0;
+    margin: 1.5rem 0;
     border: 0;
-    height: 2px;
-    background: linear-gradient(to right, transparent, #4169E1, transparent);
-  }
-
-  .page-intro {
-    text-align: center;
-    margin-bottom: 3rem;
-    padding: 2rem;
-    background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%);
-    border-radius: 10px;
-  }
-
-  .page-intro h1 {
-    color: #4169E1;
-    margin-bottom: 0.5rem;
-  }
-
-  .page-intro p {
-    color: #555;
-    font-size: 1.1rem;
+    height: 1px;
+    background: #e4eaf5;
   }
 </style>
 
 
 <div class="page-header">
-  <h1>Osher courses</h1>
+  <h1>Osher Courses</h1>
+</div>
+
+<div class="osher-notice">
+  📚 This page is intended for students enrolled in Osher courses at Dartmouth. Course materials are linked below.
 </div>
 
 <div class="course-section">
