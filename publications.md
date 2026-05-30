@@ -208,11 +208,11 @@ permalink: /publications/
   display: inline-block;
   margin-top: 0.4rem;
   margin-left: 0.3rem;
-  font-size: 0.68rem;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.04em;
-  padding: 0.15rem 0.55rem;
-  border-radius: 20px;
+  padding: 0.1rem 0.45rem;
+  border-radius: 5px;
 }
 
 .method-tags {
@@ -241,7 +241,7 @@ permalink: /publications/
 .method-legend span.label {
   font-weight: 500;
   margin-right: 0.2rem;
-  color: #777;
+  color: #111;
 }
 
 .method-legend .method-tag,
@@ -265,11 +265,11 @@ permalink: /publications/
   display: inline-block;
   margin-top: 0.4rem;
   margin-left: 0.3rem;
-  font-size: 0.68rem;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 0.04em;
-  padding: 0.15rem 0.55rem;
-  border-radius: 20px;
+  padding: 0.1rem 0.45rem;
+  border-radius: 5px;
   background: white;
   border: 1.5px solid;
 }
@@ -286,13 +286,12 @@ permalink: /publications/
   margin-left: 0;
 }
 
-.topic-symbolic   { color: #6d4c41; border-color: #a1887f; }
-.topic-subjective { color: #0277bd; border-color: #4fc3f7; }
-.topic-memory     { color: #558b2f; border-color: #aed581; }
-.topic-eventseg   { color: #6a1b9a; border-color: #ba68c8; }
-.topic-vision     { color: #37474f; border-color: #90a4ae; }
-.topic-expertise  { color: #bf360c; border-color: #ffab91; }
-.topic-networks   { color: #00695c; border-color: #80cbc4; }
+.topic-symbolic   { color: #333; border-color: #999; }
+.topic-subjective { color: #333; border-color: #999; }
+.topic-memory     { color: #333; border-color: #999; }
+.topic-eventseg   { color: #333; border-color: #999; }
+.topic-vision     { color: #333; border-color: #999; }
+.topic-networks   { color: #333; border-color: #999; }
 
 .inprep-label {
   display: inline-block;
@@ -309,11 +308,11 @@ permalink: /publications/
   font-style: italic;
 }
 
-.method-fmri   { background: #e0f7fa; color: #006064; border: 1px solid #80deea; }
-.method-ieeg   { background: #fff3e0; color: #c45e00; border: 1px solid #ffc980; }
-.method-eeg    { background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
-.method-behav  { background: #f3e5f5; color: #7b1fa2; border: 1px solid #ce93d8; }
-.method-clin   { background: #fce4ec; color: #c62828; border: 1px solid #ef9a9a; }
+.method-fmri   { background: #b8b8b8; color: #111; border: 1px solid #999; }
+.method-ieeg   { background: #b8b8b8; color: #111; border: 1px solid #999; }
+.method-eeg    { background: #b8b8b8; color: #111; border: 1px solid #999; }
+.method-behav  { background: #b8b8b8; color: #111; border: 1px solid #999; }
+.method-clin   { background: #b8b8b8; color: #111; border: 1px solid #999; }
 
 
 /* ---------- Rep filter ---------- */
@@ -402,11 +401,10 @@ permalink: /publications/
   <span class="method-tag method-clin" data-filter="method-clin">clinical</span>
   <span style="margin: 0 0.3rem; color: #ddd;">|</span>
   <span class="topic-tag topic-symbolic" data-filter="topic-symbolic">symbolic systems</span>
-  <span class="topic-tag topic-subjective" data-filter="topic-subjective">subjective interpretations</span>
+  <span class="topic-tag topic-subjective" data-filter="topic-subjective">subjectivity</span>
   <span class="topic-tag topic-memory" data-filter="topic-memory">memory</span>
   <span class="topic-tag topic-eventseg" data-filter="topic-eventseg">event segmentation</span>
   <span class="topic-tag topic-vision" data-filter="topic-vision">vision</span>
-  <span class="topic-tag topic-expertise" data-filter="topic-expertise">expertise</span>
   <span class="topic-tag topic-networks" data-filter="topic-networks">networks</span>
 </div>
 
@@ -425,7 +423,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="publication-icons"></div>
-  <div class="inprep-label">In preparation</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjective interpretations</span>
+  <div class="inprep-label">In preparation</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span>
   <div class="pub-title">
     Shifts in neural representations of ambiguous information predict reinterpretation.
   </div>
@@ -436,7 +434,7 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="publication-icons"></div>
-  <div class="inprep-label">In preparation</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjective interpretations</span><span class="topic-tag topic-memory">memory</span>
+  <div class="inprep-label">In preparation</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span><span class="topic-tag topic-memory">memory</span>
   <div class="pub-title">
     Reinterpretation counters self-bias in memory through representational updating.
   </div>
@@ -465,7 +463,7 @@ permalink: /publications/
     <a class="pub-btn" href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">Code</a>
     <a class="pub-btn" href="https://openneuro.org/datasets/ds007407/versions/1.0.0" target="_blank">OpenNeuro</a>
   </div>
-  <div class="rep-label">Featured</div><span class="method-tag method-fmri">fMRI</span><span class="topic-tag topic-subjective">subjective interpretations</span>
+  <div class="rep-label">Featured</div><span class="method-tag method-fmri">fMRI</span><span class="topic-tag topic-subjective">subjectivity</span>
   <div class="pub-title">
     Narrative 'twist' shifts within-individual neural representations of dissociable story features.
   </div>
@@ -524,7 +522,7 @@ permalink: /publications/
   <div class="publication-icons">
     <a class="pub-btn" href="papers/521_Paper_authored_TB_CCN_2024.pdf" target="_blank">PDF</a>
   </div>
-  <div class="rep-label">Featured</div><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjective interpretations</span>
+  <div class="rep-label">Featured</div><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span>
   <div class="pub-title">
     Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations.
   </div>
@@ -572,7 +570,7 @@ permalink: /publications/
     <a class="pub-btn" href="https://github.com/csavasegal/individual_event_seg/" target="_blank">Code</a>
     <a class="pub-btn" href="https://openneuro.org/datasets/ds004516/versions/2.0.3" target="_blank">OpenNeuro</a>
   </div>
-  <div class="rep-label">Featured</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjective interpretations</span><span class="topic-tag topic-eventseg">event segmentation</span><span class="topic-tag topic-memory">memory</span>
+  <div class="rep-label">Featured</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span><span class="topic-tag topic-eventseg">event segmentation</span><span class="topic-tag topic-memory">memory</span>
   <div class="pub-title">
     Individual differences in neural event segmentation of continuous experiences.
   </div>
@@ -617,7 +615,7 @@ permalink: /publications/
   <div class="publication-icons">
     <a class="pub-btn" href="https://doi.org/10.1523/ENEURO.0065-21.2021" target="_blank">DOI</a>
   </div>
-  <span class="method-tag method-eeg">EEG</span><span class="topic-tag topic-expertise">expertise</span>
+  <span class="method-tag method-eeg">EEG</span>
   <div class="pub-title">
     Expertise modulates neural stimulus-tracking.
   </div>
