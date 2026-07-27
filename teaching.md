@@ -6,6 +6,27 @@ published: true
 ---
 
 <style>
+:root {
+  --accent-mint: #4FC3A1;
+  --accent-mint-dark: #1F7A5E;
+  --accent-mint-light: #EDFAF4;
+
+  /* same four sizes as the Research page */
+  --fs-title: 1.563rem; /* page title */
+  --fs-lg: 1.25rem;     /* section headers */
+  --fs-base: 1rem;      /* prose */
+  --fs-sm: 0.85rem;     /* secondary text: terms, descriptions, quotes */
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Inter", "Helvetica", sans-serif;
+  font-size: var(--fs-base);
+  color: #333;
+  line-height: 1.7;
+}
+
 .page-header {
   text-align: center;
   margin-bottom: 2rem;
@@ -14,65 +35,70 @@ published: true
 }
 
 .page-header h1 {
+  font-size: var(--fs-title);
   color: #4169E1;
   margin-bottom: 0;
 }
 
 .section-intro {
+  font-size: var(--fs-base);
   line-height: 1.8;
   margin-bottom: 1.5rem;
   color: #555;
 }
 
-.award-badge {
-  display: inline-block;
-  background-color: #FFFCE8;
-  padding: 0.35rem 0.75rem;
-  border-radius: 15px;
-  border: 2px solid #FFC000;
-  font-size: 0.85rem;
-  font-weight: bold;
-  color: #B08A10;
-  margin-left: 0.5rem;
+.intro-nav {
+  font-size: var(--fs-base);
+  color: #555;
+  margin-bottom: 0.5rem;
 }
 
-.ta-list {
-  list-style: none;
-  padding: 0;
-}
+.intro-nav a { color: #4169E1; font-weight: 500; }
 
-.ta-item {
-  padding: 0.5rem 0;
-  margin: 0.75rem 0;
-}
+/* ---------- Section scaffolding ---------- */
 
-.ta-term {
-  font-weight: bold;
-  color: #333;
-}
+.t-section { scroll-margin-top: 90px; }
 
-.ta-course {
+.section-header {
+  font-size: var(--fs-lg);
+  font-weight: 700;
   color: #4169E1;
-  margin-left: 0.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #ddd;
 }
 
-.subsection-header {
-  color: #4169E1;
-  margin-top: 2.5rem;
-  margin-bottom: 1rem;
-  font-size: 1.1rem;
-  font-weight: bold;
-  padding-top: 1.5rem;
-  border-top: 1px solid #e0e0e0;
+/* ---------- TA list ---------- */
+
+.ta-list { list-style: none; padding: 0; }
+
+.ta-item { padding: 0.5rem 0; margin: 0.75rem 0; }
+
+.ta-term { font-weight: bold; color: #333; }
+
+.ta-course { color: #4169E1; margin-left: 0.5rem; }
+
+.ta-award {
+  font-size: var(--fs-sm);
+  color: #1F7A5E;
+  margin-top: 0.15rem;
 }
+
+/* ---------- Course cards ---------- */
 
 .course-item {
   margin: 1rem 0;
   padding: 1.1rem 1.35rem 1rem;
   background: #f7f9fc;
   border: 1px solid #e4eaf5;
-  border-top: 3px solid #4169E1;
   border-radius: 8px;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.course-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .course-header {
@@ -86,24 +112,19 @@ published: true
 .course-title {
   color: #333;
   font-weight: 600;
-  font-size: 0.97rem;
+  font-size: var(--fs-base);
   line-height: 1.4;
 }
 
 .course-term {
-  font-size: 0.72rem;
-  font-weight: 600;
-  color: #B08000;
-  background: #FFFCE8;
-  border: 1px solid #FFC000;
-  padding: 0.2rem 0.6rem;
-  border-radius: 20px;
+  font-size: var(--fs-sm);
+  color: #888;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
 .course-description {
-  font-size: 0.86rem;
+  font-size: var(--fs-sm);
   line-height: 1.65;
   color: #555;
   margin-bottom: 0.65rem;
@@ -111,106 +132,32 @@ published: true
 
 .course-link {
   display: inline-block;
-  font-size: 0.82rem;
+  font-size: var(--fs-sm);
   color: #4169E1;
   font-weight: 500;
   text-decoration: none;
 }
 
-.course-link:hover {
-  text-decoration: underline;
-}
+.course-link:hover { text-decoration: underline; }
 
 .highlight-link {
   display: inline-block;
   padding: 0.5rem 1rem;
-  background-color: #E3F2FD;
-  border-radius: 5px;
-  color: #4169E1;
+  background-color: var(--accent-mint-light);
+  border: 2px solid var(--accent-mint);
+  border-radius: 6px;
+  color: var(--accent-mint-dark);
   text-decoration: none;
-  font-weight: 500;
-  transition: background-color 0.2s;
+  font-weight: 600;
+  font-size: var(--fs-sm);
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
 }
 
 .highlight-link:hover {
-  background-color: #BBDEFB;
+  background-color: var(--accent-mint-dark);
+  border-color: var(--accent-mint-dark);
+  color: white;
   text-decoration: none;
-}
-
-.program-list {
-  margin-top: 1rem;
-}
-
-.program-entry {
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-  padding: 0.7rem 0;
-  border-bottom: 1px solid #f0f0f0;
-}
-
-.program-entry:last-child {
-  border-bottom: none;
-}
-
-.program-name {
-  color: #4169E1;
-  font-weight: 600;
-  font-size: 0.95rem;
-  text-decoration: none;
-  flex-shrink: 0;
-  min-width: 160px;
-}
-
-.program-name:hover {
-  text-decoration: underline;
-}
-
-.program-desc {
-  color: #666;
-  font-size: 0.9rem;
-}
-
-/* ---------- Tabs ---------- */
-
-.tab-bar {
-  display: flex;
-  gap: 0;
-  border-bottom: 2px solid #e0e0e0;
-  margin-bottom: 0;
-  margin-top: 2.5rem;
-}
-
-.tab-btn {
-  padding: 0.65rem 1.4rem;
-  background: none;
-  border: 2px solid transparent;
-  border-bottom: none;
-  border-radius: 6px 6px 0 0;
-  cursor: pointer;
-  font-weight: 500;
-  color: #666;
-  font-size: 0.95rem;
-  font-family: "Inter", "Helvetica", sans-serif;
-  transition: color 0.15s, background-color 0.15s;
-  margin-bottom: -2px;
-}
-
-.tab-btn:hover {
-  color: #4169E1;
-  background-color: #f4f6fb;
-}
-
-.tab-btn.active {
-  color: #4169E1;
-  font-weight: 600;
-  border-color: #e0e0e0;
-  border-bottom-color: white;
-  background-color: white;
-}
-
-.tab-panel {
-  padding-top: 2rem;
 }
 
 /* ---------- Testimonials ---------- */
@@ -218,7 +165,7 @@ published: true
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+  gap: 1.5rem 2rem;
   margin: 2rem auto 0;
   max-width: 680px;
 }
@@ -228,58 +175,52 @@ published: true
 }
 
 .testimonial {
-  padding: 1.25rem 1.25rem 1rem;
-  background: #f7f9fc;
-  border-radius: 8px;
-  border: 1px solid #e4eaf5;
-  position: relative;
-}
-
-.testimonial::before {
-  content: '\201C';
-  position: absolute;
-  top: 0.4rem;
-  left: 0.9rem;
-  font-size: 2rem;
-  color: #4169E1;
-  opacity: 0.25;
-  font-family: Georgia, serif;
-  line-height: 1;
-}
-
-.testimonial::after {
-  content: '\201D';
-  position: absolute;
-  bottom: 0.4rem;
-  right: 0.9rem;
-  font-size: 2rem;
-  color: #4169E1;
-  opacity: 0.25;
-  font-family: Georgia, serif;
-  line-height: 1;
+  border-left: 2px solid var(--accent-mint);
+  padding-left: 1rem;
 }
 
 .testimonial p {
   font-style: italic;
-  color: #444;
-  font-size: 0.85rem;
+  color: var(--accent-mint-dark);
+  font-size: var(--fs-sm);
   line-height: 1.6;
-  margin: 0.75rem 0 0.5rem;
+  margin: 0 0 0.4rem;
 }
 
 .testimonial cite {
   display: block;
-  font-size: 0.72rem;
+  font-size: var(--fs-sm);
   font-style: normal;
-  color: #4169E1;
-  margin-top: 0.4rem;
+  color: #777;
 }
 
+.divider {
+  margin: 3rem 0;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+/* ---------- Foot ---------- */
+
+.t-foot {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+}
+
+.to-top {
+  font-size: var(--fs-sm);
+  color: #4169E1;
+  font-weight: 500;
+  text-decoration: none;
+}
+.to-top:hover { text-decoration: underline; }
 </style>
 
 
 <div class="page-header">
-  <h1>Teaching & Mentorship</h1>
+  <h1>Teaching &amp; Mentorship</h1>
 </div>
 
 <p class="section-intro">
@@ -292,37 +233,33 @@ published: true
   <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/"
      style="color: #4169E1; font-weight: 500;">Milgrom Education Impact Fellowship</a>.
   Overall, I approach teaching as an adaptive, learner-centered process shaped by context, age, and
-  goals. For my undergraduate teaching and mentorship, I have received the Marie A. Center 1982 Award for Excellence in Teaching and two
-  Outstanding Graduate Student Teacher Awards. See the tabs below for more on my
-  <a href="#" onclick="switchTab('grad'); document.querySelector('.tab-bar').scrollIntoView({behavior:'smooth'}); return false;" style="color:#4169E1; font-weight:600;">Undergraduate Teaching &amp; Mentorship</a>,
-  <a href="#" onclick="switchTab('osher'); document.querySelector('.tab-bar').scrollIntoView({behavior:'smooth'}); return false;" style="color:#4169E1; font-weight:600;">Independent Teaching (Osher Courses)</a>,
-  and <a href="#" onclick="switchTab('programs'); document.querySelector('.tab-bar').scrollIntoView({behavior:'smooth'}); return false;" style="color:#4169E1; font-weight:600;">Programs &amp; Outreach</a>
-  that I recommend to others interested in teaching.
+  goals. For my undergraduate teaching and mentorship, I have received the Marie A. Center 1982 Award
+  for Excellence in Teaching and two Outstanding Graduate Student Teacher Awards.
 </p>
 
-<div class="tab-bar">
-  <button class="tab-btn active" data-tab="grad">Undergraduate Teaching & Mentorship</button>
-  <button class="tab-btn" data-tab="osher">Independent Teaching (Osher Courses)</button>
-  <button class="tab-btn" data-tab="programs">Programs & Outreach</button>
-</div>
+<p class="intro-nav">
+  Read on for my <a href="#sec-teaching">undergraduate teaching</a>,
+  <a href="#sec-mentorship">mentorship</a>, and
+  <a href="#sec-osher">independent teaching at Osher</a>.
+</p>
 
 
-<!-- ===== GRADUATE TEACHING TAB ===== -->
-<div id="tab-grad" class="tab-panel">
+<!-- ===== UNDERGRADUATE TEACHING ===== -->
+<section id="sec-teaching" class="t-section">
+  <h3 class="section-header">Undergraduate Teaching</h3>
 
-  <h3 class="subsection-header">Undergraduate Teaching</h3>
-  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's <span style="color: #B08000;">Marie A. Center 1982 Award for Excellence in Teaching</span> 🏆.</p>
+  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's <span style="color: #1F7A5E;">Marie A. Center 1982 Award for Excellence in Teaching</span>.</p>
 
   <ul class="ta-list">
     <li class="ta-item">
       <span class="ta-term">Fall 2023:</span>
       <span class="ta-course">Introduction to Neuroscience</span>
-      <span class="award-badge">🏆 Outstanding Graduate Student Teacher Award</span>
+      <div class="ta-award">Outstanding Graduate Student Teacher Award</div>
     </li>
     <li class="ta-item">
       <span class="ta-term">Winter 2023:</span>
       <span class="ta-course">Introduction to Neuroscience</span>
-      <span class="award-badge">🏆 Outstanding Graduate Student Teacher Award</span>
+      <div class="ta-award">Outstanding Graduate Student Teacher Award</div>
     </li>
     <li class="ta-item">
       <span class="ta-term">Fall 2022:</span>
@@ -334,10 +271,7 @@ published: true
     </li>
   </ul>
 
-  <h3 class="subsection-header" id="undergrad-mentorship">Undergraduate Mentorship</h3>
-  <p class="section-intro">I have mentored several undergraduate researchers, including three thesis students across the Cognitive Science, Psychology, and Neuroscience departments, as well as two additional students on formal research projects. I enjoyed giving students the space to develop truly independent research directions, even when those extended beyond my own current work. For instance, my thesis students explored topics including social identity and reappraisal, individual variation in dialogue and conversation, and the relationship between depression and idiosyncratic perception. All three thesis students received fellowships for their work, and I supported each of their grant applications. See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for more details.</p>
-
-  <div class="testimonials" style="margin-top: 2rem;">
+  <div class="testimonials">
     <div class="testimonial">
       <p>"Her ability to pinpoint what was important was amazing, but she also went above and beyond by making sure that we understood — and didn't memorize — key topics."</p>
       <cite>— Undergraduate student, Intro to Neuroscience, Winter 2023</cite>
@@ -347,12 +281,24 @@ published: true
       <cite>— Undergraduate student, Intro to Neuroscience, Fall 2022</cite>
     </div>
   </div>
+</section>
 
-</div><!-- end tab-grad -->
+<hr class="divider">
 
 
-<!-- ===== OSHER COURSES TAB ===== -->
-<div id="tab-osher" class="tab-panel" style="display:none">
+<!-- ===== UNDERGRADUATE MENTORSHIP ===== -->
+<section id="sec-mentorship" class="t-section">
+  <h3 class="section-header">Undergraduate Mentorship</h3>
+
+  <p class="section-intro">I have mentored several undergraduate researchers, including three thesis students across the Cognitive Science, Psychology, and Neuroscience departments, as well as two additional students on formal research projects. I enjoyed giving students the space to develop truly independent research directions, even when those extended beyond my own current work. For instance, my thesis students explored topics including social identity and reappraisal, individual variation in dialogue and conversation, and the relationship between depression and idiosyncratic perception. All three thesis students received fellowships for their work, and I supported each of their grant applications. See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for more details.</p>
+</section>
+
+<hr class="divider">
+
+
+<!-- ===== INDEPENDENT TEACHING (OSHER) ===== -->
+<section id="sec-osher" class="t-section">
+  <h3 class="section-header">Independent Teaching · Osher Courses</h3>
 
   <p class="section-intro">I design and teach courses for the Osher Lifelong Learning Institute at Dartmouth, serving retirees and adults approaching retirement. I both design the curriculum and deliver the lectures, creating an engaging, discussion-based learning environment. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasavasegal/index.php" class="highlight-link">See my courses and reviews here</a></p>
 
@@ -411,7 +357,7 @@ published: true
     </div>
   </div>
 
-  <div class="testimonials" style="margin-top: 2rem;">
+  <div class="testimonials">
     <div class="testimonial">
       <p>"I loved how she adjusted her topics to the direction of the class discussion. It is clear the instructor was very well prepared and versed in the material to be able to do this."</p>
       <cite>— Osher participant, Spring 2024</cite>
@@ -421,51 +367,9 @@ published: true
       <cite>— Osher participant, Fall 2022</cite>
     </div>
   </div>
+</section>
 
-</div><!-- end tab-osher -->
+<div class="t-foot" id="t-end">
+  <a href="#" class="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">↑ back to top</a>
+</div>
 
-
-<!-- ===== PROGRAMS & OUTREACH TAB ===== -->
-<div id="tab-programs" class="tab-panel" style="display:none">
-
-  <p class="section-intro">Prior to starting graduate school, I worked and volunteered in early childhood education settings (pre-K and first grade) in Chicago and the Bay Area. Here are a couple of programs that make getting involved with this type of work particularly easy and accessible:</p>
-
-  <div class="program-list">
-    <div class="program-entry">
-      <a href="https://www.project-short.com/" class="program-name">Project SHORT</a>
-      <span class="program-desc">Supporting students through the graduate school application process</span>
-    </div>
-    <div class="program-entry">
-      <a href="https://www.skypeascientist.com/" class="program-name">Skype a Scientist</a>
-      <span class="program-desc">Bringing science into classrooms through interactive virtual sessions</span>
-    </div>
-    <div class="program-entry">
-      <a href="https://imentor.org/where-we-work/bay-area" class="program-name">iMentor</a>
-      <span class="program-desc">Mentoring high school students on their academic journeys</span>
-    </div>
-    <div class="program-entry">
-      <a href="https://www.jstart.org/" class="program-name">Jumpstart</a>
-      <span class="program-desc">Supporting early childhood education and foundational learning</span>
-    </div>
-    <div class="program-entry">
-      <a href="https://splashchicago.learningu.org/teach/teachers/clarasavasegal/bio.html" class="program-name">Splash</a>
-      <span class="program-desc">Teaching hands-on classes to curious high school students</span>
-    </div>
-  </div>
-
-</div><!-- end tab-programs -->
-
-
-<script>
-function switchTab(tabId) {
-  document.querySelectorAll('.tab-btn').forEach(function(b) { b.classList.remove('active'); });
-  document.querySelectorAll('.tab-panel').forEach(function(p) { p.style.display = 'none'; });
-  document.querySelector('.tab-btn[data-tab="' + tabId + '"]').classList.add('active');
-  document.getElementById('tab-' + tabId).style.display = 'block';
-}
-
-document.querySelectorAll('.tab-btn').forEach(function(btn) {
-  btn.addEventListener('click', function() { switchTab(this.dataset.tab); });
-});
-
-</script>

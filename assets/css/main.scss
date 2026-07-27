@@ -5,9 +5,19 @@ search: false
 
 @charset "utf-8";
 
+// Replace the "dirt" skin's yellow (#FFE080) with mint. These are declared
+// before the skin import so they win over the skin's `!default` values.
+$border-color: #A8E6CF;            // horizontal rules, masthead + table borders
+$footer-background-color: #EDFAF4; // page footer (same pale mint as the buttons)
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 @import "custom.css"; // main partials
+
+// The skin's muted grey is too faint to read on the pale mint footer.
+.page__footer {
+  color: #3F4F4A;
+}
 
 
 /* Adjust the font size for the entire website */

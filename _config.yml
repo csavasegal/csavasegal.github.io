@@ -116,6 +116,9 @@ author:
     - label: "Google Scholar"
       icon: "img/scholar.png"
       url: "https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "img/orcid.png"
+      url: "https://orcid.org/0000-0002-3010-3858"
     - label: "bsky"
       icon: 'img/bsky.png' #"fab fa-fw fa-twitter-square"
       url: "https://bsky.app/profile/csavasegal.bsky.social"
@@ -133,8 +136,11 @@ footer:
     - label: "Google Scholar"
       icon: "img/scholar.png"
       url: "https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "img/orcid.png"
+      url: "https://orcid.org/0000-0002-3010-3858"
     - label: "bsky"
-      icon: 'img/bsky.png' 
+      icon: 'img/bsky.png'
       url: "https://bsky.app/profile/csavasegal.bsky.social"
     - label: "GitHub"
       icon: "img/github.png"

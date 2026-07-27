@@ -6,14 +6,13 @@ permalink: /publications/
 
 <style>
   :root {
-  --accent-mint: #4FC3A1;        /* borders, outlines */
-  --accent-mint-dark: #1F7A5E;   /* hover fills, text on white */
-  --accent-mint-light: #EDFAF4;  /* button fill */
+  --accent-mint: #4FC3A1;
+  --accent-mint-dark: #1F7A5E;
 
-  --fs-title: 1.563rem; /* page title only — matches the h1 on the Teaching page */
-  --fs-lg: 1.25rem;     /* section headers (= About Me h2) */
-  --fs-base: 1rem;      /* all prose: titles, authors, links, filter labels */
-  --fs-sm: 0.85rem;     /* chrome: tags, buttons, labels, legend */
+  /* the only three font sizes on this page — matched to the About Me page */
+  --fs-lg: 1.25rem;   /* page title, section headers, year headers (= About Me h2) */
+  --fs-base: 1rem;    /* all prose: titles, authors, links, filter labels */
+  --fs-sm: 0.85rem;   /* chrome: tags, buttons, labels, legend */
 }
 
   .page-header {
@@ -25,7 +24,7 @@ permalink: /publications/
   }
 
   .page-header h1 {
-    font-size: var(--fs-title);
+    font-size: var(--fs-lg);
     color: #4169E1;
     margin-bottom: 0.5rem;
   }
@@ -88,26 +87,9 @@ permalink: /publications/
   padding: 1.25rem 0;
   border-bottom: 1px solid #eee;
   line-height: 1.55;
-
-  /* narrow left gutter holds the featured star; entry body sits right */
-  display: grid;
-  grid-template-columns: 1.75rem 1fr;
-  column-gap: 0.75rem;
-  align-items: start;
 }
 
 .publication-item:last-of-type { border-bottom: 0; }
-
-.rep-label { grid-column: 1; grid-row: 1; }
-
-.pub-title         { grid-column: 2; grid-row: 1; }
-.pub-meta          { grid-column: 2; grid-row: 2; }
-.publication-icons { grid-column: 2; grid-row: 3; }
-
-/* stack on narrow screens rather than squeeze the gutter */
-@media (max-width: 600px) {
-  .publication-item { display: block; }
-}
 
   .subsection-header {
   font-weight: 500;
@@ -132,7 +114,7 @@ permalink: /publications/
 
  .award-badge {
   display: inline-block;
-  background-color: var(--accent-mint-light);
+  background-color: #EDFAF4;
   border: 2px solid var(--accent-mint);
   padding: 0.35rem 0.75rem;
   border-radius: 15px;
@@ -172,7 +154,7 @@ permalink: /publications/
 .pub-btn {
   display: inline-block;
   padding: 0.35rem 0.75rem;
-  background-color: var(--accent-mint-light);
+  background-color: #EDFAF4;
   border: 2px solid var(--accent-mint);
   color: #333 !important;
   text-decoration: none;
@@ -186,9 +168,9 @@ permalink: /publications/
 }
 
 .pub-btn:hover {
-  background-color: var(--accent-mint-dark);
+  background-color: #1F7A5E;
   color: white;
-  border-color: var(--accent-mint-dark);
+  border-color: #1F7A5E;
   transform: translateY(-1px);
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -204,15 +186,6 @@ permalink: /publications/
   font-size: var(--fs-base);
 }
 
-/* DOI written out as part of the citation text */
-.pub-doi {
-  color: #4169E1;
-  text-decoration: none;
-  word-break: break-word;
-}
-
-.pub-doi:hover { text-decoration: underline; }
-
 .page-content {
   max-width: 900px;
   margin: auto;
@@ -222,13 +195,18 @@ permalink: /publications/
   line-height: 1.55;
 }
 
-/* featured marker: a star at twice the size of the title it sits beside */
 .rep-label {
-  font-size: calc(var(--fs-base) * 2);
-  line-height: 1;
-  font-weight: 700;
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  letter-spacing: 0.04em;
   color: #4169E1;
-  text-align: center;
+  background: #eef2fc;
+  border: 1px solid #c5d0ef;
+  padding: 0.15rem 0.55rem;
+  border-radius: 20px;
+  text-transform: uppercase;
 }
 
 .method-tag {
@@ -320,30 +298,27 @@ permalink: /publications/
 .topic-vision     { color: #333; border-color: #999; }
 .topic-networks   { color: #333; border-color: #999; }
 
+.inprep-label {
+  display: inline-block;
+  margin-top: 0.4rem;
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #888;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 0.15rem 0.55rem;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
 .method-fmri   { background: #b8b8b8; color: #111; border: 1px solid #999; }
 .method-ieeg   { background: #b8b8b8; color: #111; border: 1px solid #999; }
 .method-eeg    { background: #b8b8b8; color: #111; border: 1px solid #999; }
 .method-behav  { background: #b8b8b8; color: #111; border: 1px solid #999; }
 .method-clin   { background: #b8b8b8; color: #111; border: 1px solid #999; }
 
-
-/* ---------- Filter panel ---------- */
-
-.filter-panel {
-  background: #f5f6f8;
-  border: 1px solid #e6e8ec;
-  border-radius: 8px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.filter-panel .filter-group {
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #e6e8ec;
-}
-
-.filter-panel .method-legend { margin-bottom: 0; }
 
 /* ---------- Rep filter ---------- */
 
@@ -406,25 +381,11 @@ permalink: /publications/
   <h1>Research & Publications</h1>
 </div>
 
-<p class="page-intro">
-  I've been lucky to work on a number of different intersecting topics and methods.
-  Publications, preprints, and conference proceedings are listed below, and can be
-  filtered accordingly.
-  See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a>
-  for a complete list of publications and presentations.
-</p>
-
-<div class="meta-row">
-  <span>📄 PDF copies for personal use only; copyright with respective publishers.</span>
-  <span>* indicates work that may be indicative of future directions &nbsp;·&nbsp; ✨ indicates student I've mentored</span>
-</div>
-
-<div class="filter-panel">
 
 <div class="filter-group">
   <label class="rep-filter">
     <input type="checkbox" id="rep-only">
-    <span>Show only work indicative of future directions</span>
+    <span>Show featured work only</span>
   </label>
   <label class="rep-filter">
     <input type="checkbox" id="journals-only">
@@ -452,13 +413,22 @@ permalink: /publications/
   <span class="topic-tag topic-networks" data-filter="topic-networks">networks</span>
 </div>
 
+<h2 class="section-header">Selected Publications, Preprints & Conference Proceedings</h2>
+
+<div class="meta-row">
+  <span>📄 PDF copies for personal use only; copyright with respective publishers.</span>
+  <span>✨ indicates student I've mentored</span>
 </div>
 
-<h2 class="section-header">In Preparation <span style="text-transform: none; font-style: italic; color: #4169E1; font-weight: 500; font-size: var(--fs-base); letter-spacing: 0;">— check back soon for a preprint</span></h2>
+<p style="color: #666; margin-bottom: 0.5rem;">
+  See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for a complete list of publications and presentations.
+</p>
 
-<div class="publication-item" data-inprep="true">
+<h3 class="year-header">In Preparation <span style="text-transform: none; font-style: italic; color: #4169E1; font-weight: 500; font-size: var(--fs-base); letter-spacing: 0;">— check back soon for a preprint</span></h3>
+
+<div class="publication-item">
   <div class="publication-icons"></div>
-<span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span>
+  <div class="inprep-label">In preparation</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span>
   <div class="pub-title">
     Shifts in neural representations of ambiguous information predict reinterpretation.
   </div>
@@ -467,9 +437,9 @@ permalink: /publications/
   </div>
 </div>
 
-<div class="publication-item" data-inprep="true">
+<div class="publication-item">
   <div class="publication-icons"></div>
-<span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span><span class="topic-tag topic-memory">memory</span>
+  <div class="inprep-label">In preparation</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span><span class="topic-tag topic-memory">memory</span>
   <div class="pub-title">
     Reinterpretation counters self-bias in memory through representational updating.
   </div>
@@ -478,9 +448,9 @@ permalink: /publications/
   </div>
 </div>
 
-<div class="publication-item" data-inprep="true">
+<div class="publication-item">
   <div class="publication-icons"></div>
-<span class="method-tag method-fmri">fMRI</span><span class="method-tag method-clin">clinical</span><span class="topic-tag topic-vision">vision</span>
+  <div class="inprep-label">In preparation</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-clin">clinical</span><span class="topic-tag topic-vision">vision</span>
   <div class="pub-title">
     Neural representational alignment in developmental prosopagnosia differs beyond visual regions during naturalistic visual processing.
   </div>
@@ -489,47 +459,53 @@ permalink: /publications/
   </div>
 </div>
 
-<h2 class="section-header">Publications, Preprints &amp; Conference Proceedings</h2>
+<h3 class="year-header">2026</h3>
 
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/sava-segal-et-al-2026-narrative-twist-shifts-within-individual-neural-representations-of-dissociable-story-features (2).pdf" target="_blank">PDF</a>
+    <a class="pub-btn" href="https://doi.org/10.1073/pnas.2512071123" target="_blank">DOI</a>
     <a class="pub-btn" href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">Code</a>
     <a class="pub-btn" href="https://openneuro.org/datasets/ds007407/versions/1.0.0" target="_blank">OpenNeuro</a>
   </div>
-  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri">fMRI</span><span class="topic-tag topic-subjective">subjectivity</span>
+  <div class="rep-label">Featured</div><span class="method-tag method-fmri">fMRI</span><span class="topic-tag topic-subjective">subjectivity</span>
   <div class="pub-title">
     Narrative 'twist' shifts within-individual neural representations of dissociable story features.
   </div>
   <div class="pub-meta">
-    <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2026). <i>Proceedings of the National Academy of Sciences (PNAS).</i> <a class="pub-doi" href="https://doi.org/10.1073/pnas.2512071123" target="_blank">https://doi.org/10.1073/pnas.2512071123</a>
+    <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2026). <i>Proceedings of the National Academy of Sciences (PNAS).</i>
   </div>
 </div>
+
+<h3 class="year-header">2025</h3>
 
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="https://osf.io/preprints/psyarxiv/7rbhy_v1" target="_blank">Preprint</a>
-    </div>
+  </div>
   <span class="method-tag method-fmri">fMRI</span><span class="topic-tag topic-eventseg">event segmentation</span>
   <div class="pub-title">
     Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
   <div class="pub-meta">
-    Lu, C., <strong>Sava-Segal, C.</strong>, Baek, E.C. (2025). <i>OSF.</i> <span style="font-style: italic; color: #888;">Revise and resubmit.</span> <a class="pub-doi" href="https://doi.org/10.31234/osf.io/7rbhy_v1" target="_blank">https://doi.org/10.31234/osf.io/7rbhy_v1</a>
+    Lu, C., <strong>Sava-Segal, C.</strong>, Baek, E.C. (2025). <i>OSF.</i> <span style="font-style: italic; color: #888;">Revise and resubmit.</span>
   </div>
 </div>
 
 
+<h3 class="year-header">2024</h3>
+
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.1038/s41598-024-77895-5" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-ieeg">iEEG</span><span class="topic-tag topic-vision">vision</span>
   <div class="pub-title">
     Spatiotemporal hierarchies of face representation in the human ventral temporal cortex.
   </div>
   <div class="pub-meta">
     Salehi, S., Schrouff, J., Dehaqani, M.R.A., <strong>Sava-Segal, C.</strong>, Raccah, O., Baek, S. (2024).
-    <i>Scientific Reports.</i> <a class="pub-doi" href="https://doi.org/10.1038/s41598-024-77895-5" target="_blank">https://doi.org/10.1038/s41598-024-77895-5</a>
+    <i>Scientific Reports.</i>
   </div>
 </div>
 
@@ -537,7 +513,7 @@ permalink: /publications/
   <div class="publication-icons">
     <a class="pub-btn" href="papers/520_Paper_authored_CSS_CCN_2024_Final.pdf" target="_blank">PDF</a>
   </div>
-  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-memory">memory</span>
+  <div class="rep-label">Featured</div><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-memory">memory</span>
   <div class="pub-title">
     Self- versus other-generated interpretations of ambiguous social stimuli are asymmetrically remembered.
   </div>
@@ -551,7 +527,7 @@ permalink: /publications/
   <div class="publication-icons">
     <a class="pub-btn" href="papers/521_Paper_authored_TB_CCN_2024.pdf" target="_blank">PDF</a>
   </div>
-  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span>
+  <div class="rep-label">Featured</div><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span>
   <div class="pub-title">
     Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations.
   </div>
@@ -563,78 +539,87 @@ permalink: /publications/
 
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.1523/JNEUROSCI.2118-22.2024" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-ieeg">iEEG</span><span class="topic-tag topic-symbolic">symbolic systems</span>
   <div class="pub-title">
     Spatiotemporal dynamics of successive activations across the human brain during a simple cognitive task.
   </div>
   <div class="pub-meta">
     Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Serdar Akkol, Daitch, A., Parvizi, J. (2024).
-    <i>Journal of Neuroscience.</i> <a class="pub-doi" href="https://doi.org/10.1523/JNEUROSCI.2118-22.2024" target="_blank">https://doi.org/10.1523/JNEUROSCI.2118-22.2024</a>
+    <i>Journal of Neuroscience.</i>
   </div>
 </div>
 
 
+<h3 class="year-header">2023</h3>
+
 <div class="publication-item" data-type="proceedings">
   <div class="publication-icons">
     <a class="pub-btn" href="https://cds.ismrm.org/protected/23MProceedings/PDFfiles/1024_1DHBtNPae.html" target="_blank">Proceedings</a>
-    </div>
+  </div>
   <span class="method-tag method-fmri">fMRI</span>
   <div class="pub-title">
     A multi-subject deconvolution algorithm for the analysis of naturalistic fMRI data.
   </div>
   <div class="pub-meta">
     Uruñuela, E., <strong>Sava-Segal, C.</strong>, Leung, M.✨, Finn, E.S., Caballero-Gaudes, C. (2023).
-    <i>Proceedings of the International Society for Magnetic Resonance in Medicine (ISMRM).</i> <a class="pub-doi" href="https://doi.org/10.58530/2023/1024" target="_blank">https://doi.org/10.58530/2023/1024</a>
+    <i>Proceedings of the International Society for Magnetic Resonance in Medicine (ISMRM).</i>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/css_2023_individual_event-seg.pdf" target="_blank">PDF</a>
+    <a class="pub-btn" href="https://doi.org/10.1093/cercor/bhad106" target="_blank">DOI</a>
     <a class="pub-btn" href="https://github.com/csavasegal/individual_event_seg/" target="_blank">Code</a>
     <a class="pub-btn" href="https://openneuro.org/datasets/ds004516/versions/2.0.3" target="_blank">OpenNeuro</a>
   </div>
-  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span><span class="topic-tag topic-eventseg">event segmentation</span><span class="topic-tag topic-memory">memory</span>
+  <div class="rep-label">Featured</div><span class="method-tag method-fmri">fMRI</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-subjective">subjectivity</span><span class="topic-tag topic-eventseg">event segmentation</span><span class="topic-tag topic-memory">memory</span>
   <div class="pub-title">
     Individual differences in neural event segmentation of continuous experiences.
   </div>
   <div class="pub-meta">
     <strong>Sava-Segal, C.</strong>, Richards, C., Leung, M.✨, &amp; Finn, E.S. (2023).
-    <i>Cerebral Cortex.</i> <a class="pub-doi" href="https://doi.org/10.1093/cercor/bhad106" target="_blank">https://doi.org/10.1093/cercor/bhad106</a>
+    <i>Cerebral Cortex.</i>
   </div>
 </div>
 
 
+<h3 class="year-header">2021</h3>
+
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.1523/JNEUROSCI.2785-20.2021" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-ieeg">iEEG</span><span class="method-tag method-clin">clinical</span><span class="topic-tag topic-networks">networks</span>
   <div class="pub-title">
     Intracranial electroencephalography reveals selective task-evoked responses and resting state connectivity of periventricular heterotopias.
   </div>
   <div class="pub-meta">
     Akkol, S., Kucyi, A., Hu, W.H., Zhao, B., Zhang, C., <strong>Sava-Segal, C.</strong>, Liu, S., Razavi, B., Zhang, J., Zhang, K., &amp; Parvizi, J. (2021).
-    <i>Journal of Neuroscience.</i> <a class="pub-doi" href="https://doi.org/10.1523/JNEUROSCI.2785-20.2021" target="_blank">https://doi.org/10.1523/JNEUROSCI.2785-20.2021</a>
+    <i>Journal of Neuroscience.</i>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.1162/jocn_a_01775" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-ieeg">iEEG</span><span class="topic-tag topic-symbolic">symbolic systems</span>
   <div class="pub-title">
     Overlapping neuronal population responses in the human parietal cortex during visuospatial attention and arithmetic processing.
   </div>
   <div class="pub-meta">
     Liu, N., Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Kastner, S., Chen, Q., &amp; Parvizi, J. (2021).
-    <i>Journal of Cognitive Neuroscience</i>. <a class="pub-doi" href="https://doi.org/10.1162/jocn_a_01775" target="_blank">https://doi.org/10.1162/jocn_a_01775</a>
+    <i>Journal of Cognitive Neuroscience</i>.
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.1523/ENEURO.0065-21.2021" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-eeg">EEG</span>
   <div class="pub-title">
     Expertise modulates neural stimulus-tracking.
@@ -642,13 +627,14 @@ permalink: /publications/
   <div class="pub-meta">
     Brookshire, G., Mangelsdorf, H.H., <strong>Sava-Segal, C.</strong>, Reis, K., Nusbaum, H.,
     Goldin-Meadow, S., &amp; Casasanto, D. (2021).
-    <i>ENeuro</i>. <a class="pub-doi" href="https://doi.org/10.1523/ENEURO.0065-21.2021" target="_blank">https://doi.org/10.1523/ENEURO.0065-21.2021</a>
+    <i>ENeuro</i>.
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.1073/pnas.2100522118" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-ieeg">iEEG</span><span class="method-tag method-clin">clinical</span>
   <div class="pub-title">
     Altered sense of self during seizures in the posteromedial cortex.
@@ -656,13 +642,14 @@ permalink: /publications/
   <div class="pub-meta">
     Parvizi, J., Braga, R.M., Kucyi, A., Veit, M.J., Pinheiro-Chagas, P., Perry, C.,
     <strong>Sava-Segal, C.</strong>, Zeineh, M., van Staalduinen, E.K., Henderson, J.M., &amp; Markert, M. (2021).
-    <i>Proceedings of the National Academy of Sciences (PNAS).</i> <a class="pub-doi" href="https://doi.org/10.1073/pnas.2100522118" target="_blank">https://doi.org/10.1073/pnas.2100522118</a>
+    <i>Proceedings of the National Academy of Sciences (PNAS).</i>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.1073/pnas.2105031118" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-ieeg">iEEG</span><span class="topic-tag topic-networks">networks</span>
   <div class="pub-title">
     Temporal order of signal propagation within and across intrinsic brain networks.
@@ -670,14 +657,17 @@ permalink: /publications/
   <div class="pub-meta">
     Veit, M.J., Kucyi, A., Hu, W., Zhang, C., Zhao, B., Guo, Z., Yang, B., <strong>Sava-Segal, C.</strong>,
     Perry, C., Zhang, J., Zhang, K., &amp; Parvizi, J. (2021).
-    <i>Proceedings of the National Academy of Sciences (PNAS).</i> <a class="pub-doi" href="https://doi.org/10.1073/pnas.2105031118" target="_blank">https://doi.org/10.1073/pnas.2105031118</a>
+    <i>Proceedings of the National Academy of Sciences (PNAS).</i>
   </div>
 </div>
 
 
+<h3 class="year-header">2020</h3>
+
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.1038/s41586-020-2731-9" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-ieeg">iEEG</span><span class="method-tag method-behav">behavior</span><span class="method-tag method-clin">clinical</span>
   <div class="pub-title">
     Deep posteromedial cortical rhythm in dissociation.
@@ -686,13 +676,14 @@ permalink: /publications/
     Vesuna, S., Kauvar, I.V., Richman, E., Gore, F., Oskotsky, T.,
     <strong>Sava-Segal, C.</strong>, Luo, L., Malenka, R.C., Henderson, J.M.,
     Nuyujukian, P., Parvizi, J., &amp; Deisseroth, K. (2020).
-    <i>Nature</i>. <a class="pub-doi" href="https://doi.org/10.1038/s41586-020-2731-9" target="_blank">https://doi.org/10.1038/s41586-020-2731-9</a>
+    <i>Nature</i>.
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.1093/cercor/bhaa155" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-eeg">EEG</span><span class="method-tag method-behav">behavior</span><span class="topic-tag topic-symbolic">symbolic systems</span><span class="topic-tag topic-vision">vision</span>
   <div class="pub-title">
     Unconscious number discrimination in the human visual system.
@@ -700,34 +691,38 @@ permalink: /publications/
   <div class="pub-meta">
     Lucero, C., Brookshire, G., <strong>Sava-Segal, C.</strong>, Bottini, R.,
     Goldin-Meadow, S., Vogel, E.K., &amp; Casasanto, D. (2020).
-    <i>Cerebral Cortex</i>. <a class="pub-doi" href="https://doi.org/10.1093/cercor/bhaa155" target="_blank">https://doi.org/10.1093/cercor/bhaa155</a>
+    <i>Cerebral Cortex</i>.
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.3389/fpsyg.2020.00216" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-behav">behavior</span><span class="topic-tag topic-vision">vision</span>
   <div class="pub-title">
     Effects of repetition suppression on sound-induced flash illusion with aging.
   </div>
   <div class="pub-meta">
     Sun, Y., Liu, X., Li, B., <strong>Sava-Segal, C.</strong>, Wang, A., &amp; Zhang, M. (2020).
-    <i>Frontiers in Psychology</i>, 11, 216. <a class="pub-doi" href="https://doi.org/10.3389/fpsyg.2020.00216" target="_blank">https://doi.org/10.3389/fpsyg.2020.00216</a>
+    <i>Frontiers in Psychology</i>, 11, 216.
   </div>
 </div>
 
 
+<h3 class="year-header">2019</h3>
+
 <div class="publication-item">
   <div class="publication-icons">
-    </div>
+    <a class="pub-btn" href="https://doi.org/10.1177/0301006619885796" target="_blank">DOI</a>
+  </div>
   <span class="method-tag method-behav">behavior</span><span class="topic-tag topic-vision">vision</span>
   <div class="pub-title">
     The effects of cognitive expectation on sound-induced flash illusion.
   </div>
   <div class="pub-meta">
     Wang, A., Sang, H., He, J., <strong>Sava-Segal, C.</strong>, Tang, X., &amp; Zhang, M. (2019).
-    <i>Perception</i>, 48(12), 1214–1234. <a class="pub-doi" href="https://doi.org/10.1177/0301006619885796" target="_blank">https://doi.org/10.1177/0301006619885796</a>
+    <i>Perception</i>, 48(12), 1214–1234.
   </div>
 </div>
 
@@ -852,7 +847,7 @@ permalink: /publications/
       var hide = false;
       if (repOnly && !item.querySelector('.rep-label')) hide = true;
       if (journalsOnly && item.dataset.type === 'proceedings') hide = true;
-      if (hideInprep && item.dataset.inprep) hide = true;
+      if (hideInprep && item.querySelector('.inprep-label')) hide = true;
       if (activeFilters.size > 0) {
         var matched = false;
         activeFilters.forEach(function(f) {
@@ -863,10 +858,10 @@ permalink: /publications/
       item.style.display = hide ? 'none' : '';
     });
 
-    document.querySelectorAll('h2.section-header').forEach(function(header) {
+    document.querySelectorAll('h3.year-header').forEach(function(header) {
       var sibling = header.nextElementSibling;
       var hasVisible = false;
-      while (sibling && !sibling.classList.contains('section-header')) {
+      while (sibling && !sibling.classList.contains('year-header')) {
         if (sibling.classList.contains('publication-item') && sibling.style.display !== 'none') {
           hasVisible = true;
           break;

@@ -7,9 +7,9 @@ published: true
 
 <style>
   .osher-notice {
-    background: #FFFCE8;
-    border: 1px solid #FFC000;
-    color: #B08000;
+    background: #EDFAF4;
+    border: 1px solid #4FC3A1;
+    color: #1F7A5E;
     font-size: 0.85rem;
     font-weight: 500;
     padding: 0.75rem 1rem;
@@ -62,9 +62,9 @@ published: true
 
   .section-label {
     display: inline-block;
-    background: #FFFCE8;
-    border: 1px solid #FFC000;
-    color: #B08000;
+    background: #EDFAF4;
+    border: 1px solid #4FC3A1;
+    color: #1F7A5E;
     padding: 0.2rem 0.6rem;
     border-radius: 20px;
     font-size: 0.72rem;

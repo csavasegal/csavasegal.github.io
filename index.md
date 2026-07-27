@@ -10,6 +10,9 @@ title:
   --text-main: #333;
   --text-muted: #666;
   --bg-soft: #F0F4F8;
+  --mint: #4FC3A1;
+  --mint-dark: #1F7A5E;
+  --mint-light: #EDFAF4;
 }
 
 /* ---------- Base ---------- */
@@ -125,27 +128,31 @@ a:hover {
 }
 
 .button-primary {
-  background-color: var(--accent);
+  background-color: var(--mint-dark);
   color: white;
 }
 
 .button-primary:hover {
-  background-color: var(--accent-dark);
+  background-color: #17614A;
+  color: white;
   transform: translateY(-1px);
 }
 
 .button-secondary {
-  background-color: #e8ecf8;
-  color: var(--accent);
+  background-color: var(--mint-light);
+  border: 2px solid var(--mint);
+  color: var(--mint-dark);
 }
 
 .button-secondary:visited {
-  color: var(--accent);
+  color: var(--mint-dark);
 }
 
 .button-secondary:hover {
-  background-color: var(--accent-dark);
+  background-color: var(--mint-dark);
+  border-color: var(--mint-dark);
   color: white;
+  transform: translateY(-1px);
 }
 
 /* ---------- Research Highlight ---------- */
@@ -154,7 +161,6 @@ a:hover {
   background-color: #f7f9fc;
   padding: 1.75rem;
   border-radius: 10px;
-  border-top: 3px solid var(--accent);
   margin: 2.5rem 0;
 }
 
@@ -182,7 +188,6 @@ a:hover {
   padding: 1.75rem;
   border-radius: 10px;
   border: 1px solid #e4eaf5;
-  border-top: 3px solid var(--accent);
   margin: 2rem 0;
 }
 
@@ -226,6 +231,10 @@ a:hover {
     <a href="https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en" class="social-link">
       <img src="/img/scholar.png" alt="Google Scholar">
       <span>Scholar</span>
+    </a>
+    <a href="https://orcid.org/0000-0002-3010-3858" class="social-link">
+      <img src="/img/orcid.png" alt="ORCID">
+      <span>ORCID</span>
     </a>
     <a href="https://bsky.app/profile/csavasegal.bsky.social" class="social-link">
       <img src="/img/bsky.png" alt="bsky">
