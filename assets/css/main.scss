@@ -19,6 +19,25 @@ $footer-background-color: #EDFAF4; // page footer (same pale mint as the buttons
   color: #3F4F4A;
 }
 
+// Scale the whole site to 80%. The theme sizes its root responsively
+// (16/18/20/22px); these are those same steps at 0.8, so every rem-based
+// size on every page shrinks proportionally and nothing changes shape.
+html {
+  font-size: 12.8px;
+
+  @include breakpoint($medium) {
+    font-size: 14.4px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 17.6px;
+  }
+}
+
 
 /* Adjust the font size for the entire website */
 // body {

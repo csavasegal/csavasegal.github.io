@@ -93,12 +93,6 @@ body {
   background: #f7f9fc;
   border: 1px solid #e4eaf5;
   border-radius: 8px;
-  transition: transform 0.15s, box-shadow 0.15s;
-}
-
-.course-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 .course-header {

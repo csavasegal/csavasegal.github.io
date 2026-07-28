@@ -68,21 +68,6 @@ permalink: /publications/
     line-height: 1.7;
   }
 
-.year-header {
-  margin-top: 3rem;
-  margin-bottom: 0.5rem;
-  font-size: var(--fs-lg);
-  font-weight: 700;
-  color: #4169E1;
-  letter-spacing: 0;
-  text-transform: none;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 0.4rem;
-}
-.year-header::before {
-  content: none;
-}
-
 .publication-item {
   margin: 0;
   padding: 1.25rem 0;
@@ -107,12 +92,6 @@ permalink: /publications/
 /* stack on narrow screens rather than squeeze the gutter */
 @media (max-width: 600px) {
   .publication-item { display: block; }
-}
-
-  .subsection-header {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  margin-top: 1.5rem;
 }
 
   .publication-icons {
@@ -159,8 +138,7 @@ permalink: /publications/
   .divider {
     margin: 3rem 0;
     border: 0;
-    height: 2px;
-    background: linear-gradient(to right, transparent, #4169E1, transparent);
+    border-top: 1px solid #ddd;
   }
 
 .publication-icons {
@@ -231,28 +209,32 @@ permalink: /publications/
   text-align: center;
 }
 
-.method-tag {
-  display: inline-block;
-  margin-top: 0.4rem;
-  margin-left: 0.3rem;
+.method-tag,
+.topic-tag {
+  display: inline;
   font-size: var(--fs-sm);
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  padding: 0.1rem 0.45rem;
-  border-radius: 5px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #666;
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
 }
 
 .method-tags {
   margin-left: auto;
-  display: flex;
-  gap: 4px;
-  align-items: center;
 }
 
-.method-tags .method-tag,
-.method-tags .topic-tag {
-  margin-top: 0;
-  margin-left: 0;
+/* middot between adjacent tags */
+.method-tags > *:not(:first-child)::before {
+  content: "·";
+  font-size: 1.7em;
+  line-height: 0;
+  vertical-align: middle;
+  margin: 0 0.4rem;
+  color: var(--accent-mint);
 }
 
 .method-legend {
@@ -271,60 +253,30 @@ permalink: /publications/
   color: #111;
 }
 
+/* in the legend the tags are buttons, so they get a box; in the
+   citations below they stay plain text */
 .method-legend .method-tag,
 .method-legend .topic-tag {
   cursor: pointer;
-  margin-top: 0;
-  margin-left: 0;
-  opacity: 0.5;
-  transition: opacity 0.15s, box-shadow 0.15s;
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  background: white;
+  border: 1px solid #d5d5d5;
+  border-radius: 5px;
+  color: #666;
+  transition: color 0.15s, border-color 0.15s, background-color 0.15s;
 }
 
 .method-legend .method-tag:hover,
 .method-legend .method-tag.active,
 .method-legend .topic-tag:hover,
 .method-legend .topic-tag.active {
-  opacity: 1;
-  box-shadow: 0 0 0 2px currentColor;
+  color: #4169E1;
+  border-color: #4169E1;
+  background: #eef2fc;
 }
 
-.topic-tag {
-  display: inline-block;
-  margin-top: 0.4rem;
-  margin-left: 0.3rem;
-  font-size: var(--fs-sm);
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  padding: 0.1rem 0.45rem;
-  border-radius: 5px;
-  background: white;
-  border: 1.5px solid;
-}
 
-.topic-tags {
-  margin-left: auto;
-  display: flex;
-  gap: 4px;
-  align-items: center;
-}
-
-.topic-tags .topic-tag {
-  margin-top: 0;
-  margin-left: 0;
-}
-
-.topic-symbolic   { color: #333; border-color: #999; }
-.topic-subjective { color: #333; border-color: #999; }
-.topic-memory     { color: #333; border-color: #999; }
-.topic-eventseg   { color: #333; border-color: #999; }
-.topic-vision     { color: #333; border-color: #999; }
-.topic-networks   { color: #333; border-color: #999; }
-
-.method-fmri   { background: #b8b8b8; color: #111; border: 1px solid #999; }
-.method-ieeg   { background: #b8b8b8; color: #111; border: 1px solid #999; }
-.method-eeg    { background: #b8b8b8; color: #111; border: 1px solid #999; }
-.method-behav  { background: #b8b8b8; color: #111; border: 1px solid #999; }
-.method-clin   { background: #b8b8b8; color: #111; border: 1px solid #999; }
 
 
 /* ---------- Filter panel ---------- */

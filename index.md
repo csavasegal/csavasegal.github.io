@@ -47,7 +47,7 @@ a:hover {
 .hero-section {
   text-align: center;
   padding: 2.5rem 2rem;
-  background: linear-gradient(135deg, var(--bg-soft) 0%, #E8EEF2 100%);
+  background: var(--bg-soft);
   border-radius: 12px;
   margin-bottom: 3rem;
 }
@@ -155,46 +155,30 @@ a:hover {
   transform: translateY(-1px);
 }
 
-/* ---------- Research Highlight ---------- */
+/* ---------- Content sections ---------- */
 
-.research-highlight {
-  background-color: #f7f9fc;
-  padding: 1.75rem;
-  border-radius: 10px;
+.research-highlight,
+.info-card {
   margin: 2.5rem 0;
 }
 
-.research-highlight h2 {
+.research-highlight h2,
+.info-card h2 {
   margin-top: 0;
+  margin-bottom: 1.25rem;
   text-align: center;
-
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #ddd;
 }
 
 .research-highlight p strong {
   font-weight: 600;
 }
+
 .centered-heading {
   text-align: center;
 }
 
-
-
-
-
-/* ---------- Info Card ---------- */
-
-.info-card {
-  background-color: #f7f9fc;
-  padding: 1.75rem;
-  border-radius: 10px;
-  border: 1px solid #e4eaf5;
-  margin: 2rem 0;
-}
-
-.info-card h2 {
-  margin-top: 0;
-  text-align: center;
-}
 
 .info-card p:last-child {
   margin-bottom: 0;
@@ -210,9 +194,7 @@ a:hover {
 .section-divider {
   margin: 3.5rem 0;
   border: 0;
-  height: 2px;
-  background: linear-gradient(to right, transparent, var(--accent), transparent);
-  opacity: 0.5;
+  border-top: 1px solid #ddd;
 }
 </style>
 
