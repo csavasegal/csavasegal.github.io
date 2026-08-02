@@ -21,7 +21,7 @@ published: true
 html { scroll-behavior: smooth; }
 
 body {
-  font-family: "Inter", "Helvetica", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: var(--fs-base);
   color: #333;
   line-height: 1.7;
@@ -298,6 +298,17 @@ body {
 
   <p class="section-intro">If you are an Osher student, class materials are on the <a href="/osher/" style="color: #4169E1; font-weight: 500;">Osher Courses page</a>.</p>
 
+  <div class="testimonials">
+    <div class="testimonial">
+      <p>"I loved how she adjusted her topics to the direction of the class discussion. It is clear the instructor was very well prepared and versed in the material to be able to do this."</p>
+      <cite>— Osher participant, Spring 2024</cite>
+    </div>
+    <div class="testimonial">
+      <p>"She was very knowledgeable but was always prepared to check out something where she needed help with the answer — refreshing to have a class with a young Ph.D. student who was so enthusiastic."</p>
+      <cite>— Osher participant, Fall 2022</cite>
+    </div>
+  </div>
+
   <div class="course-item">
     <div class="course-header">
       <div class="course-title">Experience in the Eye of the Beholder: How Individual Brains Create Reality II</div>
@@ -348,17 +359,6 @@ body {
     </div>
     <div class="course-description">
       This course explores how the brain supports behaviors such as learning, memory, and processing information. It emphasizes the uniqueness of individual brains and how we each perceive the world differently. The course involves hands-on psychological experiments to illustrate key concepts, starting with the basics of vision and developing into more complex processes like language, emotion, and creativity.
-    </div>
-  </div>
-
-  <div class="testimonials">
-    <div class="testimonial">
-      <p>"I loved how she adjusted her topics to the direction of the class discussion. It is clear the instructor was very well prepared and versed in the material to be able to do this."</p>
-      <cite>— Osher participant, Spring 2024</cite>
-    </div>
-    <div class="testimonial">
-      <p>"She was very knowledgeable but was always prepared to check out something where she needed help with the answer — refreshing to have a class with a young Ph.D. student who was so enthusiastic."</p>
-      <cite>— Osher participant, Fall 2022</cite>
     </div>
   </div>
 </section>
