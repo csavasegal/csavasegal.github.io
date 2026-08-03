@@ -24,6 +24,24 @@ $sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #3F4F4A;
 }
 
+// The theme only gives #main a 1em gutter, so content runs nearly edge-to-edge
+// at any width below its 1800px max-width. Widen the gutter at each breakpoint
+// so there is always white space down both sides.
+#main {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+
+  @include breakpoint($medium) {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  @include breakpoint($large) {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
 // Scale the whole site to 80%. The theme sizes its root responsively
 // (16/18/20/22px); these are those same steps at 0.8, so every rem-based
 // size on every page shrinks proportionally and nothing changes shape.
