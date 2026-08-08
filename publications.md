@@ -247,22 +247,32 @@ permalink: /publications/
 }
 
 /* ---- filter legend: icon above label, comma separated, no box ---- */
-.method-legend {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  gap: 0.9rem;
-  row-gap: 1.1rem;
-  margin-bottom: 1.5rem;
+.filter-heading {
   font-size: var(--fs-sm);
-  color: #999;
+  font-weight: 500;
+  color: #111;
+  max-width: 46rem;
+  margin: 0 auto 0.5rem;
 }
 
-.method-legend span.label {
-  font-weight: 500;
-  margin-right: 0.2rem;
-  color: #111;
-  align-self: center;
+.method-legend {
+  margin-bottom: 1.5rem;
+  font-size: var(--fs-sm);
+}
+
+/* items keep their natural width and pack toward the centre, wrapping as
+   the window narrows — no stretching to fill, so the gaps stay constant */
+.legend-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.2rem 1.9rem;
+}
+
+.legend-row + .legend-row {
+  margin-top: 1.1rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid #CFE9DC;
 }
 
 .method-legend .method-tag,
@@ -315,8 +325,9 @@ permalink: /publications/
   background: var(--accent-mint-light);
   border: 1px solid #CFE9DC;
   border-radius: 8px;
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 2.5rem;
+  padding: 1.25rem 1.75rem;
+  margin: 0 auto 2.5rem;
+  max-width: 46rem;   /* stops the box stretching on wide screens */
 }
 
 .filter-panel .method-legend { margin-bottom: 0; }
@@ -341,31 +352,33 @@ permalink: /publications/
   <span>PDF copies are for personal use only; copyright remains with the respective publishers.</span>
 </div>
 
+<p class="filter-heading">filter further:</p>
+
 <div class="filter-panel">
-
 <div class="method-legend">
-  <span class="label">filter further:</span>
-  <span class="method-tag method-fmri" data-filter="method-fmri"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg><span>fMRI</span></span>
-  <span class="method-tag method-ieeg" data-filter="method-ieeg"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg><span>iEEG</span></span>
-  <span class="method-tag method-eeg" data-filter="method-eeg"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8"/><path d="M6.4 12h2.1l1.6-3.4 2.1 6.8 1.6-3.4h2.2"/></svg><span>EEG</span></span>
-  <span class="method-tag method-behav" data-filter="method-behav"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3.2" y="8.4" width="17.6" height="8.4" rx="2"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12" cy="12.6" r="1.5"/><circle cx="16" cy="12.6" r="1.5"/><path d="M12 8.4V5.6"/></svg><span>behavior</span></span>
-  <span class="method-tag method-clin group-end" data-filter="method-clin"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3.2v4.9a4 4 0 0 0 8 0V3.2"/><path d="M4.4 3.2h3.1M12.5 3.2h3.1"/><path d="M10 12.1v3.1a3.9 3.9 0 0 0 7.8 0v-1.4"/><circle cx="17.8" cy="10.4" r="2.1"/></svg><span>clinical</span></span>
-  <span style="margin: 0 0.3rem; color: #ddd; align-self: center;">|</span>
-  <span class="topic-tag topic-symbolic" data-filter="topic-symbolic"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="4.6" cy="12" r="2.6"/><rect x="9.6" y="9.4" width="5.2" height="5.2" rx="0.4"/><path d="M19.4 9.2 22 14.6h-5.2z"/><path d="M7.2 12h2.4M14.8 12h1.6"/></svg><span>symbolic systems</span></span>
-  <span class="topic-tag topic-subjective" data-filter="topic-subjective"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5.6c5.2 0 9.2 6.4 9.2 6.4s-4 6.4-9.2 6.4S2.8 12 2.8 12 6.8 5.6 12 5.6z"/><path d="M12 9.4l.9 1.7 1.7.9-1.7.9-.9 1.7-.9-1.7L9.4 12l1.7-.9z"/></svg><span>subjectivity</span></span>
-  <span class="topic-tag topic-memory" data-filter="topic-memory"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M13.8 10.2a2.1 2.1 0 1 0-1.9 2.9 3.1 3.1 0 0 0 3.1-3.4"/></svg><span>memory</span></span>
-  <span class="topic-tag topic-eventseg" data-filter="topic-eventseg"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M2.4 12h19.2"/><circle cx="8" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="16" cy="12" r="1.2" fill="currentColor" stroke="none"/><path d="M5.8 6.4v11.2M10 6.4v11.2M14.2 6.4v11.2" stroke-dasharray="2 2.2"/></svg><span>event segmentation</span></span>
-  <span class="topic-tag topic-vision" data-filter="topic-vision"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg><span>vision</span></span>
-  <span class="topic-tag topic-networks group-end" data-filter="topic-networks"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g transform="rotate(-90 12 12)"><path d="M12 6.4 7.2 9.4M12 6.4l4.8 3M7.2 9.4h9.6M7.2 9.4 12 12.6M16.8 9.4 12 12.6M12 12.6 7.6 17.4M12 12.6l4.4 4.8"/><circle cx="12" cy="5" r="1.7"/><circle cx="6" cy="9.6" r="1.7"/><circle cx="18" cy="9.6" r="1.7"/><circle cx="12" cy="13.2" r="1.8"/><circle cx="6.8" cy="18.4" r="1.7"/><circle cx="17.2" cy="18.4" r="1.7"/></g></svg><span>networks</span></span>
+  <div class="legend-row">
+    <span class="method-tag method-fmri" data-filter="method-fmri"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg><span>fMRI</span></span>
+    <span class="method-tag method-ieeg" data-filter="method-ieeg"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg><span>iEEG</span></span>
+    <span class="method-tag method-eeg" data-filter="method-eeg"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8"/><path d="M6.4 12h2.1l1.6-3.4 2.1 6.8 1.6-3.4h2.2"/></svg><span>EEG</span></span>
+    <span class="method-tag method-behav" data-filter="method-behav"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg><span>behavior</span></span>
+    <span class="method-tag method-clin group-end" data-filter="method-clin"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3.2v4.9a4 4 0 0 0 8 0V3.2"/><path d="M4.4 3.2h3.1M12.5 3.2h3.1"/><path d="M10 12.1v3.1a3.9 3.9 0 0 0 7.8 0v-1.4"/><circle cx="17.8" cy="10.4" r="2.1"/></svg><span>clinical</span></span>
+  </div>
+  <div class="legend-row">
+    <span class="topic-tag topic-symbolic" data-filter="topic-symbolic"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="4.6" cy="12" r="2.6"/><rect x="9.6" y="9.4" width="5.2" height="5.2" rx="0.4"/><path d="M19.4 9.2 22 14.6h-5.2z"/><path d="M7.2 12h2.4M14.8 12h1.6"/></svg><span>symbolic systems</span></span>
+    <span class="topic-tag topic-subjective" data-filter="topic-subjective"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg><span>subjectivity</span></span>
+    <span class="topic-tag topic-memory" data-filter="topic-memory"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg><span>memory</span></span>
+    <span class="topic-tag topic-eventseg" data-filter="topic-eventseg"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M1.5 12h21"/><circle cx="7.1" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12.4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.7" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M4.5 2.8v18.4M9.8 2.8v18.4M15.1 2.8v18.4M20.4 2.8v18.4" stroke-dasharray="2.2 2.4"/></svg><span>event segmentation</span></span>
+    <span class="topic-tag topic-vision" data-filter="topic-vision"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg><span>vision</span></span>
+    <span class="topic-tag topic-networks group-end" data-filter="topic-networks"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g transform="rotate(-90 12 12)"><path d="M12 6.4 7.2 9.4M12 6.4l4.8 3M7.2 9.4h9.6M7.2 9.4 12 12.6M16.8 9.4 12 12.6M12 12.6 7.6 17.4M12 12.6l4.4 4.8"/><circle cx="12" cy="5" r="1.7"/><circle cx="6" cy="9.6" r="1.7"/><circle cx="18" cy="9.6" r="1.7"/><circle cx="12" cy="13.2" r="1.8"/><circle cx="6.8" cy="18.4" r="1.7"/><circle cx="17.2" cy="18.4" r="1.7"/></g></svg><span>networks</span></span>
+  </div>
 </div>
-
 </div>
 
 <h2 class="section-header">In Preparation <span style="text-transform: none; font-style: italic; color: #4169E1; font-weight: 500; font-size: var(--fs-base); letter-spacing: 0;">— check back soon for a preprint</span></h2>
 
 <div class="publication-item" data-inprep="true">
   <div class="publication-icons"></div>
-<span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="3.2" y="8.4" width="17.6" height="8.4" rx="2"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12" cy="12.6" r="1.5"/><circle cx="16" cy="12.6" r="1.5"/><path d="M12 8.4V5.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M12 5.6c5.2 0 9.2 6.4 9.2 6.4s-4 6.4-9.2 6.4S2.8 12 2.8 12 6.8 5.6 12 5.6z"/><path d="M12 9.4l.9 1.7 1.7.9-1.7.9-.9 1.7-.9-1.7L9.4 12l1.7-.9z"/></svg></span>
+<span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span>
   <div class="pub-title">
     Shifts in neural representations of ambiguous information predict reinterpretation.
   </div>
@@ -376,7 +389,7 @@ permalink: /publications/
 
 <div class="publication-item" data-inprep="true">
   <div class="publication-icons"></div>
-<span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="3.2" y="8.4" width="17.6" height="8.4" rx="2"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12" cy="12.6" r="1.5"/><circle cx="16" cy="12.6" r="1.5"/><path d="M12 8.4V5.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M12 5.6c5.2 0 9.2 6.4 9.2 6.4s-4 6.4-9.2 6.4S2.8 12 2.8 12 6.8 5.6 12 5.6z"/><path d="M12 9.4l.9 1.7 1.7.9-1.7.9-.9 1.7-.9-1.7L9.4 12l1.7-.9z"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M13.8 10.2a2.1 2.1 0 1 0-1.9 2.9 3.1 3.1 0 0 0 3.1-3.4"/></svg></span>
+<span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg></span>
   <div class="pub-title">
     Reinterpretation counters self-bias in memory through representational updating.
   </div>
@@ -404,7 +417,7 @@ permalink: /publications/
     <a class="pub-btn" href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">Code</a>
     <a class="pub-btn" href="https://openneuro.org/datasets/ds007407/versions/1.0.0" target="_blank">OpenNeuro</a>
   </div>
-  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M12 5.6c5.2 0 9.2 6.4 9.2 6.4s-4 6.4-9.2 6.4S2.8 12 2.8 12 6.8 5.6 12 5.6z"/><path d="M12 9.4l.9 1.7 1.7.9-1.7.9-.9 1.7-.9-1.7L9.4 12l1.7-.9z"/></svg></span>
+  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span>
   <div class="pub-title">
     Narrative 'twist' shifts within-individual neural representations of dissociable story features.
   </div>
@@ -417,7 +430,7 @@ permalink: /publications/
   <div class="publication-icons">
     <a class="pub-btn" href="https://osf.io/preprints/psyarxiv/7rbhy_v1" target="_blank">Preprint</a>
     </div>
-  <span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-eventseg" title="event segmentation"><svg viewBox="0 0 24 24" role="img" aria-label="event segmentation"><path d="M2.4 12h19.2"/><circle cx="8" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="16" cy="12" r="1.2" fill="currentColor" stroke="none"/><path d="M5.8 6.4v11.2M10 6.4v11.2M14.2 6.4v11.2" stroke-dasharray="2 2.2"/></svg></span>
+  <span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-eventseg" title="event segmentation"><svg viewBox="0 0 24 24" role="img" aria-label="event segmentation"><path d="M1.5 12h21"/><circle cx="7.1" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12.4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.7" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M4.5 2.8v18.4M9.8 2.8v18.4M15.1 2.8v18.4M20.4 2.8v18.4" stroke-dasharray="2.2 2.4"/></svg></span>
   <div class="pub-title">
     Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
@@ -444,7 +457,7 @@ permalink: /publications/
   <div class="publication-icons">
     <a class="pub-btn" href="papers/520_Paper_authored_CSS_CCN_2024_Final.pdf" target="_blank">PDF</a>
   </div>
-  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="3.2" y="8.4" width="17.6" height="8.4" rx="2"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12" cy="12.6" r="1.5"/><circle cx="16" cy="12.6" r="1.5"/><path d="M12 8.4V5.6"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M13.8 10.2a2.1 2.1 0 1 0-1.9 2.9 3.1 3.1 0 0 0 3.1-3.4"/></svg></span>
+  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg></span>
   <div class="pub-title">
     Self- versus other-generated interpretations of ambiguous social stimuli are asymmetrically remembered.
   </div>
@@ -458,7 +471,7 @@ permalink: /publications/
   <div class="publication-icons">
     <a class="pub-btn" href="papers/521_Paper_authored_TB_CCN_2024.pdf" target="_blank">PDF</a>
   </div>
-  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="3.2" y="8.4" width="17.6" height="8.4" rx="2"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12" cy="12.6" r="1.5"/><circle cx="16" cy="12.6" r="1.5"/><path d="M12 8.4V5.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M12 5.6c5.2 0 9.2 6.4 9.2 6.4s-4 6.4-9.2 6.4S2.8 12 2.8 12 6.8 5.6 12 5.6z"/><path d="M12 9.4l.9 1.7 1.7.9-1.7.9-.9 1.7-.9-1.7L9.4 12l1.7-.9z"/></svg></span>
+  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span>
   <div class="pub-title">
     Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations.
   </div>
@@ -502,7 +515,7 @@ permalink: /publications/
     <a class="pub-btn" href="https://github.com/csavasegal/individual_event_seg/" target="_blank">Code</a>
     <a class="pub-btn" href="https://openneuro.org/datasets/ds004516/versions/2.0.3" target="_blank">OpenNeuro</a>
   </div>
-  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="3.2" y="8.4" width="17.6" height="8.4" rx="2"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12" cy="12.6" r="1.5"/><circle cx="16" cy="12.6" r="1.5"/><path d="M12 8.4V5.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M12 5.6c5.2 0 9.2 6.4 9.2 6.4s-4 6.4-9.2 6.4S2.8 12 2.8 12 6.8 5.6 12 5.6z"/><path d="M12 9.4l.9 1.7 1.7.9-1.7.9-.9 1.7-.9-1.7L9.4 12l1.7-.9z"/></svg></span><span class="topic-tag topic-eventseg" title="event segmentation"><svg viewBox="0 0 24 24" role="img" aria-label="event segmentation"><path d="M2.4 12h19.2"/><circle cx="8" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/><circle cx="16" cy="12" r="1.2" fill="currentColor" stroke="none"/><path d="M5.8 6.4v11.2M10 6.4v11.2M14.2 6.4v11.2" stroke-dasharray="2 2.2"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M13.8 10.2a2.1 2.1 0 1 0-1.9 2.9 3.1 3.1 0 0 0 3.1-3.4"/></svg></span>
+  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span><span class="topic-tag topic-eventseg" title="event segmentation"><svg viewBox="0 0 24 24" role="img" aria-label="event segmentation"><path d="M1.5 12h21"/><circle cx="7.1" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12.4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.7" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M4.5 2.8v18.4M9.8 2.8v18.4M15.1 2.8v18.4M20.4 2.8v18.4" stroke-dasharray="2.2 2.4"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg></span>
   <div class="pub-title">
     Individual differences in neural event segmentation of continuous experiences.
   </div>
@@ -585,7 +598,7 @@ permalink: /publications/
 <div class="publication-item">
   <div class="publication-icons">
     </div>
-  <span class="method-tag method-ieeg" title="iEEG"><svg viewBox="0 0 24 24" role="img" aria-label="iEEG"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="3.2" y="8.4" width="17.6" height="8.4" rx="2"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12" cy="12.6" r="1.5"/><circle cx="16" cy="12.6" r="1.5"/><path d="M12 8.4V5.6"/></svg></span><span class="method-tag method-clin" title="clinical"><svg viewBox="0 0 24 24" role="img" aria-label="clinical"><path d="M6 3.2v4.9a4 4 0 0 0 8 0V3.2"/><path d="M4.4 3.2h3.1M12.5 3.2h3.1"/><path d="M10 12.1v3.1a3.9 3.9 0 0 0 7.8 0v-1.4"/><circle cx="17.8" cy="10.4" r="2.1"/></svg></span>
+  <span class="method-tag method-ieeg" title="iEEG"><svg viewBox="0 0 24 24" role="img" aria-label="iEEG"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="method-tag method-clin" title="clinical"><svg viewBox="0 0 24 24" role="img" aria-label="clinical"><path d="M6 3.2v4.9a4 4 0 0 0 8 0V3.2"/><path d="M4.4 3.2h3.1M12.5 3.2h3.1"/><path d="M10 12.1v3.1a3.9 3.9 0 0 0 7.8 0v-1.4"/><circle cx="17.8" cy="10.4" r="2.1"/></svg></span>
   <div class="pub-title">
     Deep posteromedial cortical rhythm in dissociation.
   </div>
@@ -600,7 +613,7 @@ permalink: /publications/
 <div class="publication-item">
   <div class="publication-icons">
     </div>
-  <span class="method-tag method-eeg" title="EEG"><svg viewBox="0 0 24 24" role="img" aria-label="EEG"><circle cx="12" cy="12" r="8"/><path d="M6.4 12h2.1l1.6-3.4 2.1 6.8 1.6-3.4h2.2"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="3.2" y="8.4" width="17.6" height="8.4" rx="2"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12" cy="12.6" r="1.5"/><circle cx="16" cy="12.6" r="1.5"/><path d="M12 8.4V5.6"/></svg></span><span class="topic-tag topic-symbolic" title="symbolic systems"><svg viewBox="0 0 24 24" role="img" aria-label="symbolic systems"><circle cx="4.6" cy="12" r="2.6"/><rect x="9.6" y="9.4" width="5.2" height="5.2" rx="0.4"/><path d="M19.4 9.2 22 14.6h-5.2z"/><path d="M7.2 12h2.4M14.8 12h1.6"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
+  <span class="method-tag method-eeg" title="EEG"><svg viewBox="0 0 24 24" role="img" aria-label="EEG"><circle cx="12" cy="12" r="8"/><path d="M6.4 12h2.1l1.6-3.4 2.1 6.8 1.6-3.4h2.2"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-symbolic" title="symbolic systems"><svg viewBox="0 0 24 24" role="img" aria-label="symbolic systems"><circle cx="4.6" cy="12" r="2.6"/><rect x="9.6" y="9.4" width="5.2" height="5.2" rx="0.4"/><path d="M19.4 9.2 22 14.6h-5.2z"/><path d="M7.2 12h2.4M14.8 12h1.6"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
   <div class="pub-title">
     Unconscious number discrimination in the human visual system.
   </div>
@@ -614,7 +627,7 @@ permalink: /publications/
 <div class="publication-item">
   <div class="publication-icons">
     </div>
-  <span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="3.2" y="8.4" width="17.6" height="8.4" rx="2"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12" cy="12.6" r="1.5"/><circle cx="16" cy="12.6" r="1.5"/><path d="M12 8.4V5.6"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
+  <span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
   <div class="pub-title">
     Effects of repetition suppression on sound-induced flash illusion with aging.
   </div>
@@ -628,7 +641,7 @@ permalink: /publications/
 <div class="publication-item">
   <div class="publication-icons">
     </div>
-  <span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="3.2" y="8.4" width="17.6" height="8.4" rx="2"/><circle cx="8" cy="12.6" r="1.5"/><circle cx="12" cy="12.6" r="1.5"/><circle cx="16" cy="12.6" r="1.5"/><path d="M12 8.4V5.6"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
+  <span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
   <div class="pub-title">
     The effects of cognitive expectation on sound-induced flash illusion.
   </div>
