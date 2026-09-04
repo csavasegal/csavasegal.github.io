@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Clara A. Sava-Segal"
-  #avatar           : "img/sava-segal_clara.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  #avatar           : "img/sava-segal_clara.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "PhD candidate in Cognitive Neuroscience at Dartmouth College, advised by <a href=\"https://thefinnlab.github.io/\" style=\"color: #4169E1;\">Emily Finn</a>. Finishing up this spring and starting a postdoc this fall."
   location         : "Dartmouth College"
   email            : 

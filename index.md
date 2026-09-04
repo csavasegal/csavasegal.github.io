@@ -55,6 +55,8 @@ a:hover {
 .profile-photo {
   width: 180px;
   height: 180px;
+  object-fit: cover;
+  object-position: center;
   border-radius: 50%;
   margin-bottom: 1.5rem;
   border: 4px solid var(--accent);
@@ -199,7 +201,7 @@ a:hover {
 </style>
 
 <div class="hero-section">
-  <img src="/img/sava-segal_clara.png" alt="Clara A. Sava-Segal" class="profile-photo">
+  <img src="/img/sava-segal_clara.jpg" alt="Clara A. Sava-Segal" class="profile-photo">
 
   <h1>Clara A. Sava-Segal</h1>
   <p class="hero-subtitle">PhD Candidate in Cognitive Neuroscience</p>
