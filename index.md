@@ -243,16 +243,16 @@ a:hover {
     I am a <a href="https://wti.yale.edu/">Wu Tsai Institute Postdoctoral Fellow</a> at Yale,
     working with <a href="https://medicine.yale.edu/lab/goldfarb/research/">Elizabeth Goldfarb</a> (Psychiatry)
     and <a href="https://www.wendyberrymendes.com/">Wendy Berry Mendes</a> (Psychology).
-    I got my PhD in Cognitive Neuroscience at Dartmouth College, where I worked with
-    <a href="https://thefinnlab.github.io/">Emily Finn</a> and used neuroimaging and behavioral methods
-    to study how we integrate incoming information with existing knowledge, and how this differs
-    meaningfully across individuals: how two people—or the same person at different times—can reach
-    different perceptions of identical information, and how these differences shape memory.
+    I got my PhD in Cognitive Neuroscience at Dartmouth College with
+    <a href="https://thefinnlab.github.io/">Emily Finn</a>, using neuroimaging and behavioral methods
+    to study how we integrate incoming information with existing knowledge.
+    I focused on why two people—or the same person at different times—can perceive identical
+    information differently, and how these differences shape reinterpretation and memory.
     That work was supported by an <span style="color: #4169E1; font-weight: 500;">NIMH F31 NRSA Fellowship</span>
     and an <span style="color: #4169E1; font-weight: 500;">NSF GRFP</span>.
-    In my postdoc, I am extending this work to brain–body–behavior interactions, examining how
-    endocrine and physiological processes, which unfold over different timescales, shape these
-    behaviors, with a particular focus on the effects of stress.
+    In my postdoc, I am extending this work to brain–body–behavior interactions.
+    I examine how endocrine and physiological processes shape these behaviors, with a particular
+    focus on stress.
   </p>
 
   <p>
