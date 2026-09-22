@@ -204,11 +204,11 @@ a:hover {
   <img src="/img/sava-segal_clara.jpg" alt="Clara A. Sava-Segal" class="profile-photo">
 
   <h1>Clara A. Sava-Segal</h1>
-  <p class="hero-subtitle">PhD Candidate in Cognitive Neuroscience</p>
-  <p class="hero-affiliation">Dartmouth College</p>
+  <p class="hero-subtitle">Wu Tsai Institute Postdoctoral Fellow</p>
+  <p class="hero-affiliation">Yale University</p>
 
   <div class="social-links">
-    <a href="mailto:csava.gr@dartmouth.edu" class="social-link">
+    <a href="mailto:clara.sava-segal@yale.edu" class="social-link">
       <img src="/img/email.png" alt="Email">
       <span>Email</span>
     </a>
@@ -239,29 +239,36 @@ a:hover {
 
   <h2>Research Focus</h2>
 
-  <p><strong>
-    How and why do two people "see" (interpret) and remember the same experience so differently?
-  </strong></p>
-
   <p>
-    Using neuroimaging and behavioral methods, I investigate how we integrate incoming
-    information with existing knowledge and how this differs meaningfully at the individual level.
-    Specifically, I study how two people—or the same person at different times—can reach
+    I am a <a href="https://wti.yale.edu/">Wu Tsai Institute Postdoctoral Fellow</a> at Yale,
+    working with <a href="https://medicine.yale.edu/lab/goldfarb/research/">Elizabeth Goldfarb</a> (Psychiatry)
+    and <a href="https://www.wendyberrymendes.com/">Wendy Berry Mendes</a> (Psychology).
+    I got my PhD in Cognitive Neuroscience at Dartmouth College, where I worked with
+    <a href="https://thefinnlab.github.io/">Emily Finn</a> and used neuroimaging and behavioral methods
+    to study how we integrate incoming information with existing knowledge, and how this differs
+    meaningfully across individuals: how two people—or the same person at different times—can reach
     different perceptions of identical information, and how these differences shape memory.
+    That work was supported by an <span style="color: #4169E1; font-weight: 500;">NIMH F31 NRSA Fellowship</span>
+    and an <span style="color: #4169E1; font-weight: 500;">NSF GRFP</span>.
+    In my postdoc, I am extending this work to brain–body–behavior interactions, examining how
+    endocrine and physiological processes, which unfold over different timescales, shape these
+    behaviors, with a particular focus on the effects of stress.
   </p>
 
   <p>
-    I am a Cognitive Neuroscience PhD candidate advised by
-    <a href="https://thefinnlab.github.io/">Emily Finn</a> at Dartmouth College,
-    working in the Functional Imaging and Naturalistic Neuroscience Lab (FINN Lab).
-    I am currently funded by an <span style="color: #4169E1; font-weight: 500;">NIMH F31 NRSA Fellowship</span>
-    and was previously supported by an <span style="color: #4169E1; font-weight: 500;">NSF GRFP</span>.
-    I am finishing up this spring and will be starting a postdoc this fall.
+    <strong>BACKGROUND:</strong> I received my Bachelor’s degree from the University of Chicago,
+    where I completed my undergraduate thesis with <a href="http://casasanto.com/">Daniel Casasanto</a>
+    and was fortunate enough to also work with
+    <a href="https://voices.uchicago.edu/gomezlab/">Christopher Gomez</a> and in the
+    <a href="https://awhvogellab.com/">Awh-Vogel Lab</a>. Following graduation, I worked at Stanford in
+    <a href="https://med.stanford.edu/parvizi-lab.html">Josef Parvizi’s lab</a>.
+    I tend to favor more "naturalistic" paradigms, but I also try to balance the richness of
+    real-world stimuli with the experimental control needed to isolate specific mechanisms.
   </p>
 
   <p style="text-align: center; margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
     <a href="/publications/" class="button button-secondary">
-      Learn More About My Research
+      Click to See Selected Publications
     </a>
   </p>
 
@@ -273,32 +280,13 @@ a:hover {
   <hr class="section-divider">
 
   <div class="info-card">
-    <h2>Background</h2>
-
-    <p>
-      I earned my Bachelor’s degree from the University of Chicago, where I studied a combination of psychology,
-      neurobiology, and human development, and completed my undergraduate thesis with
-      <a href="http://casasanto.com/">Daniel Casasanto</a>. I also worked with
-      <a href="https://voices.uchicago.edu/gomezlab/">Christopher Gomez</a> and in the
-      <a href="https://awhvogellab.com/">Awh-Vogel Lab</a>. Following graduation, I worked as a
-      lab manager and research assistant at Stanford in
-      <a href="https://med.stanford.edu/parvizi-lab.html">Josef Parvizi’s lab</a>. My training
-      spans electrophysiology, functional network dynamics, and the cognitive neuroscience of
-      symbolic systems. In my PhD work, I have tended to favor more "naturalistic" paradigms,
-      but I also try to balance the richness of real-world stimuli with the experimental control
-      needed to isolate specific mechanisms. I hope to continue to do that in future work.
-    </p>
-  </div>
-
-  <div class="info-card">
     <h2>Beyond Research</h2>
 
     <p>
-      I’m passionate about science communication and public education. Prior to graduate school,
-      I did medical editing and worked in classrooms at both ends of the K–12 spectrum
-      (Pre-K and 12th grade). More recently, I’ve designed and taught 5+ discussion-based
-      neuroscience and psychology courses for adult learners (ages 50+) at the
-      Osher Lifelong Learning Institute at Dartmouth — an experience I’ve found incredibly rewarding.
+      I care a lot about science communication and public education. Prior to graduate school,
+      I worked in classrooms at both ends of the K–12 spectrum (Pre-K and 12th grade). More recently, I’ve designed and taught 5+
+      discussion-based neuroscience and psychology courses for adult learners (ages 50+) at the
+      Osher Lifelong Learning Institute at Dartmouth.
     </p>
 
     <p>

@@ -378,17 +378,6 @@ permalink: /publications/
 
 <div class="publication-item" data-inprep="true">
   <div class="publication-icons"></div>
-<span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span>
-  <div class="pub-title">
-    Shifts in neural representations of ambiguous information predict reinterpretation.
-  </div>
-  <div class="pub-meta">
-    <strong>Sava-Segal, C.</strong>, Benson, T.✨, Finn, E.S.
-  </div>
-</div>
-
-<div class="publication-item" data-inprep="true">
-  <div class="publication-icons"></div>
 <span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg></span>
   <div class="pub-title">
     Reinterpretation counters self-bias in memory through representational updating.
@@ -410,6 +399,17 @@ permalink: /publications/
 </div>
 
 <h2 class="section-header">Publications, Preprints &amp; Conference Proceedings</h2>
+
+<div class="publication-item">
+  <div class="publication-icons"></div>
+  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span>
+  <div class="pub-title">
+    Updated neural representations predict reinterpretation of ambiguous social scenes independent of gaze-linked visual resampling.
+  </div>
+  <div class="pub-meta">
+    <strong>Sava-Segal, C.</strong>, Benson, T.✨, Finn, E.S. (2026). <span style="font-style: italic; color: #888;">Submitted.</span>
+  </div>
+</div>
 
 <div class="publication-item">
   <div class="publication-icons">

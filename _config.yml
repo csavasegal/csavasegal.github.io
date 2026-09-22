@@ -106,13 +106,13 @@ analytics:
 author:
   name             : "Clara A. Sava-Segal"
   #avatar           : "img/sava-segal_clara.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "PhD candidate in Cognitive Neuroscience at Dartmouth College, advised by <a href=\"https://thefinnlab.github.io/\" style=\"color: #4169E1;\">Emily Finn</a>. Finishing up this spring and starting a postdoc this fall."
-  location         : "Dartmouth College"
+  bio              : "Wu Tsai Institute Postdoctoral Fellow at Yale University, working with Elizabeth Goldfarb and Wendy Berry Mendes. PhD in Cognitive Neuroscience from Dartmouth College."
+  location         : "Yale University"
   email            : 
   links:
     - label: "Email"
       icon: "img/email.png"
-      url: "mailto:csava.gr@dartmouth.edu"
+      url: "mailto:clara.sava-segal@yale.edu"
     - label: "Google Scholar"
       icon: "img/scholar.png"
       url: "https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en"
@@ -132,7 +132,7 @@ footer:
   links:
     - label: "Email"
       icon: "img/email.png"
-      url: "mailto:csava.gr@dartmouth.edu"
+      url: "mailto:clara.sava-segal@yale.edu"
     - label: "Google Scholar"
       icon: "img/scholar.png"
       url: "https://scholar.google.com/citations?user=c0vFC1MAAAAJ&hl=en"
