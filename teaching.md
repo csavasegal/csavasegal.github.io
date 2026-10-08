@@ -7,15 +7,14 @@ published: true
 
 <style>
 :root {
-  --accent-mint: #4FC3A1;
-  --accent-mint-dark: #1F7A5E;
-  --accent-mint-light: #EDFAF4;
+  --accent-mint: #5AAEE0;
+  --accent-mint-dark: #1F6A9E;
+  --accent-mint-light: #EEF6FC;
 
-  /* same four sizes as the Research page */
+  /* headings get their own sizes; all other text is --fs-base */
   --fs-title: 1.563rem; /* page title */
   --fs-lg: 1.25rem;     /* section headers */
   --fs-base: 1rem;      /* prose */
-  --fs-sm: 0.85rem;     /* secondary text: terms, descriptions, quotes */
 }
 
 html { scroll-behavior: smooth; }
@@ -29,9 +28,8 @@ body {
 
 .page-header {
   text-align: center;
-  margin-bottom: 2rem;
-  padding: 1.5rem 0;
-  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 1.25rem;
+  padding: 0.75rem 0 0;
 }
 
 .page-header h1 {
@@ -42,15 +40,15 @@ body {
 
 .section-intro {
   font-size: var(--fs-base);
-  line-height: 1.8;
-  margin-bottom: 1.5rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
   color: #555;
 }
 
 .intro-nav {
   font-size: var(--fs-base);
   color: #555;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .intro-nav a { color: #4169E1; font-weight: 500; }
@@ -63,33 +61,36 @@ body {
   font-size: var(--fs-lg);
   font-weight: 700;
   color: #4169E1;
-  margin-top: 3rem;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid #ddd;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
 }
 
 /* ---------- TA list ---------- */
 
 .ta-list { list-style: none; padding: 0; }
 
-.ta-item { padding: 0.5rem 0; margin: 0.75rem 0; }
+.ta-item { padding: 0; margin: 0.35rem 0; }
 
-.ta-term { font-weight: bold; color: #333; }
+.ta-term { color: #333; }
 
-.ta-course { color: #4169E1; margin-left: 0.5rem; }
+.ta-course { color: #333; font-weight: bold; }
 
 .ta-award {
-  font-size: var(--fs-sm);
-  color: #1F7A5E;
-  margin-top: 0.15rem;
+  font-size: var(--fs-base);
+  color: #4169E1;
+  margin-left: 0.25rem;
+}
+
+.ta-award::before {
+  content: "| ";
+  color: #999;
 }
 
 /* ---------- Course cards ---------- */
 
 .course-item {
-  margin: 1rem 0;
-  padding: 1.1rem 1.35rem 1rem;
+  margin: 0.75rem 0;
+  padding: 0.9rem 1.2rem;
   background: #f7f9fc;
   border: 1px solid #e4eaf5;
   border-radius: 8px;
@@ -111,14 +112,14 @@ body {
 }
 
 .course-term {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-base);
   color: #888;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
 .course-description {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-base);
   line-height: 1.65;
   color: #555;
   margin-bottom: 0.65rem;
@@ -126,7 +127,7 @@ body {
 
 .course-link {
   display: inline-block;
-  font-size: var(--fs-sm);
+  font-size: var(--fs-base);
   color: #4169E1;
   font-weight: 500;
   text-decoration: none;
@@ -143,7 +144,7 @@ body {
   color: var(--accent-mint-dark);
   text-decoration: none;
   font-weight: 600;
-  font-size: var(--fs-sm);
+  font-size: var(--fs-base);
   transition: background-color 0.2s, border-color 0.2s, color 0.2s;
 }
 
@@ -159,8 +160,8 @@ body {
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem 2rem;
-  margin: 2rem auto 0;
+  gap: 1rem 2rem;
+  margin: 1.25rem auto;
   max-width: 680px;
 }
 
@@ -175,21 +176,21 @@ body {
 
 .testimonial p {
   font-style: italic;
-  color: var(--accent-mint-dark);
-  font-size: var(--fs-sm);
+  color: #4169E1;
+  font-size: var(--fs-base);
   line-height: 1.6;
   margin: 0 0 0.4rem;
 }
 
 .testimonial cite {
   display: block;
-  font-size: var(--fs-sm);
+  font-size: var(--fs-base);
   font-style: normal;
   color: #777;
 }
 
 .divider {
-  margin: 3rem 0;
+  margin: 2rem 0;
   border: 0;
   border-top: 1px solid #ddd;
 }
@@ -197,14 +198,14 @@ body {
 /* ---------- Foot ---------- */
 
 .t-foot {
-  margin-top: 2.5rem;
-  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
   border-top: 1px solid #e6e6e6;
   text-align: center;
 }
 
 .to-top {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-base);
   color: #4169E1;
   font-weight: 500;
   text-decoration: none;
@@ -218,17 +219,15 @@ body {
 </div>
 
 <p class="section-intro">
-  I have taught across the lifespan — from pre-K and first-grade classrooms to undergraduate students
-  (including mentoring thesis students) to older adults (ages 50+) at the Osher Lifelong Learning
-  Institute at Dartmouth, where I design discussion-based courses for retirees eager to engage with
-  cutting-edge research. My formal training includes coursework through the Dartmouth Center for
-  Advanced Learning, as well as training in education policy and socioemotional learning strategies
-  through the Careers in Education program at UChicago, supported by the
+  I have taught pre-K and first-grade classrooms, Dartmouth undergraduates (including thesis
+  students I mentored), and adults 50 and older at the Osher Lifelong Learning Institute at
+  Dartmouth, where I design discussion-based courses on current brain research. My teacher training
+  includes coursework through the Dartmouth Center for Advanced Learning and the Careers in Education
+  program at UChicago, where I studied education policy and socioemotional learning strategies with
+  support from the
   <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/"
      style="color: #4169E1; font-weight: 500;">Milgrom Education Impact Fellowship</a>.
-  Overall, I approach teaching as an adaptive, learner-centered process shaped by context, age, and
-  goals. For my undergraduate teaching and mentorship, I have received the Marie A. Center 1982 Award
-  for Excellence in Teaching and two Outstanding Graduate Student Teacher Awards.
+  I approach teaching as an adaptive, learner-centered process shaped by context, age, and goals.
 </p>
 
 <p class="intro-nav">
@@ -242,37 +241,33 @@ body {
 <section id="sec-teaching" class="t-section">
   <h3 class="section-header">Undergraduate Teaching</h3>
 
-  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's <span style="color: #1F7A5E;">Marie A. Center 1982 Award for Excellence in Teaching</span>.</p>
+  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's <span style="color: #4169E1;">Marie A. Center 1982 Award for Excellence in Teaching</span>.</p>
 
   <ul class="ta-list">
     <li class="ta-item">
-      <span class="ta-term">Fall 2023:</span>
-      <span class="ta-course">Introduction to Neuroscience</span>
-      <div class="ta-award">Outstanding Graduate Student Teacher Award</div>
+      <span class="ta-course">Introduction to Neuroscience</span><span class="ta-term">, Fall 2023</span>
+      <span class="ta-award">Outstanding Graduate Student Teacher Award</span>
     </li>
     <li class="ta-item">
-      <span class="ta-term">Winter 2023:</span>
-      <span class="ta-course">Introduction to Neuroscience</span>
-      <div class="ta-award">Outstanding Graduate Student Teacher Award</div>
+      <span class="ta-course">Introduction to Neuroscience</span><span class="ta-term">, Winter 2023</span>
+      <span class="ta-award">Outstanding Graduate Student Teacher Award</span>
     </li>
     <li class="ta-item">
-      <span class="ta-term">Fall 2022:</span>
-      <span class="ta-course">Introduction to Neuroscience</span>
+      <span class="ta-course">Introduction to Neuroscience</span><span class="ta-term">, Fall 2022</span>
     </li>
     <li class="ta-item">
-      <span class="ta-term">Spring 2022:</span>
-      <span class="ta-course">Psychological Research Methods</span>
+      <span class="ta-course">Psychological Research Methods</span><span class="ta-term">, Spring 2022</span>
     </li>
   </ul>
 
   <div class="testimonials">
     <div class="testimonial">
       <p>"Her ability to pinpoint what was important was amazing, but she also went above and beyond by making sure that we understood — and didn't memorize — key topics."</p>
-      <cite>— Undergraduate student, Intro to Neuroscience, Winter 2023</cite>
+      <cite>— Undergraduate student, Introduction to Neuroscience, Winter 2023</cite>
     </div>
     <div class="testimonial">
       <p>"I think she was the reason that I did well in this class and want to continue to pursue classes in the Neuroscience department."</p>
-      <cite>— Undergraduate student, Intro to Neuroscience, Fall 2022</cite>
+      <cite>— Undergraduate student, Introduction to Neuroscience, Fall 2022</cite>
     </div>
   </div>
 </section>
@@ -284,7 +279,7 @@ body {
 <section id="sec-mentorship" class="t-section">
   <h3 class="section-header">Undergraduate Mentorship</h3>
 
-  <p class="section-intro">I have mentored several undergraduate researchers, including three thesis students across the Cognitive Science, Psychology, and Neuroscience departments, as well as two additional students on formal research projects. I enjoyed giving students the space to develop truly independent research directions, even when those extended beyond my own current work. For instance, my thesis students explored topics including social identity and reappraisal, individual variation in dialogue and conversation, and the relationship between depression and idiosyncratic perception. All three thesis students received fellowships for their work, and I supported each of their grant applications. See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for more details.</p>
+  <p class="section-intro">I have mentored several undergraduate researchers, including three thesis students across the Cognitive Science, Psychology, and Neuroscience departments, as well as two additional students on formal research projects. I enjoyed giving students the space to develop independent research directions, even when those extended beyond my own current work. For instance, my thesis students explored topics including social identity and reappraisal, individual variation in dialogue and conversation, and the relationship between depression and idiosyncratic perception. All three thesis students received fellowships for their work, and I supported each of their grant applications. See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for more details.</p>
 </section>
 
 <hr class="divider">
@@ -294,7 +289,7 @@ body {
 <section id="sec-osher" class="t-section">
   <h3 class="section-header">Independent Teaching · Osher Courses</h3>
 
-  <p class="section-intro">I design and teach courses for the Osher Lifelong Learning Institute at Dartmouth, serving retirees and adults approaching retirement. I both design the curriculum and deliver the lectures, creating an engaging, discussion-based learning environment. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasavasegal/index.php" class="highlight-link">See my courses and reviews here</a></p>
+  <p class="section-intro">I design and teach courses for the Osher Lifelong Learning Institute at Dartmouth, for retirees and adults approaching retirement. Each session mixes a short lecture with open discussion, and I let participants' questions steer where we go. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasavasegal/index.php" class="highlight-link">See my courses and reviews here</a></p>
 
   <p class="section-intro">If you are an Osher student, class materials are on the <a href="/osher/" style="color: #4169E1; font-weight: 500;">Osher Courses page</a>.</p>
 
@@ -317,7 +312,7 @@ body {
     <div class="course-description">
       This course explores the fascinating world of individual consciousness and subjective experience, examining how each person's unique mental landscape emerges from brain activity. We explore cutting-edge methods scientists use to study the individual brain—from neuroimaging techniques that reveal personal thought patterns to innovative approaches for measuring subjective states like emotions, memories, and perceptions. The course addresses fundamental questions: How do we study something as personal as individual experience? What makes each mind unique?
     </div>
-    <a href="/osher/subjectivity2/" class="course-link">→ View class materials</a>
+    <a href="/osher/subjectivity2/" class="course-link">View class materials</a>
   </div>
 
   <div class="course-item">
@@ -328,7 +323,7 @@ body {
     <div class="course-description">
       The first version of this course exploring individual consciousness and subjective experience, examining how scientists are beginning to study not just what people are thinking, but how they experience it. This course combines lecture with class discussions and insights from my own research on how people understand the world differently from one another.
     </div>
-    <a href="/osher/subjectivity/" class="course-link">→ View class materials</a>
+    <a href="/osher/subjectivity/" class="course-link">View class materials</a>
   </div>
 
   <div class="course-item">
@@ -339,7 +334,7 @@ body {
     <div class="course-description">
       This course explores the diversity of the human brain, offering a comprehensive introduction to the complex interactions between brain structure, function, and behavior. The goal is to focus on a broad spectrum of psychiatric conditions (such as depression, anxiety, schizophrenia, and bipolar disorder) alongside neurodegenerative diseases like Alzheimer's. Given the diversity of topics, this is designed as a multi-part series.
     </div>
-    <a href="/osher/DiverseMinds/coursegoals/" class="course-link">→ View class materials</a>
+    <a href="/osher/DiverseMinds/coursegoals/" class="course-link">View class materials</a>
   </div>
 
   <div class="course-item">
@@ -364,6 +359,6 @@ body {
 </section>
 
 <div class="t-foot" id="t-end">
-  <a href="#" class="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">↑ back to top</a>
+  <a href="#" class="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top</a>
 </div>
 

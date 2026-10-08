@@ -10,9 +10,9 @@ title:
   --text-main: #333;
   --text-muted: #666;
   --bg-soft: #F0F4F8;
-  --mint: #4FC3A1;
-  --mint-dark: #1F7A5E;
-  --mint-light: #EDFAF4;
+  --mint: #5AAEE0;
+  --mint-dark: #1F6A9E;
+  --mint-light: #EEF6FC;
 }
 
 /* ---------- Base ---------- */
@@ -135,7 +135,7 @@ a:hover {
 }
 
 .button-primary:hover {
-  background-color: #17614A;
+  background-color: #185783;
   color: white;
   transform: translateY(-1px);
 }
@@ -171,6 +171,13 @@ a:hover {
   text-align: center;
   padding-bottom: 0.4rem;
   border-bottom: 1px solid #ddd;
+}
+
+/* justified prose; the button rows set text-align: center inline, so they stay centred */
+.research-highlight p,
+.info-card p {
+  text-align: justify;
+  hyphens: auto;
 }
 
 .research-highlight p strong {
@@ -256,7 +263,7 @@ a:hover {
   </p>
 
   <p>
-    <strong>BACKGROUND:</strong> I received my Bachelor’s degree from the University of Chicago,
+    Before graduate school, I received my Bachelor’s degree from the University of Chicago,
     where I completed my undergraduate thesis with <a href="http://casasanto.com/">Daniel Casasanto</a>
     and was fortunate enough to also work with
     <a href="https://voices.uchicago.edu/gomezlab/">Christopher Gomez</a> and in the
@@ -294,7 +301,7 @@ a:hover {
       directly to the real world. For instance, we created
       <a href="http://finnlabmuseum.com/">ArtLibs</a>, a collaborative project with the
       Hood Museum at Dartmouth where we get to explore these ideas outside the lab,
-      funded by an internal Arts Integration Grant.
+      generously funded by an internal Arts Integration Grant.
     </p>
 
     <p style="text-align: center; margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">

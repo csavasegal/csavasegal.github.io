@@ -6,9 +6,9 @@ permalink: /publications/
 
 <style>
   :root {
-  --accent-mint: #4FC3A1;        /* borders, outlines */
-  --accent-mint-dark: #1F7A5E;   /* hover fills, text on white */
-  --accent-mint-light: #EDFAF4;  /* button fill */
+  --accent-mint: #5AAEE0;        /* borders, outlines */
+  --accent-mint-dark: #1F6A9E;   /* hover fills, text on white */
+  --accent-mint-light: #EEF6FC;  /* button fill */
 
   --fs-title: 1.563rem; /* page title only — matches the h1 on the Teaching page */
   --fs-lg: 1.25rem;     /* section headers (= About Me h2) */
@@ -37,24 +37,10 @@ permalink: /publications/
     color: #555;
   }
 
-  .meta-row {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.3rem 1.5rem;
-    font-size: var(--fs-sm);
-    color: #777;
-    font-weight: 400;
-    margin-bottom: 1.5rem;
-    padding-bottom: 0.75rem;
-    border-bottom: 1px solid #eee;
-  }
-
   /* the marker itself picks up the same blue as the star in the gutter */
-  .meta-row .mark {
+  .page-intro .mark {
     color: #4169E1;
     font-weight: 700;
-    margin-right: 0.15rem;
   }
 
   .section-header {
@@ -99,6 +85,10 @@ permalink: /publications/
 @media (max-width: 600px) {
   .publication-item { display: block; }
 }
+
+/* in-prep entries have no buttons, so drop the empty icon row and tighten them */
+.publication-item[data-inprep] { padding: 0.75rem 0; }
+.publication-item[data-inprep] .publication-icons:empty { display: none; }
 
   .publication-icons {
     margin-top: 0.6rem;
@@ -189,7 +179,8 @@ permalink: /publications/
 }
 
 /* DOI written out as part of the citation text */
-.pub-doi {
+.pub-doi,
+.pub-doi:visited {
   color: #4169E1;
   text-decoration: none;
   word-break: break-word;
@@ -272,7 +263,7 @@ permalink: /publications/
 .legend-row + .legend-row {
   margin-top: 1.1rem;
   padding-top: 1.1rem;
-  border-top: 1px solid #CFE9DC;
+  border-top: 1px solid #CFE3F2;
 }
 
 .method-legend .method-tag,
@@ -291,7 +282,7 @@ permalink: /publications/
   width: 2em;
   height: 2em;
   flex-shrink: 0;
-  color: var(--accent-mint-dark);  /* icons stay green; the label shows state */
+  color: var(--accent-mint-dark);  /* icons stay blue; the label shows state */
   fill: none;
   stroke: currentColor;
   stroke-width: 1.3;
@@ -323,7 +314,7 @@ permalink: /publications/
 
 .filter-panel {
   background: var(--accent-mint-light);
-  border: 1px solid #CFE9DC;
+  border: 1px solid #CFE3F2;
   border-radius: 8px;
   padding: 1.25rem 1.75rem;
   margin: 0 auto 2.5rem;
@@ -344,13 +335,10 @@ permalink: /publications/
   filtered accordingly.
   See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a>
   for a complete list of publications and presentations.
+  A <span class="mark">*</span> marks work that may be indicative of future directions, and
+  a ✨ marks a student I've mentored. PDF copies are for personal use only; copyright remains
+  with the respective publishers.
 </p>
-
-<div class="meta-row">
-  <span><span class="mark">*</span>work that may be indicative of future directions</span>
-  <span><span class="mark">✨</span>student I've mentored</span>
-  <span>PDF copies are for personal use only; copyright remains with the respective publishers.</span>
-</div>
 
 <p class="filter-heading">filter further:</p>
 
@@ -374,7 +362,7 @@ permalink: /publications/
 </div>
 </div>
 
-<h2 class="section-header">In Preparation <span style="text-transform: none; font-style: italic; color: #4169E1; font-weight: 500; font-size: var(--fs-base); letter-spacing: 0;">— check back soon for a preprint</span></h2>
+<h2 class="section-header">In Preparation</h2>
 
 <div class="publication-item" data-inprep="true">
   <div class="publication-icons"></div>
@@ -394,20 +382,23 @@ permalink: /publications/
     Neural representational alignment in developmental prosopagnosia differs beyond visual regions during naturalistic visual processing.
   </div>
   <div class="pub-meta">
-    Kidder, A., <strong>Sava-Segal, C.</strong>, Finn, E.S., Duchaine, B., Baker, C.I. <span style="font-style: italic; color: #888;">VSS, 2026.</span>
+    Kidder, A.<sup>*</sup>, <strong>Sava-Segal, C.</strong><sup>*</sup>, Finn, E.S., Duchaine, B., Baker, C.I. <span style="font-style: italic; color: #888;">VSS, 2026.</span>
+    <div style="color: #555;"><sup>*</sup>co-first authors</div>
   </div>
 </div>
 
 <h2 class="section-header">Publications, Preprints &amp; Conference Proceedings</h2>
 
 <div class="publication-item">
-  <div class="publication-icons"></div>
+  <div class="publication-icons">
+    <a class="pub-btn" href="https://doi.org/10.64898/2026.10.06.749912" target="_blank">Preprint</a>
+  </div>
   <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span>
   <div class="pub-title">
-    Updated neural representations predict reinterpretation of ambiguous social scenes independent of gaze-linked visual resampling.
+    Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes.
   </div>
   <div class="pub-meta">
-    <strong>Sava-Segal, C.</strong>, Benson, T.✨, Finn, E.S. (2026). <span style="font-style: italic; color: #888;">Submitted.</span>
+    <strong>Sava-Segal, C.</strong>, Benson, T.✨, Finn, E.S. (2026). <i>bioRxiv.</i> <a class="pub-doi" href="https://doi.org/10.64898/2026.10.06.749912" target="_blank">https://doi.org/10.64898/2026.10.06.749912</a>
   </div>
 </div>
 
