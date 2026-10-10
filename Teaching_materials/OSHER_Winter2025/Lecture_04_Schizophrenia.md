@@ -1,38 +1,12 @@
 ---
 layout: category
-title: Lecture- Understanding Schizophrenia
+title: "Understanding Schizophrenia"
 permalink: /osher/DiverseMinds/schizophrenia/
 baseurl: ""
 published: true
 ---
-<style>
-.floating-nav {
-  position: relative; /* No longer fixed */
-  top: 0;
-  left: 0;
-  width: 100%; /* Full width of the page */
-  background-color: #f8f9fa; /* Background color */
-  border-bottom: 1px solid #ccc; /* Border at the bottom */
-  padding: 10px 20px; /* Padding inside the bar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  z-index: 1000;
-  display: flex; /* Makes it horizontal */
-  justify-content: space-around; /* Distribute links evenly */
-  align-items: center; /* Center align the text vertically */
-}
+{% include osher-style.html %}
 
-.floating-nav a {
-  text-decoration: none;
-  color: #007bff; /* Link color */
-  font-size: 1rem;
-  padding: 0 10px; /* Space around each link */
-}
-
-.floating-nav a:hover {
-  color: #0056b3; /* Hover color */
-  text-decoration: underline;
-}
-</style>
 <div class="floating-nav">
   <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
   <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
@@ -43,7 +17,12 @@ published: true
   <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
 </div>
 
-<div style="border: 2px solid purple; padding: 10px; background-color: #f9f4ff; border-radius: 5px; margin: 10px 0;">
+<div class="osher-header">
+  <p class="osher-kicker">Lecture 5</p>
+  <h1>Understanding Schizophrenia</h1>
+</div>
+
+<div class="lead-box" markdown="1">
 Schizophrenia remains one of the most complex and poorly understood mental health conditions, despite over a century of research. While significant advances have been made—such as identifying genetic risks, brain network differences, and effective early interventions—there is still no clear consensus on its exact nature. Some experts even question whether schizophrenia is a distinct disorder, arguing that it may need to be redefined or replaced entirely. Additionally, schizophrenia is widely misunderstood and often misrepresented in the media, which contributes to stigma and prevents many individuals from receiving the help they need.
 </div>
 
@@ -444,3 +423,8 @@ Long and great descriptive video on SZ:
    - https://www.mcleanhospital.org/essential/schizophrenia *Great website!*
 - Podcasts:
    - The entirety of the "Inside Schizophrenia" podcast could be great!
+
+<nav class="osher-pager">
+  <a class="pager-prev" href="/osher/DiverseMinds/ptsd/">← Understanding Post-Traumatic Stress Disorder (PTSD)</a>
+  <a class="pager-next" href="/osher/DiverseMinds/coursegoals/">Course page →</a>
+</nav>

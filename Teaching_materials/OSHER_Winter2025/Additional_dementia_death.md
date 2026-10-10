@@ -1,38 +1,12 @@
 ---
 layout: category
-title: Additional questions - Dementia - End of Life care
+title: "Cause of Death in Dementia (Without Infection)"
 permalink: /osher/DiverseMinds/dementia-death/
 baseurl: ""
 published: true
 ---
-<style>
-.floating-nav {
-  position: relative; /* No longer fixed */
-  top: 0;
-  left: 0;
-  width: 100%; /* Full width of the page */
-  background-color: #f8f9fa; /* Background color */
-  border-bottom: 1px solid #ccc; /* Border at the bottom */
-  padding: 10px 20px; /* Padding inside the bar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  z-index: 1000;
-  display: flex; /* Makes it horizontal */
-  justify-content: space-around; /* Distribute links evenly */
-  align-items: center; /* Center align the text vertically */
-}
+{% include osher-style.html %}
 
-.floating-nav a {
-  text-decoration: none;
-  color: #007bff; /* Link color */
-  font-size: 1rem;
-  padding: 0 10px; /* Space around each link */
-}
-
-.floating-nav a:hover {
-  color: #0056b3; /* Hover color */
-  text-decoration: underline;
-}
-</style>
 <div class="floating-nav">
   <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
   <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
@@ -43,7 +17,10 @@ published: true
   <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
 </div>
 
-# **Cause of Death in Dementia (Without Infection)**
+<div class="osher-header">
+  <p class="osher-kicker">Additional questions from class</p>
+  <h1>Cause of Death in Dementia (Without Infection)</h1>
+</div>
 
 ## **Question**
 In the absence of an infection such as pneumonia, what causes the physical death of a person with dementia?

@@ -1,42 +1,19 @@
 ---
 layout: category
-title: Lecture 2- Measuring the Unmeasurable - How Scientists Study Inner Experience
+title: "Measuring the Unmeasurable - How Scientists Study Inner Experience"
 permalink: /osher/subjectivity/lecture2/
 baseurl: ""
 published: true
 
 ---
-<style>
-.floating-nav {
-  position: relative; /* No longer fixed */
-  top: 0;
-  left: 0;
-  width: 100%; /* Full width of the page */
-  background-color: #f8f9fa; /* Background color */
-  border-bottom: 1px solid #ccc; /* Border at the bottom */
-  padding: 10px 20px; /* Padding inside the bar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  z-index: 1000;
-  display: flex; /* Makes it horizontal */
-  justify-content: space-around; /* Distribute links evenly */
-  align-items: center; /* Center align the text vertically */
-}
+{% include osher-style.html %}
 
-.floating-nav a {
-  text-decoration: none;
-  color: #007bff; /* Link color */
-  font-size: 1rem;
-  padding: 0 10px; /* Space around each link */
-}
+<a class="osher-back" href="/osher/subjectivity/">← Experience in the Eye of the Beholder I · Summer 2025</a>
 
-.floating-nav a:hover {
-  color: #0056b3; /* Hover color */
-  text-decoration: underline;
-}
-</style>
-
-
-<br>
+<div class="osher-header">
+  <p class="osher-kicker">Lecture 2</p>
+  <h1>Measuring the Unmeasurable - How Scientists Study Inner Experience</h1>
+</div>
 
 ---
 > "The brain is the last and grandest biological frontier, the most complex thing we have yet discovered in our universe." - James Watson
@@ -68,8 +45,8 @@ published: true
 3. How close are we to "reading minds"?
 
 ---
-<div style="background-color: #FCE5FC; border-left: 4px solid #ccc; padding: 15px; margin: 20px 0; border-radius: 5px;">
-  <h4 style="margin-top: 0; color: #666;">🧠 Deep Dive: Why the Brain?</h4>
+<div class="deep-dive">
+  <h4>🧠 Deep Dive: Why the Brain?</h4>
   <p><strong>I. Introspection is hard</strong><br>
   &nbsp;&nbsp;&bull; (Why can’t we just ask them about it?)<br>
   &nbsp;&nbsp;&bull; <em>Hard to figure out</em> <strong><u>why</u></strong> <em>people are thinking something</em></p>
@@ -210,8 +187,8 @@ Figure from: [Heijden et al., (2024)](https://pmc.ncbi.nlm.nih.gov/articles/PMC1
 <img src="https://azure.github.io/Vision-AI-DevKit-Pages/assets/images/faceapi.png" alt="FACS Action Units" style="max-width: 100%; height: auto; border: 1px solid #ccc; padding: 4px; border-radius: 4px;" />
 
 **Affective Computing**
-<div style="background-color: #f5f5f5; border-left: 4px solid #ccc; padding: 15px; margin: 20px 0; border-radius: 5px;">
-  <h4 style="margin-top: 0; color: #666;">🤖 Deep Dive: Affective Computing</h4>
+<div class="deep-dive">
+  <h4>🤖 Deep Dive: Affective Computing</h4>
   <p>
     <strong>Affective computing</strong> is a field at the intersection of computer science, psychology, and cognitive science that focuses on building systems that can recognize, interpret, and respond to human emotions. These systems aim to bridge the gap between humans and machines by giving technology the ability to process affective (emotional) information.
   </p>
@@ -322,3 +299,8 @@ Example experimental set-up from: [Kim et al., 2020](https://www.pnas.org/doi/10
 - [Participate in my research](http://finnlabmuseum.com/artlibs_pdf.pdf) - In-person study at the Hood Museum
 
 ---
+
+<nav class="osher-pager">
+  <a class="pager-prev" href="/osher/subjectivity/lecture1/">← Our brains construct reality</a>
+  <a class="pager-next" href="/osher/subjectivity/lecture3/">The Social Brain and Interpersonal Subjectivity →</a>
+</nav>

@@ -1,0 +1,297 @@
+<!-- Shared look for the individual Osher course pages: cream page, Inter, black titles, one blue.
+     Include it at the top of each Osher page (include tag + this file's name). -->
+<style>
+  :root {
+    --o-blue: #4169E1;
+    --o-text: #1F3328;
+    --o-muted: #6B7A70;
+    --o-rule: #E6E0D5;
+  }
+
+  /* the theme prints the front-matter title too; each page has its own header instead */
+  #page-title,
+  .page__title { display: none; }
+
+  /* links in the page body: the site blue, underline only on hover */
+  .archive a,
+  .archive a:visited {
+    color: #1F3328;
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 0, 0.25);
+    text-underline-offset: 3px;
+  }
+
+  .archive a:hover { text-decoration-color: #1F3328; }
+
+  /* ---------- Pages written in Markdown: tame the heading sizes ---------- */
+
+  /* main sections (1., 2., 3. ...) stand out clearly from the sub-headings */
+  .archive h1:not(.page__title),
+  .archive h2 {
+    font-size: 1.65rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    line-height: 1.25;
+    color: #1F3328;
+    margin: 2.75rem 0 0.75rem;
+    padding: 0;
+    border: 0;
+  }
+
+  .archive h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #1F3328;
+    margin: 1.4rem 0 0.4rem;
+  }
+
+  .archive h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1F3328;
+    margin: 1.1rem 0 0.3rem;
+  }
+
+  .archive hr {
+    border: 0;
+    border-top: 1px solid var(--o-rule);
+    margin: 1.75rem 0;
+  }
+
+  .archive blockquote {
+    margin: 1rem 0;
+    padding: 0 0 0 1rem;
+    border-left: 2px solid var(--o-rule);
+    background: none;
+    font-style: italic;
+    color: var(--o-text);
+  }
+
+  .archive img { max-width: 100%; height: auto; }
+
+  .archive iframe { max-width: 100%; }
+
+  /* "Deep dive" asides */
+  .deep-dive {
+    margin: 1.25rem 0;
+    padding: 0.1rem 0 0.1rem 1rem;
+    border-left: 2px solid var(--o-blue);
+  }
+
+  .deep-dive h4 { margin-top: 0.2rem; }
+
+  /* intro summary that used to sit in a purple box */
+  .lead-box {
+    border: 2px solid purple;
+    padding: 10px;
+    background-color: #f9f4ff;
+    border-radius: 5px;
+    margin: 10px 0 1.5rem;
+  }
+
+  /* figures that used to float beside a list */
+  .osher-figure { margin: 1rem 0; }
+  .osher-figure img { width: 100%; height: auto; }
+
+  /* blue link bar across the top of a course's pages */
+  .floating-nav {
+    position: relative;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.25rem 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .archive .floating-nav a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 10px;
+    white-space: nowrap;
+  }
+
+  .archive .floating-nav a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  /* ---------- Page header ---------- */
+
+  .osher-back {
+    display: inline-block;
+    margin: 0.5rem 0 1.25rem;
+    font-size: 0.9rem;
+    color: var(--o-muted) !important;
+    text-decoration: none !important;
+  }
+
+  .osher-back:hover { color: #1F3328 !important; }
+
+  .osher-kicker {
+    color: var(--o-muted);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .archive .osher-header h1,
+  .archive .header h1,
+  .archive .course-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: #1F3328;
+    margin: 0.2rem 0 0.4rem;
+  }
+
+  .osher-header,
+  .header,
+  .course-header {
+    margin-bottom: 1.75rem;
+  }
+
+  .subtitle {
+    color: var(--o-muted);
+    font-size: 1.05rem;
+  }
+
+  /* ---------- Sections: no cards, just spacing ---------- */
+
+  .content-section,
+  .section {
+    margin: 0 0 2rem;
+  }
+
+  .content-section h2,
+  .section h2,
+  .section-title,
+  .lecture-list h2,
+  .reference-section h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #1F3328;
+    margin: 0 0 0.6rem;
+    padding: 0;
+    border: 0;
+  }
+
+  .content-section h3,
+  .section h3 {
+    font-size: 1.02rem;
+    font-weight: 600;
+    color: #1F3328;
+    margin: 1.4rem 0 0.4rem;
+  }
+
+  .content-section p,
+  .content-section li,
+  .section p {
+    color: var(--o-text);
+    line-height: 1.65;
+  }
+
+  .content-section ul { margin-bottom: 1rem; }
+  .content-section li { margin: 0.2rem 0; }
+
+  .divider {
+    border: 0;
+    border-top: 1px solid var(--o-rule);
+    margin: 2rem 0;
+  }
+
+  /* ---------- Callouts: a thin rule on the left, no boxes ---------- */
+
+  .example,
+  .key-concept,
+  .question,
+  .case-study,
+  .warning {
+    margin: 1rem 0;
+    padding: 0.1rem 0 0.1rem 1rem;
+    border-left: 2px solid var(--o-rule);
+    background: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .key-concept { border-left-color: var(--o-blue); }
+  .warning { border-left-color: #C0504D; }
+  .question { font-style: italic; }
+  .question strong { font-style: normal; }
+
+  .reference {
+    font-size: 0.85rem;
+    color: var(--o-muted);
+    margin-top: 0.75rem;
+  }
+
+  .content-section img,
+  .section img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin: 1rem 0;
+  }
+
+  .video-container iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  /* ---------- Course overview page ---------- */
+
+  .image-float {
+    float: right;
+    width: 170px;
+    margin: 0.25rem 0 0.75rem 1.25rem;
+  }
+
+  .image-float img { width: 100%; height: auto; }
+
+  .session-list {
+    margin: 0 0 1rem;
+    padding-left: 1.25rem;
+  }
+
+  .session-list li {
+    margin: 0.3rem 0;
+    line-height: 1.5;
+  }
+
+  .footer-note {
+    color: var(--o-muted);
+    font-size: 0.85rem;
+    margin-top: 2.5rem;
+  }
+
+  /* ---------- Previous / next links at the bottom of a lecture ---------- */
+
+  .osher-pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2.5rem 0 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--o-rule);
+    font-size: 0.95rem;
+  }
+
+  .osher-pager a { font-weight: 500; }
+
+  .osher-pager .pager-next { margin-left: auto; text-align: right; }
+</style>

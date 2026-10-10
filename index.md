@@ -7,12 +7,12 @@ title:
 :root {
   --accent: #4169E1;
   --accent-dark: #2952CC;
-  --text-main: #333;
-  --text-muted: #666;
+  --text-main: #1F3328;
+  --text-muted: #56665C;
   --bg-soft: #F0F4F8;
-  --mint: #5AAEE0;
-  --mint-dark: #1F6A9E;
-  --mint-light: #EEF6FC;
+  --mint: #4169E1;
+  --mint-dark: #4169E1;
+  --mint-light: #EEF2FC;
 }
 
 /* ---------- Base ---------- */
@@ -46,10 +46,8 @@ a:hover {
 
 .hero-section {
   text-align: center;
-  padding: 2.5rem 2rem;
-  background: var(--bg-soft);
-  border-radius: 12px;
-  margin-bottom: 3rem;
+  padding: 1.5rem 0 0;
+  margin-bottom: 2rem;
 }
 
 .profile-photo {
@@ -119,91 +117,104 @@ a:hover {
   font-weight: 500;
 }
 
-/* ---------- Buttons ---------- */
+/* ---------- Content section ---------- */
 
-.button {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  border-radius: 6px;
-  font-weight: 500;
-  transition: background-color 0.2s, transform 0.15s;
-}
-
-.button-primary {
-  background-color: var(--mint-dark);
-  color: white;
-}
-
-.button-primary:hover {
-  background-color: #185783;
-  color: white;
-  transform: translateY(-1px);
-}
-
-.button-secondary {
-  background-color: var(--mint-light);
-  border: 2px solid var(--mint);
-  color: var(--mint-dark);
-}
-
-.button-secondary:visited {
-  color: var(--mint-dark);
-}
-
-.button-secondary:hover {
-  background-color: var(--mint-dark);
-  border-color: var(--mint-dark);
-  color: white;
-  transform: translateY(-1px);
-}
-
-/* ---------- Content sections ---------- */
-
-.research-highlight,
-.info-card {
+.research-highlight {
   margin: 2.5rem 0;
 }
 
-.research-highlight h2,
-.info-card h2 {
-  margin-top: 0;
-  margin-bottom: 1.25rem;
-  text-align: center;
-  padding-bottom: 0.4rem;
-  border-bottom: 1px solid #ddd;
-}
-
-/* justified prose; the button rows set text-align: center inline, so they stay centred */
-.research-highlight p,
-.info-card p {
-  text-align: justify;
-  hyphens: auto;
+/* ragged-right prose, no hyphenation */
+.research-highlight p {
+  text-align: left;
 }
 
 .research-highlight p strong {
   font-weight: 600;
 }
 
+/* ---------- Links in the bio: ink text on a periwinkle highlighter stripe ---------- */
+
+.research-highlight a {
+  color: var(--text-main);
+  font-weight: 600;
+  text-decoration: none;
+  background: linear-gradient(#DCE3FB, #DCE3FB) no-repeat left bottom / 100% 0.45em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition: background-size 0.2s;
+}
+
+.research-highlight a:hover {
+  color: var(--text-main);
+  background-size: 100% 100%;
+}
+
+/* ---------- Skyline ---------- */
+
+.skyline {
+  position: relative;
+  margin: -1.5rem 0 2.5rem;
+}
+
+/* three hover zones over the drawing; hovering one fades the other two */
+.sky-zone {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0);
+  transition: background-color 0.3s;
+  cursor: default;
+  outline: none;
+}
+
+.skyline:hover .sky-zone,
+.skyline:focus-within .sky-zone {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.skyline .sky-zone:hover,
+.skyline .sky-zone:focus {
+  background: rgba(255, 255, 255, 0);
+}
+
+.sky-label {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 0.2rem);
+  white-space: nowrap;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.sky-zone:hover .sky-label,
+.sky-zone:focus .sky-label,
+.sky-zone.lit .sky-label {
+  opacity: 1;
+}
+
+/* hovering a place name in the text lights up that part of the drawing */
+.skyline.text-hover .sky-zone {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.skyline.text-hover .sky-zone.lit {
+  background: rgba(255, 255, 255, 0);
+}
+
+
+.skyline img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.85;
+}
+
 .centered-heading {
   text-align: center;
-}
-
-
-.info-card p:last-child {
-  margin-bottom: 0;
-}
-
-.info-card a {
-  color: #4169E1;
-  font-weight: 500;
-}
-
-/* ---------- Divider ---------- */
-
-.section-divider {
-  margin: 3.5rem 0;
-  border: 0;
-  border-top: 1px solid #ddd;
 }
 </style>
 
@@ -212,7 +223,7 @@ a:hover {
 
   <h1>Clara A. Sava-Segal</h1>
   <p class="hero-subtitle">Wu Tsai Institute Postdoctoral Fellow</p>
-  <p class="hero-affiliation">Yale University</p>
+  <p class="hero-affiliation"><span class="sky-ref" data-sky="yale">Yale University</span></p>
 
   <div class="social-links">
     <a href="mailto:clara.sava-segal@yale.edu" class="social-link">
@@ -244,72 +255,73 @@ a:hover {
 
 <div class="research-highlight">
 
-  <h2>Research Focus</h2>
-
   <p>
-    I am a <a href="https://wti.yale.edu/">Wu Tsai Institute Postdoctoral Fellow</a> at Yale,
+    <span class="sky-ref" data-sky="yale">I am a <a href="https://wti.yale.edu/">Wu Tsai Institute Postdoctoral Fellow</a> at Yale,
     working with <a href="https://medicine.yale.edu/lab/goldfarb/research/">Elizabeth Goldfarb</a> (Psychiatry)
-    and <a href="https://www.wendyberrymendes.com/">Wendy Berry Mendes</a> (Psychology).
-    I got my PhD in Cognitive Neuroscience at Dartmouth College with
+    and <a href="https://www.wendyberrymendes.com/">Wendy Berry Mendes</a> (Psychology).</span>
+    <span class="sky-ref" data-sky="dartmouth">I got my PhD in Cognitive Neuroscience at Dartmouth College with
     <a href="https://thefinnlab.github.io/">Emily Finn</a>, using neuroimaging and behavioral methods
     to study how we integrate incoming information with existing knowledge.
     I focused on why two people—or the same person at different times—can perceive identical
     information differently, and how these differences shape reinterpretation and memory.
-    That work was supported by an <span style="color: #4169E1; font-weight: 500;">NIMH F31 NRSA Fellowship</span>
-    and an <span style="color: #4169E1; font-weight: 500;">NSF GRFP</span>.
-    In my postdoc, I am extending this work to brain–body–behavior interactions.
+    That work was supported by an <span style="font-weight: 600;">NIMH F31 NRSA Fellowship</span>
+    and an <span style="font-weight: 600;">NSF GRFP</span>.</span>
+    <span class="sky-ref" data-sky="yale">In my postdoc, I am extending this work to brain–body–behavior interactions.
     I examine how endocrine and physiological processes shape these behaviors, with a particular
-    focus on stress.
-  </p>
-
-  <p>
-    Before graduate school, I received my Bachelor’s degree from the University of Chicago,
-    where I completed my undergraduate thesis with <a href="http://casasanto.com/">Daniel Casasanto</a>
-    and was fortunate enough to also work with
-    <a href="https://voices.uchicago.edu/gomezlab/">Christopher Gomez</a> and in the
-    <a href="https://awhvogellab.com/">Awh-Vogel Lab</a>. Following graduation, I worked at Stanford in
-    <a href="https://med.stanford.edu/parvizi-lab.html">Josef Parvizi’s lab</a>.
+    focus on stress.</span>
     I tend to favor more "naturalistic" paradigms, but I also try to balance the richness of
     real-world stimuli with the experimental control needed to isolate specific mechanisms.
   </p>
 
-  <p style="text-align: center; margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-    <a href="/publications/" class="button button-secondary">
-      Click to See Selected Publications
-    </a>
+  <p>
+    <span class="sky-ref" data-sky="chicago">Before graduate school, I received my Bachelor’s degree from the University of Chicago,
+    where I completed my undergraduate thesis with <a href="http://casasanto.com/">Daniel Casasanto</a>
+    and was fortunate enough to also work with
+    <a href="https://voices.uchicago.edu/gomezlab/">Christopher Gomez</a> and in the
+    <a href="https://awhvogellab.com/">Awh-Vogel Lab</a>.</span> Following graduation, I worked at Stanford in
+    <a href="https://med.stanford.edu/parvizi-lab.html">Josef Parvizi’s lab</a>.
+  </p>
+
+  <p>
+    I care a lot about teaching. I've taught at all ends of the spectrum, from Pre-K to older adults. Most recently, I've designed and
+    taught 5+ discussion-based <a href="/osher/">neuroscience and psychology courses</a> for adults 50+
+    at Dartmouth's <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasavasegal/index.php">Osher Lifelong Learning Institute</a>. I also care about bringing science
+    outside the lab: check out <a href="http://finnlabmuseum.com/">ArtLibs</a>, our project with
+    Dartmouth's Hood Museum.
   </p>
 
 </div>
 
-
-
-
-  <hr class="section-divider">
-
-  <div class="info-card">
-    <h2>Beyond Research</h2>
-
-    <p>
-      I care a lot about science communication and public education. Prior to graduate school,
-      I worked in classrooms at both ends of the K–12 spectrum (Pre-K and 12th grade). More recently, I’ve designed and taught 5+
-      discussion-based neuroscience and psychology courses for adult learners (ages 50+) at the
-      Osher Lifelong Learning Institute at Dartmouth.
-    </p>
-
-    <p>
-      I also enjoy bridging science and the arts, and many of my research questions apply
-      directly to the real world. For instance, we created
-      <a href="http://finnlabmuseum.com/">ArtLibs</a>, a collaborative project with the
-      Hood Museum at Dartmouth where we get to explore these ideas outside the lab,
-      generously funded by an internal Arts Integration Grant.
-    </p>
-
-    <p style="text-align: center; margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-      <a href="/teaching/" class="button button-secondary">
-        Learn More About My Teaching
-      </a>
-      <a href="http://finnlabmuseum.com/" class="button button-secondary" target="_blank">
-        Participate in ArtLibs
-      </a>
-    </p>
+<!-- Chicago → Hanover → New Haven -->
+<div class="skyline">
+  <img src="/img/skyline_chicago_hanover_newhaven.png"
+       alt="Line drawing of the Chicago skyline, a stretch of trees, and New Haven's Yale towers, joined by one rolling line">
+  <div class="sky-zone" data-sky="chicago" style="left: 0; width: 37.5%;" tabindex="0">
+    <span class="sky-label">Chicago · University of Chicago</span>
   </div>
+  <div class="sky-zone" data-sky="dartmouth" style="left: 37.5%; width: 28.5%;" tabindex="0">
+    <span class="sky-label">Hanover · Dartmouth College</span>
+  </div>
+  <div class="sky-zone" data-sky="yale" style="left: 66%; width: 34%;" tabindex="0">
+    <span class="sky-label">New Haven · Yale University</span>
+  </div>
+</div>
+
+<script>
+  // Hovering a Chicago, Dartmouth or Yale sentence in the text highlights that part of the skyline
+  (function () {
+    var skyline = document.querySelector('.skyline');
+    if (!skyline) return;
+    document.querySelectorAll('.sky-ref').forEach(function (ref) {
+      var zone = skyline.querySelector('.sky-zone[data-sky="' + ref.dataset.sky + '"]');
+      ref.addEventListener('mouseenter', function () {
+        skyline.classList.add('text-hover');
+        zone.classList.add('lit');
+      });
+      ref.addEventListener('mouseleave', function () {
+        skyline.classList.remove('text-hover');
+        zone.classList.remove('lit');
+      });
+    });
+  })();
+</script>

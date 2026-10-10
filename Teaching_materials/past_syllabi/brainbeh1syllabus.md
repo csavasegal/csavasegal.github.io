@@ -1,10 +1,21 @@
 ---
 layout: category
-title: Brain and Behavior- How Are They Linked?
+title: "Fall 2022, Winter 2023: Brain and Behavior"
 permalink: /osher/brainbeh1/
 baseurl: ""
 published: true
 ---
+
+{% include osher-style.html %}
+
+<a class="osher-back" href="/osher/">← All Osher courses</a>
+
+<div class="osher-header">
+  <p class="osher-kicker">Fall 2022, Winter 2023</p>
+  <h1>Brain and Behavior: How Are They Linked?</h1>
+</div>
+
+## Sessions
 
 1. **Introduction to data collection and methods.** During this class, we'll cover how scientists use different tools like MRI to capture what is happening in the brain and we will also do some hands-on behavioral experiments just like they are done in the laboratory. The goal of this class is to set the groundwork for future classes and I will also emphasize how we can make experiments that are done in the lab to be more like "real life"
 2. **Visual system.** How do we come to know that a face is a face, a letter is a letter, and so on?

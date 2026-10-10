@@ -1,85 +1,13 @@
 ---
 layout: archive
+title: "Session 2: The Many Dimensions of Subjectivity"
 permalink: /osher/subjectivity2/lecture2/
 published: true
 ---
 
-<style>
-    .page__content {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.6;
-    }
-    .header {
-        background-color: #2c3e50;
-        color: white;
-        padding: 30px;
-        border-radius: 8px;
-        margin-bottom: 30px;
-    }
-    .header h1 {
-        margin: 0 0 10px 0;
-        font-size: 2em;
-        color: white;
-    }
-    .subtitle {
-        font-size: 1.1em;
-        opacity: 0.9;
-    }
-    .content-section {
-        background-color: white;
-        padding: 30px;
-        margin-bottom: 20px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    .content-section h2 {
-        color: #2c3e50;
-        border-bottom: 3px solid #3498db;
-        padding-bottom: 10px;
-        margin-top: 0;
-    }
-    .content-section h3 {
-        color: #34495e;
-        margin-top: 25px;
-    }
-    .key-concept {
-        background-color: #ecf0f1;
-        padding: 20px;
-        border-left: 4px solid #3498db;
-        margin: 20px 0;
-    }
-    .example {
-        background-color: #e8f5e9;
-        padding: 15px;
-        border-left: 4px solid #4caf50;
-        margin: 15px 0;
-    }
-    .question {
-        background-color: #fff3e0;
-        padding: 15px;
-        border-left: 4px solid #ff9800;
-        margin: 15px 0;
-        font-style: italic;
-    }
-    .case-study {
-        background-color: #f3e5f5;
-        padding: 15px;
-        border-left: 4px solid #9c27b0;
-        margin: 15px 0;
-    }
-    .content-section ul {
-        padding-left: 25px;
-    }
-    .content-section li {
-        margin-bottom: 10px;
-    }
-    .reference {
-        font-size: 0.9em;
-        color: #666;
-        font-style: italic;
-        margin-top: 10px;
-    }
-</style>
+{% include osher-style.html %}
+
+<a class="osher-back" href="/osher/subjectivity2/">← Experience in the Eye of the Beholder II · Fall 2025</a>
 
 <div class="header">
     <h1>Session 2: The Many Dimensions of Subjectivity</h1>
@@ -174,7 +102,7 @@ published: true
     
     <!-- <p><a href="https://www.youtube.com/watch?v=OGvy0sJfSMo&t=177s" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3498db; color: white; text-decoration: none; border-radius: 5px; margin: 10px 0;">🎥 Watch: Introduction to Synesthesia</a></p> -->
 
-      <iframe width="560" height="315" src="https://www.youtube.com/watch?v=OGvy0sJfSMo&t=177s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+      <div class="video-container"><iframe src="https://www.youtube.com/embed/OGvy0sJfSMo?start=177" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
     <h3>Types of Synesthesia</h3>
     <div class="example">
@@ -230,7 +158,7 @@ published: true
     
     <!-- <a href="https://www.youtube.com/watch?v=3I4KxfXrCPw" target="_blank" style="display: inline-block; padding: 8px 16px; background-color: #3498db; color: white; text-decoration: none; border-radius: 5px; margin: 10px 0;">🎥 Watch: Intro to Mental Imagery </a> -->
 
-    <iframe width="560" height="315" src="https://www.youtube.com/watch?v=3I4KxfXrCPw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+    <div class="video-container"><iframe src="https://www.youtube.com/embed/3I4KxfXrCPw" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
     <h3>Discovering "Blind Imagination"</h3>
     <p><strong><a href="https://www.sciencedirect.com/science/article/pii/S0028393209003418?via%3Dihub" target="_blank">Zeman et al. (2015)</a></strong> described a remarkable case that revealed how differently people experience mental imagery:</p>
@@ -269,4 +197,7 @@ published: true
     <p class="reference">Zeman, A., et al. (2010). Loss of imagery phenomenology with intact visuo-spatial task performance: A case of 'blind imagination'.</p>
 </div>
 
-
+<nav class="osher-pager">
+  <a class="pager-prev" href="/osher/subjectivity2/lecture1/">← Session 1: When Expectations Meet Reality</a>
+  <a class="pager-next" href="/osher/subjectivity2/lecture3/">Session 3: Accessing Subjectivity →</a>
+</nav>

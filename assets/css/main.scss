@@ -7,13 +7,20 @@ search: false
 
 // Replace the "dirt" skin's yellow (#FFE080) with mint. These are declared
 // before the skin import so they win over the skin's `!default` values.
-$border-color: #A8D2F0;            // horizontal rules, masthead + table borders
-$footer-background-color: #EEF6FC; // page footer (same pale mint as the buttons)
+$border-color: #C9D5F5;            // horizontal rules, masthead + table borders
+$footer-background-color: #F4F0E8; // page footer (a shade darker than the page)
 
-// Helvetica Neue everywhere. Overriding $sans-serif covers the whole theme
-// in one go: $global-font-family, $header-font-family and $sans-serif-narrow
-// all default to it, as do the nav, breadcrumbs, pagination and form controls.
-$sans-serif: "Helvetica Neue", Helvetica, Arial, sans-serif;
+// Warm cream page background, matching the paper of the publication illustrations.
+$background-color: #FFFFFF; // TRIAL: white (cream was #FDFBF7)
+
+// Deep green-black "ink" for text (in the style of heyfriends.com) instead of grey-black.
+$text-color: #1F3328;
+
+// Inter everywhere (a free stand-in for Coolhunting's Helvetica Now). Overriding
+// $sans-serif covers the whole theme in one go: $global-font-family,
+// $header-font-family and $sans-serif-narrow all default to it, as do the nav,
+// breadcrumbs, pagination and form controls. Loaded in _includes/head/custom.html.
+$sans-serif: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -82,3 +89,39 @@ html {
 //   a {
 //     font-size: 20px; /* Change this value to the desired font size */
 //   }
+
+// Light, airy body text in the style of coolhunting.com: Inter's variable
+// weight lets us use 340, between Light and Regular.
+body {
+  font-weight: 340;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// "bolder" from a 340 base only reaches 400, so set bold text explicitly
+strong, b {
+  font-weight: 600;
+}
+
+// Space Grotesk for small labels, as on coolhunting.com
+.font-alt {
+  font-family: "Space Grotesk", "Inter", sans-serif;
+}
+
+// keep the menu items vertically centred so the pill lines up with the text links
+.greedy-nav .visible-links { align-items: center; }
+
+// top menu items as soft periwinkle pills (in the style of heyfriends.com)
+.greedy-nav .visible-links > li > a {
+  margin: 0 0.3rem;
+  padding: 0.45rem 1.1rem;
+  border-radius: 999px;
+  background: #DCE3FB;
+  color: #1F3328;
+  font-weight: 500;
+  transition: background-color 0.2s;
+
+  &:before { display: none; }   // no sliding underline on the pills
+  &:hover { background: #C9D3F8; }
+}

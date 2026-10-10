@@ -1,38 +1,12 @@
 ---
 layout: category
-title: Lecture- Understanding Parkinson's Disease    
+title: "Understanding Parkinson's Disease"
 permalink: /osher/DiverseMinds/parkinsons/
 baseurl: ""
 published: true
 ---
-<style>
-.floating-nav {
-  position: relative; /* No longer fixed */
-  top: 0;
-  left: 0;
-  width: 100%; /* Full width of the page */
-  background-color: #f8f9fa; /* Background color */
-  border-bottom: 1px solid #ccc; /* Border at the bottom */
-  padding: 10px 20px; /* Padding inside the bar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  z-index: 1000;
-  display: flex; /* Makes it horizontal */
-  justify-content: space-around; /* Distribute links evenly */
-  align-items: center; /* Center align the text vertically */
-}
+{% include osher-style.html %}
 
-.floating-nav a {
-  text-decoration: none;
-  color: #007bff; /* Link color */
-  font-size: 1rem;
-  padding: 0 10px; /* Space around each link */
-}
-
-.floating-nav a:hover {
-  color: #0056b3; /* Hover color */
-  text-decoration: underline;
-}
-</style>
 <div class="floating-nav">
   <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
   <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
@@ -43,7 +17,12 @@ published: true
   <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
 </div>
 
-<div style="border: 2px solid purple; padding: 10px; background-color: #f9f4ff; border-radius: 5px; margin: 10px 0;">
+<div class="osher-header">
+  <p class="osher-kicker">Lecture 2</p>
+  <h1>Understanding Parkinson's Disease</h1>
+</div>
+
+<div class="lead-box" markdown="1">
 Parkinson’s disease is a progressive neurological disorder that significantly impacts movement, cognition, and quality of life, yet its exact cause and mechanisms remain incompletely understood. Research has identified hallmark features, such as the loss of dopamine-producing neurons and the presence of abnormal protein aggregates called Lewy bodies, as well as genetic and environmental risk factors. While advances in treatments, such as deep brain stimulation and improved medications, have enhanced symptom management, no cure exists, and the disease’s progression varies widely among individuals. As new findings emerge, debates persist about redefining Parkinson’s as part of a broader spectrum of neurodegenerative disorders, emphasizing the need to continually reassess and refine our understanding of this complex condition.
 
 **Main idea: while we know what is happening in our brain, we don't know why!**
@@ -129,13 +108,7 @@ By the end of this lecture, we should be able to:
         alt="Figure showing impaired dopamine release in Parkinson’s disease." 
         style="width: 100%; max-width: 600px; height: auto;" />
 </a>
-<div style="
-    background-color: #f9f9f9; 
-    border-left: 5px solid #ccc; 
-    padding: 15px; 
-    margin: 20px 0; 
-    font-family: Arial, sans-serif; 
-    font-size: 16px;">
+<div class="deep-dive" markdown="1">
 
 <ol>
 Figure from Kaitlyn M L Cramb, Dayne Beccano-Kelly, Stephanie J Cragg, Richard Wade-Martins, Impaired dopamine release in Parkinson’s disease, Brain, Volume 146, Issue 8, August 2023, Pages 3117–3132, https://doi.org/10.1093/brain/awad064.
@@ -342,13 +315,7 @@ Here are some possible causes of parkinsonism that aren’t Parkinson’s diseas
 
 ### Air pollution, pesticides, and TCE (trichloroethylene) share several characteristics that may link them to Parkinson's disease (PD):
 
-<div style="
-    background-color: #f9f9f9; 
-    border-left: 5px solid #ccc; 
-    padding: 15px; 
-    margin: 20px 0; 
-    font-family: Arial, sans-serif; 
-    font-size: 16px;">
+<div class="deep-dive" markdown="1">
 
 <ol>
 
@@ -478,3 +445,8 @@ In summary, future research on prognosis across groups should aim to bridge gaps
 - **Relevant Websites**:  
    - Parkinson’s Foundation: [www.parkinson.org](https://www.parkinson.org)  
    - National Institute of Neurological Disorders and Stroke: [www.ninds.nih.gov](https://www.ninds.nih.gov)  
+
+<nav class="osher-pager">
+  <a class="pager-prev" href="/osher/DiverseMinds/alzheimers/">← Understanding Alzheimer's Disease</a>
+  <a class="pager-next" href="/osher/DiverseMinds/depression/">Understanding Depression →</a>
+</nav>

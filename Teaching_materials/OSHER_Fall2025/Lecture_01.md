@@ -5,75 +5,9 @@ permalink: /osher/subjectivity2/lecture1/
 published: true
 ---
 
-<style>
-    .page__content {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.6;
-    }
-    .header {
-        background-color: #2c3e50;
-        color: white;
-        padding: 30px;
-        border-radius: 8px;
-        margin-bottom: 30px;
-    }
-    .header h1 {
-        margin: 0 0 10px 0;
-        font-size: 2em;
-        color: white;
-    }
-    .subtitle {
-        font-size: 1.1em;
-        opacity: 0.9;
-    }
-    .content-section {
-        background-color: white;
-        padding: 30px;
-        margin-bottom: 20px;
-        border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    }
-    .content-section h2 {
-        color: #2c3e50;
-        border-bottom: 3px solid #3498db;
-        padding-bottom: 10px;
-        margin-top: 0;
-    }
-    .content-section h3 {
-        color: #34495e;
-        margin-top: 25px;
-    }
-    .key-concept {
-        background-color: #ecf0f1;
-        padding: 20px;
-        border-left: 4px solid #3498db;
-        margin: 20px 0;
-    }
-    .example {
-        background-color: #e8f5e9;
-        padding: 15px;
-        border-left: 4px solid #4caf50;
-        margin: 15px 0;
-    }
-    .question {
-        background-color: #fff3e0;
-        padding: 15px;
-        border-left: 4px solid #ff9800;
-        margin: 15px 0;
-        font-style: italic;
-    }
-    .content-section ul {
-        padding-left: 25px;
-    }
-    .content-section li {
-        margin-bottom: 10px;
-    }
-    .reference {
-        font-size: 0.9em;
-        color: #666;
-        font-style: italic;
-    }
-</style>
+{% include osher-style.html %}
+
+<a class="osher-back" href="/osher/subjectivity2/">← Experience in the Eye of the Beholder II · Fall 2025</a>
 
 <div class="header">
     <h1>Session 1: When Expectations Meet Reality</h1>
@@ -396,3 +330,8 @@ published: true
         <li>Methodological innovations allow researchers to separate sensory from expectation-related neural responses</li>
     </ul>
 </div>
+
+<nav class="osher-pager">
+  <a class="pager-prev" href="/osher/subjectivity2/">← Course page</a>
+  <a class="pager-next" href="/osher/subjectivity2/lecture2/">Session 2: The Many Dimensions of Subjectivity →</a>
+</nav>

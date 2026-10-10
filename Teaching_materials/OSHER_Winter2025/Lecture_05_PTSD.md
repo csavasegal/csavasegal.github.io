@@ -1,38 +1,12 @@
 ---
 layout: category
-title: Lecture- Understanding Post-Traumatic Stress Disorder (PTSD)
+title: "Understanding Post-Traumatic Stress Disorder (PTSD)"
 permalink: /osher/DiverseMinds/ptsd/
 baseurl: ""
 published: true
 ---
-<style>
-.floating-nav {
-  position: relative; /* No longer fixed */
-  top: 0;
-  left: 0;
-  width: 100%; /* Full width of the page */
-  background-color: #f8f9fa; /* Background color */
-  border-bottom: 1px solid #ccc; /* Border at the bottom */
-  padding: 10px 20px; /* Padding inside the bar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  z-index: 1000;
-  display: flex; /* Makes it horizontal */
-  justify-content: space-around; /* Distribute links evenly */
-  align-items: center; /* Center align the text vertically */
-}
+{% include osher-style.html %}
 
-.floating-nav a {
-  text-decoration: none;
-  color: #007bff; /* Link color */
-  font-size: 1rem;
-  padding: 0 10px; /* Space around each link */
-}
-
-.floating-nav a:hover {
-  color: #0056b3; /* Hover color */
-  text-decoration: underline;
-}
-</style>
 <div class="floating-nav">
   <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
   <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
@@ -43,9 +17,14 @@ published: true
   <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
 </div>
 
+<div class="osher-header">
+  <p class="osher-kicker">Lecture 4</p>
+  <h1>Understanding Post-Traumatic Stress Disorder (PTSD)</h1>
+</div>
+
 ## How does it compare to depression? [Link](/osher/DiverseMinds/compareMDDPTSD/)
 
-<div style="border: 2px solid purple; padding: 10px; background-color: #f9f4ff; border-radius: 5px; margin: 10px 0;">
+<div class="lead-box" markdown="1">
 Post-Traumatic Stress Disorder (PTSD) is a complex mental health condition that stems from trauma and remains challenging to fully understand. While research has revealed biological markers, such as changes in brain regions like the amygdala and hippocampus, and identified effective treatments like trauma-focused therapy, the exact nature of PTSD remains elusive. Ongoing debates question whether PTSD should be viewed as part of a broader spectrum of trauma-related disorders or if its current definition requires refinement. As new findings emerge, it is crucial to periodically revisit what we know about PTSD and reconsider the construct itself to ensure it reflects the latest scientific understanding.
 </div>
 
@@ -132,7 +111,7 @@ PTSD affects key regions of the brain involved in fear processing, emotional reg
 The **Hypothalamic-Pituitary-Adrenal (HPA) Axis** governs the body’s stress response and plays a central role in PTSD.
 
 - Normally, the HPA axis helps the body manage stress by releasing cortisol, a hormone that regulates the fight-or-flight response.  
-<div style="float: right; margin: 10px;">
+<div class="osher-figure">
   <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2666354624001273-gr1.jpg" alt="Figure from the paper" width="600">
 </div>
 - In PTSD, cortisol regulation becomes abnormal.  
@@ -369,3 +348,8 @@ Understanding these gender differences can improve diagnosis, treatment, and sup
    - Koenigs, M., & Grafman, J. (2009). Post-traumatic stress disorder: The role of medial prefrontal cortex and amygdala. The Neuroscientist : A Review Journal Bringing Neurobiology, Neurology and Psychiatry, 15(5), 540. https://doi.org/10.1177/1073858409333072 (Found on Google Drive)
 - **Websites**:  
    - National Center for PTSD: [www.ptsd.va.gov](https://www.ptsd.va.gov)  
+
+<nav class="osher-pager">
+  <a class="pager-prev" href="/osher/DiverseMinds/depression/">← Understanding Depression</a>
+  <a class="pager-next" href="/osher/DiverseMinds/schizophrenia/">Understanding Schizophrenia →</a>
+</nav>

@@ -1,168 +1,43 @@
 ---
 layout: category
-title: Fall 2025
+title: "Fall 2025: Experience in the Eye of the Beholder II"
 permalink: /osher/subjectivity2/
 baseurl: ""
 published: true
 ---
 
-<style>
-  a img:hover {
-    filter: brightness(0.4);
-  }
+{% include osher-style.html %}
 
-  .arrow {
-    position: relative;
-    display: inline-block;
-    margin-right: 10px;
-    color: rgb(173, 30, 166);
-    font-weight: bold;
-  }
+<a class="osher-back" href="/osher/">← All Osher courses</a>
 
-  .arrow::before {
-    content: '→';
-    font-size: 24px;
-    color: rgb(173, 30, 166);
-    position: absolute;
-    right: -35px;
-    top: -5px;
-  }
-
-  .arrow:hover {
-    color: rgb(100, 20, 100);
-  }
-
-  .floating-nav {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #f8f9fa;
-    border-bottom: 1px solid #ccc;
-    padding: 10px 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 2rem;
-  }
-
-  .floating-nav a {
-    text-decoration: none;
-    color: #007bff;
-    font-size: 1rem;
-    padding: 0 10px;
-  }
-
-  .floating-nav a:hover {
-    color: #0056b3;
-    text-decoration: underline;
-  }
-
-  .course-header {
-    margin-bottom: 3rem;
-  }
-
-  .course-description {
-    line-height: 1.8;
-    margin-bottom: 2rem;
-  }
-
-  .registration-link {
-    display: inline-block;
-    margin: 2rem 0;
-    padding: 12px 24px;
-    background-color: #007bff;
-    color: white !important;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-  }
-
-  .registration-link:hover {
-    background-color: #0056b3;
-  }
-
-  .section {
-    margin: 3rem 0;
-  }
-
-  .section-title {
-    margin-bottom: 1.5rem;
-    padding-bottom: 0.5rem;
-    border-bottom: 2px solid #007bff;
-  }
-
-  .course-goals-container {
-    margin: 2rem 0;
-  }
-
-  .image-float {
-    float: right;
-    margin: 0 0 20px 20px;
-  }
-
-  .image-float img {
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  }
-
-  .lecture-list {
-    margin: 2rem 0;
-  }
-
-  .lecture-item {
-    margin: 1.5rem 0;
-    padding-left: 1rem;
-  }
-
-  .divider {
-    margin: 3rem 0;
-    border: 0;
-    height: 1px;
-    background: #e0e0e0;
-  }
-
-  .reference-section {
-    background-color: #f8f9fa;
-    padding: 2rem;
-    border-radius: 8px;
-    margin: 2rem 0;
-  }
-
-  .footer-note {
-    margin-top: 4rem;
-    padding-top: 2rem;
-    border-top: 1px solid #e0e0e0;
-    font-style: italic;
-    color: #666;
-  }
-</style>
-
-<div class="course-header">
+<div class="osher-header">
+  <p class="osher-kicker">Fall 2025</p>
   <h1>Experience in the Eye of the Beholder: How Individual Brains Create Reality</h1>
 </div>
 
-<div class="section course-description">
+<div class="section">
+  <h2>Sessions</h2>
+  <ol class="session-list">
+    <li><a href="/osher/subjectivity2/lecture1/">When Expectations Meet Reality</a></li>
+    <li><a href="/osher/subjectivity2/lecture2/">The Many Dimensions of Subjectivity</a></li>
+    <li><a href="/osher/subjectivity2/lecture3/">Accessing Subjectivity</a></li>
+  </ol>
+</div>
+
+<div class="section">
   <h2>Course Description</h2>
   <p>This course explores the fascinating world of individual consciousness and subjective experience, examining how each person's unique mental landscape emerges from brain activity. We'll explore cutting-edge methods scientists use to study the individual brain—from neuroimaging techniques that reveal personal thought patterns to innovative approaches for measuring subjective states like emotions, memories, and perceptions.</p>
 
   <p>The course addresses fundamental questions: How do we study something as personal as individual experience? What makes each mind unique? How do subjective feelings translate into observable brain activity?</p>
 
   <p>Through case studies and current research, we'll examine both the remarkable tools available for understanding individual minds and the profound challenges that remain in bridging the gap between objective brain science and subjective human experience.</p>
+  <!-- Course has ended; registration link kept for reference:
+  <a href="https://reg130.imperisoft.com/Dartmouth/ProgramDetail/313232323539/Registration.aspx" class="registration-link">Register for the Course</a> -->
 </div>
 
 <div class="section">
-  <a href="https://reg130.imperisoft.com/Dartmouth/ProgramDetail/313232323539/Registration.aspx" class="registration-link">Register for the Course</a>
-</div>
+  <h2>Course Goals</h2>
 
-<hr class="divider">
-
-<div class="section course-goals-container">
-  <h2 class="section-title">Course Goals</h2>
-  
   <div class="image-float">
     <img src="{{ '/assets/images/DALLE_2024-image_line_brain.jpg' | relative_url }}" alt="DALL-E generated drawing of the brain" width="300">
   </div>
@@ -178,57 +53,21 @@ published: true
   <p><em>Note: I developed this course in summer and Fall 2025.</em></p>
 </div>
 
-<hr class="divider">
-
-<div class="section lecture-list">
-  <h2 class="section-title">Course Content</h2>
-
-  <h3>Basics</h3>
-  <div class="lecture-item">
-    <a href="/osher/DiverseMinds/brainbasics/">Basic information about how the brain works</a>
-  </div>
-
-  <h3>Sessions</h3>
-  <div class="lecture-item">
-    <strong>Session 1:</strong> <a href="/osher/subjectivity2/lecture1">When Expectations Meet Reality</a>
-    </div>
-  <div class="lecture-item">
-  
-    <strong>Session 2:</strong> <a href="/osher/subjectivity2/lecture2">The Many Dimensions of Subjectivity </a>
-
+<div class="section">
+  <h2>Additional Resources</h2>
+  <ul class="session-list">
+    <li><a href="/osher/DiverseMinds/brainbasics/">Basic information about how the brain works</a></li>
+    <li><a href="/osher/DiverseMinds/books/">Further reading suggestions</a></li>
+  </ul>
 </div>
-  <div class="lecture-item">
-  
-    <strong>Session 3:</strong> <a href="/osher/subjectivity2/lecture3">Accessing Subjectivity </a>
-
-</div>
-
-<hr class="divider">
-
-<div class="reference-section">
-  <h2 class="section-title">Summer Lectures for Reference</h2>
-  
-  <div class="lecture-item">
-    <strong>Lecture 1:</strong> <a href="/osher/subjectivity/lecture1">Our brains construct reality</a>
-  </div>
-
-  <div class="lecture-item">
-    <strong>Lecture 2:</strong> <a href="/osher/subjectivity/lecture2">Measuring the Unmeasurable - How Scientists Study Inner Experience</a>
-  </div>
-
-  <div class="lecture-item">
-    <strong>Lecture 3:</strong> <a href="/osher/subjectivity/lecture3">The Social Brain and Interpersonal Subjectivity</a>
-  </div>
-</div>
-
-<hr class="divider">
 
 <div class="section">
-  <h2 class="section-title">Additional Resources</h2>
-  
-  <div class="lecture-item">
-    <a href="/osher/DiverseMinds/books/">Further reading suggestions</a>
-  </div>
+  <h2>Summer Lectures for Reference</h2>
+  <ol class="session-list">
+    <li><a href="/osher/subjectivity/lecture1/">Our brains construct reality</a></li>
+    <li><a href="/osher/subjectivity/lecture2/">Measuring the Unmeasurable - How Scientists Study Inner Experience</a></li>
+    <li><a href="/osher/subjectivity/lecture3/">The Social Brain and Interpersonal Subjectivity</a></li>
+  </ol>
 </div>
 
 <div class="footer-note">

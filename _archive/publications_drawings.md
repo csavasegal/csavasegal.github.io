@@ -6,9 +6,9 @@ permalink: /publications/
 
 <style>
   :root {
-  --accent-mint: #4169E1;        /* borders, outlines */
-  --accent-mint-dark: #4169E1;   /* hover fills, text on white */
-  --accent-mint-light: #EEF2FC;  /* button fill */
+  --accent-mint: #5AAEE0;        /* borders, outlines */
+  --accent-mint-dark: #1F6A9E;   /* hover fills, text on white */
+  --accent-mint-light: #EEF6FC;  /* button fill */
 
   --fs-title: 1.563rem; /* page title only — matches the h1 on the Teaching page */
   --fs-lg: 1.25rem;     /* section headers (= About Me h2) */
@@ -21,13 +21,12 @@ permalink: /publications/
     margin-bottom: 1.25rem;
     padding: 0.75rem 0;
     background: none;
+    border-bottom: 1px solid #e6e6e6;
   }
 
   .page-header h1 {
-    font-size: 2rem;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    color: #1F3328;
+    font-size: var(--fs-title);
+    color: #4169E1;
     margin-bottom: 0.5rem;
   }
 
@@ -35,14 +34,7 @@ permalink: /publications/
     font-size: var(--fs-base);
     line-height: 1.65;
     margin-bottom: 1.25rem;
-    color: #44564B;
-  }
-
-  /* mentored-student marker: a text sparkle (not the emoji) so it can be blue */
-  .mentee {
-    color: #4169E1;
-    font-size: 0.9em;
-    margin-left: 0.05em;
+    color: #555;
   }
 
   /* the marker itself picks up the same blue as the star in the gutter */
@@ -55,65 +47,47 @@ permalink: /publications/
     font-size: var(--fs-lg);
     font-weight: 700;
     color: #4169E1;
-    margin-top: 1.75rem;
-    margin-bottom: 0.25rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
     padding-bottom: 0.4rem;
+    border-bottom: 1px solid #ddd;
   }
 
   body {
-    font-family: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: var(--fs-base);
-    color: #1F3328;
+    color: #333;
     line-height: 1.7;
   }
 
 .publication-item {
   margin: 0;
-  padding: 0.6rem 0;
-  line-height: 1.45;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid #eee;
+  line-height: 1.55;
 
   /* narrow left gutter holds the featured star; entry body sits right */
   display: grid;
-  grid-template-columns: 1.75rem 1fr auto; /* star | entry | method icons */
+  grid-template-columns: 7rem 1.75rem 1fr; /* illustration | star | entry */
   column-gap: 0.75rem;
   align-items: start;
 }
 
+.publication-item:last-of-type { border-bottom: 0; }
 
-.rep-label { grid-column: 1; grid-row: 1; }
+.rep-label { grid-column: 2; grid-row: 1; }
 
-.pub-title         { grid-column: 2; grid-row: 1; }
-.pub-meta          { grid-column: 2; grid-row: 2; }
-.publication-icons { display: none; } /* emptied by the script; links and icons move to .pub-side */
-
-/* right-hand column: method icons only */
-.pub-side {
-  grid-column: 3;
-  grid-row: 1 / span 2;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 0.35rem;
-  text-align: right;
-}
-
-/* PDF / Code / Data tags flow right after the DOI, wrapping to the next line when there's no room */
-.pub-links {
-  display: inline-flex;
-  flex-wrap: wrap;
-  gap: 0.3rem;
-  vertical-align: baseline;
-}
+.pub-title         { grid-column: 3; grid-row: 1; }
+.pub-meta          { grid-column: 3; grid-row: 2; }
+.publication-icons { grid-column: 3; grid-row: 3; }
 
 /* stack on narrow screens rather than squeeze the gutter */
 @media (max-width: 600px) {
   .publication-item { display: block; }
-  .pub-side { flex-direction: row; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-top: 0.35rem; }
-
 }
 
 /* in-prep entries have no buttons, so drop the empty icon row and tighten them */
-.publication-item[data-inprep] { padding: 0.55rem 0; }
+.publication-item[data-inprep] { padding: 0.75rem 0; }
 .publication-item[data-inprep] .publication-icons:empty { display: none; }
 
   .publication-icons {
@@ -139,7 +113,7 @@ permalink: /publications/
   border-radius: 15px;
   font-size: var(--fs-sm);
   font-weight: 600;
-  color: #1F3328;
+  color: #333;
   margin-top: 0.5rem;
 }
 
@@ -169,52 +143,41 @@ permalink: /publications/
   align-items: center;
 }
 
-/* links beside each paper: thin blue outlined tags */
+/* links under each paper: plain blue text, separated by a thin | */
 .pub-btn {
-  display: inline-block;
-  padding: 0.05rem 0.5rem;
-  border: 1px solid #4169E1;
-  border-radius: 4px;
   color: #4169E1 !important;
-  font-size: 0.85rem;
-  font-weight: 400;
-  line-height: 1.5;
-  text-decoration: none !important;
-  white-space: nowrap;
-  transition: background-color 0.15s, color 0.15s;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: rgba(65, 105, 225, 0.35);
+  text-underline-offset: 3px;
+}
+
+.pub-btn + .pub-btn {
+  border-left: 1px solid #bbb;
+  margin-left: 0.6rem;
+  padding-left: 0.6rem;
 }
 
 .pub-btn:hover {
-  background-color: #4169E1;
-  color: #fff !important;
-}
-
-/* titles link to the paper's DOI, but stay plain black text */
-.pub-title-link,
-.pub-title-link:visited {
-  color: inherit !important;
-  text-decoration: none !important;
-}
-
-.pub-title-link:hover {
-  text-decoration: underline !important;
+  text-decoration-color: #4169E1;
 }
 
 .pub-title {
   margin-top: 0;
   font-weight: 700;
-  color: #1F3328;
+  color: #222;
 }
 
 .pub-meta {
-  color: #44564B;
+  color: #555;
   font-size: var(--fs-base);
 }
 
 /* DOI written out as part of the citation text */
 .pub-doi,
 .pub-doi:visited {
-  color: #44564B;
+  color: #555;
   text-decoration: none;
   word-break: break-word;
 }
@@ -254,14 +217,11 @@ permalink: /publications/
 }
 
 .method-tags {
-  justify-content: flex-end;
-  flex-wrap: wrap;
+  margin-left: auto;
   display: inline-flex;
   align-items: center;
   gap: 0.55rem;
 }
-
-.method-tags { color: #4169E1; max-width: 7.5rem; } /* same blue as the rest of the site */
 
 .method-tags svg {
   width: 1.6em;
@@ -277,7 +237,7 @@ permalink: /publications/
 .filter-heading {
   font-size: var(--fs-sm);
   font-weight: 500;
-  color: #1F3328;
+  color: #111;
   max-width: 46rem;
   margin: 0 auto 0.5rem;
 }
@@ -293,11 +253,13 @@ permalink: /publications/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.5rem 1.1rem;
+  gap: 1.2rem 1.9rem;
 }
 
 .legend-row + .legend-row {
-  margin-top: 0.6rem;
+  margin-top: 1.1rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid #CFE3F2;
 }
 
 .method-legend .method-tag,
@@ -307,7 +269,7 @@ permalink: /publications/
   flex-direction: column;
   align-items: center;
   gap: 0.3rem;
-  color: #56665C;
+  color: #666;
   transition: color 0.15s;
 }
 
@@ -316,7 +278,7 @@ permalink: /publications/
   width: 2em;
   height: 2em;
   flex-shrink: 0;
-  color: #4169E1;  /* icons stay blue; the label shows state */
+  color: var(--accent-mint-dark);  /* icons stay blue; the label shows state */
   fill: none;
   stroke: currentColor;
   stroke-width: 1.3;
@@ -353,63 +315,21 @@ permalink: /publications/
 
 .filter-panel .method-legend { margin-bottom: 0; }
 
-
-/* ---------- Filter bar on the left (wide screens) ---------- */
-/* the script below adds .as-sidebar when there is room beside the text column */
-.filter-sidebar.as-sidebar {
-  position: fixed;
-  top: 7.5rem;
-  width: 10.5rem;
-  z-index: 5;
+/* illustrations sit in the left-hand column, which every entry keeps so the text lines up */
+.pub-thumb {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  align-self: start;
+  width: 100%;
+  height: auto;
 }
 
-.filter-sidebar.as-sidebar .filter-heading {
-  margin: 0 0 0.75rem;
-  max-width: none;
+/* keep the method icons from touching the last link */
+.publication-icons .method-tags { padding-left: 0.75rem; }
+
+@media (max-width: 600px) {
+  .pub-thumb { display: block; width: 60%; max-width: 220px; margin: 0 0 0.75rem; }
 }
-
-.filter-sidebar.as-sidebar .filter-panel { margin: 0; max-width: none; }
-
-.filter-sidebar.as-sidebar .legend-row {
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.45rem;
-}
-
-.filter-sidebar.as-sidebar .legend-row + .legend-row { margin-top: 1.1rem; }
-
-.filter-sidebar.as-sidebar .method-legend .method-tag,
-.filter-sidebar.as-sidebar .method-legend .topic-tag {
-  flex-direction: row;
-  gap: 0.55rem;
-}
-
-.filter-sidebar.as-sidebar .method-legend svg {
-  width: 1.4em;
-  height: 1.4em;
-}
-
-/* no commas when the labels are stacked */
-.filter-sidebar.as-sidebar .method-legend .method-tag > span::after,
-.filter-sidebar.as-sidebar .method-legend .topic-tag > span::after { content: ""; }
-
-/* the icons no longer repeat beside every paper; the filter bar is enough */
-.pub-side .method-tags { display: none; }
-
-.filter-count {
-  margin-left: 0.35rem;
-  font-size: 0.8em;
-  color: #7F8C84;
-}
-
-.filter-count::after { content: none !important; }
-
-/* with the icons gone, each filter is just "label count" on one line, no commas */
-.method-legend .method-tag,
-.method-legend .topic-tag { flex-direction: row !important; align-items: baseline; }
-
-.method-legend .method-tag > span::after,
-.method-legend .topic-tag > span::after { content: none !important; }
 </style>
 
 <div class="page-header">
@@ -423,44 +343,42 @@ permalink: /publications/
   See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a>
   for a complete list of publications and presentations.
   A <span class="mark">*</span> marks work that may be indicative of future directions, and
-  a <span class="mentee" title="Student I've mentored">✦</span> marks a student I've mentored. PDF copies are for personal use only; copyright remains
+  a ✨ marks a student I've mentored. PDF copies are for personal use only; copyright remains
   with the respective publishers.
 </p>
 
-<aside class="filter-sidebar">
 <p class="filter-heading">filter further:</p>
 
 <div class="filter-panel">
 <div class="method-legend">
   <div class="legend-row">
-    <span class="method-tag method-fmri" data-filter="method-fmri"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg> --><span>fMRI</span></span>
-    <span class="method-tag method-ieeg" data-filter="method-ieeg"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg> --><span>iEEG</span></span>
-    <span class="method-tag method-eeg" data-filter="method-eeg"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8"/><path d="M6.4 12h2.1l1.6-3.4 2.1 6.8 1.6-3.4h2.2"/></svg> --><span>EEG</span></span>
-    <span class="method-tag method-behav" data-filter="method-behav"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg> --><span>behavior</span></span>
-    <span class="method-tag method-clin group-end" data-filter="method-clin"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3.2v4.9a4 4 0 0 0 8 0V3.2"/><path d="M4.4 3.2h3.1M12.5 3.2h3.1"/><path d="M10 12.1v3.1a3.9 3.9 0 0 0 7.8 0v-1.4"/><circle cx="17.8" cy="10.4" r="2.1"/></svg> --><span>clinical</span></span>
+    <span class="method-tag method-fmri" data-filter="method-fmri"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg><span>fMRI</span></span>
+    <span class="method-tag method-ieeg" data-filter="method-ieeg"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg><span>iEEG</span></span>
+    <span class="method-tag method-eeg" data-filter="method-eeg"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8"/><path d="M6.4 12h2.1l1.6-3.4 2.1 6.8 1.6-3.4h2.2"/></svg><span>EEG</span></span>
+    <span class="method-tag method-behav" data-filter="method-behav"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg><span>behavior</span></span>
+    <span class="method-tag method-clin group-end" data-filter="method-clin"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3.2v4.9a4 4 0 0 0 8 0V3.2"/><path d="M4.4 3.2h3.1M12.5 3.2h3.1"/><path d="M10 12.1v3.1a3.9 3.9 0 0 0 7.8 0v-1.4"/><circle cx="17.8" cy="10.4" r="2.1"/></svg><span>clinical</span></span>
   </div>
   <div class="legend-row">
-    <span class="topic-tag topic-symbolic" data-filter="topic-symbolic"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="4.6" cy="12" r="2.6"/><rect x="9.6" y="9.4" width="5.2" height="5.2" rx="0.4"/><path d="M19.4 9.2 22 14.6h-5.2z"/><path d="M7.2 12h2.4M14.8 12h1.6"/></svg> --><span>symbolic systems</span></span>
-    <span class="topic-tag topic-subjective" data-filter="topic-subjective"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg> --><span>subjectivity</span></span>
-    <span class="topic-tag topic-memory" data-filter="topic-memory"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg> --><span>memory</span></span>
-    <span class="topic-tag topic-eventseg" data-filter="topic-eventseg"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M1.5 12h21"/><circle cx="7.1" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12.4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.7" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M4.5 2.8v18.4M9.8 2.8v18.4M15.1 2.8v18.4M20.4 2.8v18.4" stroke-dasharray="2.2 2.4"/></svg> --><span>event processing</span></span>
-    <span class="topic-tag topic-vision" data-filter="topic-vision"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg> --><span>vision</span></span>
-    <span class="topic-tag topic-networks group-end" data-filter="topic-networks"><!-- <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g transform="rotate(-90 12 12)"><path d="M12 6.4 7.2 9.4M12 6.4l4.8 3M7.2 9.4h9.6M7.2 9.4 12 12.6M16.8 9.4 12 12.6M12 12.6 7.6 17.4M12 12.6l4.4 4.8"/><circle cx="12" cy="5" r="1.7"/><circle cx="6" cy="9.6" r="1.7"/><circle cx="18" cy="9.6" r="1.7"/><circle cx="12" cy="13.2" r="1.8"/><circle cx="6.8" cy="18.4" r="1.7"/><circle cx="17.2" cy="18.4" r="1.7"/></g></svg> --><span>networks</span></span>
+    <span class="topic-tag topic-symbolic" data-filter="topic-symbolic"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="4.6" cy="12" r="2.6"/><rect x="9.6" y="9.4" width="5.2" height="5.2" rx="0.4"/><path d="M19.4 9.2 22 14.6h-5.2z"/><path d="M7.2 12h2.4M14.8 12h1.6"/></svg><span>symbolic systems</span></span>
+    <span class="topic-tag topic-subjective" data-filter="topic-subjective"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg><span>subjectivity</span></span>
+    <span class="topic-tag topic-memory" data-filter="topic-memory"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg><span>memory</span></span>
+    <span class="topic-tag topic-eventseg" data-filter="topic-eventseg"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M1.5 12h21"/><circle cx="7.1" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12.4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.7" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M4.5 2.8v18.4M9.8 2.8v18.4M15.1 2.8v18.4M20.4 2.8v18.4" stroke-dasharray="2.2 2.4"/></svg><span>event segmentation</span></span>
+    <span class="topic-tag topic-vision" data-filter="topic-vision"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg><span>vision</span></span>
+    <span class="topic-tag topic-networks group-end" data-filter="topic-networks"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g transform="rotate(-90 12 12)"><path d="M12 6.4 7.2 9.4M12 6.4l4.8 3M7.2 9.4h9.6M7.2 9.4 12 12.6M16.8 9.4 12 12.6M12 12.6 7.6 17.4M12 12.6l4.4 4.8"/><circle cx="12" cy="5" r="1.7"/><circle cx="6" cy="9.6" r="1.7"/><circle cx="18" cy="9.6" r="1.7"/><circle cx="12" cy="13.2" r="1.8"/><circle cx="6.8" cy="18.4" r="1.7"/><circle cx="17.2" cy="18.4" r="1.7"/></g></svg><span>networks</span></span>
   </div>
 </div>
 </div>
-</aside>
 
 <h2 class="section-header">In Preparation</h2>
 
 <div class="publication-item" data-inprep="true">
   <div class="publication-icons"></div>
-<span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg></span>
+<span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg></span>
   <div class="pub-title">
     Reinterpretation counters self-bias in memory through representational updating.
   </div>
   <div class="pub-meta">
-    <strong>Sava-Segal, C.</strong>, Benson, T.<span class="mentee" title="Student I've mentored">✦</span>, Finn, E.S.
+    <strong>Sava-Segal, C.</strong>, Benson, T.✨, Finn, E.S.
   </div>
 </div>
 
@@ -479,19 +397,21 @@ permalink: /publications/
 <h2 class="section-header">Publications, Preprints &amp; Conference Proceedings</h2>
 
 <div class="publication-item">
+  <img class="pub-thumb" src="/img/pubs/reinterpretation_conversation.png" alt="Watercolor sketch of a brain imagining the same three people in two ways: arguing, and getting along">
   <div class="publication-icons">
     <a class="pub-btn" href="https://doi.org/10.64898/2026.10.06.749912" target="_blank">Preprint (bioRxiv)</a>
   </div>
-  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span>
+  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.64898/2026.10.06.749912" target="_blank">Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes.</a>
+    Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes.
   </div>
   <div class="pub-meta">
-    <strong>Sava-Segal, C.</strong>, Benson, T.<span class="mentee" title="Student I've mentored">✦</span>, Finn, E.S. (2026). <i>bioRxiv.</i> <!-- <a class="pub-doi" href="https://doi.org/10.64898/2026.10.06.749912" target="_blank">https://doi.org/10.64898/2026.10.06.749912</a> -->
+    <strong>Sava-Segal, C.</strong>, Benson, T.✨, Finn, E.S. (2026). <i>bioRxiv.</i> <a class="pub-doi" href="https://doi.org/10.64898/2026.10.06.749912" target="_blank">https://doi.org/10.64898/2026.10.06.749912</a>
   </div>
 </div>
 
 <div class="publication-item">
+  <img class="pub-thumb" src="/img/pubs/reinterpretation_conversation.png" alt="Watercolor sketch of a brain imagining the same three people in two ways: arguing, and getting along">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/sava-segal-et-al-2026-narrative-twist-shifts-within-individual-neural-representations-of-dissociable-story-features (2).pdf" target="_blank">PDF</a>
     <a class="pub-btn" href="https://github.com/csavasegal/darkend_narrative_rep" target="_blank">Code (GitHub)</a>
@@ -499,23 +419,24 @@ permalink: /publications/
   </div>
   <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1073/pnas.2512071123" target="_blank">Narrative 'twist' shifts within-individual neural representations of dissociable story features.</a>
+    Narrative 'twist' shifts within-individual neural representations of dissociable story features.
   </div>
   <div class="pub-meta">
-    <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2026). <i>Proceedings of the National Academy of Sciences (PNAS).</i> <!-- <a class="pub-doi" href="https://doi.org/10.1073/pnas.2512071123" target="_blank">https://doi.org/10.1073/pnas.2512071123</a> -->
+    <strong>Sava-Segal, C.</strong>, Grall, C., Finn, E.S. (2026). <i>Proceedings of the National Academy of Sciences (PNAS).</i> <a class="pub-doi" href="https://doi.org/10.1073/pnas.2512071123" target="_blank">https://doi.org/10.1073/pnas.2512071123</a>
   </div>
 </div>
 
 <div class="publication-item">
+  <img class="pub-thumb" src="/img/pubs/event_segmentation.png" alt="Watercolor sketch of three timelines with colored event boundaries next to a brain">
   <div class="publication-icons">
     <a class="pub-btn" href="https://osf.io/preprints/psyarxiv/7rbhy_v1" target="_blank">Preprint (PsyArXiv)</a>
     </div>
-  <span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-eventseg" title="event processing"><svg viewBox="0 0 24 24" role="img" aria-label="event processing"><path d="M1.5 12h21"/><circle cx="7.1" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12.4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.7" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M4.5 2.8v18.4M9.8 2.8v18.4M15.1 2.8v18.4M20.4 2.8v18.4" stroke-dasharray="2.2 2.4"/></svg></span>
+  <span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-eventseg" title="event segmentation"><svg viewBox="0 0 24 24" role="img" aria-label="event segmentation"><path d="M1.5 12h21"/><circle cx="7.1" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12.4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.7" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M4.5 2.8v18.4M9.8 2.8v18.4M15.1 2.8v18.4M20.4 2.8v18.4" stroke-dasharray="2.2 2.4"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.31234/osf.io/7rbhy_v1" target="_blank">Idiosyncratic event segmentation as a neural marker of loneliness.</a>
+    Idiosyncratic event segmentation as a neural marker of loneliness.
   </div>
   <div class="pub-meta">
-    Lu, C., <strong>Sava-Segal, C.</strong>, Baek, E.C. (2025). <i>OSF.</i> <span style="font-style: italic; color: #888;">Revise and resubmit.</span> <!-- <a class="pub-doi" href="https://doi.org/10.31234/osf.io/7rbhy_v1" target="_blank">https://doi.org/10.31234/osf.io/7rbhy_v1</a> -->
+    Lu, C., <strong>Sava-Segal, C.</strong>, Baek, E.C. (2025). <i>OSF.</i> <span style="font-style: italic; color: #888;">Revise and resubmit.</span> <a class="pub-doi" href="https://doi.org/10.31234/osf.io/7rbhy_v1" target="_blank">https://doi.org/10.31234/osf.io/7rbhy_v1</a>
   </div>
 </div>
 
@@ -525,11 +446,11 @@ permalink: /publications/
     </div>
   <span class="method-tag method-ieeg" title="iEEG"><svg viewBox="0 0 24 24" role="img" aria-label="iEEG"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1038/s41598-024-77895-5" target="_blank">Spatiotemporal hierarchies of face representation in the human ventral temporal cortex.</a>
+    Spatiotemporal hierarchies of face representation in the human ventral temporal cortex.
   </div>
   <div class="pub-meta">
     Salehi, S., Schrouff, J., Dehaqani, M.R.A., <strong>Sava-Segal, C.</strong>, Raccah, O., Baek, S. (2024).
-    <i>Scientific Reports.</i> <!-- <a class="pub-doi" href="https://doi.org/10.1038/s41598-024-77895-5" target="_blank">https://doi.org/10.1038/s41598-024-77895-5</a> -->
+    <i>Scientific Reports.</i> <a class="pub-doi" href="https://doi.org/10.1038/s41598-024-77895-5" target="_blank">https://doi.org/10.1038/s41598-024-77895-5</a>
   </div>
 </div>
 
@@ -548,6 +469,7 @@ permalink: /publications/
 </div>
 
 <div class="publication-item" data-type="proceedings">
+  <img class="pub-thumb" src="/img/pubs/personality_interpretations.png" alt="Watercolor sketch of three people, each imagining a different scene">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/521_Paper_authored_TB_CCN_2024.pdf" target="_blank">PDF</a>
   </div>
@@ -556,7 +478,7 @@ permalink: /publications/
     Personality Traits Predict the Valence but not Semantic Content of Narrative Interpretations.
   </div>
   <div class="pub-meta">
-    Benson, T.<span class="mentee" title="Student I've mentored">✦</span>, <strong>Sava-Segal, C.</strong>, Finn, E.S. (2024).
+    Benson, T.✨, <strong>Sava-Segal, C.</strong>, Finn, E.S. (2024).
     <i>Proceedings of the 8th Annual Conference on Cognitive Computational Neuroscience.</i>
   </div>
 </div>
@@ -566,42 +488,44 @@ permalink: /publications/
     </div>
   <span class="method-tag method-ieeg" title="iEEG"><svg viewBox="0 0 24 24" role="img" aria-label="iEEG"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg></span><span class="topic-tag topic-symbolic" title="symbolic systems"><svg viewBox="0 0 24 24" role="img" aria-label="symbolic systems"><circle cx="4.6" cy="12" r="2.6"/><rect x="9.6" y="9.4" width="5.2" height="5.2" rx="0.4"/><path d="M19.4 9.2 22 14.6h-5.2z"/><path d="M7.2 12h2.4M14.8 12h1.6"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1523/JNEUROSCI.2118-22.2024" target="_blank">Spatiotemporal dynamics of successive activations across the human brain during a simple cognitive task.</a>
+    Spatiotemporal dynamics of successive activations across the human brain during a simple cognitive task.
   </div>
   <div class="pub-meta">
     Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Serdar Akkol, Daitch, A., Parvizi, J. (2024).
-    <i>Journal of Neuroscience.</i> <!-- <a class="pub-doi" href="https://doi.org/10.1523/JNEUROSCI.2118-22.2024" target="_blank">https://doi.org/10.1523/JNEUROSCI.2118-22.2024</a> -->
+    <i>Journal of Neuroscience.</i> <a class="pub-doi" href="https://doi.org/10.1523/JNEUROSCI.2118-22.2024" target="_blank">https://doi.org/10.1523/JNEUROSCI.2118-22.2024</a>
   </div>
 </div>
 
 
 <div class="publication-item" data-type="proceedings">
+  <img class="pub-thumb" src="/img/pubs/event_segmentation.png" alt="Watercolor sketch of three timelines with colored event boundaries next to a brain">
   <div class="publication-icons">
     <a class="pub-btn" href="https://cds.ismrm.org/protected/23MProceedings/PDFfiles/1024_1DHBtNPae.html" target="_blank">Proceedings (ISMRM)</a>
     </div>
-  <span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-eventseg" title="event processing"><svg viewBox="0 0 24 24" role="img" aria-label="event processing"><path d="M1.5 12h21"/><circle cx="7.1" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12.4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.7" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M4.5 2.8v18.4M9.8 2.8v18.4M15.1 2.8v18.4M20.4 2.8v18.4" stroke-dasharray="2.2 2.4"/></svg></span>
+  <span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.58530/2023/1024" target="_blank">A multi-subject deconvolution algorithm for the analysis of naturalistic fMRI data.</a>
+    A multi-subject deconvolution algorithm for the analysis of naturalistic fMRI data.
   </div>
   <div class="pub-meta">
-    Uruñuela, E., <strong>Sava-Segal, C.</strong>, Leung, M.<span class="mentee" title="Student I've mentored">✦</span>, Finn, E.S., Caballero-Gaudes, C. (2023).
-    <i>Proceedings of the International Society for Magnetic Resonance in Medicine (ISMRM).</i> <!-- <a class="pub-doi" href="https://doi.org/10.58530/2023/1024" target="_blank">https://doi.org/10.58530/2023/1024</a> -->
+    Uruñuela, E., <strong>Sava-Segal, C.</strong>, Leung, M.✨, Finn, E.S., Caballero-Gaudes, C. (2023).
+    <i>Proceedings of the International Society for Magnetic Resonance in Medicine (ISMRM).</i> <a class="pub-doi" href="https://doi.org/10.58530/2023/1024" target="_blank">https://doi.org/10.58530/2023/1024</a>
   </div>
 </div>
 
 <div class="publication-item">
+  <img class="pub-thumb" src="/img/pubs/event_segmentation.png" alt="Watercolor sketch of three timelines with colored event boundaries next to a brain">
   <div class="publication-icons">
     <a class="pub-btn" href="papers/css_2023_individual_event-seg.pdf" target="_blank">PDF</a>
     <a class="pub-btn" href="https://github.com/csavasegal/individual_event_seg/" target="_blank">Code (GitHub)</a>
     <a class="pub-btn" href="https://openneuro.org/datasets/ds004516/versions/2.0.3" target="_blank">Data (OpenNeuro)</a>
   </div>
-  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span><span class="topic-tag topic-eventseg" title="event processing"><svg viewBox="0 0 24 24" role="img" aria-label="event processing"><path d="M1.5 12h21"/><circle cx="7.1" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12.4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.7" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M4.5 2.8v18.4M9.8 2.8v18.4M15.1 2.8v18.4M20.4 2.8v18.4" stroke-dasharray="2.2 2.4"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg></span>
+  <div class="rep-label" title="May be indicative of future directions" aria-label="May be indicative of future directions">*</div><span class="method-tag method-fmri" title="fMRI"><svg viewBox="0 0 24 24" role="img" aria-label="fMRI"><path d="M12 5.6C10.6 3.9 7.6 4.4 6.8 6.5 5.1 6.8 4 8.5 4.4 10.2c-1 1.3-.7 3.2.7 4.1.2 1.8 1.9 3 3.6 2.6.9 1.3 2.7 1.6 3.3.7"/><path d="M12 5.6c1.4-1.7 4.4-1.2 5.2.9 1.7.3 2.8 2 2.4 3.7 1 1.3.7 3.2-.7 4.1-.2 1.8-1.9 3-3.6 2.6-.9 1.3-2.7 1.6-3.3.7"/><path d="M12 5.6v13.4"/><rect x="13.4" y="8.6" width="3.4" height="3.4" rx=".4"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-subjective" title="subjectivity"><svg viewBox="0 0 24 24" role="img" aria-label="subjectivity"><path d="M4.3 3h15.4a2.8 2.8 0 0 1 2.8 2.8v7.9a2.8 2.8 0 0 1-2.8 2.8H11l-5 4.2v-4.2H4.3a2.8 2.8 0 0 1-2.8-2.8V5.8A2.8 2.8 0 0 1 4.3 3z"/><text x="12" y="9.8" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="6.4" font-style="italic" text-anchor="middle" fill="currentColor" stroke="none">I see</text><path d="M6.5 13.4h11"/></svg></span><span class="topic-tag topic-eventseg" title="event segmentation"><svg viewBox="0 0 24 24" role="img" aria-label="event segmentation"><path d="M1.5 12h21"/><circle cx="7.1" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="12.4" cy="12" r="1.5" fill="currentColor" stroke="none"/><circle cx="17.7" cy="12" r="1.5" fill="currentColor" stroke="none"/><path d="M4.5 2.8v18.4M9.8 2.8v18.4M15.1 2.8v18.4M20.4 2.8v18.4" stroke-dasharray="2.2 2.4"/></svg></span><span class="topic-tag topic-memory" title="memory"><svg viewBox="0 0 24 24" role="img" aria-label="memory"><circle cx="7" cy="17" r="4.9"/><circle cx="5.4" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><circle cx="8.6" cy="16.2" r="0.62" fill="currentColor" stroke="none"/><path d="M5.5 18.8c.9.8 2.1.8 3 0"/><path d="M16.2 9.6a2.6 2.6 0 0 1-.5-5.1 3 3 0 0 1 5.7.6 2.4 2.4 0 0 1-.5 4.5z"/><circle cx="11.6" cy="12.4" r="1.05" fill="currentColor" stroke="none"/><circle cx="9.3" cy="14.9" r="0.7" fill="currentColor" stroke="none"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1093/cercor/bhad106" target="_blank">Individual differences in neural event segmentation of continuous experiences.</a>
+    Individual differences in neural event segmentation of continuous experiences.
   </div>
   <div class="pub-meta">
-    <strong>Sava-Segal, C.</strong>, Richards, C., Leung, M.<span class="mentee" title="Student I've mentored">✦</span>, &amp; Finn, E.S. (2023).
-    <i>Cerebral Cortex.</i> <!-- <a class="pub-doi" href="https://doi.org/10.1093/cercor/bhad106" target="_blank">https://doi.org/10.1093/cercor/bhad106</a> -->
+    <strong>Sava-Segal, C.</strong>, Richards, C., Leung, M.✨, &amp; Finn, E.S. (2023).
+    <i>Cerebral Cortex.</i> <a class="pub-doi" href="https://doi.org/10.1093/cercor/bhad106" target="_blank">https://doi.org/10.1093/cercor/bhad106</a>
   </div>
 </div>
 
@@ -611,11 +535,11 @@ permalink: /publications/
     </div>
   <span class="method-tag method-ieeg" title="iEEG"><svg viewBox="0 0 24 24" role="img" aria-label="iEEG"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg></span><span class="method-tag method-clin" title="clinical"><svg viewBox="0 0 24 24" role="img" aria-label="clinical"><path d="M6 3.2v4.9a4 4 0 0 0 8 0V3.2"/><path d="M4.4 3.2h3.1M12.5 3.2h3.1"/><path d="M10 12.1v3.1a3.9 3.9 0 0 0 7.8 0v-1.4"/><circle cx="17.8" cy="10.4" r="2.1"/></svg></span><span class="topic-tag topic-networks" title="networks"><svg viewBox="0 0 24 24" role="img" aria-label="networks"><g transform="rotate(-90 12 12)"><path d="M12 6.4 7.2 9.4M12 6.4l4.8 3M7.2 9.4h9.6M7.2 9.4 12 12.6M16.8 9.4 12 12.6M12 12.6 7.6 17.4M12 12.6l4.4 4.8"/><circle cx="12" cy="5" r="1.7"/><circle cx="6" cy="9.6" r="1.7"/><circle cx="18" cy="9.6" r="1.7"/><circle cx="12" cy="13.2" r="1.8"/><circle cx="6.8" cy="18.4" r="1.7"/><circle cx="17.2" cy="18.4" r="1.7"/></g></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1523/JNEUROSCI.2785-20.2021" target="_blank">Intracranial electroencephalography reveals selective task-evoked responses and resting state connectivity of periventricular heterotopias.</a>
+    Intracranial electroencephalography reveals selective task-evoked responses and resting state connectivity of periventricular heterotopias.
   </div>
   <div class="pub-meta">
     Akkol, S., Kucyi, A., Hu, W.H., Zhao, B., Zhang, C., <strong>Sava-Segal, C.</strong>, Liu, S., Razavi, B., Zhang, J., Zhang, K., &amp; Parvizi, J. (2021).
-    <i>Journal of Neuroscience.</i> <!-- <a class="pub-doi" href="https://doi.org/10.1523/JNEUROSCI.2785-20.2021" target="_blank">https://doi.org/10.1523/JNEUROSCI.2785-20.2021</a> -->
+    <i>Journal of Neuroscience.</i> <a class="pub-doi" href="https://doi.org/10.1523/JNEUROSCI.2785-20.2021" target="_blank">https://doi.org/10.1523/JNEUROSCI.2785-20.2021</a>
   </div>
 </div>
 
@@ -624,11 +548,11 @@ permalink: /publications/
     </div>
   <span class="method-tag method-ieeg" title="iEEG"><svg viewBox="0 0 24 24" role="img" aria-label="iEEG"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg></span><span class="topic-tag topic-symbolic" title="symbolic systems"><svg viewBox="0 0 24 24" role="img" aria-label="symbolic systems"><circle cx="4.6" cy="12" r="2.6"/><rect x="9.6" y="9.4" width="5.2" height="5.2" rx="0.4"/><path d="M19.4 9.2 22 14.6h-5.2z"/><path d="M7.2 12h2.4M14.8 12h1.6"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1162/jocn_a_01775" target="_blank">Overlapping neuronal population responses in the human parietal cortex during visuospatial attention and arithmetic processing.</a>
+    Overlapping neuronal population responses in the human parietal cortex during visuospatial attention and arithmetic processing.
   </div>
   <div class="pub-meta">
     Liu, N., Pinheiro-Chagas, P., <strong>Sava-Segal, C.</strong>, Kastner, S., Chen, Q., &amp; Parvizi, J. (2021).
-    <i>Journal of Cognitive Neuroscience</i>. <!-- <a class="pub-doi" href="https://doi.org/10.1162/jocn_a_01775" target="_blank">https://doi.org/10.1162/jocn_a_01775</a> -->
+    <i>Journal of Cognitive Neuroscience</i>. <a class="pub-doi" href="https://doi.org/10.1162/jocn_a_01775" target="_blank">https://doi.org/10.1162/jocn_a_01775</a>
   </div>
 </div>
 
@@ -637,12 +561,12 @@ permalink: /publications/
     </div>
   <span class="method-tag method-eeg" title="EEG"><svg viewBox="0 0 24 24" role="img" aria-label="EEG"><circle cx="12" cy="12" r="8"/><path d="M6.4 12h2.1l1.6-3.4 2.1 6.8 1.6-3.4h2.2"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1523/ENEURO.0065-21.2021" target="_blank">Expertise modulates neural stimulus-tracking.</a>
+    Expertise modulates neural stimulus-tracking.
   </div>
   <div class="pub-meta">
     Brookshire, G., Mangelsdorf, H.H., <strong>Sava-Segal, C.</strong>, Reis, K., Nusbaum, H.,
     Goldin-Meadow, S., &amp; Casasanto, D. (2021).
-    <i>ENeuro</i>. <!-- <a class="pub-doi" href="https://doi.org/10.1523/ENEURO.0065-21.2021" target="_blank">https://doi.org/10.1523/ENEURO.0065-21.2021</a> -->
+    <i>ENeuro</i>. <a class="pub-doi" href="https://doi.org/10.1523/ENEURO.0065-21.2021" target="_blank">https://doi.org/10.1523/ENEURO.0065-21.2021</a>
   </div>
 </div>
 
@@ -651,12 +575,12 @@ permalink: /publications/
     </div>
   <span class="method-tag method-ieeg" title="iEEG"><svg viewBox="0 0 24 24" role="img" aria-label="iEEG"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg></span><span class="method-tag method-clin" title="clinical"><svg viewBox="0 0 24 24" role="img" aria-label="clinical"><path d="M6 3.2v4.9a4 4 0 0 0 8 0V3.2"/><path d="M4.4 3.2h3.1M12.5 3.2h3.1"/><path d="M10 12.1v3.1a3.9 3.9 0 0 0 7.8 0v-1.4"/><circle cx="17.8" cy="10.4" r="2.1"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1073/pnas.2100522118" target="_blank">Altered sense of self during seizures in the posteromedial cortex.</a>
+    Altered sense of self during seizures in the posteromedial cortex.
   </div>
   <div class="pub-meta">
     Parvizi, J., Braga, R.M., Kucyi, A., Veit, M.J., Pinheiro-Chagas, P., Perry, C.,
     <strong>Sava-Segal, C.</strong>, Zeineh, M., van Staalduinen, E.K., Henderson, J.M., &amp; Markert, M. (2021).
-    <i>Proceedings of the National Academy of Sciences (PNAS).</i> <!-- <a class="pub-doi" href="https://doi.org/10.1073/pnas.2100522118" target="_blank">https://doi.org/10.1073/pnas.2100522118</a> -->
+    <i>Proceedings of the National Academy of Sciences (PNAS).</i> <a class="pub-doi" href="https://doi.org/10.1073/pnas.2100522118" target="_blank">https://doi.org/10.1073/pnas.2100522118</a>
   </div>
 </div>
 
@@ -665,12 +589,12 @@ permalink: /publications/
     </div>
   <span class="method-tag method-ieeg" title="iEEG"><svg viewBox="0 0 24 24" role="img" aria-label="iEEG"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg></span><span class="topic-tag topic-networks" title="networks"><svg viewBox="0 0 24 24" role="img" aria-label="networks"><g transform="rotate(-90 12 12)"><path d="M12 6.4 7.2 9.4M12 6.4l4.8 3M7.2 9.4h9.6M7.2 9.4 12 12.6M16.8 9.4 12 12.6M12 12.6 7.6 17.4M12 12.6l4.4 4.8"/><circle cx="12" cy="5" r="1.7"/><circle cx="6" cy="9.6" r="1.7"/><circle cx="18" cy="9.6" r="1.7"/><circle cx="12" cy="13.2" r="1.8"/><circle cx="6.8" cy="18.4" r="1.7"/><circle cx="17.2" cy="18.4" r="1.7"/></g></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1073/pnas.2105031118" target="_blank">Temporal order of signal propagation within and across intrinsic brain networks.</a>
+    Temporal order of signal propagation within and across intrinsic brain networks.
   </div>
   <div class="pub-meta">
     Veit, M.J., Kucyi, A., Hu, W., Zhang, C., Zhao, B., Guo, Z., Yang, B., <strong>Sava-Segal, C.</strong>,
     Perry, C., Zhang, J., Zhang, K., &amp; Parvizi, J. (2021).
-    <i>Proceedings of the National Academy of Sciences (PNAS).</i> <!-- <a class="pub-doi" href="https://doi.org/10.1073/pnas.2105031118" target="_blank">https://doi.org/10.1073/pnas.2105031118</a> -->
+    <i>Proceedings of the National Academy of Sciences (PNAS).</i> <a class="pub-doi" href="https://doi.org/10.1073/pnas.2105031118" target="_blank">https://doi.org/10.1073/pnas.2105031118</a>
   </div>
 </div>
 
@@ -678,29 +602,29 @@ permalink: /publications/
 <div class="publication-item">
   <div class="publication-icons">
     </div>
-  <span class="method-tag method-ieeg" title="iEEG"><svg viewBox="0 0 24 24" role="img" aria-label="iEEG"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg></span><span class="method-tag method-clin" title="clinical"><svg viewBox="0 0 24 24" role="img" aria-label="clinical"><path d="M6 3.2v4.9a4 4 0 0 0 8 0V3.2"/><path d="M4.4 3.2h3.1M12.5 3.2h3.1"/><path d="M10 12.1v3.1a3.9 3.9 0 0 0 7.8 0v-1.4"/><circle cx="17.8" cy="10.4" r="2.1"/></svg></span>
+  <span class="method-tag method-ieeg" title="iEEG"><svg viewBox="0 0 24 24" role="img" aria-label="iEEG"><circle cx="12" cy="12.5" r="7"/><circle cx="9.2" cy="10" r="1"/><circle cx="14.6" cy="11.4" r="1"/><circle cx="11.2" cy="15.6" r="1"/><path d="M9.2 10 5.6 6.4M14.6 11.4 19.2 9.4M11.2 15.6 9.4 20.2"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="method-tag method-clin" title="clinical"><svg viewBox="0 0 24 24" role="img" aria-label="clinical"><path d="M6 3.2v4.9a4 4 0 0 0 8 0V3.2"/><path d="M4.4 3.2h3.1M12.5 3.2h3.1"/><path d="M10 12.1v3.1a3.9 3.9 0 0 0 7.8 0v-1.4"/><circle cx="17.8" cy="10.4" r="2.1"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1038/s41586-020-2731-9" target="_blank">Deep posteromedial cortical rhythm in dissociation.</a>
+    Deep posteromedial cortical rhythm in dissociation.
   </div>
   <div class="pub-meta">
     Vesuna, S., Kauvar, I.V., Richman, E., Gore, F., Oskotsky, T.,
     <strong>Sava-Segal, C.</strong>, Luo, L., Malenka, R.C., Henderson, J.M.,
     Nuyujukian, P., Parvizi, J., &amp; Deisseroth, K. (2020).
-    <i>Nature</i>. <!-- <a class="pub-doi" href="https://doi.org/10.1038/s41586-020-2731-9" target="_blank">https://doi.org/10.1038/s41586-020-2731-9</a> -->
+    <i>Nature</i>. <a class="pub-doi" href="https://doi.org/10.1038/s41586-020-2731-9" target="_blank">https://doi.org/10.1038/s41586-020-2731-9</a>
   </div>
 </div>
 
 <div class="publication-item">
   <div class="publication-icons">
     </div>
-  <span class="method-tag method-eeg" title="EEG"><svg viewBox="0 0 24 24" role="img" aria-label="EEG"><circle cx="12" cy="12" r="8"/><path d="M6.4 12h2.1l1.6-3.4 2.1 6.8 1.6-3.4h2.2"/></svg></span><span class="topic-tag topic-symbolic" title="symbolic systems"><svg viewBox="0 0 24 24" role="img" aria-label="symbolic systems"><circle cx="4.6" cy="12" r="2.6"/><rect x="9.6" y="9.4" width="5.2" height="5.2" rx="0.4"/><path d="M19.4 9.2 22 14.6h-5.2z"/><path d="M7.2 12h2.4M14.8 12h1.6"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
+  <span class="method-tag method-eeg" title="EEG"><svg viewBox="0 0 24 24" role="img" aria-label="EEG"><circle cx="12" cy="12" r="8"/><path d="M6.4 12h2.1l1.6-3.4 2.1 6.8 1.6-3.4h2.2"/></svg></span><span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-symbolic" title="symbolic systems"><svg viewBox="0 0 24 24" role="img" aria-label="symbolic systems"><circle cx="4.6" cy="12" r="2.6"/><rect x="9.6" y="9.4" width="5.2" height="5.2" rx="0.4"/><path d="M19.4 9.2 22 14.6h-5.2z"/><path d="M7.2 12h2.4M14.8 12h1.6"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1093/cercor/bhaa155" target="_blank">Unconscious number discrimination in the human visual system.</a>
+    Unconscious number discrimination in the human visual system.
   </div>
   <div class="pub-meta">
     Lucero, C., Brookshire, G., <strong>Sava-Segal, C.</strong>, Bottini, R.,
     Goldin-Meadow, S., Vogel, E.K., &amp; Casasanto, D. (2020).
-    <i>Cerebral Cortex</i>. <!-- <a class="pub-doi" href="https://doi.org/10.1093/cercor/bhaa155" target="_blank">https://doi.org/10.1093/cercor/bhaa155</a> -->
+    <i>Cerebral Cortex</i>. <a class="pub-doi" href="https://doi.org/10.1093/cercor/bhaa155" target="_blank">https://doi.org/10.1093/cercor/bhaa155</a>
   </div>
 </div>
 
@@ -709,11 +633,11 @@ permalink: /publications/
     </div>
   <span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.3389/fpsyg.2020.00216" target="_blank">Effects of repetition suppression on sound-induced flash illusion with aging.</a>
+    Effects of repetition suppression on sound-induced flash illusion with aging.
   </div>
   <div class="pub-meta">
     Sun, Y., Liu, X., Li, B., <strong>Sava-Segal, C.</strong>, Wang, A., &amp; Zhang, M. (2020).
-    <i>Frontiers in Psychology</i>, 11, 216. <!-- <a class="pub-doi" href="https://doi.org/10.3389/fpsyg.2020.00216" target="_blank">https://doi.org/10.3389/fpsyg.2020.00216</a> -->
+    <i>Frontiers in Psychology</i>, 11, 216. <a class="pub-doi" href="https://doi.org/10.3389/fpsyg.2020.00216" target="_blank">https://doi.org/10.3389/fpsyg.2020.00216</a>
   </div>
 </div>
 
@@ -723,11 +647,11 @@ permalink: /publications/
     </div>
   <span class="method-tag method-behav" title="behavior"><svg viewBox="0 0 24 24" role="img" aria-label="behavior"><rect x="1.8" y="6.6" width="20.4" height="11.6" rx="2.6"/><circle cx="7" cy="12.4" r="2"/><circle cx="12" cy="12.4" r="2"/><circle cx="17" cy="12.4" r="2"/><path d="M12 6.6V2.6"/></svg></span><span class="topic-tag topic-vision" title="vision"><svg viewBox="0 0 24 24" role="img" aria-label="vision"><path d="M12 8.2c4.4 0 7.3 3.8 7.3 3.8s-2.9 3.8-7.3 3.8S4.7 12 4.7 12s2.9-3.8 7.3-3.8z"/><circle cx="12" cy="12" r="1.9"/><path d="M12 3.4v2.1M5.9 5.1l1.2 1.7M18.1 5.1l-1.2 1.7M12 18.5v2.1M5.9 18.9l1.2-1.7M18.1 18.9l-1.2-1.7"/></svg></span>
   <div class="pub-title">
-    <a class="pub-title-link" href="https://doi.org/10.1177/0301006619885796" target="_blank">The effects of cognitive expectation on sound-induced flash illusion.</a>
+    The effects of cognitive expectation on sound-induced flash illusion.
   </div>
   <div class="pub-meta">
     Wang, A., Sang, H., He, J., <strong>Sava-Segal, C.</strong>, Tang, X., &amp; Zhang, M. (2019).
-    <i>Perception</i>, 48(12), 1214–1234. <!-- <a class="pub-doi" href="https://doi.org/10.1177/0301006619885796" target="_blank">https://doi.org/10.1177/0301006619885796</a> -->
+    <i>Perception</i>, 48(12), 1214–1234. <a class="pub-doi" href="https://doi.org/10.1177/0301006619885796" target="_blank">https://doi.org/10.1177/0301006619885796</a>
   </div>
 </div>
 
@@ -802,55 +726,24 @@ permalink: /publications/
 
 <script>
 (function() {
-  // PDF / Code / Data tags go right after the citation; method icons go in the right-hand column
+  // Move method tags into the icons row, right-aligned
   document.querySelectorAll('.publication-item').forEach(function(item) {
-    var meta = item.querySelector('.pub-meta');
-    var btns = item.querySelectorAll('.pub-btn');
-    if (btns.length > 0 && meta) {
-      var links = document.createElement('span');
-      links.className = 'pub-links';
-      btns.forEach(function(btn) { links.appendChild(btn); });
-      meta.appendChild(document.createTextNode(' ')); // a space, so a wrapped row starts flush left
-      meta.appendChild(links);
-    }
-    var side = document.createElement('div');
-    side.className = 'pub-side';
+    var icons = item.querySelector('.publication-icons');
     var tags = item.querySelectorAll('.method-tag, .topic-tag');
-    if (tags.length > 0) {
+    if (tags.length > 0 && icons) {
       var wrapper = document.createElement('div');
       wrapper.className = 'method-tags';
       tags.forEach(function(tag) { wrapper.appendChild(tag); });
-      side.appendChild(wrapper);
+      icons.appendChild(wrapper);
     }
-    item.appendChild(side);
   });
 
-  // Put the filter block in a bar to the left of the text when the window is wide enough
-  var bar = document.querySelector('.filter-sidebar');
-  var column = document.querySelector('.page-intro');
-  function placeBar() {
-    if (!bar || !column) return;
-    var left = column.getBoundingClientRect().left - 168 - 48;  // bar width + gap
-    if (left >= 16) {
-      bar.classList.add('as-sidebar');
-      bar.style.left = left + 'px';
-    } else {
-      bar.classList.remove('as-sidebar');
-      bar.style.left = '';
-    }
-  }
-  placeBar();
-  window.addEventListener('resize', placeBar);
-
-  // Count how many papers carry each filter tag and show it beside the label
-  document.querySelectorAll('.method-legend [data-filter]').forEach(function(pill) {
-    var n = document.querySelectorAll('.publication-item .' + pill.dataset.filter).length;
-    var label = pill.querySelector('span');
-    if (label) {
-      var c = document.createElement('span');
-      c.className = 'filter-count';
-      c.textContent = n;
-      pill.appendChild(c);
+  // Reorder: move icons row to after pub-meta (title > authors > buttons/tags)
+  document.querySelectorAll('.publication-item').forEach(function(item) {
+    var icons = item.querySelector('.publication-icons');
+    var meta = item.querySelector('.pub-meta');
+    if (icons && meta) {
+      meta.after(icons);
     }
   });
 
@@ -872,12 +765,12 @@ permalink: /publications/
 
   function applyFilter() {
     document.querySelectorAll('.publication-item').forEach(function(item) {
-      // an entry shows if it carries ANY of the selected tags
-      var show = activeFilters.size === 0;
+      // combinations: an entry must carry EVERY selected tag, not just one
+      var hide = false;
       activeFilters.forEach(function(f) {
-        if (item.querySelector('.' + f)) show = true;
+        if (!item.querySelector('.' + f)) hide = true;
       });
-      item.style.display = show ? '' : 'none';
+      item.style.display = hide ? 'none' : '';
     });
 
     document.querySelectorAll('h2.section-header').forEach(function(header) {

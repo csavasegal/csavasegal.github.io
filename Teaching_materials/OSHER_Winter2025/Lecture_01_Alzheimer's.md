@@ -1,39 +1,13 @@
 ---
 layout: category
-title: Lecture- Understanding Alzheimer's Disease  
+title: "Understanding Alzheimer's Disease"
 permalink: /osher/DiverseMinds/alzheimers/
 baseurl: ""
 published: true
 
 ---
-<style>
-.floating-nav {
-  position: relative; /* No longer fixed */
-  top: 0;
-  left: 0;
-  width: 100%; /* Full width of the page */
-  background-color: #f8f9fa; /* Background color */
-  border-bottom: 1px solid #ccc; /* Border at the bottom */
-  padding: 10px 20px; /* Padding inside the bar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  z-index: 1000;
-  display: flex; /* Makes it horizontal */
-  justify-content: space-around; /* Distribute links evenly */
-  align-items: center; /* Center align the text vertically */
-}
+{% include osher-style.html %}
 
-.floating-nav a {
-  text-decoration: none;
-  color: #007bff; /* Link color */
-  font-size: 1rem;
-  padding: 0 10px; /* Space around each link */
-}
-
-.floating-nav a:hover {
-  color: #0056b3; /* Hover color */
-  text-decoration: underline;
-}
-</style>
 <div class="floating-nav">
   <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
   <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
@@ -44,16 +18,17 @@ published: true
   <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
 </div>
 
+<div class="osher-header">
+  <p class="osher-kicker">Lecture 1</p>
+  <h1>Understanding Alzheimer's Disease</h1>
+</div>
 
-<br>
-
-
-<div style="border: 2px solid purple; padding: 10px; background-color: #f9f4ff; border-radius: 5px; margin: 10px 0;">
+<div class="lead-box" markdown="1">
 <h1>"All Models Are Wrong, Some Are Useful" - George Box</h1>
 <p><em>Or, that's what Karl Herrup in his book "How Not to Study a Disease" would say</em></p>
 </div>
 
-<div style="border: 2px solid purple; padding: 10px; background-color: #f9f4ff; border-radius: 5px; margin: 10px 0;">
+<div class="lead-box" markdown="1">
 Alzheimer’s disease (AD) is a progressive neurodegenerative disorder and the most common cause of dementia, yet its exact causes and mechanisms remain incompletely understood. Hallmark features include the accumulation of amyloid plaques and tau tangles in the brain, along with widespread neuronal loss, but the relationship between these changes and disease progression is still debated. While advances in diagnostics, including biomarkers and imaging techniques, have improved early detection, and treatments like acetylcholinesterase inhibitors offer symptomatic relief, no cure exists, and therapeutic breakthroughs remain elusive. As new findings emerge, the need to refine our understanding of AD as part of a broader spectrum of neurodegenerative conditions becomes increasingly important, guiding future research and intervention efforts.
 </div>
 
@@ -395,5 +370,7 @@ population based cross sectional study. [Link](http://press.psprings.co.uk/bmj/d
    - Alzheimer’s Association: [www.alz.org](https://www.alz.org)  
    - National Institute on Aging: [www.nia.nih.gov](https://www.nia.nih.gov)  
 
-
-
+<nav class="osher-pager">
+  <a class="pager-prev" href="/osher/DiverseMinds/coursegoals/">← Course page</a>
+  <a class="pager-next" href="/osher/DiverseMinds/parkinsons/">Understanding Parkinson's Disease →</a>
+</nav>

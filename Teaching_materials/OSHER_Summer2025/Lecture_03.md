@@ -1,42 +1,19 @@
 ---
 layout: category
-title: Lecture 3-The Social Brain and Interpersonal Subjectivity
+title: "The Social Brain and Interpersonal Subjectivity"
 permalink: /osher/subjectivity/lecture3/
 baseurl: ""
 published: true
 
 ---
+{% include osher-style.html %}
 
-<style>
-.floating-nav {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #ccc;
-  padding: 10px 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
+<a class="osher-back" href="/osher/subjectivity/">← Experience in the Eye of the Beholder I · Summer 2025</a>
 
-.floating-nav a {
-  text-decoration: none;
-  color: #007bff;
-  font-size: 1rem;
-  padding: 0 10px;
-}
-
-.floating-nav a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-</style>
-
-<br>
+<div class="osher-header">
+  <p class="osher-kicker">Lecture 3</p>
+  <h1>The Social Brain and Interpersonal Subjectivity</h1>
+</div>
 
 ---
 
@@ -243,3 +220,8 @@ published: true
 * "The Empathic Brain" by Christian Keysers
 
 ---
+
+<nav class="osher-pager">
+  <a class="pager-prev" href="/osher/subjectivity/lecture2/">← Measuring the Unmeasurable - How Scientists Study Inner Experience</a>
+  <a class="pager-next" href="/osher/subjectivity/">Course page →</a>
+</nav>

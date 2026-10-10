@@ -1,45 +1,22 @@
 ---
 layout: category
-title: Lecture 1- Our brains construct reality  
+title: "Our brains construct reality"
 permalink: /osher/subjectivity/lecture1/
 baseurl: ""
 published: true
 
 ---
-<style>
-.floating-nav {
-  position: relative; /* No longer fixed */
-  top: 0;
-  left: 0;
-  width: 100%; /* Full width of the page */
-  background-color: #f8f9fa; /* Background color */
-  border-bottom: 1px solid #ccc; /* Border at the bottom */
-  padding: 10px 20px; /* Padding inside the bar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  z-index: 1000;
-  display: flex; /* Makes it horizontal */
-  justify-content: space-around; /* Distribute links evenly */
-  align-items: center; /* Center align the text vertically */
-}
+{% include osher-style.html %}
 
-.floating-nav a {
-  text-decoration: none;
-  color: #007bff; /* Link color */
-  font-size: 1rem;
-  padding: 0 10px; /* Space around each link */
-}
-
-.floating-nav a:hover {
-  color: #0056b3; /* Hover color */
-  text-decoration: underline;
-}
-</style>
 <div class="floating-nav">
-  <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
+  <a href="/osher/subjectivity/">Main Page</a>
 </div>
 
+<div class="osher-header">
+  <p class="osher-kicker">Lecture 1</p>
+  <h1>Our brains construct reality</h1>
+</div>
 
-<br>
 ---
 
 > "We don't see things as they are, we see them as we are." - Anaïs Nin
@@ -61,7 +38,7 @@ published: true
   <img 
     src="https://upload.wikimedia.org/wikipedia/en/2/21/The_dress_blueblackwhitegold.jpg" 
     alt="The Dress" 
-    style="width: 100%; max-width: 800px; height: auto;" />
+    style="display: block; width: 100%; max-width: 320px; height: auto; margin: 0 auto;" />
 </a>
 
 <br>
@@ -89,8 +66,8 @@ published: true
 </a>
 - Figure from: Brainard & Hurlbert, 2015
 - Linked paper here: https://www.sciencedirect.com/science/article/pii/S0960982215005941
-<div style="background-color: #FCE5FC; border-left: 4px solid #ccc; padding: 15px; margin: 20px 0; border-radius: 5px;">
-    <h4 style="margin-top: 0; color: #666;">🔬 Deep Dive: Color Constancy Explanation</h4>
+<div class="deep-dive">
+    <h4>🔬 Deep Dive: Color Constancy Explanation</h4>
     <p><em>The color constancy explanation for "The Dress" centers on how our brains automatically adjust for different lighting conditions to maintain stable color perception. Color constancy is a property where our visual system tries to make objects appear the same color under different lighting conditions by making assumptions about the illumination source and mentally "subtracting" or "discounting" the color cast of the light.</em></p>
     
     <p>For The Dress specifically, the explanation works as follows: People who saw the dress as white and gold probably assumed it was lit by cool, bluish daylight, so their brains ignored shorter, bluer wavelengths. Those who saw it as blue and black assumed warm, artificial light, so their brains ignored longer, redder wavelengths.</p>
@@ -153,10 +130,10 @@ It occurs when changes happen during eye movements, brief interruptions, or grad
   max-width: 600px;
   margin: 20px auto;
   position: relative;
-  background: #DAB1DA;
+  background: transparent;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: none;
 }
 
 .carousel-container {
@@ -205,11 +182,11 @@ It occurs when changes happen during eye movements, brief interruptions, or grad
 }
 
 .nav-dot.active {
-  background: #007bff;
+  background: #111;
 }
 
 .nav-dot:hover {
-  background: #0056b3;
+  background: #555;
 }
 
 .carousel-instructions {
@@ -230,8 +207,6 @@ It occurs when changes happen during eye movements, brief interruptions, or grad
     height: 300px;
   }
 }
-</style>
-
 <script>
 let currentSlide = 1;
 let startX = 0;
@@ -325,8 +300,8 @@ Depending on age, people remember and perceive the same event very differently:
 
 This highlights how *memory influences not only what is encoded, but also what is noticed in the first place.*
 
-<div style="background-color: #FCE5FC; border-left: 4px solid #ccc; padding: 15px; margin: 20px 0; border-radius: 5px;">
-    <h4 style="margin-top: 0; color: #666;">🔬 Deep Dive: Schemas and developmental differences</h4>
+<div class="deep-dive">
+    <h4>🔬 Deep Dive: Schemas and developmental differences</h4>
     <p><em>Schema Theory (Bartlett, 1932): People interpret new experiences using existing knowledge frameworks, which differ with age.
 - A child’s “party schema” includes cake and games, while an adult’s might involve social meaning or planning..</em></p>
     
@@ -525,8 +500,8 @@ These findings reveal that perception is not fixed or universal. It is shaped by
 - Majid, A., Bowerman, M., Kita, S., Haun, D. B. M., & Levinson, S. C. (2004). Can language restructure cognition? The case for space. *Trends in Cognitive Sciences*, 8(3), 108–114.
 - [Great paper on linguistic relativity if of interest](https://casasanto.com/papers/Casasanto_Linguistic_Relativity_Routledge_2016.pdf)
 
-<div style="background-color: #DAB1DA; border-left: 4px solid #ccc; padding: 15px; margin: 20px 0; border-radius: 5px;">
-  <h4 style="margin-top: 0; color: #666;">⚠️ Disclaimer: Limits of Cross-Cultural Research</h4>
+<div class="deep-dive">
+  <h4>⚠️ Disclaimer: Limits of Cross-Cultural Research</h4>
   <p><em>
     While cross-cultural studies in perception offer powerful insights, it's important to approach them with nuance. These findings often rely on broad group comparisons (e.g., "East" vs. "West") that may oversimplify complex individual and cultural differences. 
     Not all members of a culture perceive in the same way, and cultural identities are fluid, overlapping, and shaped by many factors including education, socioeconomic status, urban vs. rural upbringing, and multilingualism. 
@@ -591,3 +566,7 @@ These findings reveal that perception is not fixed or universal. It is shaped by
 - [Participate in research](https://www.yourmorals.org/) - Participate in ongoing research on morality
 - [Participate in my research](http://finnlabmuseum.com/artlibs_pdf.pdf) - In-person study at the Hood Museum
 
+<nav class="osher-pager">
+  <a class="pager-prev" href="/osher/subjectivity/">← Course page</a>
+  <a class="pager-next" href="/osher/subjectivity/lecture2/">Measuring the Unmeasurable - How Scientists Study Inner Experience →</a>
+</nav>

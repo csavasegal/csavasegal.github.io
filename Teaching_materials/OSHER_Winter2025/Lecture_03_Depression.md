@@ -1,38 +1,12 @@
 ---
 layout: category
-title: Lecture- Understanding Depression 
+title: "Understanding Depression"
 permalink: /osher/DiverseMinds/depression/
 baseurl: ""
 published: true
 ---
-<style>
-.floating-nav {
-  position: relative; /* No longer fixed */
-  top: 0;
-  left: 0;
-  width: 100%; /* Full width of the page */
-  background-color: #f8f9fa; /* Background color */
-  border-bottom: 1px solid #ccc; /* Border at the bottom */
-  padding: 10px 20px; /* Padding inside the bar */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  z-index: 1000;
-  display: flex; /* Makes it horizontal */
-  justify-content: space-around; /* Distribute links evenly */
-  align-items: center; /* Center align the text vertically */
-}
+{% include osher-style.html %}
 
-.floating-nav a {
-  text-decoration: none;
-  color: #007bff; /* Link color */
-  font-size: 1rem;
-  padding: 0 10px; /* Space around each link */
-}
-
-.floating-nav a:hover {
-  color: #0056b3; /* Hover color */
-  text-decoration: underline;
-}
-</style>
 <div class="floating-nav">
   <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
   <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
@@ -42,7 +16,13 @@ published: true
   <a href="/osher/DiverseMinds/ptsd/">PTSD</a>
   <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
 </div>
-<div style="border: 2px solid purple; padding: 10px; background-color: #f9f4ff; border-radius: 5px; margin: 10px 0;">
+
+<div class="osher-header">
+  <p class="osher-kicker">Lecture 3</p>
+  <h1>Understanding Depression</h1>
+</div>
+
+<div class="lead-box" markdown="1">
 Depression is a multifaceted mental health condition that affects mood, behavior, and physical well-being, yet its underlying mechanisms remain difficult to fully unravel. While research has highlighted the role of brain regions like the prefrontal cortex and amygdala, imbalances in neurotransmitters such as serotonin, and the influence of genetic and environmental factors, no single explanation accounts for its complexity. Advances in treatments, from psychotherapy and medication to innovative approaches like transcranial magnetic stimulation (TMS), have provided relief for many, but a significant proportion of individuals experience persistent symptoms. As new discoveries emerge, there is a growing need to refine our understanding of depression, recognizing it as a spectrum of disorders that vary in cause, manifestation, and response to treatment.
 </div>
 
@@ -381,3 +361,8 @@ Scheepens, D. S., Van Waarde, J. A., Lok, A., De Vries, G., Denys, D. A., & Van 
 
 **An extensive (10 min) video on depression:**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1euK8OSIR9E?si=cfhZfx6JbSB1XTFV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<nav class="osher-pager">
+  <a class="pager-prev" href="/osher/DiverseMinds/parkinsons/">← Understanding Parkinson's Disease</a>
+  <a class="pager-next" href="/osher/DiverseMinds/ptsd/">Understanding Post-Traumatic Stress Disorder (PTSD) →</a>
+</nav>

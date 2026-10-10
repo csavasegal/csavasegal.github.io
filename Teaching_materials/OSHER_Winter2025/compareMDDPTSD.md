@@ -1,38 +1,13 @@
 ---
 layout: category
-title: PTSD vs. Depression- Understanding the Similarities and Differences
+title: "PTSD vs. Depression: Understanding the Similarities and Differences"
 permalink: /osher/DiverseMinds/compareMDDPTSD/
 baseurl: ""
 published: true
 
 ---
-<style>
-.floating-nav {
-  position: fixed;
-  top: 10%;
-  right: 20px;
-  background-color: #f8f9fa;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  padding: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-}
+{% include osher-style.html %}
 
-.floating-nav a {
-  display: block;
-  text-decoration: none;
-  color: #007bff;
-  font-size: 1rem;
-  padding: 5px 0;
-  text-align: left;
-}
-
-.floating-nav a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-</style>
 <div class="floating-nav">
   <a href="/osher/DiverseMinds/coursegoals/">Main Page</a>
   <a href="/osher/DiverseMinds/brainbasics/">Brain Basics</a>
@@ -41,6 +16,11 @@ published: true
   <a href="/osher/DiverseMinds/depression/">Depression</a>
   <a href="/osher/DiverseMinds/ptsd/">PTSD</a>
   <a href="/osher/DiverseMinds/schizophrenia/">Schizophrenia</a>
+</div>
+
+<div class="osher-header">
+  <p class="osher-kicker">Lecture 4 · Extra</p>
+  <h1>PTSD vs. Depression: Understanding the Similarities and Differences</h1>
 </div>
 
 **Post-Traumatic Stress Disorder (PTSD)** and **Depression** are two common mental health conditions that share certain features but also have distinct differences. Understanding these similarities and differences is critical for proper diagnosis, treatment, and support.
