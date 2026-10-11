@@ -269,10 +269,9 @@ a:hover {
     <span class="sky-ref" data-sky="yale">In my postdoc, I am extending this work to brain–body–behavior interactions.
     I examine how endocrine and physiological processes shape these behaviors, with a particular
     focus on stress.</span>
-    I tend to favor more "naturalistic" paradigms, but I also try to balance the richness of
-    real-world stimuli with the experimental control needed to isolate specific mechanisms.
   </p>
 
+  <!--
   <p>
     <span class="sky-ref" data-sky="chicago">Before graduate school, I received my Bachelor’s degree from the University of Chicago,
     where I completed my undergraduate thesis with <a href="http://casasanto.com/">Daniel Casasanto</a>
@@ -281,7 +280,16 @@ a:hover {
     <a href="https://awhvogellab.com/">Awh-Vogel Lab</a>.</span> Following graduation, I worked at Stanford in
     <a href="https://med.stanford.edu/parvizi-lab.html">Josef Parvizi’s lab</a>.
   </p>
+  -->
 
+  <p>
+    <span class="sky-ref" data-sky="chicago">Before graduate school, I received my Bachelor’s degree from the University of Chicago,
+    where I worked in a couple of labs and did my thesis with <a href="http://casasanto.com/">Daniel Casasanto</a>.</span>
+    Following graduation, I worked at Stanford in
+    <a href="https://med.stanford.edu/parvizi-lab.html">Josef Parvizi’s lab</a>.
+  </p>
+
+  <!--
   <p>
     I care a lot about teaching. I've taught at all ends of the spectrum, from Pre-K to older adults. Most recently, I've designed and
     taught 5+ discussion-based <a href="/osher/">neuroscience and psychology courses</a> for adults 50+
@@ -289,6 +297,7 @@ a:hover {
     outside the lab: check out <a href="http://finnlabmuseum.com/">ArtLibs</a>, our project with
     Dartmouth's Hood Museum.
   </p>
+  -->
 
 </div>
 

@@ -79,7 +79,7 @@ html { scroll-behavior: smooth; }
   margin-bottom: 0.75rem;
 }
 
-.ta-list { list-style: none; padding: 0; }
+.ta-list { list-style: none; padding: 0 0 0 1.75rem; margin-left: 0; }
 .ta-item { padding: 0; margin: 0.35rem 0; color: var(--ink); }
 .ta-course { font-weight: 600; }
 
@@ -96,6 +96,8 @@ html { scroll-behavior: smooth; }
   gap: 1rem 2rem;
   margin: 1.25rem 0;
 }
+
+.testimonials.single { grid-template-columns: 1fr; }
 
 @media (max-width: 600px) {
   .testimonials { grid-template-columns: 1fr; }
@@ -149,6 +151,13 @@ html { scroll-behavior: smooth; }
 </div>
 
 <p class="section-intro">
+  I care a lot about teaching and have taught at both extremes of the age range: pre-K and retirees (and plenty in between)! I try to approach teaching as an
+  adaptive, learner-centered process shaped by context, age, and goals. Below, I have a summary of
+  my teaching experience, but see my <a href="../Sava_Segal_CV_2.pdf">CV</a> for more information.
+</p>
+
+<!-- Previous intro; training and volunteering now live in the Training & Outreach section below
+<p class="section-intro">
   I have taught pre-K and first-grade classrooms, Dartmouth undergraduates (including thesis
   students I mentored), and adults 50 and older at the Osher Lifelong Learning Institute at
   Dartmouth, where I design discussion-based courses on current brain research. My teacher training
@@ -167,11 +176,13 @@ html { scroll-behavior: smooth; }
   <a href="https://imentor.org/">Bay Area iMentor</a>. I also work with high school students directly, tutoring them on research
   topics and giving one-off lectures on the basics of neuroscience.
 </p>
+-->
 
 <p class="intro-nav">
   Read on for my <a href="#sec-teaching">undergraduate teaching</a>,
-  <a href="#sec-mentorship">mentorship</a>, and
-  <a href="#sec-osher">independent teaching at Osher</a>.
+  <a href="#sec-mentorship">mentorship</a>,
+  <a href="#sec-osher">independent teaching at Osher</a>, and
+  <a href="#sec-training">training and outreach</a>.
 </p>
 
 
@@ -179,9 +190,13 @@ html { scroll-behavior: smooth; }
 <section id="sec-teaching" class="t-section">
   <h3 class="section-header">Undergraduate Teaching</h3>
 
-  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's <span class="award-name">Marie A. Center 1982 Award for Excellence in Teaching</span>.</p>
+  <p class="section-intro">I have served as a Teaching Assistant in Dartmouth's Psychological and Brain Sciences Department for the following courses. After completing my TAships, I was awarded my department's <span class="award-name">Marie A. Center 1982 Award for Excellence in Teaching</span> and, at the college level, the <span class="award-name">Outstanding Graduate Student Teacher Award</span> (twice). I was also a Teaching Assistant at the University of Chicago.</p>
 
   <ul class="ta-list">
+    <li class="ta-item">
+      <span class="ta-course">Introduction to Neuroscience</span><span class="ta-term">, Fall 2022, Winter 2023, Fall 2023</span>
+    </li>
+    <!-- One row per term, as before
     <li class="ta-item">
       <span class="ta-course">Introduction to Neuroscience</span><span class="ta-term">, Fall 2023</span>
       <span class="ta-award">Outstanding Graduate Student Teacher Award</span>
@@ -193,8 +208,13 @@ html { scroll-behavior: smooth; }
     <li class="ta-item">
       <span class="ta-course">Introduction to Neuroscience</span><span class="ta-term">, Fall 2022</span>
     </li>
+    -->
     <li class="ta-item">
       <span class="ta-course">Psychological Research Methods</span><span class="ta-term">, Spring 2022</span>
+    </li>
+    <li class="ta-item">
+      <span class="ta-course">Core Biology: Neurobiology</span><span class="ta-term">, 2018</span>
+      <span class="ta-award">University of Chicago</span>
     </li>
   </ul>
 
@@ -217,7 +237,7 @@ html { scroll-behavior: smooth; }
 <section id="sec-mentorship" class="t-section">
   <h3 class="section-header">Undergraduate Mentorship</h3>
 
-  <p class="section-intro">I have mentored several undergraduate researchers, including three thesis students across the Cognitive Science, Psychology, and Neuroscience departments, as well as two additional students on formal research projects. I enjoyed giving students the space to develop independent research directions, even when those extended beyond my own current work. For instance, my thesis students explored topics including social identity and reappraisal, individual variation in dialogue and conversation, and the relationship between depression and idiosyncratic perception. All three thesis students received fellowships for their work, and I supported each of their grant applications. See my <a href="../Sava_Segal_CV_2.pdf">CV</a> for more details.</p>
+  <p class="section-intro">I have mentored several undergraduate researchers, including three thesis students across the Cognitive Science, Psychology, and Neuroscience departments, as well as two additional students on formal research projects. I enjoyed giving students the space to develop independent research directions, and they wound up doing things completely out of my wheelhouse, which was great to see! All three thesis students received fellowships for their work, and I supported each of their grant applications. See my <a href="../Sava_Segal_CV_2.pdf">CV</a> for more details.</p>
 </section>
 
 <hr class="divider">
@@ -227,7 +247,7 @@ html { scroll-behavior: smooth; }
 <section id="sec-osher" class="t-section">
   <h3 class="section-header">Independent Teaching · Osher Courses</h3>
 
-  <p class="section-intro">I design and teach courses for the Osher Lifelong Learning Institute at Dartmouth, for retirees and adults approaching retirement. Each session mixes a short lecture with open discussion, and I let participants' questions steer where we go. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasavasegal/index.php">See my courses and reviews here</a></p>
+  <p class="section-intro">One of the best things I've done in the last decade is find Osher and start teaching there. I design and teach courses for the Osher Lifelong Learning Institute at Dartmouth, for retirees and adults approaching retirement. Each session mixes a short lecture with open discussion, and I let participants' questions steer where we go. <a href="https://osher.dartmouth.edu/get_involved/study_leaders/meet_study_leaders/clarasavasegal/index.php">See my courses and reviews here</a></p>
 
   <p class="section-intro">If you are an Osher student, class materials are on the <a href="/osher/">Osher Courses page</a>.</p>
 
@@ -298,6 +318,18 @@ html { scroll-behavior: smooth; }
   -->
 </section>
 
+
+<hr class="divider">
+
+
+<!-- ===== TRAINING & OUTREACH ===== -->
+<section id="sec-training" class="t-section">
+  <h3 class="section-header">Training &amp; Outreach</h3>
+
+  <p class="section-intro">My teacher training includes coursework through the Dartmouth Center for Advanced Learning and the Careers in Education program at UChicago, where I studied education policy and socioemotional learning strategies with support from the <a href="https://voices.uchicago.edu/successfulpathways/milgrom-community-service-and-innovation-fellowship/">Milgrom Education Impact Fellowship</a>.</p>
+
+  <p class="section-intro">I've also volunteered with teaching organizations: <a href="https://www.jstart.org/">Jumpstart</a> at UChicago, and later <a href="https://stanfordesp.org/teach/index.html">Splash!</a> at Stanford and <a href="https://imentor.org/">iMentor Bay Area</a>, all of which I highly recommend. I also work with high school students directly, tutoring them on research topics and giving one-off lectures on the basics of neuroscience.</p>
+</section>
 
 <div class="t-foot" id="t-end">
   <a href="#" class="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top</a>

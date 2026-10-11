@@ -200,6 +200,40 @@ permalink: /publications/
   text-decoration: underline !important;
 }
 
+/* prose links (CV): ink on a periwinkle highlighter stripe that fills on hover,
+   like the front page and teaching page */
+.hl-link,
+.hl-link:visited {
+  color: #1F3328 !important;
+  font-weight: 600;
+  text-decoration: none !important;
+  background: linear-gradient(#DCE3FB, #DCE3FB) no-repeat left bottom / 100% 0.45em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  transition: background-size 0.2s;
+}
+
+.hl-link:hover {
+  text-decoration: none !important;
+  background-size: 100% 100%;
+}
+
+/* ---------- Foot ---------- */
+.pub-foot {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #E6E0D5;
+  text-align: center;
+}
+
+.to-top,
+.to-top:visited {
+  color: #6B7A70;
+  text-decoration: none;
+}
+
+.to-top:hover { color: #1F3328; }
+
 .pub-title {
   margin-top: 0;
   font-weight: 700;
@@ -355,8 +389,12 @@ permalink: /publications/
 
 
 /* ---------- Filter bar on the left (wide screens) ---------- */
-/* the script below adds .as-sidebar when there is room beside the text column */
+/* the script below adds .as-sidebar when there is room beside the text column;
+   without that room the filters are not shown at all */
+.filter-sidebar { display: none; }
+
 .filter-sidebar.as-sidebar {
+  display: block;
   position: fixed;
   top: 7.5rem;
   width: 10.5rem;
@@ -420,7 +458,7 @@ permalink: /publications/
   I've been lucky to work on a number of different intersecting topics and methods.
   Publications, preprints, and conference proceedings are listed below, and can be
   filtered accordingly.
-  See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a>
+  See my <a class="hl-link" href="../Sava_Segal_CV_2.pdf">CV</a>
   for a complete list of publications and presentations.
   A <span class="mark">*</span> marks work that may be indicative of future directions, and
   a <span class="mentee" title="Student I've mentored">✦</span> marks a student I've mentored. PDF copies are for personal use only; copyright remains
@@ -732,7 +770,7 @@ permalink: /publications/
 </div>
 
 <p style="margin-top: 2rem; color: #666;">
-  See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for a complete list of publications and presentations.
+  See my <a class="hl-link" href="../Sava_Segal_CV_2.pdf">CV</a> for a complete list of publications and presentations.
 </p>
 
 
@@ -755,7 +793,7 @@ permalink: /publications/
 </div>
 
 <p style="margin-top: 2rem; color: #666;">
-  See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for a complete list of talks and presentations.
+  See my <a class="hl-link" href="../Sava_Segal_CV_2.pdf">CV</a> for a complete list of talks and presentations.
 </p>
 
 ===== END CONFERENCE TALKS ===== -->
@@ -794,11 +832,15 @@ permalink: /publications/
 </div>
 
 <p style="margin-top: 2rem; color: #666;">
-  See my <a href="../Sava_Segal_CV_2.pdf" style="color: #4169E1; font-weight: 500;">CV</a> for a complete list of publications and presentations.
+  See my <a class="hl-link" href="../Sava_Segal_CV_2.pdf">CV</a> for a complete list of publications and presentations.
 </p>
 
 ===== END POSTERS ===== -->
 
+
+<div class="pub-foot">
+  <a href="#" class="to-top" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">Back to top</a>
+</div>
 
 <script>
 (function() {
@@ -825,7 +867,10 @@ permalink: /publications/
     item.appendChild(side);
   });
 
-  // Put the filter block in a bar to the left of the text when the window is wide enough
+  var activeFilters = new Set();
+
+  // Put the filter block in a bar to the left of the text when the window is wide enough;
+  // otherwise hide it, clearing any selection so no papers stay hidden with no way back
   var bar = document.querySelector('.filter-sidebar');
   var column = document.querySelector('.page-intro');
   function placeBar() {
@@ -837,6 +882,11 @@ permalink: /publications/
     } else {
       bar.classList.remove('as-sidebar');
       bar.style.left = '';
+      if (activeFilters.size) {
+        activeFilters.clear();
+        bar.querySelectorAll('.active').forEach(function(pill) { pill.classList.remove('active'); });
+        applyFilter();
+      }
     }
   }
   placeBar();
@@ -853,8 +903,6 @@ permalink: /publications/
       pill.appendChild(c);
     }
   });
-
-  var activeFilters = new Set();
 
   document.querySelectorAll('.method-legend [data-filter]').forEach(function(pill) {
     pill.addEventListener('click', function() {
