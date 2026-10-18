@@ -177,23 +177,15 @@ a:hover {
   background: rgba(255, 255, 255, 0);
 }
 
+/* place names are not shown; the highlighted part of the drawing speaks for itself.
+   They stay in the markup, visually hidden, for screen readers. */
 .sky-label {
   position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, 0.2rem);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
   white-space: nowrap;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  opacity: 0;
-  transition: opacity 0.3s;
-  pointer-events: none;
-}
-
-.sky-zone:hover .sky-label,
-.sky-zone:focus .sky-label,
-.sky-zone.lit .sky-label {
-  opacity: 1;
 }
 
 /* hovering a place name in the text lights up that part of the drawing */
