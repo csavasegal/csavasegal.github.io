@@ -238,10 +238,6 @@ a:hover {
       <img src="/img/github.png" alt="GitHub">
       <span>GitHub</span>
     </a>
-    <a href="/Sava_Segal_CV_2.pdf" class="social-link" target="_blank">
-      <img src="/img/CV.png" alt="CV">
-      <span>CV</span>
-    </a>
   </div>
 </div>
 
